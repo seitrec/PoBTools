@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoB Build Viewer</title>
+<style>
+:root {
+  --bg: #f4f2ee; --surface: #ffffff; --surface-2: #f0ede7; --border: #dcd6cc;
+  --ink: #1f1c18; --ink-2: #57514a; --ink-3: #8a8379; --accent: #9a6a12; --accent-soft: #f3e6cc;
+  --tree-bg: #faf8f4; --tree-edge: #d5cfc5; --tree-node: #bdb5a8; --tree-alloc: #b07a10; --tree-hit: #0f7fa8;
+  --r-normal: #3a3631; --r-magic: #3a4fc4; --r-rare: #8c7400; --r-unique: #a3501a; --r-relic: #2f8a3a;
+  --mod-crafted: #3570b8; --mod-fractured: #8a6d3b; --mod-implicit: #6b5f9a;
+  --gem-R: #c2413a; --gem-G: #3b9a4a; --gem-B: #3f6fd0; --gem-W: #9a948a;
+  --shadow: 0 1px 2px rgb(0 0 0 / .06);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #13120f; --surface: #1c1a17; --surface-2: #24221e; --border: #34312b;
+    --ink: #ece7de; --ink-2: #b5ada0; --ink-3: #7d766b; --accent: #e0aa48; --accent-soft: #3a2f1a;
+    --tree-bg: #0e0d0b; --tree-edge: #3a362f; --tree-node: #5a544a; --tree-alloc: #e7b04c; --tree-hit: #4cc3ea;
+    --r-normal: #d8d2c8; --r-magic: #8c9cff; --r-rare: #f0e26a; --r-unique: #e0954f; --r-relic: #7fd68a;
+    --mod-crafted: #8fb8ff; --mod-fractured: #d7b47a; --mod-implicit: #b9a8f0;
+    --gem-R: #e0645c; --gem-G: #5fc06e; --gem-B: #6f98f0; --gem-W: #b9b2a6;
+    --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #13120f; --surface: #1c1a17; --surface-2: #24221e; --border: #34312b;
+  --ink: #ece7de; --ink-2: #b5ada0; --ink-3: #7d766b; --accent: #e0aa48; --accent-soft: #3a2f1a;
+  --tree-bg: #0e0d0b; --tree-edge: #3a362f; --tree-node: #5a544a; --tree-alloc: #e7b04c; --tree-hit: #4cc3ea;
+  --r-normal: #d8d2c8; --r-magic: #8c9cff; --r-rare: #f0e26a; --r-unique: #e0954f; --r-relic: #7fd68a;
+  --mod-crafted: #8fb8ff; --mod-fractured: #d7b47a; --mod-implicit: #b9a8f0;
+  --gem-R: #e0645c; --gem-G: #5fc06e; --gem-B: #6f98f0; --gem-W: #b9b2a6;
+  --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, "Segoe UI", sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+h3 { font-size: 14px; margin: 20px 0 8px; color: var(--ink-2); }
+.app { display: grid; grid-template-columns: 260px 1fr; height: 100vh; }
+aside { border-right: 1px solid var(--border); background: var(--surface); display: flex; flex-direction: column; min-height: 0; }
+aside header { padding: 14px 14px 10px; border-bottom: 1px solid var(--border); }
+aside h1 { font-size: 15px; margin: 0 0 8px; letter-spacing: .02em; }
+aside h1 a { color: inherit; text-decoration: none; }
+.search { width: 100%; padding: 6px 9px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); }
+.blist { overflow: auto; flex: 1; padding: 6px; }
+.bitem { display: block; width: 100%; text-align: left; border: 0; background: none; padding: 7px 9px; border-radius: 6px; cursor: pointer; }
+.bitem:hover { background: var(--surface-2); }
+.bitem.sel { background: var(--accent-soft); }
+.bitem .n { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bitem .m { display: block; font-size: 12px; color: var(--ink-3); }
+.folder { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 10px 9px 2px; }
+aside footer { padding: 8px 14px; font-size: 11px; color: var(--ink-3); border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.iconbtn { border: 1px solid var(--border); background: var(--bg); border-radius: 6px; padding: 2px 8px; cursor: pointer; }
+main { overflow: auto; min-width: 0; padding: 20px 24px 40px; }
+h2 { margin: 0; font-size: 22px; }
+.sub { color: var(--ink-2); margin-top: 2px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; margin: 16px 0; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 11px; box-shadow: var(--shadow); }
+.tile .k { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; }
+.tile .v { font-size: 19px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.tile .x { font-size: 11px; color: var(--ink-3); }
+.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--border); margin: 8px 0 14px; flex-wrap: wrap; }
+.tab { border: 0; background: none; padding: 8px 14px; cursor: pointer; color: var(--ink-2); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tab.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; color: var(--ink-2); }
+.toolbar select, .toolbar input { padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 10px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; box-shadow: var(--shadow); min-width: 0; }
+.card.main { border-color: var(--accent); }
+.card.off { opacity: .55; }
+.card h4 { margin: 0 0 6px; font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; display: flex; justify-content: space-between; gap: 8px; }
+.badge { font-size: 10px; padding: 1px 6px; border-radius: 99px; border: 1px solid var(--border); color: var(--ink-2); text-transform: none; letter-spacing: 0; }
+.gem { display: flex; align-items: center; gap: 7px; padding: 2px 0; }
+.gem .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.gem.sup .dot { border-radius: 2px; }
+.gem.act .nm { font-weight: 600; }
+.gem.dis { opacity: .45; text-decoration: line-through; }
+.gem .lv { margin-left: auto; color: var(--ink-3); font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.iname { font-weight: 600; }
+.ibase { color: var(--ink-2); font-size: 13px; }
+.r-NORMAL { color: var(--r-normal); } .r-MAGIC { color: var(--r-magic); } .r-RARE { color: var(--r-rare); }
+.r-UNIQUE { color: var(--r-unique); } .r-RELIC { color: var(--r-relic); }
+.props { font-size: 12px; color: var(--ink-3); margin: 3px 0 5px; }
+.mods { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+.mods li { padding: 1px 0; }
+.mods.impl { border-bottom: 1px dashed var(--border); padding-bottom: 4px; margin-bottom: 4px; color: var(--mod-implicit); }
+.mod-crafted { color: var(--mod-crafted); } .mod-fractured { color: var(--mod-fractured); }
+.mod-tag { font-size: 10px; color: var(--ink-3); margin-left: 4px; }
+.flags { font-size: 12px; color: var(--r-unique); margin-top: 4px; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 9px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th { font-size: 12px; color: var(--ink-3); font-weight: 600; position: sticky; top: 0; background: var(--bg); cursor: pointer; user-select: none; }
+td.num, th.num { text-align: right; }
+tbody tr { cursor: pointer; } tbody tr:hover { background: var(--surface-2); }
+.stattbl tbody tr { cursor: default; }
+.treewrap { display: grid; grid-template-columns: 1fr 300px; gap: 12px; }
+.treebox { position: relative; background: var(--tree-bg); border: 1px solid var(--border); border-radius: 8px; height: 74vh; overflow: hidden; touch-action: none; }
+.treebox svg { width: 100%; height: 100%; display: block; cursor: grab; }
+.treebox svg.drag { cursor: grabbing; }
+.treectl { position: absolute; top: 8px; left: 8px; display: flex; gap: 6px; }
+.treectl button { border: 1px solid var(--border); background: var(--surface); border-radius: 6px; padding: 3px 9px; cursor: pointer; font-size: 12px; }
+.tip { position: fixed; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; max-width: 340px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / .25); z-index: 10; display: none; }
+.tip b { font-size: 13px; display: block; margin-bottom: 3px; }
+.tip .st { color: var(--ink-2); }
+.tip .t { color: var(--ink-3); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+.side { overflow: auto; height: 74vh; }
+.side h5 { margin: 12px 0 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.side h5:first-child { margin-top: 0; }
+.side .ln { font-size: 13px; padding: 2px 0; cursor: pointer; }
+.side .ln small { display: block; color: var(--ink-3); font-size: 11.5px; }
+.side .ln:hover { color: var(--accent); }
+.legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-3); margin-top: 8px; flex-wrap: wrap; }
+.legend span[style]::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; background: var(--c); }
+pre.notes { white-space: pre-wrap; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font: 13px/1.5 ui-monospace, Consolas, monospace; }
+.empty { color: var(--ink-3); font-style: italic; }
+svg .e { stroke: var(--tree-edge); stroke-width: 9; fill: none; }
+svg .e.a { stroke: var(--tree-alloc); stroke-width: 14; }
+svg .nd { fill: var(--tree-node); }
+svg .nd.a { fill: var(--tree-alloc); }
+svg .nd.hit { fill: var(--tree-hit); }
+svg .nd.ms { fill: none; stroke: var(--tree-node); stroke-width: 6; }
+svg .nd.ms.a { stroke: var(--tree-alloc); stroke-width: 10; }
+svg .nd.ks { stroke: var(--tree-bg); stroke-width: 6; }
+svg .nd.jw { fill: var(--tree-bg); stroke: var(--tree-node); stroke-width: 10; }
+svg .nd.jw.a { stroke: var(--tree-alloc); fill: var(--accent-soft); }
+svg .nd.cs { fill: none; stroke: var(--tree-node); stroke-width: 10; }
+svg .nd.cs.a { stroke: var(--tree-alloc); }
+svg .nd.hit.ms, svg .nd.hit.cs, svg .nd.hit.jw { stroke: var(--tree-hit); }
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; height: auto; }
+  aside { max-height: 40vh; border-right: 0; border-bottom: 1px solid var(--border); }
+  main { padding: 16px; }
+  .treewrap { grid-template-columns: 1fr; }
+  .side { height: auto; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <header>
+      <h1><a href="#">PoB Build Viewer</a></h1>
+      <input class="search" id="q" placeholder="Filter builds…" autocomplete="off">
+    </header>
+    <div class="blist" id="blist"></div>
+    <footer><span id="gen"></span><button class="iconbtn" id="theme" title="Toggle theme">◐</button></footer>
+  </aside>
+  <main id="main"></main>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const DATA = /*__POB_DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const state = { build: null, tab: "skills", skillSet: null, itemSet: null, spec: null, sort: { key: "modified", dir: -1 } };
+
+function fmt(v, kind) {
+  if (v === undefined || v === null || v === "") return "—";
+  if (typeof v !== "number") return esc(v);
+  if (kind === "pct") return `${Math.round(v)}%`;
+  const a = Math.abs(v);
+  if (a >= 1e9) return (v / 1e9).toFixed(2) + "B";
+  if (a >= 1e6) return (v / 1e6).toFixed(a >= 1e8 ? 0 : 1) + "M";
+  if (a >= 1e4) return (v / 1e3).toFixed(a >= 1e5 ? 0 : 1) + "k";
+  return Number.isInteger(v) ? v.toLocaleString() : v.toFixed(a < 10 ? 2 : 1);
+}
+const dps = (s) => s.FullDPS || s.CombinedDPS || s.TotalDPS || s.TotalDotDPS || 0;
+const res = (s) => ["Fire", "Cold", "Lightning", "Chaos"].map((k) => s[k + "Resist"]);
+const minHit = (s) => Math.min(...["Physical", "Fire", "Cold", "Lightning", "Chaos"].map((k) => s[k + "MaximumHitTaken"] ?? Infinity));
+
+// ---------- theme ----------
+try { const t = localStorage.getItem("pob-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+$("#theme").onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("pob-theme", next); } catch {}
+};
+
+// ---------- sidebar ----------
+function renderList() {
+  const q = $("#q").value.trim().toLowerCase();
+  const groups = {};
+  DATA.builds.forEach((b, i) => {
+    const hay = `${b.name} ${b.meta.className} ${b.meta.ascendClassName}`.toLowerCase();
+    if (q && !hay.includes(q)) return;
+    const folder = b.file.includes("/") ? b.file.slice(0, b.file.lastIndexOf("/")) : "";
+    (groups[folder] ??= []).push([b, i]);
+  });
+  const html = Object.keys(groups).sort().map((f) =>
+    (f ? `<div class="folder">${esc(f)}</div>` : "") +
+    groups[f].map(([b, i]) => `<button class="bitem ${state.build === i ? "sel" : ""}" data-i="${i}">
+      <span class="n">${esc(b.name.split("/").pop())}</span>
+      <span class="m">${esc(b.meta.ascendClassName && b.meta.ascendClassName !== "None" ? b.meta.ascendClassName : b.meta.className)} · L${b.meta.level ?? "?"}</span></button>`).join("")
+  ).join("");
+  $("#blist").innerHTML = html || `<div class="folder">No match</div>`;
+}
+$("#q").oninput = renderList;
+$("#blist").onclick = (e) => { const b = e.target.closest(".bitem"); if (b) location.hash = `b=${b.dataset.i}`; };
+$("#gen").textContent = `${DATA.builds.length} builds · ${new Date(DATA.generated).toLocaleString()}`;
+
+// ---------- overview ----------
+const COLS = [
+  { key: "name", label: "Build", get: (b) => b.name },
+  { key: "class", label: "Class", get: (b) => (b.meta.ascendClassName !== "None" && b.meta.ascendClassName) || b.meta.className },
+  { key: "level", label: "Lvl", num: true, get: (b) => b.meta.level },
+  { key: "dps", label: "DPS", num: true, get: (b) => dps(b.stats) },
+  { key: "ehp", label: "EHP", num: true, get: (b) => b.stats.TotalEHP },
+  { key: "minhit", label: "Min max-hit", num: true, get: (b) => { const v = minHit(b.stats); return isFinite(v) ? v : undefined; } },
+  { key: "life", label: "Life", num: true, get: (b) => b.stats.Life },
+  { key: "es", label: "ES", num: true, get: (b) => b.stats.EnergyShield },
+  { key: "res", label: "Res F/C/L/Ch", get: (b) => res(b.stats).map((v) => v ?? "—").join(" / "), sortv: (b) => b.stats.ChaosResist },
+  { key: "modified", label: "Modified", get: (b) => b.modified.slice(0, 10) },
+];
+function renderOverview() {
+  const { key, dir } = state.sort;
+  const col = COLS.find((c) => c.key === key);
+  const rows = DATA.builds.map((b, i) => [b, i]).sort(([a], [b]) => {
+    const f = col.sortv ?? col.get;
+    const x = f(a), y = f(b);
+    if (x === y) return 0;
+    if (x === undefined) return 1; if (y === undefined) return -1;
+    return (x > y ? 1 : -1) * dir;
+  });
+  $("#main").innerHTML = `<h2>All builds</h2><div class="sub">${esc(DATA.buildsDir)}</div>
+  <div style="overflow:auto;margin-top:16px"><table><thead><tr>${COLS.map((c) =>
+    `<th class="${c.num ? "num" : ""}" data-k="${c.key}">${c.label}${c.key === key ? (dir > 0 ? " ▲" : " ▼") : ""}</th>`).join("")}</tr></thead>
+  <tbody>${rows.map(([b, i]) => `<tr data-i="${i}">${COLS.map((c) => {
+    const v = c.get(b);
+    return `<td class="${c.num ? "num" : ""}">${c.num ? fmt(v) : esc(v)}</td>`;
+  }).join("")}</tr>`).join("")}</tbody></table></div>`;
+  $("#main thead").onclick = (e) => {
+    const k = e.target.closest("th")?.dataset.k; if (!k) return;
+    state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : (COLS.find((c) => c.key === k).num ? -1 : 1) };
+    renderOverview();
+  };
+  $("#main tbody").onclick = (e) => { const r = e.target.closest("tr"); if (r) location.hash = `b=${r.dataset.i}`; };
+}
+
+// ---------- build view ----------
+function renderBuild() {
+  const b = DATA.builds[state.build];
+  const s = b.stats, m = b.meta;
+  const asc = m.ascendClassName && m.ascendClassName !== "None" ? m.ascendClassName : null;
+  const tiles = [
+    ["DPS", fmt(dps(s)), s.FullDPS ? "full DPS" : "main skill"],
+    ["EHP", fmt(s.TotalEHP)],
+    ["Life", fmt(s.Life), s.Life <= 1 ? "CI" : ""],
+    ["Energy shield", fmt(s.EnergyShield)],
+    ["Mana", fmt(s.Mana), s.ManaUnreserved !== undefined ? `${fmt(s.ManaUnreserved)} unreserved` : ""],
+    ["Res F / C / L", res(s).slice(0, 3).map((v) => v ?? "—").join(" / "), `chaos ${s.ChaosResist ?? "—"}`],
+    ["Max hit (min)", fmt(minHit(s))],
+    ["Armour / Eva", `${fmt(s.Armour)} / ${fmt(s.Evasion)}`],
+    ["Block / Spell", `${fmt(s.EffectiveBlockChance, "pct")} / ${fmt(s.EffectiveSpellBlockChance, "pct")}`],
+    ["Suppress", fmt(s.EffectiveSpellSuppressionChance, "pct")],
+    ["Move speed", s.EffectiveMovementSpeedMod ? `${s.EffectiveMovementSpeedMod >= 1 ? "+" : ""}${Math.round((s.EffectiveMovementSpeedMod - 1) * 100)}%` : "—"],
+  ];
+  $("#main").innerHTML = `<h2>${esc(b.name.split("/").pop())}</h2>
+  <div class="sub">Level ${m.level} ${esc(asc ? `${asc} (${m.className})` : m.className)} · bandit ${esc(m.bandit)} · pantheon ${esc(m.pantheonMajor)} / ${esc(m.pantheonMinor)} · ${esc(b.file)} · modified ${new Date(b.modified).toLocaleDateString()}</div>
+  <div class="tiles">${tiles.map(([k, v, x]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div>${x ? `<div class="x">${x}</div>` : ""}</div>`).join("")}</div>
+  <div class="tabs">${["skills", "items", "tree", "stats", "notes"].map((t) => `<button class="tab ${state.tab === t ? "on" : ""}" data-t="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</div>
+  <div id="pane"></div>`;
+  $("#main .tabs").onclick = (e) => { const t = e.target.closest(".tab")?.dataset.t; if (t) { state.tab = t; renderBuild(); } };
+  ({ skills: renderSkills, items: renderItems, tree: renderTree, stats: renderStats, notes: renderNotes })[state.tab](b);
+}
+
+function setPicker(label, sets, cur, key) {
+  if (sets.length < 2) return sets.length ? `<span>${label}: <b>${esc(sets[0].title)}</b></span>` : "";
+  return `<label>${label} <select data-key="${key}">${sets.map((x) => `<option value="${x.id ?? x.index}" ${String(x.id ?? x.index) === String(cur) ? "selected" : ""}>${esc(x.title)}</option>`).join("")}</select></label>`;
+}
+// Picking a set that carries a PoB loadout tag ("{n}") also switches the other two kinds to that loadout.
+const SET_KINDS = { skillSet: (b) => b.skills.sets, itemSet: (b) => b.items.sets, spec: (b) => b.tree.specs };
+function bindPickers() {
+  $("#pane").querySelectorAll("select[data-key]").forEach((el) => (el.onchange = () => {
+    const b = DATA.builds[state.build], key = el.dataset.key, v = Number(el.value);
+    state[key] = v;
+    const picked = SET_KINDS[key](b).find((x) => (x.id ?? x.index) === v);
+    if (picked?.loadout != null) for (const [k, get] of Object.entries(SET_KINDS)) {
+      if (k === key) continue;
+      const match = get(b).find((x) => x.loadout === picked.loadout);
+      if (match) state[k] = match.id ?? match.index;
+    }
+    renderBuild();
+  }));
+}
+
+function renderSkills(b) {
+  const sets = b.skills.sets;
+  const cur = state.skillSet ?? b.skills.active ?? sets[0]?.id;
+  const set = sets.find((x) => x.id === cur) ?? sets[0];
+  if (!set) return ($("#pane").innerHTML = `<p class="empty">No skills.</p>`);
+  const isMainSet = set.id === (b.skills.active ?? sets[0].id);
+  $("#pane").innerHTML = `<div class="toolbar">${setPicker("Skill set", sets, set.id, "skillSet")}</div>
+  <div class="grid">${set.groups.map((g, gi) => {
+    if (!g.gems.length) return g.label ? `<div class="card" style="grid-column:1/-1;padding:6px 12px"><h4 style="margin:0">${esc(g.label)}</h4></div>` : "";
+    const main = isMainSet && gi + 1 === b.meta.mainSocketGroup;
+    return `<div class="card ${main ? "main" : ""} ${g.enabled ? "" : "off"}">
+      <h4><span>${esc(g.slot || g.label || "Unsocketed")}${g.slot && g.label ? ` — ${esc(g.label)}` : ""}</span>
+        <span>${main ? `<span class="badge">main</span> ` : ""}${g.includeInFullDPS ? `<span class="badge">full DPS</span>` : ""}${g.source ? `<span class="badge">item</span>` : ""}</span></h4>
+      ${g.gems.map((x) => `<div class="gem ${x.support ? "sup" : "act"} ${x.enabled ? "" : "dis"}" title="${esc(x.tags || "")}">
+        <span class="dot" style="background:var(--gem-${x.color || "W"})"></span><span class="nm">${esc(x.name)}</span>
+        <span class="lv">${x.level ?? ""}${x.quality ? ` / ${x.quality}%` : ""}${x.qualityId && x.qualityId !== "Default" ? " " + esc(x.qualityId.replace("Alternate", "Alt ")) : ""}</span></div>`).join("")}
+    </div>`;
+  }).join("")}</div>`;
+  bindPickers();
+}
+
+const SLOT_ORDER = ["Weapon 1", "Weapon 2", "Weapon 1 Swap", "Weapon 2 Swap", "Helmet", "Body Armour", "Gloves", "Boots", "Amulet", "Ring 1", "Ring 2", "Ring 3", "Belt", "Flask 1", "Flask 2", "Flask 3", "Flask 4", "Flask 5"];
+function itemCard(slot, it, note = "") {
+  if (!it) return "";
+  const p = it.props;
+  const props = [
+    p.Quality ? `Q${p.Quality}%` : "", p.Sockets ? `Sockets ${esc(p.Sockets)}` : "",
+    p["Item Level"] ? `iLvl ${p["Item Level"]}` : "", p.LevelReq ? `req ${p.LevelReq}` : "",
+    p.Armour ? `AR ${p.Armour}` : "", p.Evasion ? `EV ${p.Evasion}` : "", p["Energy Shield"] ? `ES ${p["Energy Shield"]}` : "",
+    it.variantName ? `variant: ${esc(it.variantName)}` : "",
+  ].filter(Boolean).join(" · ");
+  const mod = (x) => {
+    const cls = x.crafted ? "mod-crafted" : x.fractured ? "mod-fractured" : "";
+    const tag = x.enchant ? "enchant" : x.scourge ? "scourge" : x.crucible ? "crucible" : x.exarch ? "exarch" : x.eater ? "eater" : "";
+    return `<li class="${cls}">${esc(x.text)}${tag ? `<span class="mod-tag">${tag}</span>` : ""}</li>`;
+  };
+  return `<div class="card"><h4><span>${esc(slot)}</span>${note}</h4>
+    <div class="iname r-${esc(it.rarity)}">${esc(it.name)}</div>${it.base && it.base !== it.name ? `<div class="ibase">${esc(it.base)}</div>` : ""}
+    ${props ? `<div class="props">${props}</div>` : ""}
+    ${it.implicits.length ? `<ul class="mods impl">${it.implicits.map(mod).join("")}</ul>` : ""}
+    <ul class="mods">${it.explicits.map(mod).join("")}</ul>
+    ${it.flags.length ? `<div class="flags">${it.flags.map(esc).join(" · ")}</div>` : ""}</div>`;
+}
+function renderItems(b) {
+  const sets = b.items.sets;
+  const cur = state.itemSet ?? b.items.active ?? sets[0]?.id;
+  const set = sets.find((x) => x.id === cur) ?? sets[0];
+  if (!set) return ($("#pane").innerHTML = `<p class="empty">No items.</p>`);
+  const slots = [...set.slots].sort((a, c) => {
+    const ia = SLOT_ORDER.indexOf(a.name), ic = SLOT_ORDER.indexOf(c.name);
+    return (ia < 0 ? 99 : ia) - (ic < 0 ? 99 : ic) || a.name.localeCompare(c.name);
+  }).filter((s) => !/Swap/.test(s.name) || set.useSecondWeaponSet);
+  const gear = slots.filter((s) => !/^Flask|Abyssal|Graft/.test(s.name));
+  const flasks = slots.filter((s) => /^Flask/.test(s.name));
+  const other = slots.filter((s) => /Abyssal|Graft/.test(s.name));
+  const spec = currentSpec(b);
+  const jewels = spec?.jewels ?? [];
+  const tree = spec && DATA.trees[spec.treeVersion];
+  $("#pane").innerHTML = `<div class="toolbar">${setPicker("Item set", sets, set.id, "itemSet")}<span style="color:var(--ink-3)">Jewels follow the tree selected in the Tree tab.</span></div>
+  <div class="grid">${gear.map((s) => itemCard(s.name, b.items.items[s.itemId])).join("")}</div>
+  ${other.length ? `<h3>Abyss / grafts</h3><div class="grid">${other.map((s) => itemCard(s.name, b.items.items[s.itemId])).join("")}</div>` : ""}
+  ${flasks.length ? `<h3>Flasks</h3><div class="grid">${flasks.map((s) => itemCard(s.name, b.items.items[s.itemId], s.active ? "" : `<span class="badge">inactive</span>`)).join("")}</div>` : ""}
+  ${jewels.length ? `<h3>Jewels</h3><div class="grid">${jewels.map((j) => itemCard(tree?.nodes[j.nodeId] ? `Socket · ${tree.nodes[j.nodeId].name}` : `Socket ${j.nodeId}`, b.items.items[j.itemId])).join("")}</div>` : ""}`;
+  bindPickers();
+}
+
+function renderStats(b) {
+  const rows = Object.entries(b.stats);
+  const mrows = Object.entries(b.minionStats);
+  $("#pane").innerHTML = `<div class="toolbar"><input id="sf" placeholder="Filter stats…"></div>
+  <table class="stattbl"><thead><tr><th>Stat</th><th class="num">Value</th></tr></thead><tbody id="sb"></tbody></table>`;
+  const draw = () => {
+    const q = $("#sf").value.toLowerCase();
+    const f = (r) => r.filter(([k]) => k.toLowerCase().includes(q)).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${typeof v === "number" ? v.toLocaleString(undefined, { maximumFractionDigits: 2 }) : esc(v)}</td></tr>`).join("");
+    $("#sb").innerHTML = f(rows) + (mrows.length ? `<tr><td colspan="2" style="color:var(--ink-3);padding-top:16px">Minion</td></tr>${f(mrows)}` : "");
+  };
+  $("#sf").oninput = draw; draw();
+}
+function renderNotes(b) {
+  $("#pane").innerHTML = b.notes ? `<pre class="notes">${esc(b.notes)}</pre>` : `<p class="empty">No notes.</p>`;
+}
+
+// ---------- tree ----------
+function currentSpec(b) {
+  const specs = b.tree.specs;
+  return specs.find((x) => x.index === (state.spec ?? b.tree.active)) ?? specs[specs.length - 1];
+}
+let view = null; // SVG viewBox, kept across re-renders of the same build/tree version
+function renderTree(b) {
+  const spec = currentSpec(b);
+  const tree = spec && DATA.trees[spec.treeVersion];
+  if (!tree) return ($("#pane").innerHTML = `<p class="empty">No tree data for ${esc(spec?.treeVersion)}.</p>`);
+  const alloc = new Set(spec.nodes);
+  const cls = tree.classes[spec.classId];
+  const ascName = cls?.ascendancies[spec.ascendClassId - 1] ?? null;
+  const ascAlt = spec.secondaryAscendClassId ? tree.alternateAscendancies[spec.secondaryAscendClassId - 1] : null;
+  // Only draw the build's own ascendancy (+ bloodline if any) to keep the canvas readable.
+  const shown = (n) => !n.asc || n.asc === ascName || n.asc === ascAlt || alloc.has(n.id);
+  const nodes = Object.values(tree.nodes).filter((n) => shown(n) && !n.proxy);
+  const masteryPick = Object.fromEntries(spec.masteryEffects);
+
+  const R = { normal: 26, notable: 42, keystone: 58, mastery: 44, jewel: 36, classStart: 70 };
+  const C = { normal: "", notable: "", keystone: "ks", mastery: "ms", jewel: "jw", classStart: "cs" };
+  const edgePath = ([a, b2, r]) => {
+    const p = tree.nodes[a], q = tree.nodes[b2];
+    if (!r) return `M${p.x} ${p.y}L${q.x} ${q.y}`;
+    const [cx, cy] = tree.groups[p.g];
+    let d = Math.atan2(q.y - cy, q.x - cx) - Math.atan2(p.y - cy, p.x - cx);
+    while (d > Math.PI) d -= 2 * Math.PI; while (d < -Math.PI) d += 2 * Math.PI;
+    return `M${p.x} ${p.y}A${r} ${r} 0 0 ${d > 0 ? 1 : 0} ${q.x} ${q.y}`;
+  };
+  const shownIds = new Set(nodes.map((n) => n.id));
+  const ea = [], en = [];
+  for (const e of tree.edges) {
+    if (!shownIds.has(e[0]) || !shownIds.has(e[1])) continue;
+    (alloc.has(e[0]) && alloc.has(e[1]) ? ea : en).push(edgePath(e));
+  }
+
+  const allocNodes = nodes.filter((n) => alloc.has(n.id));
+  const main = allocNodes.filter((n) => !n.asc);
+  const fitBox = (ns) => {
+    if (!ns.length) return fullBox();
+    const xs = ns.map((n) => n.x), ys = ns.map((n) => n.y), pad = 600;
+    return [Math.min(...xs) - pad, Math.min(...ys) - pad, Math.max(...xs) - Math.min(...xs) + 2 * pad, Math.max(...ys) - Math.min(...ys) + 2 * pad];
+  };
+  const fullBox = () => { const [x0, y0, x1, y1] = tree.bounds; return [x0 - 400, y0 - 400, x1 - x0 + 800, y1 - y0 + 800]; };
+  if (!view || view.version !== tree.version) view = { version: tree.version, box: fitBox(main) };
+
+  const keystones = allocNodes.filter((n) => n.type === "keystone");
+  const notables = allocNodes.filter((n) => n.type === "notable" && !n.asc);
+  const ascNodes = allocNodes.filter((n) => n.asc && (n.type === "notable" || n.type === "keystone"));
+  const masteries = allocNodes.filter((n) => n.type === "mastery");
+  const clusterCount = spec.nodes.filter((id) => !tree.nodes[id]).length;
+  const pointNodes = spec.nodes.filter((id) => { const n = tree.nodes[id]; return n && !n.asc && n.type !== "classStart" && n.type !== "mastery"; }).length;
+  const ascPoints = allocNodes.filter((n) => n.asc && !n.ascStart).length;
+  const line = (n, sub) => `<div class="ln" data-id="${n.id}">${esc(n.name)}${sub ? `<small>${sub}</small>` : ""}</div>`;
+
+  $("#pane").innerHTML = `<div class="toolbar">${setPicker("Tree", b.tree.specs, spec.index, "spec")}
+    <span>${esc(cls?.name ?? "?")}${ascName ? ` / ${esc(ascName)}` : ""}${ascAlt ? ` + ${esc(ascAlt)}` : ""} · tree ${esc(spec.treeVersion)}</span>
+    <input id="ts" placeholder="Highlight nodes (name or stat)…" style="min-width:240px"></div>
+  <div class="treewrap">
+    <div>
+      <div class="treebox">
+        <svg id="tsvg" viewBox="${view.box.join(" ")}" preserveAspectRatio="xMidYMid meet">
+          <path class="e" d="${en.join("")}"/><path class="e a" d="${ea.join("")}"/>
+          <g>${nodes.map((n) => `<circle class="nd ${C[n.type]} ${alloc.has(n.id) ? "a" : ""}" data-id="${n.id}" cx="${n.x}" cy="${n.y}" r="${n.asc && n.type === "normal" ? 30 : R[n.type]}"/>`).join("")}</g>
+        </svg>
+        <div class="treectl"><button id="fitA">Fit allocated</button><button id="fitT">Whole tree</button></div>
+      </div>
+      <div class="legend"><span style="--c:var(--tree-alloc)">Allocated</span><span style="--c:var(--tree-node)">Unallocated</span><span style="--c:var(--tree-hit)">Search match</span><span>Scroll to zoom · drag to pan · click a list entry to locate it</span></div>
+    </div>
+    <div class="side card">
+      <h5>Points</h5><div class="ln">${pointNodes} passive · ${ascPoints} ascendancy${clusterCount ? ` · ${clusterCount} cluster-jewel nodes (not drawn)` : ""}</div>
+      ${keystones.length ? `<h5>Keystones</h5>${keystones.map((n) => line(n)).join("")}` : ""}
+      ${ascNodes.length ? `<h5>Ascendancy</h5>${ascNodes.map((n) => line(n, n.asc !== ascName ? esc(n.asc) : "")).join("")}` : ""}
+      ${masteries.length ? `<h5>Masteries</h5>${masteries.map((n) => line(n, esc((n.masteryEffects?.[masteryPick[n.id]] ?? ["?"]).join(" / ")))).join("")}` : ""}
+      <h5>Notables (${notables.length})</h5>${notables.sort((a, c) => a.name.localeCompare(c.name)).map((n) => line(n)).join("")}
+    </div>
+  </div>`;
+  bindPickers();
+
+  const svg = $("#tsvg"), tip = $("#tip");
+  const setBox = (box) => { view.box = box; svg.setAttribute("viewBox", box.join(" ")); };
+  $("#fitA").onclick = () => setBox(fitBox(main));
+  $("#fitT").onclick = () => setBox(fullBox());
+  const toSvg = (cx, cy) => { const pt = new DOMPoint(cx, cy).matrixTransform(svg.getScreenCTM().inverse()); return [pt.x, pt.y]; };
+  svg.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const k = Math.exp(e.deltaY * 0.0015);
+    const [px, py] = toSvg(e.clientX, e.clientY);
+    const [x, y, w, h] = view.box;
+    const nw = Math.min(Math.max(w * k, 800), 40000), f = nw / w;
+    setBox([px - (px - x) * f, py - (py - y) * f, nw, h * f]);
+  }, { passive: false });
+  let drag = null;
+  svg.addEventListener("pointerdown", (e) => { drag = { p: toSvg(e.clientX, e.clientY) }; svg.setPointerCapture(e.pointerId); svg.classList.add("drag"); tip.style.display = "none"; });
+  svg.addEventListener("pointermove", (e) => {
+    if (drag) {
+      const [px, py] = toSvg(e.clientX, e.clientY);
+      const [x, y, w, h] = view.box;
+      setBox([x - (px - drag.p[0]), y - (py - drag.p[1]), w, h]);
+      return;
+    }
+    const id = e.target.dataset?.id;
+    id ? showTip(tree.nodes[id], e, masteryPick, alloc) : (tip.style.display = "none");
+  });
+  const end = () => { drag = null; svg.classList.remove("drag"); };
+  svg.addEventListener("pointerup", end); svg.addEventListener("pointercancel", end);
+  svg.addEventListener("pointerleave", () => (tip.style.display = "none"));
+
+  const circles = [...svg.querySelectorAll("circle")];
+  const highlight = (pred) => circles.forEach((c) => c.classList.toggle("hit", pred(tree.nodes[c.dataset.id])));
+  const side = $("#pane .side");
+  side.addEventListener("mousemove", (e) => { const id = e.target.closest(".ln")?.dataset.id; id ? showTip(tree.nodes[id], e, masteryPick, alloc) : (tip.style.display = "none"); });
+  side.addEventListener("mouseleave", () => (tip.style.display = "none"));
+  side.addEventListener("click", (e) => {
+    const n = tree.nodes[e.target.closest(".ln")?.dataset.id]; if (!n) return;
+    setBox([n.x - 1500, n.y - 1100, 3000, 2200]);
+    highlight((m) => m.id === n.id);
+  });
+  $("#ts").oninput = (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    highlight((n) => q.length > 1 && (n.name.toLowerCase().includes(q) || n.stats.some((s) => s.toLowerCase().includes(q))));
+  };
+}
+function showTip(n, e, masteryPick, alloc) {
+  if (!n) return;
+  const tip = $("#tip");
+  const type = n.asc ? `${n.asc} ${n.type}` : n.type === "classStart" ? "class start" : n.type;
+  let body = n.stats.map((s) => `<div class="st">${esc(s)}</div>`).join("");
+  if (n.type === "mastery") {
+    const pick = masteryPick[n.id];
+    body = alloc.has(n.id) && pick && n.masteryEffects?.[pick]
+      ? n.masteryEffects[pick].map((s) => `<div class="st">${esc(s)}</div>`).join("")
+      : `<div class="st">${Object.keys(n.masteryEffects ?? {}).length} possible effects</div>`;
+  }
+  tip.innerHTML = `<div class="t">${esc(type)}${alloc.has(n.id) ? " · allocated" : ""}</div><b>${esc(n.name)}</b>${body}`;
+  tip.style.display = "block";
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - w - 8) + "px";
+  tip.style.top = Math.min(e.clientY + 14, innerHeight - h - 8) + "px";
+}
+
+// ---------- routing ----------
+function route() {
+  const m = /b=(\d+)/.exec(location.hash);
+  const i = m ? Number(m[1]) : null;
+  if (i !== state.build) { state.skillSet = state.itemSet = state.spec = null; view = null; }
+  state.build = i !== null && DATA.builds[i] ? i : null;
+  renderList();
+  state.build === null ? renderOverview() : renderBuild();
+  $("#main").scrollTop = 0;
+}
+addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "pob-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "view": "node build.mjs --open"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.10.1"
+  }
+}

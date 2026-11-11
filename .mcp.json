@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "pob": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\Users\\coren\\PoBTools\\pob-mcp\\build\\index.js"],
+      "env": {
+        "POB_DIRECTORY": "C:\\Users\\coren\\OneDrive\\Documents\\Path of Building\\Builds",
+        "POB_PATH": "C:\\Users\\coren\\AppData\\Roaming\\Path of Building Community",
+        "POB_LUA_ENABLED": "false"
+      }
+    }
+  }
+}
