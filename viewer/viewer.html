@@ -282,7 +282,7 @@ function renderBuild() {
   <div class="tiles">${tiles.map(([k, v, x]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div>${x ? `<div class="x">${x}</div>` : ""}</div>`).join("")}</div>
   <div class="toolbar"><label>Loadout <select id="loadout"><option value="*">* All loadouts</option>${loadoutsOf(b).map((l, i) =>
     `<option value="${i}" ${state.loadout === i ? "selected" : ""}>${esc(l.name)}</option>`).join("")}</select></label>
-    ${b.loadouts.length ? "" : `<span class="x">no PoB loadouts in this build - one per skill set</span>`}</div>
+    ${loadoutsOf(b).some((l) => l.extra) ? `<span class="x">"Skill set: …" entries are skill sets that no PoB loadout uses</span>` : ""}</div>
   <div class="tabs">${["skills", "items", "tree", "stats", "notes"].map((t) => `<button class="tab ${state.tab === t ? "on" : ""}" data-t="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</div>
   <div id="pane"></div>`;
   $("#main .tabs").onclick = (e) => { const t = e.target.closest(".tab")?.dataset.t; if (t) { state.tab = t; renderBuild(); } };
@@ -301,9 +301,12 @@ function bindPickers() {
 }
 
 // ---------- loadouts ----------
-// PoB loadouts as found by the extractor; a build without any gets one pseudo-loadout per skill set.
+// PoB loadouts as found by the extractor, followed by one extra entry per skill set no loadout uses, so every
+// skill set's gems end up in the "*" recap.
 function loadoutsOf(b) {
-  return b.loadouts.length ? b.loadouts : b.skills.sets.map((s) => ({ name: s.title, skillSet: s.id }));
+  const used = new Set(b.loadouts.map((l) => l.skillSet));
+  const extra = b.skills.sets.filter((s) => !used.has(s.id)).map((s) => ({ name: `Skill set: ${s.title}`, skillSet: s.id, extra: true }));
+  return [...b.loadouts, ...extra];
 }
 function selectLoadout(b, v) {
   state.loadout = v;
