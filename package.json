@@ -7,6 +7,7 @@
     "view": "node build.mjs --open"
   },
   "dependencies": {
-    "fast-xml-parser": "^5.10.1"
+    "fast-xml-parser": "^5.10.1",
+    "node-html-parser": "^9.0.7"
   }
 }

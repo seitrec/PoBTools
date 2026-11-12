@@ -12,6 +12,7 @@
   --r-normal: #3a3631; --r-magic: #3a4fc4; --r-rare: #8c7400; --r-unique: #a3501a; --r-relic: #2f8a3a;
   --mod-crafted: #3570b8; --mod-fractured: #8a6d3b; --mod-implicit: #6b5f9a;
   --gem-R: #c2413a; --gem-G: #3b9a4a; --gem-B: #3f6fd0; --gem-W: #9a948a;
+  --g1: #2a78d6; --g2: #eb6834; --g3: #1baf7a; --g4: #eda100; --g5: #e87ba4; --g6: #008300; --g7: #4a3aa7; --g8: #e34948;
   --shadow: 0 1px 2px rgb(0 0 0 / .06);
   color-scheme: light;
 }
@@ -23,6 +24,7 @@
     --r-normal: #d8d2c8; --r-magic: #8c9cff; --r-rare: #f0e26a; --r-unique: #e0954f; --r-relic: #7fd68a;
     --mod-crafted: #8fb8ff; --mod-fractured: #d7b47a; --mod-implicit: #b9a8f0;
     --gem-R: #e0645c; --gem-G: #5fc06e; --gem-B: #6f98f0; --gem-W: #b9b2a6;
+    --g1: #3987e5; --g2: #d95926; --g3: #199e70; --g4: #c98500; --g5: #d55181; --g6: #008300; --g7: #9085e9; --g8: #e66767;
     --shadow: none; color-scheme: dark;
   }
 }
@@ -33,6 +35,7 @@
   --r-normal: #d8d2c8; --r-magic: #8c9cff; --r-rare: #f0e26a; --r-unique: #e0954f; --r-relic: #7fd68a;
   --mod-crafted: #8fb8ff; --mod-fractured: #d7b47a; --mod-implicit: #b9a8f0;
   --gem-R: #e0645c; --gem-G: #5fc06e; --gem-B: #6f98f0; --gem-W: #b9b2a6;
+  --g1: #3987e5; --g2: #d95926; --g3: #199e70; --g4: #c98500; --g5: #d55181; --g6: #008300; --g7: #9085e9; --g8: #e66767;
   --shadow: none; color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -115,6 +118,21 @@ tbody tr { cursor: pointer; } tbody tr:hover { background: var(--surface-2); }
 .side .ln:hover { color: var(--accent); }
 .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-3); margin-top: 8px; flex-wrap: wrap; }
 .legend span[style]::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; background: var(--c); }
+.x { font-size: 12px; color: var(--ink-3); margin-top: 4px; }
+/* gem groups: tinted row + colour bar + number badge (identity never by colour alone); text stays in ink */
+.gem.grp { background: color-mix(in srgb, var(--g) 16%, transparent); box-shadow: inset 3px 0 0 var(--g); border-radius: 4px; padding: 2px 6px 2px 8px; margin: 1px 0; cursor: copy; }
+.gem.grp:hover { background: color-mix(in srgb, var(--g) 28%, transparent); }
+.gnum { display: inline-grid; place-items: center; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 99px; border: 1.5px solid var(--g); font-size: 10px; font-weight: 700; color: var(--ink); background: var(--surface); flex: none; }
+.star { color: var(--accent); font-size: 13px; margin-right: -3px; }
+.glegend { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.gchip { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--border); border-radius: 8px; padding: 4px 10px 4px 6px; cursor: copy;
+  background: color-mix(in srgb, var(--g) 16%, var(--surface)); box-shadow: inset 3px 0 0 var(--g); font-size: 13px; }
+.gchip:hover { background: color-mix(in srgb, var(--g) 30%, var(--surface)); }
+.gcount { font-size: 11px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.lohead { margin: 22px 0 8px; font-size: 14px; color: var(--ink); }
+#toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none; transition: .2s;
+  background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 8px; font-size: 13px; z-index: 20; }
+#toast.on { opacity: 1; transform: translate(-50%, 0); }
 pre.notes { white-space: pre-wrap; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; font: 13px/1.5 ui-monospace, Consolas, monospace; }
 .empty { color: var(--ink-3); font-style: italic; }
 svg .e { stroke: var(--tree-edge); stroke-width: 9; fill: none; }
@@ -156,7 +174,7 @@ svg .nd.hit.ms, svg .nd.hit.cs, svg .nd.hit.jw { stroke: var(--tree-hit); }
 const DATA = /*__POB_DATA__*/null;
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const state = { build: null, tab: "skills", skillSet: null, itemSet: null, spec: null, sort: { key: "modified", dir: -1 } };
+const state = { build: null, tab: "skills", loadout: "*", skillSet: null, itemSet: null, spec: null, sort: { key: "modified", dir: -1 } };
 
 function fmt(v, kind) {
   if (v === undefined || v === null || v === "") return "—";
@@ -262,9 +280,15 @@ function renderBuild() {
   $("#main").innerHTML = `<h2>${esc(b.name.split("/").pop())}</h2>
   <div class="sub">Level ${m.level} ${esc(asc ? `${asc} (${m.className})` : m.className)} · bandit ${esc(m.bandit)} · pantheon ${esc(m.pantheonMajor)} / ${esc(m.pantheonMinor)} · ${esc(b.file)} · modified ${new Date(b.modified).toLocaleDateString()}</div>
   <div class="tiles">${tiles.map(([k, v, x]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div>${x ? `<div class="x">${x}</div>` : ""}</div>`).join("")}</div>
+  <div class="toolbar"><label>Loadout <select id="loadout"><option value="*">* All loadouts</option>${loadoutsOf(b).map((l, i) =>
+    `<option value="${i}" ${state.loadout === i ? "selected" : ""}>${esc(l.name)}</option>`).join("")}</select></label>
+    ${b.loadouts.length ? "" : `<span class="x">no PoB loadouts in this build - one per skill set</span>`}</div>
   <div class="tabs">${["skills", "items", "tree", "stats", "notes"].map((t) => `<button class="tab ${state.tab === t ? "on" : ""}" data-t="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</div>
   <div id="pane"></div>`;
   $("#main .tabs").onclick = (e) => { const t = e.target.closest(".tab")?.dataset.t; if (t) { state.tab = t; renderBuild(); } };
+  $("#loadout").onchange = (e) => { selectLoadout(b, e.target.value === "*" ? "*" : Number(e.target.value)); renderBuild(); };
+  if (state.loadout === "*" && (state.tab === "items" || state.tab === "tree"))
+    return ($("#pane").innerHTML = `<p class="empty">Pick a loadout above to see its ${state.tab === "tree" ? "passive tree" : "items"}.</p>`);
   ({ skills: renderSkills, items: renderItems, tree: renderTree, stats: renderStats, notes: renderNotes })[state.tab](b);
 }
 
@@ -272,41 +296,194 @@ function setPicker(label, sets, cur, key) {
   if (sets.length < 2) return sets.length ? `<span>${label}: <b>${esc(sets[0].title)}</b></span>` : "";
   return `<label>${label} <select data-key="${key}">${sets.map((x) => `<option value="${x.id ?? x.index}" ${String(x.id ?? x.index) === String(cur) ? "selected" : ""}>${esc(x.title)}</option>`).join("")}</select></label>`;
 }
-// Picking a set that carries a PoB loadout tag ("{n}") also switches the other two kinds to that loadout.
-const SET_KINDS = { skillSet: (b) => b.skills.sets, itemSet: (b) => b.items.sets, spec: (b) => b.tree.specs };
 function bindPickers() {
-  $("#pane").querySelectorAll("select[data-key]").forEach((el) => (el.onchange = () => {
-    const b = DATA.builds[state.build], key = el.dataset.key, v = Number(el.value);
-    state[key] = v;
-    const picked = SET_KINDS[key](b).find((x) => (x.id ?? x.index) === v);
-    if (picked?.loadout != null) for (const [k, get] of Object.entries(SET_KINDS)) {
-      if (k === key) continue;
-      const match = get(b).find((x) => x.loadout === picked.loadout);
-      if (match) state[k] = match.id ?? match.index;
-    }
-    renderBuild();
-  }));
+  $("#pane").querySelectorAll("select[data-key]").forEach((el) => (el.onchange = () => { state[el.dataset.key] = Number(el.value); renderBuild(); }));
 }
 
-function renderSkills(b) {
-  const sets = b.skills.sets;
-  const cur = state.skillSet ?? b.skills.active ?? sets[0]?.id;
-  const set = sets.find((x) => x.id === cur) ?? sets[0];
-  if (!set) return ($("#pane").innerHTML = `<p class="empty">No skills.</p>`);
-  const isMainSet = set.id === (b.skills.active ?? sets[0].id);
-  $("#pane").innerHTML = `<div class="toolbar">${setPicker("Skill set", sets, set.id, "skillSet")}</div>
-  <div class="grid">${set.groups.map((g, gi) => {
+// ---------- loadouts ----------
+// PoB loadouts as found by the extractor; a build without any gets one pseudo-loadout per skill set.
+function loadoutsOf(b) {
+  return b.loadouts.length ? b.loadouts : b.skills.sets.map((s) => ({ name: s.title, skillSet: s.id }));
+}
+function selectLoadout(b, v) {
+  state.loadout = v;
+  const lo = v === "*" ? {} : loadoutsOf(b)[v];
+  state.skillSet = lo.skillSet ?? null;
+  state.itemSet = lo.itemSet ?? null;
+  state.spec = lo.spec ?? null;
+}
+
+// ---------- gem search strings ----------
+// Combines the poe.re regexes for a list of gem names into vendor/stash search strings (<= 250 chars each),
+// using poe.re's shared regexes where one pattern covers several of the wanted gems exactly.
+function gemSearch(names) {
+  const { tokens, optimization } = DATA.gemSources.regex;
+  const byId = new Map(), missing = [];
+  for (const n of names) tokens[n] ? byId.set(tokens[n].id, tokens[n].regex) : missing.push(n);
+  const len = (id) => byId.get(id).length + 1;
+  const used = new Set(), parts = [];
+  optimization
+    .filter((o) => o.ids.length > 1 && o.ids.every((id) => byId.has(id)))
+    .map((o) => ({ ...o, save: o.ids.reduce((s, id) => s + len(id), 0) - (o.regex.length + 1) }))
+    .sort((a, c) => c.save - a.save)
+    .forEach((o) => { if (o.save > 0 && o.ids.every((id) => !used.has(id))) { o.ids.forEach((id) => used.add(id)); parts.push(o.regex); } });
+  for (const [id, rx] of byId) if (!used.has(id)) parts.push(rx);
+  const chunks = [];
+  for (const p of parts) {
+    const last = chunks[chunks.length - 1];
+    if (last && `"${[...last, p].join("|")}"`.length <= 250) last.push(p); else chunks.push([p]);
+  }
+  return { strings: chunks.map((c) => `"${c.join("|")}"`), missing };
+}
+
+// ---------- gem groups ----------
+const GROUP_COLORS = 8; // validated categorical slots --g1..--g8
+// For the gems of the given skill sets (in order), as the build's class:
+//  - stars: one quest reward per quest, given to the useful gem that would otherwise arrive the latest;
+//  - availability: the starred reward if earlier, else the first vendor quest, else Lilly Roth (Act 6);
+//  - groups: one per act, ending at that act's last useful quest, then the biggest groups are split at quest
+//    boundaries (never leaving one side with a single gem) until ~1 group per 5 gems, 5 to 8 groups;
+//    a group whose search string would exceed 250 characters continues in the next group.
+function planGems(b, skillSetIds) {
+  const S = DATA.gemSources;
+  if (!S) return null;
+  const cls = b.meta.className;
+  const Q = Object.fromEntries(S.quests.map((q) => [q.name, q]));
+  const byOrder = (a, c) => a.order - c.order;
+  const names = [];
+  for (const id of skillSetIds) {
+    const set = b.skills.sets.find((s) => s.id === id);
+    for (const g of set?.groups ?? []) if (!g.source) for (const x of g.gems) {
+      const n = x.baseName || x.name;
+      if (!names.includes(n)) names.push(n);
+    }
+  }
+  const info = new Map();
+  for (const name of names) {
+    const src = S.gems[name];
+    if (!src) { info.set(name, { name, sold: false }); continue; }
+    const forClass = (m) => Object.entries(m).filter(([q, c]) => c.includes(cls) && Q[q]).map(([q]) => Q[q]).sort(byOrder);
+    info.set(name, { name, sold: true, rewards: forClass(src.reward), buyAt: [...forClass(src.vendor), Q[S.lilly]].sort(byOrder)[0] });
+  }
+  for (const q of S.quests) {
+    let best = null;
+    for (const n of names) {
+      const i = info.get(n);
+      if (i.sold && !i.star && i.rewards.includes(q) && (!best || i.buyAt.order > best.buyAt.order)) best = i;
+    }
+    if (best) best.star = q;
+  }
+  const sold = names.map((n) => info.get(n)).filter((i) => i.sold);
+  for (const i of sold) i.at = i.star && i.star.order < i.buyAt.order ? i.star : i.buyAt;
+
+  const gemsAt = (pt) => sold.filter((i) => i.at.order === pt);
+  const size = (pts) => pts.reduce((s, pt) => s + gemsAt(pt).length, 0);
+  const groups = [];
+  for (const pt of [...new Set(sold.map((i) => i.at.order))].sort((a, c) => a - c)) {
+    const last = groups[groups.length - 1];
+    if (last && S.quests[last[last.length - 1]].act === S.quests[pt].act) last.push(pt); else groups.push([pt]);
+  }
+  const target = Math.min(GROUP_COLORS, Math.max(5, Math.round(sold.length / 5)));
+  while (groups.length < target) {
+    let best = null;
+    groups.forEach((g, gi) => {
+      for (let k = 1; k < g.length; k++) {
+        const left = size(g.slice(0, k)), right = size(g) - left;
+        if (left >= 2 && right >= 2 && (!best || Math.min(left, right) > best.score)) best = { gi, k, score: Math.min(left, right) };
+      }
+    });
+    if (!best) break;
+    const g = groups[best.gi];
+    groups.splice(best.gi, 1, g.slice(0, best.k), g.slice(best.k));
+  }
+  const chunks = [];
+  for (const g of groups) {
+    let chunk = [];
+    for (const i of g.flatMap(gemsAt)) {
+      if (chunk.length && gemSearch([...chunk, i].map((x) => x.name)).strings.length > 1) { chunks.push(chunk); chunk = []; }
+      chunk.push(i);
+    }
+    chunks.push(chunk);
+  }
+  const list = chunks.map((gems, idx) => {
+    const grp = { idx, gems, end: gems.reduce((q, i) => (i.at.order > q.order ? i.at : q), gems[0].at), regex: gemSearch(gems.map((i) => i.name)).strings[0] };
+    gems.forEach((i) => (i.group = grp));
+    return grp;
+  });
+  return { info, groups: list, unsold: names.filter((n) => !info.get(n).sold) };
+}
+
+const gcolor = (grp) => `--g:var(--g${(grp.idx % GROUP_COLORS) + 1})`;
+function gemRow(x, plan, source) {
+  const i = source ? null : plan?.info.get(x.baseName || x.name);
+  const grp = i?.group;
+  const where = !plan || source ? "" : !i?.sold ? "Not sold by quests or vendors (drop, Vaal, Awakened…)"
+    : `Group ${grp.idx + 1} · available at Act ${i.at.act} · ${i.at.name}${i.star ? `\n★ Take as quest reward: ${i.star.name} (Act ${i.star.act})` : ""}`;
+  return `<div class="gem ${x.support ? "sup" : "act"} ${x.enabled ? "" : "dis"} ${grp ? "grp" : ""}" ${grp ? `data-g="${grp.idx}" style="${gcolor(grp)}"` : ""} title="${esc([where, x.tags].filter(Boolean).join("\n"))}">
+    <span class="dot" style="background:var(--gem-${x.color || "W"})"></span>${i?.star ? `<span class="star">★</span>` : ""}<span class="nm">${esc(x.name)}</span>
+    ${grp ? `<span class="gnum">${grp.idx + 1}</span>` : ""}
+    <span class="lv">${x.level ?? ""}${x.quality ? ` / ${x.quality}%` : ""}${x.qualityId && x.qualityId !== "Default" ? " " + esc(x.qualityId.replace("Alternate", "Alt ")) : ""}</span></div>`;
+}
+function socketGroupCards(b, set, plan) {
+  const isMainSet = set.id === (b.skills.active ?? b.skills.sets[0].id);
+  return `<div class="grid">${set.groups.map((g, gi) => {
     if (!g.gems.length) return g.label ? `<div class="card" style="grid-column:1/-1;padding:6px 12px"><h4 style="margin:0">${esc(g.label)}</h4></div>` : "";
     const main = isMainSet && gi + 1 === b.meta.mainSocketGroup;
     return `<div class="card ${main ? "main" : ""} ${g.enabled ? "" : "off"}">
       <h4><span>${esc(g.slot || g.label || "Unsocketed")}${g.slot && g.label ? ` — ${esc(g.label)}` : ""}</span>
         <span>${main ? `<span class="badge">main</span> ` : ""}${g.includeInFullDPS ? `<span class="badge">full DPS</span>` : ""}${g.source ? `<span class="badge">item</span>` : ""}</span></h4>
-      ${g.gems.map((x) => `<div class="gem ${x.support ? "sup" : "act"} ${x.enabled ? "" : "dis"}" title="${esc(x.tags || "")}">
-        <span class="dot" style="background:var(--gem-${x.color || "W"})"></span><span class="nm">${esc(x.name)}</span>
-        <span class="lv">${x.level ?? ""}${x.quality ? ` / ${x.quality}%` : ""}${x.qualityId && x.qualityId !== "Default" ? " " + esc(x.qualityId.replace("Alternate", "Alt ")) : ""}</span></div>`).join("")}
+      ${g.gems.map((x) => gemRow(x, plan, g.source)).join("")}
     </div>`;
   }).join("")}</div>`;
+}
+
+function renderSkills(b) {
+  const sets = b.skills.sets;
+  if (!sets.length) return ($("#pane").innerHTML = `<p class="empty">No skills.</p>`);
+  const all = state.loadout === "*";
+  // "*": every loadout's skill set, in loadout order; loadouts sharing a skill set are shown together once.
+  const blocks = [];
+  if (all) {
+    for (const lo of loadoutsOf(b)) {
+      const blk = blocks.find((x) => x.set.id === lo.skillSet);
+      blk ? blk.names.push(lo.name) : blocks.push({ set: sets.find((s) => s.id === lo.skillSet), names: [lo.name] });
+    }
+  } else {
+    blocks.push({ set: sets.find((s) => s.id === (state.skillSet ?? b.skills.active)) ?? sets[0] });
+  }
+  const plan = planGems(b, blocks.map((x) => x.set.id));
+  const legend = !plan ? `<p class="x">No quest data - run <code>node fetch-sources.mjs</code> then rebuild.</p>` : `<div class="glegend">
+      ${plan.groups.map((g) => `<button class="gchip" data-g="${g.idx}" style="${gcolor(g)}" title="${esc(g.gems.map((i) => (i.star ? "★ " : "") + i.name).join("\n") + "\n\n" + g.regex)}">
+        <span class="gnum">${g.idx + 1}</span><span>Act ${g.end.act} · ${esc(g.end.name)}</span><span class="gcount">${g.gems.length}</span></button>`).join("")}
+    </div>
+    <div class="x">★ take as quest reward · click a group (or any gem in it) to copy its vendor search${plan.unsold.length ? ` · ${plan.unsold.length} gem${plan.unsold.length > 1 ? "s" : ""} not sold (drops, Vaal…)` : ""}</div>`;
+  $("#pane").innerHTML = `${all ? "" : `<div class="toolbar">${setPicker("Skill set", sets, blocks[0].set.id, "skillSet")}</div>`}
+    ${legend}
+    ${blocks.map((blk) => `${all ? `<h3 class="lohead">${blk.names.map(esc).join(" · ")}${blk.names.length > 1 ? ` <span class="x">(same skill set)</span>` : ""}</h3>` : ""}${socketGroupCards(b, blk.set, plan)}`).join("")}`;
   bindPickers();
+  $("#pane").onclick = (e) => {
+    const el = e.target.closest("[data-g]");
+    if (!el || !plan) return;
+    const g = plan.groups[Number(el.dataset.g)];
+    copyText(g.regex, `Group ${g.idx + 1} search copied (${g.gems.length} gems, ${g.regex.length} chars)`);
+  };
+}
+
+function copyText(text, message) {
+  const done = () => toast(message);
+  const fallback = () => {
+    const t = document.createElement("textarea");
+    t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); done();
+  };
+  navigator.clipboard ? navigator.clipboard.writeText(text).then(done, fallback) : fallback();
+}
+function toast(message) {
+  let el = $("#toast");
+  if (!el) { el = document.createElement("div"); el.id = "toast"; document.body.appendChild(el); }
+  el.textContent = message;
+  el.classList.add("on");
+  clearTimeout(toast.t);
+  toast.t = setTimeout(() => el.classList.remove("on"), 1800);
 }
 
 const SLOT_ORDER = ["Weapon 1", "Weapon 2", "Weapon 1 Swap", "Weapon 2 Swap", "Helmet", "Body Armour", "Gloves", "Boots", "Amulet", "Ring 1", "Ring 2", "Ring 3", "Belt", "Flask 1", "Flask 2", "Flask 3", "Flask 4", "Flask 5"];
@@ -515,7 +692,7 @@ function showTip(n, e, masteryPick, alloc) {
 function route() {
   const m = /b=(\d+)/.exec(location.hash);
   const i = m ? Number(m[1]) : null;
-  if (i !== state.build) { state.skillSet = state.itemSet = state.spec = null; view = null; }
+  if (i !== state.build) { state.skillSet = state.itemSet = state.spec = null; state.loadout = "*"; view = null; }
   state.build = i !== null && DATA.builds[i] ? i : null;
   renderList();
   state.build === null ? renderOverview() : renderBuild();
