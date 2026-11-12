@@ -51,8 +51,10 @@ joined result to `data/gem-sources.json`:
 ## Loadouts and gem groups (Skills tab)
 
 Loadouts follow PoB's own rules (`Modules/Build.lua` SyncLoadouts): `{id}` / `{id1,id2}` link tags across tree, item,
-skill and config sets, or identical titles; a kind with a single set matches every loadout. The build header has a
-loadout dropdown, `* All loadouts` by default (Items/Tree need a specific loadout).
+skill and config sets, or identical titles; a kind with a single set matches every loadout. Skill sets that no
+loadout uses are added as extra "Skill set: …" entries. The build header has a loadout dropdown, `* All leveling
+loadouts` by default (Items/Tree need a specific loadout). Only leveling entries go into `*`: a name containing a
+whole number from 1 to 60 (link tags like `{1}` don't count); the others stay selectable under "Ignored".
 
 For the gems in view (one loadout, or all loadouts together), as the build's class:
 - ★ one quest reward per quest: the useful gem that would otherwise arrive the latest;
