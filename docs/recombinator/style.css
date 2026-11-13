@@ -320,3 +320,6 @@ table.tiers tr.pickable:hover td { background: var(--panel-2); }
   .columns { grid-template-columns: 1fr; }
   .craft { position: static; }
 }
+
+.base-select { font: inherit; color: var(--text); background: var(--panel-2); border: 1px solid var(--line); border-radius: 4px; padding: 2px 4px; max-width: 260px; }
+.market-note { font-size: 12px; opacity: .8; }

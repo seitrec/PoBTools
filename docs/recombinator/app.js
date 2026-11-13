@@ -77,6 +77,14 @@ function view() {
   return v;
 }
 
+// Market defaults from market.js (fetch_prices.py): alt price and plain ilvl 86 bases.
+// An empty field falls back to them, so a new price file updates every untouched item.
+const MARKET = window.MARKET;
+const altPrice = () => store.altPrice !== '' ? store.altPrice : MARKET?.altPrice ?? '';
+const marketBases = () => MARKET?.bases?.[current.slug] || [];
+const chosenBase = () => marketBases().find((b) => b.name === view().base) || marketBases()[0];
+const baseCost = () => (view().baseCost ?? '') !== '' ? view().baseCost : chosenBase()?.chaos ?? '';
+
 const activeSources = () => ['normal', ...INFLUENCES.filter((i) => view().influences.includes(i))];
 const groupsOf = (source, affix) => current.data.sources[source][affix];
 const groupId = (source, affix, gi) => `${source}|${affix}|${gi}`;
@@ -258,6 +266,18 @@ function renderTiers(source, affix, group, gi, selected) {
     </table>`;
 }
 
+// Plain bases for this item class, best first; picking one sets the base cost to its price
+function renderBasePicker() {
+  const bases = marketBases();
+  if (!bases.length) return '';
+  const chosen = chosenBase().name;
+  const options = bases.map((b) => `<option value="${esc(b.name)}"${b.name === chosen ? ' selected' : ''}>`
+    + `${esc(b.name)} — ${fmt(b.chaos, b.chaos < 10 ? 1 : 0)} c</option>`).join('');
+  return `<label title="ilvl 86+, no influence, best base (highest drop level) first. Price from poe.ninja.">Base
+          <select class="base-select" data-field="base">${options}</select>
+        </label>`;
+}
+
 function renderCraft(affix) {
   const v = view();
   const selected = v.selected[affix];
@@ -270,11 +290,13 @@ function renderCraft(affix) {
       </header>
       <div class="craft-settings">
         <label>Alteration price
-          <input class="num-input" type="number" min="0" step="0.01" value="${esc(store.altPrice)}" data-field="altPrice"> c
+          <input class="num-input" type="number" min="0" step="0.01" value="${esc(altPrice())}" data-field="altPrice"> c
         </label>
+        ${renderBasePicker()}
         <label title="Price of the white/magic base you alt on, added to every alt-rolled mod (not to market values)">Base cost
-          <input class="num-input" type="number" min="0" step="0.1" value="${esc(view().baseCost ?? '')}" data-field="baseCost"> c
+          <input class="num-input" type="number" min="0" step="0.1" value="${esc(baseCost())}" data-field="baseCost"> c
         </label>
+        ${MARKET ? `<span class="market-note" title="Clear a field to go back to its market default">defaults: poe.ninja ${esc(MARKET.league)}, ${esc(MARKET.fetched)}</span>` : ''}
         <span>${AFFIX_TITLES[affix]} pool weight <span class="weight">${fmt(poolWeight(affix))}</span></span>
       </div>
       ${cards || `<div class="craft-empty">Open a mod group in the ${AFFIX_TITLES[affix].toLowerCase()} column
@@ -343,14 +365,14 @@ const chaos = (c) => Number.isFinite(c) ? `${fmt(c, 1)} c` : '—';
 
 // Per selected mod: weight, alt odds and the cost of one isolated copy
 function isolatedMods(affix) {
-  const altPrice = parseFloat(store.altPrice);
+  const alt = parseFloat(altPrice());
   // The base is bought once per alt-rolled item; market values already include it
-  const baseCost = parseFloat(view().baseCost) || 0;
+  const base = parseFloat(baseCost()) || 0;
   return view().selected[affix].map((sel, i) => {
     const tier = groupsOf(sel.source, affix)[sel.group].tiers[sel.tier];
     const o = odds(sel, affix);
     const value = parseFloat(store.values[tierKey(sel.source, tier)]);
-    const altCost = Number.isFinite(altPrice) ? o.expected * altPrice + baseCost : NaN;
+    const altCost = Number.isFinite(alt) ? o.expected * alt + base : NaN;
     const known = [value, altCost].filter(Number.isFinite);
     return {
       label: `#${i + 1}`,
@@ -372,7 +394,7 @@ const byWeight = (mods) => [...mods].sort((a, b) => b.weight - a.weight);
 function piece(x, y, odds2) {
   const [kept] = byWeight([x, y]);
   const p = odds2[2], p1 = odds2[1] || 0, p0 = odds2[0] || 0;
-  const base = parseFloat(view().baseCost) || 0;
+  const base = parseFloat(baseCost()) || 0;
   const attempt = x.cost + y.cost;
   // Every attempt eats 2 items and returns 1, so it burns one base: 1 / p attempts on average
   return { mods: [x, y], kept, odds: odds2, p, attempt, cost: (attempt - p1 * kept.cost - p0 * base) / p, burn: 1 / p };
@@ -422,8 +444,8 @@ function renderScenario(scenario, plan) {
   const pieceNames = plan.final ? ['A', 'B'] : [''];
   const modList = (mods) => mods.map((m) => `<b>${m.label}</b>`).join(' + ');
   // Bases are already priced into each mod's cost, so their chaos share is shown, not added
-  const baseCost = parseFloat(view().baseCost);
-  const burned = (n) => `${fmt(n, 1)}${baseCost ? ` <span class="muted">(${chaos(n * baseCost)})</span>` : ''}`;
+  const base = parseFloat(baseCost());
+  const burned = (n) => `${fmt(n, 1)}${base ? ` <span class="muted">(${chaos(n * base)})</span>` : ''}`;
   const rows = plan.pieces.map((pc, i) => `
     <tr>
       <td>Piece ${pieceNames[i]}</td>
@@ -540,6 +562,12 @@ document.getElementById('main').addEventListener('input', (e) => {
 
 // Item level changes which tiers count, so it re-renders once the edit is committed
 document.getElementById('main').addEventListener('change', (e) => {
+  if (e.target.dataset.field === 'base') {
+    view().base = e.target.value;
+    delete view().baseCost;  // follow the picked base's price
+    saveStore();
+    return rerender();
+  }
   if (e.target.dataset.field !== 'ilvl') return;
   const ilvl = parseInt(e.target.value, 10);
   if (Number.isFinite(ilvl)) store.ilvl = ilvl;
