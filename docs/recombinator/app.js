@@ -1,7 +1,7 @@
 'use strict';
 
-// Item classes from poedb's Modifiers page. Slugs for the (str)/(dex)/... variants
-// are a guess at poedb's URL scheme; check them when fetching those pages.
+// Item classes from poedb's Modifiers page. slugOf() turns each name into its poedb
+// URL slug ('Gloves(str)' -> 'Gloves_str'); all 52 resolved on 2026-11-12.
 const CATEGORIES = [
   ['One Handed Weapons', ['Claws', 'Daggers', 'Wands', 'One Hand Swords', 'One Hand Axes', 'One Hand Maces', 'Sceptres', 'Rune Daggers', 'Thrusting One Hand Swords']],
   ['Two Handed Weapons', ['Bows', 'Staves', 'Two Hand Swords', 'Two Hand Axes', 'Two Hand Maces', 'Warstaves', 'Fishing Rods']],
