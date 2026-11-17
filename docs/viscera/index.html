@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viscera Prices</title>
+  <script src="data/viscera.js"></script>
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --panel: #17171c;
+      --panel-2: #1e1e25;
+      --line: #2b2b34;
+      --text: #d8d4cc;
+      --muted: #8a867f;
+      --accent: #c8a45a;
+      --good: #6fbf73;
+      --bad: #e0605a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    button, input, select { font: inherit; color: inherit; }
+    main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 64px; }
+    h1 { margin: 0; color: var(--accent); font-size: 22px; }
+    .sub { color: var(--muted); margin: 4px 0 18px; }
+    .sub a { color: var(--accent); }
+    p.note { color: var(--muted); font-size: 13px; max-width: 820px; }
+
+    .controls {
+      display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: end;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px;
+    }
+    .controls label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+    .controls input, .controls select {
+      width: 110px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 5px 8px;
+    }
+    .controls input[type=search] { width: 240px; }
+    .stat { font-size: 12px; color: var(--muted); }
+    .stat b { display: block; font-size: 18px; color: var(--text); font-weight: 600; }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 10px; }
+    .chip {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 999px;
+      padding: 4px 12px; cursor: pointer; font-size: 13px;
+    }
+    .chip.on { background: var(--accent); border-color: var(--accent); color: #17140c; font-weight: 600; }
+
+    .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+    th, td { padding: 7px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+    th.l, td.l { text-align: left; }
+    thead th { background: var(--panel); color: var(--muted); font-weight: 600; font-size: 12px; position: sticky; top: 0; }
+    thead th.sort { cursor: pointer; user-select: none; }
+    thead th.sort:hover { color: var(--text); }
+    thead th.active { color: var(--accent); }
+    tbody tr:hover { background: var(--panel-2); }
+    tbody tr:last-child td { border-bottom: 0; }
+    td a { color: var(--text); text-decoration: none; }
+    td a:hover { color: var(--accent); }
+    .pos { color: var(--good); }
+    .neg { color: var(--bad); }
+    .dim { color: var(--muted); }
+    .tag { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--panel-2); color: var(--muted); margin-left: 6px; }
+    .tag.warn { color: var(--bad); }
+    td.wrap { white-space: normal; min-width: 260px; }
+
+    @media (max-width: 640px) {
+      main { padding-top: 18px; }
+      .controls input, .controls select { width: 92px; }
+      .controls input[type=search] { width: 100%; }
+      .controls label:has(input[type=search]) { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Viscera prices</h1>
+  <div class="sub" id="meta"></div>
+
+  <div class="controls">
+    <label>Search name or mod<input type="search" id="q" placeholder="e.g. minion, sirus"></label>
+    <label>Min price (chaos)<input type="number" id="minPrice" step="5" min="0" value="10"></label>
+    <label>Size
+      <select id="size">
+        <option value="all">all</option>
+        <option value="greater">Greater only</option>
+        <option value="regular">regular only</option>
+      </select>
+    </label>
+    <label>Min listings<input type="number" id="minList" step="1" min="0" value="0"></label>
+    <div class="stat"><b id="shown"></b>viscera shown</div>
+  </div>
+
+  <div class="chips" id="chips"></div>
+  <div class="scroll"><table id="table"></table></div>
+  <p class="note">
+    Prices are poe.ninja's listing-based estimates, so a viscera with few listings
+    (<span class="tag warn">thin</span>, under 10) can be far off. The same viscera can appear several times,
+    once per mod, at very different prices. <b>Change</b> is poe.ninja's price change over the last 7 days.
+    Coven Queen's Crown is left out: it has hundreds of versions, one per mod.
+  </p>
+</main>
+
+<script>
+const D = window.VISCERA;
+const THIN = 10;  // listings below which a price is flagged
+const $ = id => document.getElementById(id);
+const state = { part: "all", sort: "chaos", dir: -1 };
+const parts = [...new Set(D.viscera.map(v => v.part))].sort();
+
+$("meta").innerHTML =
+  `${D.league} · prices from <a href="https://poe.ninja/poe1/economy/${D.slug}/viscera">poe.ninja</a>, ${D.fetched}` +
+  (D.divineChaos ? ` · 1 div = ${D.divineChaos.toFixed(0)}c` : "");
+
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const price = c => D.divineChaos && c >= D.divineChaos
+  ? `${(c / D.divineChaos).toFixed(1)} div <span class="dim">${Math.round(c)}c</span>`
+  : `${c < 10 ? c.toFixed(1) : Math.round(c)}c`;
+const change = x => x == null ? '<span class="dim">–</span>'
+  : `<span class="${x > 0 ? "pos" : x < 0 ? "neg" : "dim"}">${x > 0 ? "+" : ""}${x.toFixed(0)}%</span>`;
+
+const COLS = [
+  { key: "name", label: "Viscera", cls: "l" },
+  { key: "mod", label: "Mod", cls: "l" },
+  { key: "part", label: "Part", cls: "l" },
+  { key: "chaos", label: "Price" },
+  { key: "listings", label: "Listings" },
+  { key: "change", label: "Change (7d)" },
+];
+
+function rows() {
+  const q = $("q").value.trim().toLowerCase();
+  const minPrice = +$("minPrice").value || 0;
+  const minList = +$("minList").value || 0;
+  const size = $("size").value;
+  const k = state.sort;
+  return D.viscera
+    .filter(v => v.chaos >= minPrice && v.listings >= minList)
+    .filter(v => state.part === "all" || v.part === state.part)
+    .filter(v => size === "all" || v.name.startsWith("Greater ") === (size === "greater"))
+    .filter(v => !q || v.name.toLowerCase().includes(q) || v.mod.toLowerCase().includes(q))
+    .sort((a, b) => (typeof a[k] === "string" ? a[k].localeCompare(b[k]) : (a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * state.dir);
+}
+
+function render() {
+  const list = rows();
+  const k = state.sort;
+  $("shown").textContent = list.length;
+  $("chips").innerHTML = ["all", ...parts].map(p =>
+    `<button class="chip ${p === state.part ? "on" : ""}" data-p="${p}">${p === "all" ? "All parts" : p}</button>`
+  ).join("");
+  const head = COLS.map(c =>
+    `<th class="sort ${c.cls || ""} ${c.key === k ? "active" : ""}" data-k="${c.key}">${c.label}${c.key === k ? (state.dir < 0 ? " ▾" : " ▴") : ""}</th>`
+  ).join("");
+  const body = list.map(v => `<tr>
+    <td class="l"><a href="https://poe.ninja/poe1/economy/${D.slug}/viscera/${v.id}" target="_blank" rel="noopener">${esc(v.name)}</a>${v.listings < THIN ? '<span class="tag warn">thin</span>' : ""}</td>
+    <td class="l wrap">${esc(v.mod)}</td>
+    <td class="l dim">${v.part}</td>
+    <td>${price(v.chaos)}</td>
+    <td class="dim">${v.listings}</td>
+    <td>${change(v.change)}</td>
+  </tr>`).join("") || `<tr><td colspan="${COLS.length}" class="dim">No viscera matches.</td></tr>`;
+  $("table").innerHTML = `<thead><tr>${head}</tr></thead><tbody>${body}</tbody>`;
+}
+
+$("chips").addEventListener("click", ev => {
+  const p = ev.target.closest("[data-p]");
+  if (p) { state.part = p.dataset.p; render(); }
+});
+$("table").addEventListener("click", ev => {
+  const th = ev.target.closest("[data-k]");
+  if (!th) return;
+  const k = th.dataset.k;
+  state.dir = state.sort === k ? -state.dir : (["name", "mod", "part"].includes(k) ? 1 : -1);
+  state.sort = k;
+  render();
+});
+["q", "minPrice", "size", "minList"].forEach(id => $(id).addEventListener("input", render));
+render();
+</script>
+</body>
+</html>

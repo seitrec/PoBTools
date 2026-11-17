@@ -1,0 +1,3909 @@
+window.VISCERA = {
+ "league": "Covens",
+ "slug": "covens",
+ "fetched": "2026-11-17 15:34 UTC",
+ "source": "poe.ninja",
+ "divineChaos": 155.8,
+ "skipped": [
+  "Coven Queen's Crown"
+ ],
+ "viscera": [
+  {
+   "name": "Greater Incarnation of Neglect's Cube",
+   "mod": "Damaging Retaliation Skills become Usable every 4 seconds",
+   "part": "Upper Limb",
+   "chaos": 2493,
+   "listings": 9,
+   "change": -3.83,
+   "id": "greater-incarnation-of-neglects-cube-damaging-retaliation-skills-become-usable-every-seconds"
+  },
+  {
+   "name": "Greater Scholar's Leg",
+   "mod": "(40-50)% reduced bonuses gained from Equipped Boots / (20-30)% increased bonuses gained from Equipped Gloves",
+   "part": "Lower Limb",
+   "chaos": 2321,
+   "listings": 51,
+   "change": 134.9,
+   "id": "greater-scholars-leg-reduced-bonuses-gained-from-equipped-boots-increased-bonuses-gained-from-equipped-gloves"
+  },
+  {
+   "name": "Greater Maven's Orrery",
+   "mod": "+1 to maximum number of Sacred Wisps / +1 to number of Sacred Wisps Summoned",
+   "part": "Torso",
+   "chaos": 1870,
+   "listings": 12,
+   "change": -20.41,
+   "id": "greater-mavens-orrery-to-maximum-number-of-sacred-wisps-to-number-of-sacred-wisps-summoned"
+  },
+  {
+   "name": "Greater Sea Witch's Tentacle",
+   "mod": "Minions have (8-12)% chance to deal Double Damage",
+   "part": "Lower Limb",
+   "chaos": 1620,
+   "listings": 23,
+   "change": 115.9,
+   "id": "greater-sea-witchs-tentacle-minions-have-chance-to-deal-double-damage"
+  },
+  {
+   "name": "Greater Skeletal Tail",
+   "mod": "Projectiles Pierce, Fork or Chain an additional time at random",
+   "part": "Lower Limb",
+   "chaos": 1558,
+   "listings": 21,
+   "change": 4.49,
+   "id": "greater-skeletal-tail-projectiles-pierce-fork-or-chain-an-additional-time-at-random"
+  },
+  {
+   "name": "Greater Ancestor's Club",
+   "mod": "Non-Vaal Strike Skills target 1 additional nearby Enemy",
+   "part": "Upper Limb",
+   "chaos": 779.0,
+   "listings": 31,
+   "change": 501.5,
+   "id": "greater-ancestors-club-non-vaal-strike-skills-target-additional-nearby-enemy"
+  },
+  {
+   "name": "Greater Severed Stinger",
+   "mod": "Hits have (10-15)% chance to treat Enemy Monster Lightning Resistance values as inverted",
+   "part": "Torso",
+   "chaos": 623.2,
+   "listings": 46,
+   "change": 4.16,
+   "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted"
+  },
+  {
+   "name": "Greater Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 50 to 75 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 519.6,
+   "listings": 34,
+   "change": 40.39,
+   "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+  },
+  {
+   "name": "Greater Sirus' Head",
+   "mod": "Enemies you Kill have a (5-10)% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element",
+   "part": "Head",
+   "chaos": 485.0,
+   "listings": 49,
+   "change": -73.15,
+   "id": "greater-sirus-head-enemies-you-kill-have-a-chance-to-explode-dealing-a-tenth-of-their-maximum-life-as-damage-of-a-random-element"
+  },
+  {
+   "name": "Greater Infected Leg",
+   "mod": "Damaging Ailments inflicted by Minions deal damage (15-20)% Faster",
+   "part": "Lower Limb",
+   "chaos": 450.0,
+   "listings": 34,
+   "change": -20.86,
+   "id": "greater-infected-leg-damaging-ailments-inflicted-by-minions-deal-damage-faster"
+  },
+  {
+   "name": "Greater Prosthetic Leg",
+   "mod": "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres",
+   "part": "Lower Limb",
+   "chaos": 385.0,
+   "listings": 49,
+   "change": 40,
+   "id": "greater-prosthetic-leg-ignites-you-inflict-spread-to-other-enemies-within-a-radius-of-metres"
+  },
+  {
+   "name": "Maven's Orrery",
+   "mod": "Enemies within 3 metres are Scorched",
+   "part": "Torso",
+   "chaos": 370.0,
+   "listings": 60,
+   "change": -40.75,
+   "id": "mavens-orrery-enemies-within-metres-are-scorched"
+  },
+  {
+   "name": "Greater Armoured Leg",
+   "mod": "Chance to Block Projectile Attack Damage is Lucky",
+   "part": "Lower Limb",
+   "chaos": 350.0,
+   "listings": 30,
+   "change": 181.0,
+   "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky"
+  },
+  {
+   "name": "Greater Crustacean's Claw",
+   "mod": "(10-12)% more Maximum Physical Attack Damage",
+   "part": "Upper Limb",
+   "chaos": 329.0,
+   "listings": 60,
+   "change": 4.61,
+   "id": "greater-crustaceans-claw-more-maximum-physical-attack-damage"
+  },
+  {
+   "name": "Greater Overseer's Whip",
+   "mod": "Minions are Aggressive if you've used a Minion Skill Recently",
+   "part": "Upper Limb",
+   "chaos": 315.0,
+   "listings": 98,
+   "change": 250,
+   "id": "greater-overseers-whip-minions-are-aggressive-if-youve-used-a-minion-skill-recently"
+  },
+  {
+   "name": "Greater Totemic Visage",
+   "mod": "(10-12)% more Maximum Lightning Damage",
+   "part": "Head",
+   "chaos": 311.6,
+   "listings": 43,
+   "change": 157.1,
+   "id": "greater-totemic-visage-more-maximum-lightning-damage"
+  },
+  {
+   "name": "Greater Coagulated Essence",
+   "mod": "(30-40)% increased Damage while in Blood Stance",
+   "part": "Lower Limb",
+   "chaos": 311.6,
+   "listings": 47,
+   "change": -28.71,
+   "id": "greater-coagulated-essence-increased-damage-while-in-blood-stance"
+  },
+  {
+   "name": "Greater Vendigo Claws",
+   "mod": "(25-40)% increased Damage with Hits against Chilled Enemies",
+   "part": "Upper Limb",
+   "chaos": 311.6,
+   "listings": 80,
+   "change": -29.0,
+   "id": "greater-vendigo-claws-increased-damage-with-hits-against-chilled-enemies"
+  },
+  {
+   "name": "Greater Gemling Torso",
+   "mod": "(30-35)% increased Energy Shield from Equipped Body Armour",
+   "part": "Torso",
+   "chaos": 310.0,
+   "listings": 74,
+   "change": 165.9,
+   "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour"
+  },
+  {
+   "name": "Greater Shaper's Head",
+   "mod": "Utility Flasks gain 2 Charges every 3 seconds",
+   "part": "Head",
+   "chaos": 309.2,
+   "listings": 43,
+   "change": -42.74,
+   "id": "greater-shapers-head-utility-flasks-gain-charges-every-seconds"
+  },
+  {
+   "name": "Greater Warden's Arm",
+   "mod": "(5-7)% more Maximum Life",
+   "part": "Upper Limb",
+   "chaos": 296.5,
+   "listings": 46,
+   "change": 64.04,
+   "id": "greater-wardens-arm-more-maximum-life"
+  },
+  {
+   "name": "Skeleton Wheel",
+   "mod": "(10-12)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
+   "part": "Lower Limb",
+   "chaos": 291.5,
+   "listings": 49,
+   "change": -2.83,
+   "id": "skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently"
+  },
+  {
+   "name": "Greater Charred Leg",
+   "mod": "Unaffected by Burning Ground",
+   "part": "Lower Limb",
+   "chaos": 290.0,
+   "listings": 33,
+   "change": -27.32,
+   "id": "greater-charred-leg-unaffected-by-burning-ground"
+  },
+  {
+   "name": "Greater Terrifying Maw",
+   "mod": "(8-12)% increased Damage per Curse on you",
+   "part": "Head",
+   "chaos": 288.5,
+   "listings": 90,
+   "change": 5670,
+   "id": "greater-terrifying-maw-increased-damage-per-curse-on-you"
+  },
+  {
+   "name": "Greater Smouldering Leg",
+   "mod": "(8-12)% increased bonuses gained from Equipped Boots",
+   "part": "Lower Limb",
+   "chaos": 250.0,
+   "listings": 76,
+   "change": 316.7,
+   "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots"
+  },
+  {
+   "name": "Sirus' Head",
+   "mod": "Transfiguration of Soul",
+   "part": "Head",
+   "chaos": 220.0,
+   "listings": 57,
+   "change": 25.07,
+   "id": "sirus-head-transfiguration-of-soul"
+  },
+  {
+   "name": "Greater Pocked Leg",
+   "mod": "(35-50)% increased Armour from Equipped Helmet, Body Armour, Gloves, and Boots",
+   "part": "Lower Limb",
+   "chaos": 207.0,
+   "listings": 74,
+   "change": 54.94,
+   "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots"
+  },
+  {
+   "name": "Greater Engorged Eye",
+   "mod": "Corrupted Blood cannot be inflicted on you",
+   "part": "Head",
+   "chaos": 200.0,
+   "listings": 33,
+   "change": 101.2,
+   "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you"
+  },
+  {
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain an Endurance Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 200.0,
+   "listings": 62,
+   "change": -44.99,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-an-endurance-charge-on-hit"
+  },
+  {
+   "name": "Greater Goatman's Horn",
+   "mod": "Area Skills have (6-8)% chance to deal Double Damage",
+   "part": "Head",
+   "chaos": 200.0,
+   "listings": 75,
+   "change": -14.71,
+   "id": "greater-goatmans-horn-area-skills-have-chance-to-deal-double-damage"
+  },
+  {
+   "name": "Greater Hallowed Descry",
+   "mod": "Consecrated Ground you create grants (4-6)% reduced damage taken to you and Allies",
+   "part": "Torso",
+   "chaos": 200.0,
+   "listings": 40,
+   "change": 0,
+   "id": "greater-hallowed-descry-consecrated-ground-you-create-grants-reduced-damage-taken-to-you-and-allies"
+  },
+  {
+   "name": "Greater Thaumaturge's Head",
+   "mod": "Gain (4-6)% of Physical Damage as Extra Fire Damage / Gain (4-6)% of Physical Damage as Extra Cold Damage / Gain (4-6)% of Physical Damage as Extra Lightning Damage",
+   "part": "Head",
+   "chaos": 180.0,
+   "listings": 156,
+   "change": 39.32,
+   "id": "greater-thaumaturges-head-gain-of-physical-damage-as-extra-fire-damage-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+  },
+  {
+   "name": "Greater Incarnation of Dread's Head",
+   "mod": "Gain a random Shrine Buff for (1.02-3.99) seconds when you Kill a Rare or Unique Enemy",
+   "part": "Head",
+   "chaos": 180.0,
+   "listings": 132,
+   "change": -86.59,
+   "id": "greater-incarnation-of-dreads-head-gain-a-random-shrine-buff-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+  },
+  {
+   "name": "Greater Incarnation of Fear's Head",
+   "mod": "Your Chaos Damage can Freeze",
+   "part": "Head",
+   "chaos": 180.0,
+   "listings": 36,
+   "change": -85.16,
+   "id": "greater-incarnation-of-fears-head-your-chaos-damage-can-freeze"
+  },
+  {
+   "name": "Greater Smuggler's Hand",
+   "mod": "2% chance for a Coin Shower on Kill",
+   "part": "Upper Limb",
+   "chaos": 170.4,
+   "listings": 53,
+   "change": -52.13,
+   "id": "greater-smugglers-hand-chance-for-a-coin-shower-on-kill"
+  },
+  {
+   "name": "Greater Justicar's Helm",
+   "mod": "(10-15)% of Damage taken from Stunning Hits is Recovered as Life",
+   "part": "Head",
+   "chaos": 170.0,
+   "listings": 99,
+   "change": 71.46,
+   "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life"
+  },
+  {
+   "name": "Greater Golden Ankh",
+   "mod": "Regenerate (0.5-0.8)% of Life per second for each Raised Zombie",
+   "part": "Upper Limb",
+   "chaos": 155.8,
+   "listings": 53,
+   "change": 330.4,
+   "id": "greater-golden-ankh-regenerate-of-life-per-second-for-each-raised-zombie"
+  },
+  {
+   "name": "Greater Corrupted Carapace",
+   "mod": "Skills that Cost Life have (6-8)% chance to deal Double Damage",
+   "part": "Torso",
+   "chaos": 155.8,
+   "listings": 131,
+   "change": 183.3,
+   "id": "greater-corrupted-carapace-skills-that-cost-life-have-chance-to-deal-double-damage"
+  },
+  {
+   "name": "Greater Aristocrat's Torso",
+   "mod": "2% increased Life Recovery rate per 5% missing Unreserved Life",
+   "part": "Torso",
+   "chaos": 155.8,
+   "listings": 8,
+   "change": 1198,
+   "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life"
+  },
+  {
+   "name": "Greater Chitinous Leg",
+   "mod": "Enemies within 6 metres of corpses you spawned Recently / have 100% reduced Life Regeneration Rate",
+   "part": "Lower Limb",
+   "chaos": 155.8,
+   "listings": 18,
+   "change": 310,
+   "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate"
+  },
+  {
+   "name": "Greater Gladiator's Heart",
+   "mod": "+(5-7) to Maximum Rage",
+   "part": "Torso",
+   "chaos": 150.0,
+   "listings": 56,
+   "change": 138.1,
+   "id": "greater-gladiators-heart-to-maximum-rage"
+  },
+  {
+   "name": "Nightmarish Wings of Catarina",
+   "mod": "+1 to maximum number of Spectres",
+   "part": "Torso",
+   "chaos": 150.0,
+   "listings": 81,
+   "change": -73.56,
+   "id": "nightmarish-wings-of-catarina-to-maximum-number-of-spectres"
+  },
+  {
+   "name": "Greater Ornate Torso",
+   "mod": "(3-5)% of Damage from Hits is taken from your Damagable Minions' Life before you",
+   "part": "Torso",
+   "chaos": 142.5,
+   "listings": 56,
+   "change": 249.3,
+   "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you"
+  },
+  {
+   "name": "Greater Skeletal Beast Leg",
+   "mod": "Moving while Bleeding doesn't cause you to take extra Damage",
+   "part": "Lower Limb",
+   "chaos": 139.0,
+   "listings": 20,
+   "change": 6.4,
+   "id": "greater-skeletal-beast-leg-moving-while-bleeding-doesnt-cause-you-to-take-extra-damage"
+  },
+  {
+   "name": "Greater Lithic Haunches",
+   "mod": "(10-15)% chance to Avoid Physical Damage from Hits",
+   "part": "Lower Limb",
+   "chaos": 138.6,
+   "listings": 48,
+   "change": 54,
+   "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits"
+  },
+  {
+   "name": "Greater Arachnid Egg Sac",
+   "mod": "Minions created Recently have Onslaught",
+   "part": "Torso",
+   "chaos": 135.0,
+   "listings": 47,
+   "change": 350,
+   "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught"
+  },
+  {
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain a Frenzy Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 123.6,
+   "listings": 29,
+   "change": -52.09,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-frenzy-charge-on-hit"
+  },
+  {
+   "name": "Greater Bonestalker's Ribcage",
+   "mod": "(4-6)% additional Physical Damage Reduction",
+   "part": "Torso",
+   "chaos": 120.0,
+   "listings": 67,
+   "change": 49.81,
+   "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction"
+  },
+  {
+   "name": "Constrictor's Head",
+   "mod": "Skills fire an additional Projectile if you've used a Movement Skill Recently",
+   "part": "Head",
+   "chaos": 120.0,
+   "listings": 103,
+   "change": -41.23,
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-used-a-movement-skill-recently"
+  },
+  {
+   "name": "Greater Eater of Worlds' Head",
+   "mod": "+(5-10)% to Quality of all Skill Gems",
+   "part": "Head",
+   "chaos": 118.8,
+   "listings": 139,
+   "change": -78,
+   "id": "greater-eater-of-worlds-head-to-quality-of-all-skill-gems"
+  },
+  {
+   "name": "Greater Scorched Arm",
+   "mod": "Ignites you inflict deal Damage (10-15)% Faster",
+   "part": "Upper Limb",
+   "chaos": 110.0,
+   "listings": 74,
+   "change": 144.4,
+   "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster"
+  },
+  {
+   "name": "Greater Molten Core",
+   "mod": "+(2-3)% to maximum Fire Resistance",
+   "part": "Torso",
+   "chaos": 105.0,
+   "listings": 86,
+   "change": -43.73,
+   "id": "greater-molten-core-to-maximum-fire-resistance"
+  },
+  {
+   "name": "Incarnation of Neglect's Cube",
+   "mod": "(10-20)% chance to inflict an additional Poison on the same Target when you inflict Poison",
+   "part": "Upper Limb",
+   "chaos": 100.0,
+   "listings": 97,
+   "change": -74.16,
+   "id": "incarnation-of-neglects-cube-chance-to-inflict-an-additional-poison-on-the-same-target-when-you-inflict-poison"
+  },
+  {
+   "name": "Greater Blazing Skull",
+   "mod": "When you Kill a Rare Monster, (20-30)% chance to gain one of its Modifiers for 10 seconds",
+   "part": "Head",
+   "chaos": 95.9,
+   "listings": 189,
+   "change": 59.83,
+   "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds"
+  },
+  {
+   "name": "Eater of Worlds' Head",
+   "mod": "(10-15)% chance to gain a Frenzy Charge for each Enemy you hit with a Critical Strike",
+   "part": "Head",
+   "chaos": 85.0,
+   "listings": 212,
+   "change": -80.47,
+   "id": "eater-of-worlds-head-chance-to-gain-a-frenzy-charge-for-each-enemy-you-hit-with-a-critical-strike"
+  },
+  {
+   "name": "Sea Witch's Tentacle",
+   "mod": "Minions deal (20-30)% increased Damage",
+   "part": "Lower Limb",
+   "chaos": 84.0,
+   "listings": 179,
+   "change": -34.88,
+   "id": "sea-witchs-tentacle-minions-deal-increased-damage"
+  },
+  {
+   "name": "Lesser Skeleton Wheel",
+   "mod": "(5-7)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
+   "part": "Lower Limb",
+   "chaos": 83.5,
+   "listings": 25,
+   "change": -9.53,
+   "id": "lesser-skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently"
+  },
+  {
+   "name": "Aristocrat's Torso",
+   "mod": "(15-20)% increased Life Regeneration rate",
+   "part": "Torso",
+   "chaos": 80.0,
+   "listings": 96,
+   "change": 128.6,
+   "id": "aristocrats-torso-increased-life-regeneration-rate"
+  },
+  {
+   "name": "Greater Skeleton Wheel",
+   "mod": "+1 to Level of all Movement Skill Gems",
+   "part": "Lower Limb",
+   "chaos": 76.0,
+   "listings": 71,
+   "change": -43.7,
+   "id": "greater-skeleton-wheel-to-level-of-all-movement-skill-gems"
+  },
+  {
+   "name": "Infected Leg",
+   "mod": "Minions have +(10-14)% to Damage over Time Multiplier",
+   "part": "Lower Limb",
+   "chaos": 75.0,
+   "listings": 155,
+   "change": -31.82,
+   "id": "infected-leg-minions-have-to-damage-over-time-multiplier"
+  },
+  {
+   "name": "Greater Inquisitor's Claw",
+   "mod": "(15-20)% increased Effect of Withered",
+   "part": "Upper Limb",
+   "chaos": 65.0,
+   "listings": 157,
+   "change": -1.96,
+   "id": "greater-inquisitors-claw-increased-effect-of-withered"
+  },
+  {
+   "name": "Greater Gemling Torso",
+   "mod": "(60-70)% increased Armour from Equipped Body Armour",
+   "part": "Torso",
+   "chaos": 60.0,
+   "listings": 68,
+   "change": -3.61,
+   "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour"
+  },
+  {
+   "name": "Severed Stinger",
+   "mod": "Damage Penetrates (6-8)% Lightning Resistance",
+   "part": "Torso",
+   "chaos": 55.0,
+   "listings": 105,
+   "change": -42.11,
+   "id": "severed-stinger-damage-penetrates-lightning-resistance"
+  },
+  {
+   "name": "Greater Bandit Rogue's Head",
+   "mod": "(3-4)% increased Action Speed",
+   "part": "Head",
+   "chaos": 52.5,
+   "listings": 91,
+   "change": 20.83,
+   "id": "greater-bandit-rogues-head-increased-action-speed"
+  },
+  {
+   "name": "Greater Lunar Bow",
+   "mod": "Gain (10-15)% of Physical Damage as Extra Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 50.0,
+   "listings": 99,
+   "change": 400,
+   "id": "greater-lunar-bow-gain-of-physical-damage-as-extra-cold-damage"
+  },
+  {
+   "name": "Gladiator's Heart",
+   "mod": "Gain 2 Rage on Melee Hit",
+   "part": "Torso",
+   "chaos": 50.0,
+   "listings": 171,
+   "change": 400,
+   "id": "gladiators-heart-gain-rage-on-melee-hit"
+  },
+  {
+   "name": "Greater Searing Exarch's Descry",
+   "mod": "+(3-5) to maximum Fortification",
+   "part": "Torso",
+   "chaos": 50.0,
+   "listings": 157,
+   "change": -89.29,
+   "id": "greater-searing-exarchs-descry-to-maximum-fortification"
+  },
+  {
+   "name": "Lesser Aristocrat's Torso",
+   "mod": "(8-10)% increased Life Regeneration rate",
+   "part": "Torso",
+   "chaos": 50.0,
+   "listings": 23,
+   "change": 137.0,
+   "id": "lesser-aristocrats-torso-increased-life-regeneration-rate"
+  },
+  {
+   "name": "Skeletal Tail",
+   "mod": "(20-30)% increased Projectile Damage",
+   "part": "Lower Limb",
+   "chaos": 50.0,
+   "listings": 161,
+   "change": -49.67,
+   "id": "skeletal-tail-increased-projectile-damage"
+  },
+  {
+   "name": "Artificial Appendage",
+   "mod": "Minions have (25-40)% increased Critical Strike Chance",
+   "part": "Upper Limb",
+   "chaos": 49.8,
+   "listings": 72,
+   "change": 232,
+   "id": "artificial-appendage-minions-have-increased-critical-strike-chance"
+  },
+  {
+   "name": "Greater Osseous Scythe",
+   "mod": "(15-20)% increased Impale Effect",
+   "part": "Upper Limb",
+   "chaos": 49.3,
+   "listings": 75,
+   "change": -65.76,
+   "id": "greater-osseous-scythe-increased-impale-effect"
+  },
+  {
+   "name": "Lesser Sea Witch's Tentacle",
+   "mod": "Minions deal (10-15)% increased Damage",
+   "part": "Lower Limb",
+   "chaos": 47.9,
+   "listings": 68,
+   "change": -39.6,
+   "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage"
+  },
+  {
+   "name": "Greater Solar Shield",
+   "mod": "(10-15)% of Cold Damage from Hits taken as Fire Damage / (10-15)% of Lightning Damage from Hits taken as Fire Damage",
+   "part": "Upper Limb",
+   "chaos": 45.0,
+   "listings": 194,
+   "change": 614.3,
+   "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage"
+  },
+  {
+   "name": "Greater King Crab's Claw",
+   "mod": "(10-15)% chance to gain a Brine Charge instead of an Endurance Charge",
+   "part": "Upper Limb",
+   "chaos": 45.0,
+   "listings": 229,
+   "change": -70.85,
+   "id": "greater-king-crabs-claw-chance-to-gain-a-brine-charge-instead-of-an-endurance-charge"
+  },
+  {
+   "name": "Lesser Infected Leg",
+   "mod": "Minions have +(6-8)% to Damage over Time Multiplier",
+   "part": "Lower Limb",
+   "chaos": 42.5,
+   "listings": 39,
+   "change": -22.73,
+   "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier"
+  },
+  {
+   "name": "Inquisitor's Head",
+   "mod": "Causes Bleeding on Melee Critical Strike",
+   "part": "Head",
+   "chaos": 41.0,
+   "listings": 99,
+   "change": 4000,
+   "id": "inquisitors-head-causes-bleeding-on-melee-critical-strike"
+  },
+  {
+   "name": "Shaper's Head",
+   "mod": "Gain Shaper's Presence for 10 seconds when you kill a Rare or Unique Enemy",
+   "part": "Head",
+   "chaos": 40.0,
+   "listings": 70,
+   "change": -73.33,
+   "id": "shapers-head-gain-shapers-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+  },
+  {
+   "name": "Greater Blackguard's Leg",
+   "mod": "Unaffected by Chilled Ground",
+   "part": "Lower Limb",
+   "chaos": 40.0,
+   "listings": 37,
+   "change": -41.35,
+   "id": "greater-blackguards-leg-unaffected-by-chilled-ground"
+  },
+  {
+   "name": "Lesser Bandit Witch's Head",
+   "mod": "Regenerate (4-6) Mana per second",
+   "part": "Head",
+   "chaos": 38.5,
+   "listings": 12,
+   "change": 3750,
+   "id": "lesser-bandit-witchs-head-regenerate-mana-per-second"
+  },
+  {
+   "name": "Scorched Arm",
+   "mod": "(20-30)% chance to Ignite",
+   "part": "Upper Limb",
+   "chaos": 37.3,
+   "listings": 181,
+   "change": 273,
+   "id": "scorched-arm-chance-to-ignite"
+  },
+  {
+   "name": "Chimera's Head",
+   "mod": "Minions deal (35-50)% increased Damage if you've Hit Recently",
+   "part": "Head",
+   "chaos": 36.0,
+   "listings": 199,
+   "change": -18.27,
+   "id": "chimeras-head-minions-deal-increased-damage-if-youve-hit-recently"
+  },
+  {
+   "name": "Greater Brute's Arm",
+   "mod": "(4-6)% increased Strength",
+   "part": "Upper Limb",
+   "chaos": 35.0,
+   "listings": 108,
+   "change": 89.19,
+   "id": "greater-brutes-arm-increased-strength"
+  },
+  {
+   "name": "Sirus' Head",
+   "mod": "Transfiguration of Body",
+   "part": "Head",
+   "chaos": 35.0,
+   "listings": 42,
+   "change": -80.56,
+   "id": "sirus-head-transfiguration-of-body"
+  },
+  {
+   "name": "Spectral Hood",
+   "mod": "+(17-19)% to Chaos Resistance",
+   "part": "Head",
+   "chaos": 30.0,
+   "listings": 179,
+   "change": -9.77,
+   "id": "spectral-hood-to-chaos-resistance"
+  },
+  {
+   "name": "Scholar's Leg",
+   "mod": "(8-10)% increased bonuses gained from Equipped Gloves",
+   "part": "Lower Limb",
+   "chaos": 30.0,
+   "listings": 79,
+   "change": -25,
+   "id": "scholars-leg-increased-bonuses-gained-from-equipped-gloves"
+  },
+  {
+   "name": "Greater Gemling Torso",
+   "mod": "(60-70)% increased Evasion Rating from Equipped Body Armour",
+   "part": "Torso",
+   "chaos": 29.3,
+   "listings": 96,
+   "change": -26.75,
+   "id": "greater-gemling-torso-increased-evasion-rating-from-equipped-body-armour"
+  },
+  {
+   "name": "Lesser Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 8 to 12 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 28.9,
+   "listings": 23,
+   "change": 45.91,
+   "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+  },
+  {
+   "name": "Searing Exarch's Descry",
+   "mod": "(4-6)% of Cold Damage taken as Fire Damage / (4-6)% of Lightning Damage taken as Fire Damage / (4-6)% of Physical Damage taken as Fire Damage",
+   "part": "Torso",
+   "chaos": 25.0,
+   "listings": 336,
+   "change": -79.37,
+   "id": "searing-exarchs-descry-of-cold-damage-taken-as-fire-damage-of-lightning-damage-taken-as-fire-damage-of-physical-damage-taken-as-fire-damage"
+  },
+  {
+   "name": "Greater Shaper's Head",
+   "mod": "Utility Flasks gain 1 Charge every 3 seconds",
+   "part": "Head",
+   "chaos": 25.0,
+   "listings": 61,
+   "change": -74.77,
+   "id": "greater-shapers-head-utility-flasks-gain-charge-every-seconds"
+  },
+  {
+   "name": "Greater Construct's Head",
+   "mod": "Skills deal (4-5)% increased Projectile damage per Projectile created",
+   "part": "Head",
+   "chaos": 25.0,
+   "listings": 156,
+   "change": -79.08,
+   "id": "greater-constructs-head-skills-deal-increased-projectile-damage-per-projectile-created"
+  },
+  {
+   "name": "Sirus' Head",
+   "mod": "Transfiguration of Mind",
+   "part": "Head",
+   "chaos": 23.0,
+   "listings": 47,
+   "change": -90.51,
+   "id": "sirus-head-transfiguration-of-mind"
+  },
+  {
+   "name": "Greater Bloodied Arm",
+   "mod": "Bleeding Enemies you Kill Explode, dealing (2-3)% of / their Maximum Life as Physical Damage",
+   "part": "Upper Limb",
+   "chaos": 22.9,
+   "listings": 147,
+   "change": 129,
+   "id": "greater-bloodied-arm-bleeding-enemies-you-kill-explode-dealing-of-their-maximum-life-as-physical-damage"
+  },
+  {
+   "name": "Greater Bandit Warrior's Head",
+   "mod": "Regenerate (3-4)% of Life per second if you have been Hit Recently",
+   "part": "Head",
+   "chaos": 20.0,
+   "listings": 294,
+   "change": 170.3,
+   "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently"
+  },
+  {
+   "name": "Nightmarish Core of the Unbreakable",
+   "mod": "Enemies take (2-3)% increased Damage for each type of Ailment you have inflicted on them",
+   "part": "Torso",
+   "chaos": 20.0,
+   "listings": 134,
+   "change": -20,
+   "id": "nightmarish-core-of-the-unbreakable-enemies-take-increased-damage-for-each-type-of-ailment-you-have-inflicted-on-them"
+  },
+  {
+   "name": "Greater Defaced Bust",
+   "mod": "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit",
+   "part": "Head",
+   "chaos": 20.0,
+   "listings": 46,
+   "change": -58.33,
+   "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit"
+  },
+  {
+   "name": "Lesser Severed Stinger",
+   "mod": "Damage Penetrates (3-4)% Lightning Resistance",
+   "part": "Torso",
+   "chaos": 20.0,
+   "listings": 84,
+   "change": -69.79,
+   "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance"
+  },
+  {
+   "name": "Venarius' Scripture",
+   "mod": "Consecrated Ground you create applies (8-10)% increased Damage taken to Enemies",
+   "part": "Upper Limb",
+   "chaos": 20.0,
+   "listings": 110,
+   "change": -82.53,
+   "id": "venarius-scripture-consecrated-ground-you-create-applies-increased-damage-taken-to-enemies"
+  },
+  {
+   "name": "Goatman's Horn",
+   "mod": "(15-20)% increased Area of Effect",
+   "part": "Head",
+   "chaos": 20.0,
+   "listings": 208,
+   "change": -55.16,
+   "id": "goatmans-horn-increased-area-of-effect"
+  },
+  {
+   "name": "Greater Distended Stomach",
+   "mod": "Eat a Soul when you Consume the corpse of a Rare Monster",
+   "part": "Torso",
+   "chaos": 20.0,
+   "listings": 79,
+   "change": -66.39,
+   "id": "greater-distended-stomach-eat-a-soul-when-you-consume-the-corpse-of-a-rare-monster"
+  },
+  {
+   "name": "Ghostly Claw",
+   "mod": "(8-12)% chance to gain Elusive on Kill",
+   "part": "Upper Limb",
+   "chaos": 19.0,
+   "listings": 234,
+   "change": -80.31,
+   "id": "ghostly-claw-chance-to-gain-elusive-on-kill"
+  },
+  {
+   "name": "Greater Captain's Leg",
+   "mod": "Ignore all Movement Penalties from Armour",
+   "part": "Lower Limb",
+   "chaos": 16.6,
+   "listings": 93,
+   "change": 10.67,
+   "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour"
+  },
+  {
+   "name": "Captain's Leg",
+   "mod": "(5-6)% increased Movement Speed",
+   "part": "Lower Limb",
+   "chaos": 15.0,
+   "listings": 203,
+   "change": 6.76,
+   "id": "captains-leg-increased-movement-speed"
+  },
+  {
+   "name": "Greater Flaming Goat Hoof",
+   "mod": "1% increased Fire Damage per 20 Strength",
+   "part": "Lower Limb",
+   "chaos": 15.0,
+   "listings": 205,
+   "change": -2.28,
+   "id": "greater-flaming-goat-hoof-increased-fire-damage-per-strength"
+  },
+  {
+   "name": "Greater Siren's Tentacle",
+   "mod": "+5% to Maximum Effect of Chill",
+   "part": "Lower Limb",
+   "chaos": 15.0,
+   "listings": 82,
+   "change": -25,
+   "id": "greater-sirens-tentacle-to-maximum-effect-of-chill"
+  },
+  {
+   "name": "Hag's Head",
+   "mod": "Enemies Cursed by you cannot deal Critical Strikes",
+   "part": "Head",
+   "chaos": 15.0,
+   "listings": 125,
+   "change": -21.05,
+   "id": "hags-head-enemies-cursed-by-you-cannot-deal-critical-strikes"
+  },
+  {
+   "name": "Greater Arachnid Fangs",
+   "mod": "Poisons you inflict deal Damage (10-15)% Faster",
+   "part": "Head",
+   "chaos": 15.0,
+   "listings": 167,
+   "change": -50,
+   "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster"
+  },
+  {
+   "name": "Incarnation of Dread's Head",
+   "mod": "Minions gain added Resistances equal to (20-30)% of your Resistances",
+   "part": "Head",
+   "chaos": 15.0,
+   "listings": 114,
+   "change": -70,
+   "id": "incarnation-of-dreads-head-minions-gain-added-resistances-equal-to-of-your-resistances"
+  },
+  {
+   "name": "Ancestor's Club",
+   "mod": "Strike Skills which target additional Enemies can do so from (20-30)% further away",
+   "part": "Upper Limb",
+   "chaos": 14.1,
+   "listings": 203,
+   "change": 41,
+   "id": "ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away"
+  },
+  {
+   "name": "Greater Flaming Ribbon",
+   "mod": "(5-6)% reduced Fire Damage taken",
+   "part": "Upper Limb",
+   "chaos": 12.0,
+   "listings": 35,
+   "change": 207.7,
+   "id": "greater-flaming-ribbon-reduced-fire-damage-taken"
+  },
+  {
+   "name": "Lesser Skeletal Tail",
+   "mod": "(10-15)% increased Projectile Damage",
+   "part": "Lower Limb",
+   "chaos": 12.0,
+   "listings": 161,
+   "change": -71.15,
+   "id": "lesser-skeletal-tail-increased-projectile-damage"
+  },
+  {
+   "name": "Lesser Scorched Arm",
+   "mod": "(10-15)% chance to Ignite",
+   "part": "Upper Limb",
+   "chaos": 11.8,
+   "listings": 35,
+   "change": 1080,
+   "id": "lesser-scorched-arm-chance-to-ignite"
+  },
+  {
+   "name": "Lesser Ghostly Claw",
+   "mod": "(5-7)% chance to gain Elusive on Kill",
+   "part": "Upper Limb",
+   "chaos": 11.8,
+   "listings": 31,
+   "change": -83.38,
+   "id": "lesser-ghostly-claw-chance-to-gain-elusive-on-kill"
+  },
+  {
+   "name": "Warden's Arm",
+   "mod": "+(60-80) to maximum Life",
+   "part": "Upper Limb",
+   "chaos": 11.5,
+   "listings": 368,
+   "change": -54,
+   "id": "wardens-arm-to-maximum-life"
+  },
+  {
+   "name": "Artificial Appendage",
+   "mod": "(15-20)% increased Area of Effect for Attacks",
+   "part": "Upper Limb",
+   "chaos": 11.0,
+   "listings": 183,
+   "change": -56,
+   "id": "artificial-appendage-increased-area-of-effect-for-attacks"
+  },
+  {
+   "name": "Greater Skeletal Archer's Arm",
+   "mod": "Projectiles Pierce (2-3) additional Targets",
+   "part": "Upper Limb",
+   "chaos": 10.3,
+   "listings": 242,
+   "change": -74.25,
+   "id": "greater-skeletal-archers-arm-projectiles-pierce-additional-targets"
+  },
+  {
+   "name": "Greater Statue Leg",
+   "mod": "Cannot be Knocked Back",
+   "part": "Lower Limb",
+   "chaos": 10.0,
+   "listings": 59,
+   "change": 233.3,
+   "id": "greater-statue-leg-cannot-be-knocked-back"
+  },
+  {
+   "name": "Greater Galvanic Tentacle",
+   "mod": "+(2-3)% to maximum Lightning Resistance",
+   "part": "Lower Limb",
+   "chaos": 10.0,
+   "listings": 82,
+   "change": 156.4,
+   "id": "greater-galvanic-tentacle-to-maximum-lightning-resistance"
+  },
+  {
+   "name": "Templar Banner",
+   "mod": "4% increased Spell Damage per Power Charge",
+   "part": "Torso",
+   "chaos": 10.0,
+   "listings": 165,
+   "change": 0,
+   "id": "templar-banner-increased-spell-damage-per-power-charge"
+  },
+  {
+   "name": "Greater Templar Banner",
+   "mod": "Gain 1% of Lightning Damage as Extra Chaos Damage per Power Charge",
+   "part": "Torso",
+   "chaos": 10.0,
+   "listings": 129,
+   "change": 2.04,
+   "id": "greater-templar-banner-gain-of-lightning-damage-as-extra-chaos-damage-per-power-charge"
+  },
+  {
+   "name": "Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 25 to 40 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 10.0,
+   "listings": 302,
+   "change": -61.83,
+   "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+  },
+  {
+   "name": "Lesser Captain's Leg",
+   "mod": "(3-4)% increased Movement Speed",
+   "part": "Lower Limb",
+   "chaos": 10.0,
+   "listings": 34,
+   "change": 25,
+   "id": "lesser-captains-leg-increased-movement-speed"
+  },
+  {
+   "name": "Greater Elder's Head",
+   "mod": "Enemies Chilled by your Hits can be Shattered as though Frozen",
+   "part": "Head",
+   "chaos": 10.0,
+   "listings": 72,
+   "change": -87.5,
+   "id": "greater-elders-head-enemies-chilled-by-your-hits-can-be-shattered-as-though-frozen"
+  },
+  {
+   "name": "Greater Gelid Fangs",
+   "mod": "Hits have (10-15)% chance to treat Enemy Monster Cold Resistance values as inverted",
+   "part": "Head",
+   "chaos": 10.0,
+   "listings": 156,
+   "change": -80,
+   "id": "greater-gelid-fangs-hits-have-chance-to-treat-enemy-monster-cold-resistance-values-as-inverted"
+  },
+  {
+   "name": "Greater Adherent's Crown",
+   "mod": "Gain (10-15)% of Physical Damage as Extra Fire Damage",
+   "part": "Head",
+   "chaos": 10.0,
+   "listings": 196,
+   "change": -80,
+   "id": "greater-adherents-crown-gain-of-physical-damage-as-extra-fire-damage"
+  },
+  {
+   "name": "Greater Voltaic Skull",
+   "mod": "Gain (10-15)% of Physical Damage as Extra Lightning Damage",
+   "part": "Head",
+   "chaos": 9.0,
+   "listings": 194,
+   "change": -40,
+   "id": "greater-voltaic-skull-gain-of-physical-damage-as-extra-lightning-damage"
+  },
+  {
+   "name": "Lesser Scholar's Leg",
+   "mod": "(5-6)% increased bonuses gained from Equipped Gloves",
+   "part": "Lower Limb",
+   "chaos": 9.0,
+   "listings": 85,
+   "change": -77.5,
+   "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves"
+  },
+  {
+   "name": "Lesser Ancestor's Club",
+   "mod": "Strike Skills which target additional Enemies can do so from (10-15)% further away",
+   "part": "Upper Limb",
+   "chaos": 9.0,
+   "listings": 24,
+   "change": 55.17,
+   "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away"
+  },
+  {
+   "name": "Greater Golemic Stone",
+   "mod": "You cannot be Stunned if you've been Stunned or Blocked / a Stunning Hit in the past 2 seconds",
+   "part": "Torso",
+   "chaos": 9.0,
+   "listings": 94,
+   "change": 125,
+   "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds"
+  },
+  {
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain a Power Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 8.4,
+   "listings": 121,
+   "change": -80.35,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-power-charge-on-hit"
+  },
+  {
+   "name": "Greater Venarius' Scripture",
+   "mod": "Effects of Consecrated Ground you create Linger for 4 seconds",
+   "part": "Upper Limb",
+   "chaos": 8.3,
+   "listings": 77,
+   "change": -89.49,
+   "id": "greater-venarius-scripture-effects-of-consecrated-ground-you-create-linger-for-seconds"
+  },
+  {
+   "name": "Minotaur's Head",
+   "mod": "+1% to all maximum Elemental Resistances",
+   "part": "Head",
+   "chaos": 8.0,
+   "listings": 112,
+   "change": -11.11,
+   "id": "minotaurs-head-to-all-maximum-elemental-resistances"
+  },
+  {
+   "name": "Flaming Goat Hoof",
+   "mod": "(20-30)% increased Fire Damage",
+   "part": "Lower Limb",
+   "chaos": 8.0,
+   "listings": 260,
+   "change": -20,
+   "id": "flaming-goat-hoof-increased-fire-damage"
+  },
+  {
+   "name": "Greater Spider Queen's Head",
+   "mod": "Trigger Level 1 Lesser Raise Spiders on Kill",
+   "part": "Head",
+   "chaos": 8.0,
+   "listings": 126,
+   "change": 60,
+   "id": "greater-spider-queens-head-trigger-level-lesser-raise-spiders-on-kill"
+  },
+  {
+   "name": "Osseous Scythe",
+   "mod": "(15-20)% chance to Impale Enemies on Hit with Attacks",
+   "part": "Upper Limb",
+   "chaos": 7.4,
+   "listings": 177,
+   "change": -70.4,
+   "id": "osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks"
+  },
+  {
+   "name": "Greater Despot's Fist",
+   "mod": "(20-30)% increased Area of Effect while Unarmed",
+   "part": "Upper Limb",
+   "chaos": 7.4,
+   "listings": 169,
+   "change": 640,
+   "id": "greater-despots-fist-increased-area-of-effect-while-unarmed"
+  },
+  {
+   "name": "Bandit Rogue's Head",
+   "mod": "(8-10)% increased Attack and Cast Speed",
+   "part": "Head",
+   "chaos": 7.0,
+   "listings": 280,
+   "change": -53.33,
+   "id": "bandit-rogues-head-increased-attack-and-cast-speed"
+  },
+  {
+   "name": "Blackguard's Leg",
+   "mod": "(35-50)% reduced Effect of Chill on you",
+   "part": "Lower Limb",
+   "chaos": 7.0,
+   "listings": 252,
+   "change": -91.25,
+   "id": "blackguards-leg-reduced-effect-of-chill-on-you"
+  },
+  {
+   "name": "Lesser Goatman's Horn",
+   "mod": "(8-12)% increased Area of Effect",
+   "part": "Head",
+   "chaos": 7.0,
+   "listings": 91,
+   "change": -85.86,
+   "id": "lesser-goatmans-horn-increased-area-of-effect"
+  },
+  {
+   "name": "Greater Poacher's Leg",
+   "mod": "(40-60)% increased Damage against Beasts",
+   "part": "Lower Limb",
+   "chaos": 6.5,
+   "listings": 101,
+   "change": -94.93,
+   "id": "greater-poachers-leg-increased-damage-against-beasts"
+  },
+  {
+   "name": "Molten Core",
+   "mod": "+(22-28)% to Fire Resistance",
+   "part": "Torso",
+   "chaos": 6.4,
+   "listings": 177,
+   "change": -48.8,
+   "id": "molten-core-to-fire-resistance"
+  },
+  {
+   "name": "Constrictor's Head",
+   "mod": "Skills fire an additional Projectile if you've been Hit Recently",
+   "part": "Head",
+   "chaos": 6.0,
+   "listings": 120,
+   "change": -14.29,
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-been-hit-recently"
+  },
+  {
+   "name": "Greater Ravenous Skull",
+   "mod": "(16-24)% increased Damage if you have Consumed a corpse Recently / Regenerate (1.6-2)% of Life per second if you've Consumed a corpse Recently / Regenerate (0.8-1)% of Mana per second if you've Consumed a corpse Recently",
+   "part": "Head",
+   "chaos": 5.9,
+   "listings": 284,
+   "change": -49.57,
+   "id": "greater-ravenous-skull-increased-damage-if-you-have-consumed-a-corpse-recently-regenerate-of-life-per-second-if-youve-consumed-a-corpse-recently-regenerate-of-mana-per-second-if-youve-consumed-a-corpse-recently"
+  },
+  {
+   "name": "Incarnation of Fear's Head",
+   "mod": "Trigger Level 20 Summon Void Spawn every 4 seconds",
+   "part": "Head",
+   "chaos": 5.8,
+   "listings": 75,
+   "change": -92.53,
+   "id": "incarnation-of-fears-head-trigger-level-summon-void-spawn-every-seconds"
+  },
+  {
+   "name": "Greater General's Head",
+   "mod": "Gain (4-6)% of Maximum Life as Extra Maximum Energy Shield",
+   "part": "Head",
+   "chaos": 5.0,
+   "listings": 187,
+   "change": -28.57,
+   "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield"
+  },
+  {
+   "name": "Diseased Wing",
+   "mod": "+(10-14)% to Chaos Damage over Time Multiplier",
+   "part": "Torso",
+   "chaos": 5.0,
+   "listings": 416,
+   "change": 0,
+   "id": "diseased-wing-to-chaos-damage-over-time-multiplier"
+  },
+  {
+   "name": "Solar Shield",
+   "mod": "(5-6)% of Physical Damage from Hits taken as Fire Damage",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 242,
+   "change": 66.67,
+   "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage"
+  },
+  {
+   "name": "Greater Scholar's Arm",
+   "mod": "(4-6)% increased Intelligence",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 151,
+   "change": 400,
+   "id": "greater-scholars-arm-increased-intelligence"
+  },
+  {
+   "name": "Pit Fighter's Helm",
+   "mod": "(10-20)% chance to gain an Endurance Charge when you Block",
+   "part": "Head",
+   "chaos": 5.0,
+   "listings": 210,
+   "change": -41.52,
+   "id": "pit-fighters-helm-chance-to-gain-an-endurance-charge-when-you-block"
+  },
+  {
+   "name": "Pocked Leg",
+   "mod": "(35-50)% increased Armour from Equipped Helmet and Gloves",
+   "part": "Lower Limb",
+   "chaos": 5.0,
+   "listings": 205,
+   "change": -37.5,
+   "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves"
+  },
+  {
+   "name": "King Crab's Claw",
+   "mod": "Gain (4-5)% of Physical Damage as Extra Cold Damage / Gain (4-5)% of Physical Damage as Extra Lightning Damage",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 319,
+   "change": 0,
+   "id": "king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+  },
+  {
+   "name": "Greater Severed Rhoa Head",
+   "mod": "Every second, inflict Withered on Enemies within 6 metres for 5 seconds",
+   "part": "Head",
+   "chaos": 5.0,
+   "listings": 146,
+   "change": -28.57,
+   "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds"
+  },
+  {
+   "name": "Stag Head",
+   "mod": "+(8-12)% chance to Suppress Spell Damage",
+   "part": "Head",
+   "chaos": 5.0,
+   "listings": 230,
+   "change": -75,
+   "id": "stag-head-chance-to-suppress-spell-damage"
+  },
+  {
+   "name": "Osseous Talon",
+   "mod": "+(20-30) to Dexterity",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 265,
+   "change": -88.89,
+   "id": "osseous-talon-to-dexterity"
+  },
+  {
+   "name": "Greater Cobra Tail",
+   "mod": "Travel Skills have (15-20)% chance to not consume a Cooldown on use",
+   "part": "Lower Limb",
+   "chaos": 5.0,
+   "listings": 84,
+   "change": -50,
+   "id": "greater-cobra-tail-travel-skills-have-chance-to-not-consume-a-cooldown-on-use"
+  },
+  {
+   "name": "Greater Osseous Talon",
+   "mod": "(4-6)% increased Dexterity",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 159,
+   "change": -96.46,
+   "id": "greater-osseous-talon-increased-dexterity"
+  },
+  {
+   "name": "Greater Scout's Bow",
+   "mod": "Hits have (10-15)% chance to treat Enemy Monster Fire Resistance values as inverted",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 187,
+   "change": -83.33,
+   "id": "greater-scouts-bow-hits-have-chance-to-treat-enemy-monster-fire-resistance-values-as-inverted"
+  },
+  {
+   "name": "Severed Scythe-hand",
+   "mod": "Recover (4-5)% of Life on Kill",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 96,
+   "change": -39.02,
+   "id": "severed-scythe-hand-recover-of-life-on-kill"
+  },
+  {
+   "name": "Greater Severed Scythe-hand",
+   "mod": "(5-7)% chance to Recover all Life when you Kill an Enemy",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 62,
+   "change": -76.64,
+   "id": "greater-severed-scythe-hand-chance-to-recover-all-life-when-you-kill-an-enemy"
+  },
+  {
+   "name": "Skeletal Beast Leg",
+   "mod": "(30-40)% chance to Avoid Bleeding",
+   "part": "Lower Limb",
+   "chaos": 4.7,
+   "listings": 102,
+   "change": -80.58,
+   "id": "skeletal-beast-leg-chance-to-avoid-bleeding"
+  },
+  {
+   "name": "Galvanic Tentacle",
+   "mod": "+(22-28)% to Lightning Resistance",
+   "part": "Lower Limb",
+   "chaos": 4.0,
+   "listings": 240,
+   "change": 0,
+   "id": "galvanic-tentacle-to-lightning-resistance"
+  },
+  {
+   "name": "Greater Flayed Visage",
+   "mod": "(10-15)% of Damage taken Recouped as Energy Shield",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 106,
+   "change": 100,
+   "id": "greater-flayed-visage-of-damage-taken-recouped-as-energy-shield"
+  },
+  {
+   "name": "Corrupted Carapace",
+   "mod": "(30-40)% increased Damage with Skills that Cost Life",
+   "part": "Torso",
+   "chaos": 4.0,
+   "listings": 637,
+   "change": -1.23,
+   "id": "corrupted-carapace-increased-damage-with-skills-that-cost-life"
+  },
+  {
+   "name": "Greater Arachnid Leg",
+   "mod": "Immune to Hinder",
+   "part": "Lower Limb",
+   "chaos": 4.0,
+   "listings": 186,
+   "change": -30.43,
+   "id": "greater-arachnid-leg-immune-to-hinder"
+  },
+  {
+   "name": "Crustacean's Claw",
+   "mod": "Adds (8-12) to (15-18) Physical Damage to Attacks",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 303,
+   "change": -94.29,
+   "id": "crustaceans-claw-adds-to-physical-damage-to-attacks"
+  },
+  {
+   "name": "Greater Champion's Banner",
+   "mod": "Banners also grant 1% of Physical Damage gained as Extra Cold Damage to you and Allies",
+   "part": "Torso",
+   "chaos": 4.0,
+   "listings": 78,
+   "change": 100,
+   "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies"
+  },
+  {
+   "name": "Greater Desert Sword",
+   "mod": "40% increased Damage with Hits and Ailments against Blinded Enemies",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 115,
+   "change": 0,
+   "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies"
+  },
+  {
+   "name": "Lesser King Crab's Claw",
+   "mod": "Gain (3-4)% of Physical Damage as Extra Cold Damage / Gain (3-4)% of Physical Damage as Extra Lightning Damage",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 71,
+   "change": 33.33,
+   "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+  },
+  {
+   "name": "Greater Devourer's Antenna",
+   "mod": "Debilitate Enemies you Hit that are on Full Life for 4 seconds",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 60,
+   "change": 100,
+   "id": "greater-devourers-antenna-debilitate-enemies-you-hit-that-are-on-full-life-for-seconds"
+  },
+  {
+   "name": "Greater Necromancer's Mask",
+   "mod": "Offerings you create also grant (15-20)% increased Damage",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 151,
+   "change": 29.03,
+   "id": "greater-necromancers-mask-offerings-you-create-also-grant-increased-damage"
+  },
+  {
+   "name": "Lesser Templar Banner",
+   "mod": "3% increased Spell Damage per Power Charge",
+   "part": "Torso",
+   "chaos": 4.0,
+   "listings": 101,
+   "change": 33.33,
+   "id": "lesser-templar-banner-increased-spell-damage-per-power-charge"
+  },
+  {
+   "name": "Lesser Bandit Rogue's Head",
+   "mod": "(4-6)% increased Attack and Cast Speed",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 43,
+   "change": -61.54,
+   "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed"
+  },
+  {
+   "name": "Lesser Blackguard's Leg",
+   "mod": "(20-30)% reduced Effect of Chill on you",
+   "part": "Lower Limb",
+   "chaos": 4.0,
+   "listings": 30,
+   "change": -86.67,
+   "id": "lesser-blackguards-leg-reduced-effect-of-chill-on-you"
+  },
+  {
+   "name": "Smuggler's Hand",
+   "mod": "(8-12)% increased Quantity of Gold Dropped by Slain Enemies",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 324,
+   "change": -96.9,
+   "id": "smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies"
+  },
+  {
+   "name": "Greater Elemental Essence",
+   "mod": "+(2-3)% to maximum Cold Resistance",
+   "part": "Torso",
+   "chaos": 4.0,
+   "listings": 126,
+   "change": -79.06,
+   "id": "greater-elemental-essence-to-maximum-cold-resistance"
+  },
+  {
+   "name": "Greater Scarecrow's Pitchfork",
+   "mod": "Your chance to cause monsters to Flee on Hit is also chance to Terrify Monsters on Hit",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 69,
+   "change": -73.33,
+   "id": "greater-scarecrows-pitchfork-your-chance-to-cause-monsters-to-flee-on-hit-is-also-chance-to-terrify-monsters-on-hit"
+  },
+  {
+   "name": "Lesser Spider Queen's Head",
+   "mod": "2% increased Damage per Minion, up to a maximum of 40%",
+   "part": "Head",
+   "chaos": 3.9,
+   "listings": 50,
+   "change": 290,
+   "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-"
+  },
+  {
+   "name": "Greater Scorpion Stinger",
+   "mod": "When you Poison a non-Poisoned target, also inflict (4-6) Withered debuffs, lasting 2 seconds",
+   "part": "Torso",
+   "chaos": 3.9,
+   "listings": 122,
+   "change": 30,
+   "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds"
+  },
+  {
+   "name": "Greater Swordmaster's Blade",
+   "mod": "100% reduced Enemy Chance to Block Sword Attacks",
+   "part": "Upper Limb",
+   "chaos": 3.4,
+   "listings": 67,
+   "change": 240,
+   "id": "greater-swordmasters-blade-reduced-enemy-chance-to-block-sword-attacks"
+  },
+  {
+   "name": "Phoenix's Head",
+   "mod": "(1-2)% of Fire Damage Leeched as Life while Ignited",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 221,
+   "change": 200,
+   "id": "phoenixs-head-of-fire-damage-leeched-as-life-while-ignited"
+  },
+  {
+   "name": "Vaal Appendage",
+   "mod": "+(0.4-0.5) metres to Melee Strike Range",
+   "part": "Upper Limb",
+   "chaos": 3.0,
+   "listings": 330,
+   "change": -40,
+   "id": "vaal-appendage-metres-to-melee-strike-range"
+  },
+  {
+   "name": "Lesser Corrupted Carapace",
+   "mod": "(18-24)% increased Damage with Skills that Cost Life",
+   "part": "Torso",
+   "chaos": 3.0,
+   "listings": 61,
+   "change": 50,
+   "id": "lesser-corrupted-carapace-increased-damage-with-skills-that-cost-life"
+  },
+  {
+   "name": "Severed Rhoa Head",
+   "mod": "(20-30)% increased Chaos Damage",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 555,
+   "change": -66.67,
+   "id": "severed-rhoa-head-increased-chaos-damage"
+  },
+  {
+   "name": "Spider Queen's Head",
+   "mod": "3% increased Damage per Minion, up to a maximum of 40%",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 318,
+   "change": 50,
+   "id": "spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-"
+  },
+  {
+   "name": "Lesser Gladiator's Heart",
+   "mod": "Gain 1 Rage on Melee Hit",
+   "part": "Torso",
+   "chaos": 3.0,
+   "listings": 120,
+   "change": 200,
+   "id": "lesser-gladiators-heart-gain-rage-on-melee-hit"
+  },
+  {
+   "name": "Eradicator's Head",
+   "mod": "Projectiles that have Chained gain (8-12)% of Non-Chaos Damage as extra Chaos Damage",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 143,
+   "change": 50,
+   "id": "eradicators-head-projectiles-that-have-chained-gain-of-non-chaos-damage-as-extra-chaos-damage"
+  },
+  {
+   "name": "Nightmarish Wings of Lycia",
+   "mod": "Pact Skills have (30-50)% increased Cast Speed",
+   "part": "Torso",
+   "chaos": 3.0,
+   "listings": 171,
+   "change": -62.5,
+   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cast-speed"
+  },
+  {
+   "name": "Thaumaturge's Head",
+   "mod": "Gain (8-10)% of Physical Damage as Extra Damage of a random Element",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 390,
+   "change": 50,
+   "id": "thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element"
+  },
+  {
+   "name": "Scout's Bow",
+   "mod": "Damage Penetrates (6-8)% Fire Resistance",
+   "part": "Upper Limb",
+   "chaos": 3.0,
+   "listings": 275,
+   "change": -95.18,
+   "id": "scouts-bow-damage-penetrates-fire-resistance"
+  },
+  {
+   "name": "Greater Hollowed Skull",
+   "mod": "-1 Physical Damage taken from Hits per Level",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 147,
+   "change": -40,
+   "id": "greater-hollowed-skull-physical-damage-taken-from-hits-per-level"
+  },
+  {
+   "name": "Lesser Molten Core",
+   "mod": "+(14-18)% to Fire Resistance",
+   "part": "Torso",
+   "chaos": 3.0,
+   "listings": 57,
+   "change": -90,
+   "id": "lesser-molten-core-to-fire-resistance"
+  },
+  {
+   "name": "Lesser Flaming Goat Hoof",
+   "mod": "(10-15)% increased Fire Damage",
+   "part": "Lower Limb",
+   "chaos": 3.0,
+   "listings": 41,
+   "change": -25,
+   "id": "lesser-flaming-goat-hoof-increased-fire-damage"
+  },
+  {
+   "name": "Baran's Head",
+   "mod": "Curse Enemies with Conductivity on Hit if 5 Crusader Items are Equipped",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 54,
+   "change": 200,
+   "id": "barans-head-curse-enemies-with-conductivity-on-hit-if-crusader-items-are-equipped"
+  },
+  {
+   "name": "Gelid Fangs",
+   "mod": "Damage Penetrates (6-8)% Cold Resistance",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 282,
+   "change": -94,
+   "id": "gelid-fangs-damage-penetrates-cold-resistance"
+  },
+  {
+   "name": "Lesser Solar Shield",
+   "mod": "(3-4)% of Physical Damage from Hits taken as Fire Damage",
+   "part": "Upper Limb",
+   "chaos": 3.0,
+   "listings": 41,
+   "change": 200,
+   "id": "lesser-solar-shield-of-physical-damage-from-hits-taken-as-fire-damage"
+  },
+  {
+   "name": "Nightmarish Wings of Lycia",
+   "mod": "Pact Skills have (25-40)% increased Cooldown Recovery Rate",
+   "part": "Torso",
+   "chaos": 3.0,
+   "listings": 137,
+   "change": -48.28,
+   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cooldown-recovery-rate"
+  },
+  {
+   "name": "Lesser Gelid Fangs",
+   "mod": "Damage Penetrates (3-4)% Cold Resistance",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 31,
+   "change": -88.24,
+   "id": "lesser-gelid-fangs-damage-penetrates-cold-resistance"
+  },
+  {
+   "name": "Greater Voltaic Apparatus",
+   "mod": "(8-12)% chance that if you would gain Power Charges, you instead gain up to / your maximum number of Power Charges",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 153,
+   "change": -80,
+   "id": "greater-voltaic-apparatus-chance-that-if-you-would-gain-power-charges-you-instead-gain-up-to-your-maximum-number-of-power-charges"
+  },
+  {
+   "name": "Greater Voidbearer's Leg",
+   "mod": "(40-60)% increased Damage on Burning Ground",
+   "part": "Lower Limb",
+   "chaos": 3.0,
+   "listings": 131,
+   "change": -40,
+   "id": "greater-voidbearers-leg-increased-damage-on-burning-ground"
+  },
+  {
+   "name": "Greater Conjoined Hound Head",
+   "mod": "Skills supported by Unleash have +1 to maximum number of Seals",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 158,
+   "change": -79.31,
+   "id": "greater-conjoined-hound-head-skills-supported-by-unleash-have-to-maximum-number-of-seals"
+  },
+  {
+   "name": "Cobra Tail",
+   "mod": "(15-20)% increased Cooldown Recovery Rate of Travel Skills",
+   "part": "Lower Limb",
+   "chaos": 3.0,
+   "listings": 218,
+   "change": -75,
+   "id": "cobra-tail-increased-cooldown-recovery-rate-of-travel-skills"
+  },
+  {
+   "name": "Greater Ghostly Claw",
+   "mod": "(20-25)% increased Elusive Effect",
+   "part": "Upper Limb",
+   "chaos": 3.0,
+   "listings": 97,
+   "change": -40,
+   "id": "greater-ghostly-claw-increased-elusive-effect"
+  },
+  {
+   "name": "Greater Noble's Head",
+   "mod": "Kill Undead Enemies that have 15% or lower Life when Hit by your Skills",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 66,
+   "change": -90,
+   "id": "greater-nobles-head-kill-undead-enemies-that-have-or-lower-life-when-hit-by-your-skills"
+  },
+  {
+   "name": "Greater Flesh-fused Lantern",
+   "mod": "+(20-30)% to Fire Damage over Time Multiplier while Ignited",
+   "part": "Upper Limb",
+   "chaos": 2.6,
+   "listings": 333,
+   "change": 160,
+   "id": "greater-flesh-fused-lantern-to-fire-damage-over-time-multiplier-while-ignited"
+  },
+  {
+   "name": "Greater Primate Foot",
+   "mod": "(5-6)% increased Action Speed while Ignited",
+   "part": "Lower Limb",
+   "chaos": 2.4,
+   "listings": 55,
+   "change": -20,
+   "id": "greater-primate-foot-increased-action-speed-while-ignited"
+  },
+  {
+   "name": "Nightmarish Head of Uhtred",
+   "mod": "Iron Flasks applied to you have (20-25)% increased Effect",
+   "part": "Head",
+   "chaos": 2.3,
+   "listings": 45,
+   "change": -54,
+   "id": "nightmarish-head-of-uhtred-iron-flasks-applied-to-you-have-increased-effect"
+  },
+  {
+   "name": "Greater Chimeral Eye",
+   "mod": "Grants Level 1 Petrification Statue",
+   "part": "Head",
+   "chaos": 2.2,
+   "listings": 167,
+   "change": -26.67,
+   "id": "greater-chimeral-eye-grants-level-petrification-statue"
+  },
+  {
+   "name": "Vulture's Gut",
+   "mod": "Killing Blows Consume corpses to Recover (80-120) Life and (40-60) Mana",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 453,
+   "change": -33.33,
+   "id": "vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana"
+  },
+  {
+   "name": "Greater Carved Haunches",
+   "mod": "Skills that Summon a Totem have (16-24)% chance to Summon two Totems instead of one",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 403,
+   "change": 0,
+   "id": "greater-carved-haunches-skills-that-summon-a-totem-have-chance-to-summon-two-totems-instead-of-one"
+  },
+  {
+   "name": "Flesh-fused Lantern",
+   "mod": "+(10-14)% to Fire Damage over Time Multiplier",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 531,
+   "change": 100,
+   "id": "flesh-fused-lantern-to-fire-damage-over-time-multiplier"
+  },
+  {
+   "name": "Distended Stomach",
+   "mod": "(20-30)% increased Damage if you have Consumed a corpse Recently",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 268,
+   "change": -85.96,
+   "id": "distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently"
+  },
+  {
+   "name": "Voltaic Skull",
+   "mod": "(20-30)% of Physical Damage Converted to Lightning Damage",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 584,
+   "change": 0,
+   "id": "voltaic-skull-of-physical-damage-converted-to-lightning-damage"
+  },
+  {
+   "name": "Overseer's Whip",
+   "mod": "Minions have (30-40)% increased Movement Speed if you've used a Minion Skill Recently",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 514,
+   "change": 0,
+   "id": "overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently"
+  },
+  {
+   "name": "Desert Sword",
+   "mod": "30% Global chance to Blind Enemies on hit",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 223,
+   "change": 0,
+   "id": "desert-sword-global-chance-to-blind-enemies-on-hit"
+  },
+  {
+   "name": "Pit Fighter's Helm",
+   "mod": "(10-20)% chance to gain a Frenzy Charge when you Block",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 327,
+   "change": -50,
+   "id": "pit-fighters-helm-chance-to-gain-a-frenzy-charge-when-you-block"
+  },
+  {
+   "name": "Flayed Arm",
+   "mod": "(8-12)% of Damage taken Recouped as Life",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 285,
+   "change": 0,
+   "id": "flayed-arm-of-damage-taken-recouped-as-life"
+  },
+  {
+   "name": "Al-Hezmin's Head",
+   "mod": "Curse Enemies with Despair on Hit if 5 Hunter Items are Equipped",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 78,
+   "change": 100,
+   "id": "al-hezmins-head-curse-enemies-with-despair-on-hit-if-hunter-items-are-equipped"
+  },
+  {
+   "name": "Greater Vaal Appendage",
+   "mod": "(30-50)% increased Damage with Vaal Skills",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 187,
+   "change": -33.33,
+   "id": "greater-vaal-appendage-increased-damage-with-vaal-skills"
+  },
+  {
+   "name": "Blazing Skull",
+   "mod": "(35-50)% increased Damage with Hits against Rare monsters",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 557,
+   "change": -33.33,
+   "id": "blazing-skull-increased-damage-with-hits-against-rare-monsters"
+  },
+  {
+   "name": "Terrifying Maw",
+   "mod": "(35-50)% reduced Effect of Curses on you",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 394,
+   "change": 100,
+   "id": "terrifying-maw-reduced-effect-of-curses-on-you"
+  },
+  {
+   "name": "Greater Diseased Wing",
+   "mod": "+(20-30)% to Chaos Damage over Time Multiplier while Poisoned",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 211,
+   "change": 100,
+   "id": "greater-diseased-wing-to-chaos-damage-over-time-multiplier-while-poisoned"
+  },
+  {
+   "name": "General's Head",
+   "mod": "(15-20)% increased maximum Energy Shield",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 384,
+   "change": 0,
+   "id": "generals-head-increased-maximum-energy-shield"
+  },
+  {
+   "name": "Enslaver's Head",
+   "mod": "1% increased Armour per 100 Reserved Mana",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 68,
+   "change": 0,
+   "id": "enslavers-head-increased-armour-per-reserved-mana"
+  },
+  {
+   "name": "Bonestalker's Ribcage",
+   "mod": "(6-7)% reduced Physical Damage taken over time",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 250,
+   "change": 0,
+   "id": "bonestalkers-ribcage-reduced-physical-damage-taken-over-time"
+  },
+  {
+   "name": "Prosthetic Leg",
+   "mod": "(15-20)% increased Ignite Duration on Enemies",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 231,
+   "change": 100,
+   "id": "prosthetic-leg-increased-ignite-duration-on-enemies"
+  },
+  {
+   "name": "Lesser Smuggler's Hand",
+   "mod": "(5-7)% increased Quantity of Gold Dropped by Slain Enemies",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 21,
+   "change": -97.18,
+   "id": "lesser-smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies"
+  },
+  {
+   "name": "Elder's Head",
+   "mod": "Gain Maddening Presence for 10 seconds when you Kill a Rare or Unique Enemy",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 102,
+   "change": -75.61,
+   "id": "elders-head-gain-maddening-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+  },
+  {
+   "name": "Arachnid Fangs",
+   "mod": "(20-30)% chance to Poison on Hit",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 397,
+   "change": 0,
+   "id": "arachnid-fangs-chance-to-poison-on-hit"
+  },
+  {
+   "name": "Drox's Head",
+   "mod": "Curse Enemies with Flammability on Hit if 5 Warlord Items are Equipped",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 91,
+   "change": 100,
+   "id": "droxs-head-curse-enemies-with-flammability-on-hit-if-warlord-items-are-equipped"
+  },
+  {
+   "name": "Purifier's Head",
+   "mod": "Shared Suffering",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 106,
+   "change": 0,
+   "id": "purifiers-head-shared-suffering"
+  },
+  {
+   "name": "Artificial Appendage",
+   "mod": "(20-30)% increased Effect of Chill",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 191,
+   "change": -60,
+   "id": "artificial-appendage-increased-effect-of-chill"
+  },
+  {
+   "name": "Hydra's Head",
+   "mod": "Arrows Pierce all Targets after Forking",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 101,
+   "change": 100,
+   "id": "hydras-head-arrows-pierce-all-targets-after-forking"
+  },
+  {
+   "name": "Lesser Galvanic Tentacle",
+   "mod": "+(14-18)% to Lightning Resistance",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 24,
+   "change": 0,
+   "id": "lesser-galvanic-tentacle-to-lightning-resistance"
+  },
+  {
+   "name": "Veritania's Head",
+   "mod": "Curse Enemies with Frostbite on Hit if 5 Redeemer Items are Equipped",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 76,
+   "change": 100,
+   "id": "veritanias-head-curse-enemies-with-frostbite-on-hit-if-redeemer-items-are-equipped"
+  },
+  {
+   "name": "Charred Leg",
+   "mod": "(35-50)% reduced Ignite Duration on you",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 216,
+   "change": -93.1,
+   "id": "charred-leg-reduced-ignite-duration-on-you"
+  },
+  {
+   "name": "Voltaic Apparatus",
+   "mod": "(15-20)% chance to gain a Power Charge on Kill",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 283,
+   "change": -60,
+   "id": "voltaic-apparatus-chance-to-gain-a-power-charge-on-kill"
+  },
+  {
+   "name": "Hallowed Descry",
+   "mod": "(20-30)% increased Effect of Consecrated Ground you create",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 139,
+   "change": 0,
+   "id": "hallowed-descry-increased-effect-of-consecrated-ground-you-create"
+  },
+  {
+   "name": "Greater Flayed Arm",
+   "mod": "(10-15)% increased Life Recovery rate while Recouping Life",
+   "part": "Upper Limb",
+   "chaos": 1.8,
+   "listings": 119,
+   "change": -40,
+   "id": "greater-flayed-arm-increased-life-recovery-rate-while-recouping-life"
+  },
+  {
+   "name": "Greater Spiked Carapace",
+   "mod": "(300-400)% of Melee Cold Damage taken reflected to Attacker",
+   "part": "Torso",
+   "chaos": 1.8,
+   "listings": 60,
+   "change": 38.46,
+   "id": "greater-spiked-carapace-of-melee-cold-damage-taken-reflected-to-attacker"
+  },
+  {
+   "name": "Lesser Skeletal Beast Leg",
+   "mod": "(18-24)% chance to Avoid Bleeding",
+   "part": "Lower Limb",
+   "chaos": 1.7,
+   "listings": 38,
+   "change": 70,
+   "id": "lesser-skeletal-beast-leg-chance-to-avoid-bleeding"
+  },
+  {
+   "name": "Greater Gargantuan Claws",
+   "mod": "(10-12)% increased Attack Speed while Dual Wielding",
+   "part": "Upper Limb",
+   "chaos": 1.2,
+   "listings": 165,
+   "change": 20,
+   "id": "greater-gargantuan-claws-increased-attack-speed-while-dual-wielding"
+  },
+  {
+   "name": "Brute's Arm",
+   "mod": "+(20-30) to Strength",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 337,
+   "change": 0,
+   "id": "brutes-arm-to-strength"
+  },
+  {
+   "name": "Siren's Tentacle",
+   "mod": "(20-30)% increased Effect of Cold Ailments",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 382,
+   "change": 0,
+   "id": "sirens-tentacle-increased-effect-of-cold-ailments"
+  },
+  {
+   "name": "Golemic Stone",
+   "mod": "(20-30)% chance to Avoid being Stunned",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 714,
+   "change": 0,
+   "id": "golemic-stone-chance-to-avoid-being-stunned"
+  },
+  {
+   "name": "Lesser Scorpion Stinger",
+   "mod": "Poisons you inflict on non-Poisoned Enemies deal (40-60)% increased Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 80,
+   "change": 0,
+   "id": "lesser-scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage"
+  },
+  {
+   "name": "Lesser Pocked Leg",
+   "mod": "(20-30)% increased Armour from Equipped Helmet and Gloves",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 1327,
+   "change": 0,
+   "id": "lesser-pocked-leg-increased-armour-from-equipped-helmet-and-gloves"
+  },
+  {
+   "name": "Greater Blackened Lungs",
+   "mod": "Enemies Taunted by your Warcries have 4% reduced Action Speed",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 270,
+   "change": 0,
+   "id": "greater-blackened-lungs-enemies-taunted-by-your-warcries-have-reduced-action-speed"
+  },
+  {
+   "name": "Lesser Voidbearer's Leg",
+   "mod": "(8-10)% increased Movement Speed while on Burning Ground",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 113,
+   "change": 0,
+   "id": "lesser-voidbearers-leg-increased-movement-speed-while-on-burning-ground"
+  },
+  {
+   "name": "Lesser Mariner's Tricorne",
+   "mod": "(8-12)% chance to gain Phasing for 4 seconds on Kill",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 92,
+   "change": 0,
+   "id": "lesser-mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill"
+  },
+  {
+   "name": "Lesser Crescent Blade",
+   "mod": "(3-4)% of Physical Damage from Hits taken as Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 62,
+   "change": 0,
+   "id": "lesser-crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage"
+  },
+  {
+   "name": "Champion's Banner",
+   "mod": "Enemies near your Banner take (6-8)% increased Cold Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 711,
+   "change": 0,
+   "id": "champions-banner-enemies-near-your-banner-take-increased-cold-damage"
+  },
+  {
+   "name": "Defaced Bust",
+   "mod": "(20-30)% increased Stun and Block Recovery",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 818,
+   "change": 0,
+   "id": "defaced-bust-increased-stun-and-block-recovery"
+  },
+  {
+   "name": "Engorged Eye",
+   "mod": "(60-80)% chance to avoid Corrupted Blood",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 560,
+   "change": 0,
+   "id": "engorged-eye-chance-to-avoid-corrupted-blood"
+  },
+  {
+   "name": "Chaos Golem's Core",
+   "mod": "(6-7)% reduced Chaos Damage taken over time",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 1234,
+   "change": 0,
+   "id": "chaos-golems-core-reduced-chaos-damage-taken-over-time"
+  },
+  {
+   "name": "Armoured Leg",
+   "mod": "+(15-20)% chance to Block Projectile Attack Damage",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 459,
+   "change": 0,
+   "id": "armoured-leg-chance-to-block-projectile-attack-damage"
+  },
+  {
+   "name": "Lesser Necromancer's Mask",
+   "mod": "Offering Skills have (10-15)% increased Duration",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 142,
+   "change": 0,
+   "id": "lesser-necromancers-mask-offering-skills-have-increased-duration"
+  },
+  {
+   "name": "Lesser Chaos Golem's Core",
+   "mod": "(4-5)% reduced Chaos Damage taken over time",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 548,
+   "change": 0,
+   "id": "lesser-chaos-golems-core-reduced-chaos-damage-taken-over-time"
+  },
+  {
+   "name": "Lesser Armoured Leg",
+   "mod": "+(8-12)% chance to Block Projectile Attack Damage",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 429,
+   "change": 0,
+   "id": "lesser-armoured-leg-chance-to-block-projectile-attack-damage"
+  },
+  {
+   "name": "Lesser Flaming Furnace",
+   "mod": "(8-12)% chance to inflict Fire Exposure on Hit",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 411,
+   "change": 0,
+   "id": "lesser-flaming-furnace-chance-to-inflict-fire-exposure-on-hit"
+  },
+  {
+   "name": "Lesser Carved Haunches",
+   "mod": "(10-15)% increased Totem Placement speed",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 228,
+   "change": 0,
+   "id": "lesser-carved-haunches-increased-totem-placement-speed"
+  },
+  {
+   "name": "Lesser Hollowed Skull",
+   "mod": "-(15-10) Physical Damage taken from Attack Hits",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 247,
+   "change": 0,
+   "id": "lesser-hollowed-skull-physical-damage-taken-from-attack-hits"
+  },
+  {
+   "name": "Lesser Conjoined Hound Head",
+   "mod": "Skills Supported by Unleash have (8-12)% increased Seal gain frequency",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 133,
+   "change": 0,
+   "id": "lesser-conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency"
+  },
+  {
+   "name": "Arachnid Egg Sac",
+   "mod": "Minions created Recently have (8-12)% increased Attack and Cast Speed",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 816,
+   "change": 0,
+   "id": "arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed"
+  },
+  {
+   "name": "Flaming Furnace",
+   "mod": "(15-20)% chance to inflict Fire Exposure on Hit",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 3288,
+   "change": 0,
+   "id": "flaming-furnace-chance-to-inflict-fire-exposure-on-hit"
+  },
+  {
+   "name": "Lesser Infested Torso",
+   "mod": "Minions Regenerate (0.8-1)% of Life per second",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 108,
+   "change": 0,
+   "id": "lesser-infested-torso-minions-regenerate-of-life-per-second"
+  },
+  {
+   "name": "Lesser Arachnid Egg Sac",
+   "mod": "Minions created Recently have (5-7)% increased Attack and Cast Speed",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 263,
+   "change": 0,
+   "id": "lesser-arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed"
+  },
+  {
+   "name": "Dessicated Head",
+   "mod": "Raised Zombies deal (35-50)% increased Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1682,
+   "change": 0,
+   "id": "dessicated-head-raised-zombies-deal-increased-damage"
+  },
+  {
+   "name": "Inquisitor's Claw",
+   "mod": "Withered you Inflict expires (15-20)% slower",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 1251,
+   "change": 0,
+   "id": "inquisitors-claw-withered-you-inflict-expires-slower"
+  },
+  {
+   "name": "Wraith Claws",
+   "mod": "(8-12)% chance to Impale on Spell Hit",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 685,
+   "change": 0,
+   "id": "wraith-claws-chance-to-impale-on-spell-hit"
+  },
+  {
+   "name": "Swordmaster's Blade",
+   "mod": "(8-10)% increased Attack Speed with Swords",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 613,
+   "change": 0,
+   "id": "swordmasters-blade-increased-attack-speed-with-swords"
+  },
+  {
+   "name": "Bandit Warrior's Head",
+   "mod": "Regenerate (1.6-2)% of Life per second",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 791,
+   "change": 0,
+   "id": "bandit-warriors-head-regenerate-of-life-per-second"
+  },
+  {
+   "name": "Mariner's Tricorne",
+   "mod": "(15-20)% chance to gain Phasing for 4 seconds on Kill",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1019,
+   "change": 0,
+   "id": "mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill"
+  },
+  {
+   "name": "Ravenous Skull",
+   "mod": "Every 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Life / Every 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Mana",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1665,
+   "change": 0,
+   "id": "ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana"
+  },
+  {
+   "name": "Lesser Ornate Torso",
+   "mod": "Minions have (10-15)% increased maximum Life",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 114,
+   "change": 0,
+   "id": "lesser-ornate-torso-minions-have-increased-maximum-life"
+  },
+  {
+   "name": "Lesser Thaumaturge's Head",
+   "mod": "Gain (4-5)% of Physical Damage as Extra Damage of a random Element",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 166,
+   "change": 0,
+   "id": "lesser-thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element"
+  },
+  {
+   "name": "Greater Soldier's Head",
+   "mod": "(80-120)% increased Armour from Equipped Helmet",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 289,
+   "change": 0,
+   "id": "greater-soldiers-head-increased-armour-from-equipped-helmet"
+  },
+  {
+   "name": "Cutthroat's Head",
+   "mod": "(20-30)% increased Global Physical Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1803,
+   "change": 0,
+   "id": "cutthroats-head-increased-global-physical-damage"
+  },
+  {
+   "name": "Greater Dessicated Head",
+   "mod": "+(1-2) to maximum number of Raised Zombies",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1180,
+   "change": 0,
+   "id": "greater-dessicated-head-to-maximum-number-of-raised-zombies"
+  },
+  {
+   "name": "Resplendent Sceptre",
+   "mod": "+(12-16)% to Fire Damage over Time Multiplier with Attack Skills",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 704,
+   "change": 0,
+   "id": "resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills"
+  },
+  {
+   "name": "Lesser Overseer's Whip",
+   "mod": "Minions have (18-24)% increased Movement Speed if you've used a Minion Skill Recently",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 223,
+   "change": 0,
+   "id": "lesser-overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently"
+  },
+  {
+   "name": "Ornate Torso",
+   "mod": "Minions have (20-30)% increased maximum Life",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 674,
+   "change": 0,
+   "id": "ornate-torso-minions-have-increased-maximum-life"
+  },
+  {
+   "name": "Lesser Warden's Arm",
+   "mod": "+(30-50) to maximum Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 725,
+   "change": 0,
+   "id": "lesser-wardens-arm-to-maximum-life"
+  },
+  {
+   "name": "Lesser Swordmaster's Blade",
+   "mod": "(4-6)% increased Attack Speed with Swords",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 302,
+   "change": 0,
+   "id": "lesser-swordmasters-blade-increased-attack-speed-with-swords"
+  },
+  {
+   "name": "Desert Queen's Crown",
+   "mod": "(35-50)% increased Damage while Blind",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 640,
+   "change": 0,
+   "id": "desert-queens-crown-increased-damage-while-blind"
+  },
+  {
+   "name": "Lesser Blazing Skull",
+   "mod": "(20-30)% increased Damage with Hits against Rare monsters",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 194,
+   "change": 0,
+   "id": "lesser-blazing-skull-increased-damage-with-hits-against-rare-monsters"
+  },
+  {
+   "name": "Lesser Elemental Essence",
+   "mod": "+(14-18)% to Cold Resistance",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 549,
+   "change": 0,
+   "id": "lesser-elemental-essence-to-cold-resistance"
+  },
+  {
+   "name": "Hollowed Skull",
+   "mod": "-(30-20) Physical Damage taken from Attack Hits",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 494,
+   "change": 0,
+   "id": "hollowed-skull-physical-damage-taken-from-attack-hits"
+  },
+  {
+   "name": "Lesser Adherent's Crown",
+   "mod": "(10-15)% of Physical Damage Converted to Fire Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 181,
+   "change": 0,
+   "id": "lesser-adherents-crown-of-physical-damage-converted-to-fire-damage"
+  },
+  {
+   "name": "Carved Haunches",
+   "mod": "(20-30)% increased Totem Placement speed",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 912,
+   "change": 0,
+   "id": "carved-haunches-increased-totem-placement-speed"
+  },
+  {
+   "name": "Chimeral Eye",
+   "mod": "Petrification on you expires (150-200)% faster",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 287,
+   "change": 0,
+   "id": "chimeral-eye-petrification-on-you-expires-faster"
+  },
+  {
+   "name": "Greater Defaced Bust",
+   "mod": "(75-99)% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 1159,
+   "change": 0,
+   "id": "greater-defaced-bust-chance-to-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit"
+  },
+  {
+   "name": "Lesser Devourer's Antenna",
+   "mod": "(40-60)% increased Damage with Hits and Ailments against Enemies that are on Full Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 719,
+   "change": 0,
+   "id": "lesser-devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life"
+  },
+  {
+   "name": "Lesser Resplendent Sceptre",
+   "mod": "+(7-10)% to Fire Damage over Time Multiplier with Attack Skills",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 170,
+   "change": 0,
+   "id": "lesser-resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills"
+  },
+  {
+   "name": "Chitinous Leg",
+   "mod": "Corpses you Spawn have (8-10)% increased Maximum Life",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 624,
+   "change": 0,
+   "id": "chitinous-leg-corpses-you-spawn-have-increased-maximum-life"
+  },
+  {
+   "name": "Devourer's Antenna",
+   "mod": "(75-100)% increased Damage with Hits and Ailments against Enemies that are on Full Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 1312,
+   "change": 0,
+   "id": "devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life"
+  },
+  {
+   "name": "Lesser Wraith Claws",
+   "mod": "(5-7)% chance to Impale on Spell Hit",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 121,
+   "change": 0,
+   "id": "lesser-wraith-claws-chance-to-impale-on-spell-hit"
+  },
+  {
+   "name": "Arachnid Leg",
+   "mod": "(15-20)% chance to Hinder Enemies on Hit with Spells",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 610,
+   "change": 0,
+   "id": "arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells"
+  },
+  {
+   "name": "Templar Skull",
+   "mod": "(15-20)% increased Light Radius",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 723,
+   "change": 0,
+   "id": "templar-skull-increased-light-radius"
+  },
+  {
+   "name": "Scholar's Arm",
+   "mod": "+(20-30) to Intelligence",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 361,
+   "change": 0,
+   "id": "scholars-arm-to-intelligence"
+  },
+  {
+   "name": "Pocked Arm",
+   "mod": "(35-50)% increased Evasion Rating from Equipped Helmet and Boots",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 964,
+   "change": 0,
+   "id": "pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots"
+  },
+  {
+   "name": "Despot's Fist",
+   "mod": "Adds (1-5) to (80-120) Lightning Damage to Unarmed Melee Hits",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 896,
+   "change": 0,
+   "id": "despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits"
+  },
+  {
+   "name": "Infested Torso",
+   "mod": "Minions Regenerate (1.6-2)% of Life per second",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 764,
+   "change": 0,
+   "id": "infested-torso-minions-regenerate-of-life-per-second"
+  },
+  {
+   "name": "Spined Claws",
+   "mod": "Attacks have (20-30)% chance to cause Bleeding",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 515,
+   "change": 0,
+   "id": "spined-claws-attacks-have-chance-to-cause-bleeding"
+  },
+  {
+   "name": "Ursine Flesh",
+   "mod": "(20-30)% reduced Enemy Stun Threshold",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 258,
+   "change": 0,
+   "id": "ursine-flesh-reduced-enemy-stun-threshold"
+  },
+  {
+   "name": "Blackened Lungs",
+   "mod": "(20-30)% increased Warcry Speed",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 1048,
+   "change": 0,
+   "id": "blackened-lungs-increased-warcry-speed"
+  },
+  {
+   "name": "Bat's Wings",
+   "mod": "(10-30)% chance to Avoid Elemental Ailments",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 355,
+   "change": -50,
+   "id": "bats-wings-chance-to-avoid-elemental-ailments"
+  },
+  {
+   "name": "Lesser Siren's Tentacle",
+   "mod": "(10-15)% increased Effect of Cold Ailments",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 119,
+   "change": 0,
+   "id": "lesser-sirens-tentacle-increased-effect-of-cold-ailments"
+  },
+  {
+   "name": "Hag's Stomach",
+   "mod": "(8-12)% increased Effect of your Curses",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 956,
+   "change": 0,
+   "id": "hags-stomach-increased-effect-of-your-curses"
+  },
+  {
+   "name": "Greater Flaming Furnace",
+   "mod": "Fire Exposure you inflict applies an extra -(6-4)% to Fire Resistance",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 1638,
+   "change": 0,
+   "id": "greater-flaming-furnace-fire-exposure-you-inflict-applies-an-extra-to-fire-resistance"
+  },
+  {
+   "name": "Greater Vulture's Gut",
+   "mod": "Killing Blows Consume corpses to Recover (3-4)% of Mana",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 93,
+   "change": 0,
+   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana"
+  },
+  {
+   "name": "Lesser Dessicated Head",
+   "mod": "Raised Zombies deal (20-30)% increased Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 96,
+   "change": 0,
+   "id": "lesser-dessicated-head-raised-zombies-deal-increased-damage"
+  },
+  {
+   "name": "Heretical Tome",
+   "mod": "+(10-14)% to Physical Damage over Time Multiplier",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 507,
+   "change": -50,
+   "id": "heretical-tome-to-physical-damage-over-time-multiplier"
+  },
+  {
+   "name": "Lesser Defaced Bust",
+   "mod": "(10-15)% increased Stun and Block Recovery",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 112,
+   "change": 0,
+   "id": "lesser-defaced-bust-increased-stun-and-block-recovery"
+  },
+  {
+   "name": "Greater Ursine Flesh",
+   "mod": "(75-100)% increased Stun Duration against Enemies that are on Full Life",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 174,
+   "change": 0,
+   "id": "greater-ursine-flesh-increased-stun-duration-against-enemies-that-are-on-full-life"
+  },
+  {
+   "name": "Conjoined Hound Head",
+   "mod": "Skills Supported by Unleash have (15-20)% increased Seal gain frequency",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 244,
+   "change": 0,
+   "id": "conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency"
+  },
+  {
+   "name": "Lesser Vendigo Claws",
+   "mod": "Adds (10-15) to (25-35) Cold Damage to Unarmed Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 125,
+   "change": 0,
+   "id": "lesser-vendigo-claws-adds-to-cold-damage-to-unarmed-attacks"
+  },
+  {
+   "name": "Lesser Scout's Bow",
+   "mod": "Damage Penetrates (3-4)% Fire Resistance",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 58,
+   "change": 0,
+   "id": "lesser-scouts-bow-damage-penetrates-fire-resistance"
+  },
+  {
+   "name": "Greater Heretical Tome",
+   "mod": "+(20-30)% to Physical Damage over Time Multiplier while Bleeding",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 280,
+   "change": -50,
+   "id": "greater-heretical-tome-to-physical-damage-over-time-multiplier-while-bleeding"
+  },
+  {
+   "name": "Flayed Visage",
+   "mod": "(15-20)% of Chaos Damage taken does not bypass Energy Shield",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 512,
+   "change": 0,
+   "id": "flayed-visage-of-chaos-damage-taken-does-not-bypass-energy-shield"
+  },
+  {
+   "name": "Lesser Chitinous Leg",
+   "mod": "Corpses you Spawn have (4-6)% increased Maximum Life",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 189,
+   "change": 0,
+   "id": "lesser-chitinous-leg-corpses-you-spawn-have-increased-maximum-life"
+  },
+  {
+   "name": "Lunar Bow",
+   "mod": "(20-30)% of Physical Damage Converted to Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 643,
+   "change": 0,
+   "id": "lunar-bow-of-physical-damage-converted-to-cold-damage"
+  },
+  {
+   "name": "Smouldering Leg",
+   "mod": "Skills socketed in Equipped Boots have (10-14)% increased Mana Cost Efficiency",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 584,
+   "change": 0,
+   "id": "smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency"
+  },
+  {
+   "name": "Greater Calcified Leg",
+   "mod": "+(1-2) to maximum number of Skeletons",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 239,
+   "change": 0,
+   "id": "greater-calcified-leg-to-maximum-number-of-skeletons"
+  },
+  {
+   "name": "Lesser Vulture's Gut",
+   "mod": "Killing Blows Consume corpses to Recover (40-60) Life and (20-30) Mana",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 88,
+   "change": 0,
+   "id": "lesser-vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana"
+  },
+  {
+   "name": "Calcified Leg",
+   "mod": "Skeletons deal (35-50)% increased Damage",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 534,
+   "change": 0,
+   "id": "calcified-leg-skeletons-deal-increased-damage"
+  },
+  {
+   "name": "Skeletal Archer's Arm",
+   "mod": "Projectiles deal (15-20)% increased Damage with Hits and Ailments for each Enemy Pierced",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 628,
+   "change": 0,
+   "id": "skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced"
+  },
+  {
+   "name": "Lesser Soldier's Head",
+   "mod": "(10-15)% increased Armour",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 140,
+   "change": 0,
+   "id": "lesser-soldiers-head-increased-armour"
+  },
+  {
+   "name": "Greater Mariner's Tricorne",
+   "mod": "(4-6)% chance to gain Phasing on Hit",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 249,
+   "change": 0,
+   "id": "greater-mariners-tricorne-chance-to-gain-phasing-on-hit"
+  },
+  {
+   "name": "Greater Cutthroat's Head",
+   "mod": "Hits have (30-50)% chance to ignore Enemy Physical Damage Reduction",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 922,
+   "change": 0,
+   "id": "greater-cutthroats-head-hits-have-chance-to-ignore-enemy-physical-damage-reduction"
+  },
+  {
+   "name": "Necromancer's Mask",
+   "mod": "Offering Skills have (20-30)% increased Duration",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 728,
+   "change": 0,
+   "id": "necromancers-mask-offering-skills-have-increased-duration"
+  },
+  {
+   "name": "Greater Bandit Witch's Head",
+   "mod": "(15-20)% of Damage taken Recouped as Mana",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 230,
+   "change": -50,
+   "id": "greater-bandit-witchs-head-of-damage-taken-recouped-as-mana"
+  },
+  {
+   "name": "Flaming Ribbon",
+   "mod": "(6-7)% reduced Burning Damage taken",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 263,
+   "change": 0,
+   "id": "flaming-ribbon-reduced-burning-damage-taken"
+  },
+  {
+   "name": "Lesser Calcified Leg",
+   "mod": "Skeletons deal (20-30)% increased Damage",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 135,
+   "change": 0,
+   "id": "lesser-calcified-leg-skeletons-deal-increased-damage"
+  },
+  {
+   "name": "Greater Spectral Hood",
+   "mod": "+(2-3)% to maximum Chaos Resistance",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 106,
+   "change": -50,
+   "id": "greater-spectral-hood-to-maximum-chaos-resistance"
+  },
+  {
+   "name": "Scorpion Stinger",
+   "mod": "Poisons you inflict on non-Poisoned Enemies deal (75-100)% increased Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 805,
+   "change": 0,
+   "id": "scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage"
+  },
+  {
+   "name": "Greater Crescent Blade",
+   "mod": "(10-15)% of Fire Damage from Hits taken as Cold Damage / (10-15)% of Lightning Damage from Hits taken as Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 235,
+   "change": 0,
+   "id": "greater-crescent-blade-of-fire-damage-from-hits-taken-as-cold-damage-of-lightning-damage-from-hits-taken-as-cold-damage"
+  },
+  {
+   "name": "Statue Leg",
+   "mod": "(20-30)% chance to Knock Enemies Back on hit",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 220,
+   "change": -59.18,
+   "id": "statue-leg-chance-to-knock-enemies-back-on-hit"
+  },
+  {
+   "name": "Lesser Smouldering Leg",
+   "mod": "Skills socketed in Equipped Boots have (6-8)% increased Mana Cost Efficiency",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 57,
+   "change": 0,
+   "id": "lesser-smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency"
+  },
+  {
+   "name": "Gemling Torso",
+   "mod": "Items and Gems have (7-10)% reduced Attribute Requirements",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 146,
+   "change": 0,
+   "id": "gemling-torso-items-and-gems-have-reduced-attribute-requirements"
+  },
+  {
+   "name": "Lesser Flesh-fused Lantern",
+   "mod": "+(6-8)% to Fire Damage over Time Multiplier",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 321,
+   "change": 0,
+   "id": "lesser-flesh-fused-lantern-to-fire-damage-over-time-multiplier"
+  },
+  {
+   "name": "Lesser Golden Ankh",
+   "mod": "Raised Zombies have (18-24)% increased maximum Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 122,
+   "change": 0,
+   "id": "lesser-golden-ankh-raised-zombies-have-increased-maximum-life"
+  },
+  {
+   "name": "Lesser Ravenous Skull",
+   "mod": "Every 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Life / Every 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Mana",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 621,
+   "change": 0,
+   "id": "lesser-ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana"
+  },
+  {
+   "name": "Lesser Vaal Appendage",
+   "mod": "+(0.2-0.3) metres to Melee Strike Range",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 121,
+   "change": 0,
+   "id": "lesser-vaal-appendage-metres-to-melee-strike-range"
+  },
+  {
+   "name": "Lesser Gargantuan Claws",
+   "mod": "(4-6)% increased Attack Speed with Claws",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 67,
+   "change": 0,
+   "id": "lesser-gargantuan-claws-increased-attack-speed-with-claws"
+  },
+  {
+   "name": "Crescent Blade",
+   "mod": "(5-6)% of Physical Damage from Hits taken as Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 237,
+   "change": 0,
+   "id": "crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage"
+  },
+  {
+   "name": "Lesser Bloodied Arm",
+   "mod": "(5-7)% chance to Aggravate Bleeding on targets you Hit with Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 49,
+   "change": 0,
+   "id": "lesser-bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks"
+  },
+  {
+   "name": "Lesser Spectral Hood",
+   "mod": "+(7-13)% to Chaos Resistance",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 688,
+   "change": 0,
+   "id": "lesser-spectral-hood-to-chaos-resistance"
+  },
+  {
+   "name": "Lesser General's Head",
+   "mod": "(8-12)% increased maximum Energy Shield",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 103,
+   "change": 0,
+   "id": "lesser-generals-head-increased-maximum-energy-shield"
+  },
+  {
+   "name": "Lion's Claws",
+   "mod": "(1-2)% of Attack Damage Leeched as Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 321,
+   "change": 0,
+   "id": "lions-claws-of-attack-damage-leeched-as-life"
+  },
+  {
+   "name": "Soldier's Head",
+   "mod": "(20-30)% increased Armour",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 607,
+   "change": 0,
+   "id": "soldiers-head-increased-armour"
+  },
+  {
+   "name": "Golden Ankh",
+   "mod": "Raised Zombies have (30-40)% increased maximum Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 831,
+   "change": 0,
+   "id": "golden-ankh-raised-zombies-have-increased-maximum-life"
+  },
+  {
+   "name": "Bandit Witch's Head",
+   "mod": "Regenerate (8-10) Mana per second",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 407,
+   "change": 0,
+   "id": "bandit-witchs-head-regenerate-mana-per-second"
+  },
+  {
+   "name": "Justicar's Helm",
+   "mod": "(30-40)% increased Stun Threshold",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 307,
+   "change": 0,
+   "id": "justicars-helm-increased-stun-threshold"
+  },
+  {
+   "name": "Lesser Hag's Stomach",
+   "mod": "(5-7)% increased Effect of your Curses",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 129,
+   "change": 0,
+   "id": "lesser-hags-stomach-increased-effect-of-your-curses"
+  },
+  {
+   "name": "Greater Pocked Arm",
+   "mod": "(35-50)% increased Evasion Rating from Equipped Helmet, Body Armour Gloves and Boots",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 333,
+   "change": -50,
+   "id": "greater-pocked-arm-increased-evasion-rating-from-equipped-helmet-body-armour-gloves-and-boots"
+  },
+  {
+   "name": "Lesser Spined Claws",
+   "mod": "Attacks have (10-15)% chance to cause Bleeding",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 104,
+   "change": 0,
+   "id": "lesser-spined-claws-attacks-have-chance-to-cause-bleeding"
+  },
+  {
+   "name": "Lithic Haunches",
+   "mod": "(12-16)% chance to Defend with 200% of Armour",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 372,
+   "change": 0,
+   "id": "lithic-haunches-chance-to-defend-with-of-armour"
+  },
+  {
+   "name": "Lesser Heretical Tome",
+   "mod": "+(6-8)% to Physical Damage over Time Multiplier",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 176,
+   "change": 0,
+   "id": "lesser-heretical-tome-to-physical-damage-over-time-multiplier"
+  },
+  {
+   "name": "Greater Wraith Claws",
+   "mod": "(20-25)% increased Effect of Impales inflicted with Spells",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 319,
+   "change": 0,
+   "id": "greater-wraith-claws-increased-effect-of-impales-inflicted-with-spells"
+  },
+  {
+   "name": "Elemental Essence",
+   "mod": "+(22-28)% to Cold Resistance",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 446,
+   "change": 0,
+   "id": "elemental-essence-to-cold-resistance"
+  },
+  {
+   "name": "Lesser Crustacean's Claw",
+   "mod": "Adds (2-4) to (5-7) Physical Damage to Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 60,
+   "change": 0,
+   "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks"
+  },
+  {
+   "name": "Gargantuan Claws",
+   "mod": "(8-10)% increased Attack Speed with Claws",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 657,
+   "change": 0,
+   "id": "gargantuan-claws-increased-attack-speed-with-claws"
+  },
+  {
+   "name": "Lesser Osseous Scythe",
+   "mod": "(8-12)% chance to Impale Enemies on Hit with Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 54,
+   "change": -81.13,
+   "id": "lesser-osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks"
+  },
+  {
+   "name": "Lesser Diseased Wing",
+   "mod": "+(6-8)% to Chaos Damage over Time Multiplier",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 58,
+   "change": 0,
+   "id": "lesser-diseased-wing-to-chaos-damage-over-time-multiplier"
+  },
+  {
+   "name": "Witch's Head",
+   "mod": "Increases and Reductions to Mana Regeneration Rate also apply to Energy / Shield Recharge Rate at (10-15)% of their value",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 347,
+   "change": 0,
+   "id": "witchs-head-increases-and-reductions-to-mana-regeneration-rate-also-apply-to-energy-shield-recharge-rate-at-of-their-value"
+  },
+  {
+   "name": "Lesser Prosthetic Leg",
+   "mod": "(8-12)% increased Ignite Duration on Enemies",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 57,
+   "change": 0,
+   "id": "lesser-prosthetic-leg-increased-ignite-duration-on-enemies"
+  },
+  {
+   "name": "Noble's Head",
+   "mod": "(12-15)% more Damage against Undead Monsters",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 239,
+   "change": 0,
+   "id": "nobles-head-more-damage-against-undead-monsters"
+  },
+  {
+   "name": "Lesser Lunar Bow",
+   "mod": "(10-15)% of Physical Damage Converted to Cold Damage",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 83,
+   "change": 0,
+   "id": "lesser-lunar-bow-of-physical-damage-converted-to-cold-damage"
+  },
+  {
+   "name": "Greater Hag's Stomach",
+   "mod": "(8-12)% increased Damage with Hits and Ailments per Curse on Enemy",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 438,
+   "change": -50,
+   "id": "greater-hags-stomach-increased-damage-with-hits-and-ailments-per-curse-on-enemy"
+  },
+  {
+   "name": "Lesser Arachnid Leg",
+   "mod": "(8-12)% chance to Hinder Enemies on Hit with Spells",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 125,
+   "change": 0,
+   "id": "lesser-arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells"
+  },
+  {
+   "name": "Lesser Despot's Fist",
+   "mod": "Adds (1-3) to (40-60) Lightning Damage to Unarmed Melee Hits",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 196,
+   "change": 0,
+   "id": "lesser-despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits"
+  },
+  {
+   "name": "Greater Resplendent Sceptre",
+   "mod": "Attacks have (20-30)% increased Ignite Duration",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 136,
+   "change": 0,
+   "id": "greater-resplendent-sceptre-attacks-have-increased-ignite-duration"
+  },
+  {
+   "name": "Lesser Osseous Talon",
+   "mod": "+(10-15) to Dexterity",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 47,
+   "change": 0,
+   "id": "lesser-osseous-talon-to-dexterity"
+  },
+  {
+   "name": "Lesser Flaming Ribbon",
+   "mod": "(4-5)% reduced Burning Damage taken",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 139,
+   "change": 0,
+   "id": "lesser-flaming-ribbon-reduced-burning-damage-taken"
+  },
+  {
+   "name": "Totemic Visage",
+   "mod": "(20-30)% chance to Shock",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 269,
+   "change": 0,
+   "id": "totemic-visage-chance-to-shock"
+  },
+  {
+   "name": "Lesser Ursine Flesh",
+   "mod": "(10-15)% reduced Enemy Stun Threshold",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 109,
+   "change": 0,
+   "id": "lesser-ursine-flesh-reduced-enemy-stun-threshold"
+  },
+  {
+   "name": "Greater Desert Queen's Crown",
+   "mod": "Enemies you Blind while in Sand Stance take (6-8)% increased Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 118,
+   "change": 0,
+   "id": "greater-desert-queens-crown-enemies-you-blind-while-in-sand-stance-take-increased-damage"
+  },
+  {
+   "name": "Lesser Bandit Warrior's Head",
+   "mod": "Regenerate (0.8-1)% of Life per second",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 72,
+   "change": 0,
+   "id": "lesser-bandit-warriors-head-regenerate-of-life-per-second"
+  },
+  {
+   "name": "Broken Bust",
+   "mod": "(2-3)% chance for Slain monsters to drop an additional Scroll of Wisdom",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 131,
+   "change": 0,
+   "id": "broken-bust-chance-for-slain-monsters-to-drop-an-additional-scroll-of-wisdom"
+  },
+  {
+   "name": "Lesser Pocked Arm",
+   "mod": "(20-30)% increased Evasion Rating from Equipped Helmet and Boots",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 226,
+   "change": 0,
+   "id": "lesser-pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots"
+  },
+  {
+   "name": "Boar Head",
+   "mod": "(8-10)% chance to deal Double Damage if you have Stunned an Enemy Recently",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 129,
+   "change": 0,
+   "id": "boar-head-chance-to-deal-double-damage-if-you-have-stunned-an-enemy-recently"
+  },
+  {
+   "name": "Bloodied Arm",
+   "mod": "(8-12)% chance to Aggravate Bleeding on targets you Hit with Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 326,
+   "change": 0,
+   "id": "bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks"
+  },
+  {
+   "name": "Lesser Arachnid Fangs",
+   "mod": "(10-15)% chance to Poison on Hit",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 112,
+   "change": 0,
+   "id": "lesser-arachnid-fangs-chance-to-poison-on-hit"
+  },
+  {
+   "name": "Lesser Templar Skull",
+   "mod": "(8-12)% increased Light Radius",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 117,
+   "change": 0,
+   "id": "lesser-templar-skull-increased-light-radius"
+  },
+  {
+   "name": "Lion's Claws",
+   "mod": "(10-15)% increased Maximum Recovery per Life Leech",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 298,
+   "change": 0,
+   "id": "lions-claws-increased-maximum-recovery-per-life-leech"
+  },
+  {
+   "name": "Greater Templar Skull",
+   "mod": "Increases and Reductions to Light Radius also apply to Life Regeneration Rate at (8-12)% value",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 267,
+   "change": 0,
+   "id": "greater-templar-skull-increases-and-reductions-to-light-radius-also-apply-to-life-regeneration-rate-at-value"
+  },
+  {
+   "name": "Construct's Head",
+   "mod": "(15-20)% increased Projectile Speed",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 246,
+   "change": -94.44,
+   "id": "constructs-head-increased-projectile-speed"
+  },
+  {
+   "name": "Sun-bleached Breastplate",
+   "mod": "Enemies near your Banner take (6-8)% increased Fire Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 214,
+   "change": 0,
+   "id": "sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage"
+  },
+  {
+   "name": "Scarecrow's Pitchfork",
+   "mod": "(20-30)% chance to Cause Monsters to Flee",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 125,
+   "change": 0,
+   "id": "scarecrows-pitchfork-chance-to-cause-monsters-to-flee"
+  },
+  {
+   "name": "Greater Spined Claws",
+   "mod": "Bleeding you inflict deals Damage (10-15)% Faster",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 148,
+   "change": -50,
+   "id": "greater-spined-claws-bleeding-you-inflict-deals-damage-faster"
+  },
+  {
+   "name": "Greater Infested Torso",
+   "mod": "Minions Recover (3-5)% of Life on Killing a Poisoned Enemy",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 297,
+   "change": 0,
+   "id": "greater-infested-torso-minions-recover-of-life-on-killing-a-poisoned-enemy"
+  },
+  {
+   "name": "Greater Chaos Golem's Core",
+   "mod": "(8-10)% of Physical Damage over Time taken as Chaos Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 110,
+   "change": 0,
+   "id": "greater-chaos-golems-core-of-physical-damage-over-time-taken-as-chaos-damage"
+  },
+  {
+   "name": "Inquisitor's Head",
+   "mod": "Melee Critical Strikes Poison the Enemy",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 122,
+   "change": 0,
+   "id": "inquisitors-head-melee-critical-strikes-poison-the-enemy"
+  },
+  {
+   "name": "Lesser Scholar's Arm",
+   "mod": "+(10-15) to Intelligence",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 114,
+   "change": 0,
+   "id": "lesser-scholars-arm-to-intelligence"
+  },
+  {
+   "name": "Bear Head",
+   "mod": "+4 to Minimum Rage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 180,
+   "change": 0,
+   "id": "bear-head-to-minimum-rage"
+  },
+  {
+   "name": "Lesser Distended Stomach",
+   "mod": "(10-15)% increased Damage if you have Consumed a corpse Recently",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 49,
+   "change": -5.66,
+   "id": "lesser-distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently"
+  },
+  {
+   "name": "Lesser Voltaic Skull",
+   "mod": "(10-15)% of Physical Damage Converted to Lightning Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 43,
+   "change": -50,
+   "id": "lesser-voltaic-skull-of-physical-damage-converted-to-lightning-damage"
+  },
+  {
+   "name": "Lesser Brute's Arm",
+   "mod": "+(10-15) to Strength",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 141,
+   "change": 0,
+   "id": "lesser-brutes-arm-to-strength"
+  },
+  {
+   "name": "Lesser Voltaic Apparatus",
+   "mod": "(8-12)% chance to gain a Power Charge on Kill",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 257,
+   "change": 0,
+   "id": "lesser-voltaic-apparatus-chance-to-gain-a-power-charge-on-kill"
+  },
+  {
+   "name": "Lesser Scarecrow's Pitchfork",
+   "mod": "(10-15)% chance to Cause Monsters to Flee",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 56,
+   "change": 0,
+   "id": "lesser-scarecrows-pitchfork-chance-to-cause-monsters-to-flee"
+  },
+  {
+   "name": "Lesser Gemling Torso",
+   "mod": "Items and Gems have (4-6)% reduced Attribute Requirements",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 72,
+   "change": 0,
+   "id": "lesser-gemling-torso-items-and-gems-have-reduced-attribute-requirements"
+  },
+  {
+   "name": "Lesser Chimeral Eye",
+   "mod": "Petrification on you expires (80-120)% faster",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 80,
+   "change": 0,
+   "id": "lesser-chimeral-eye-petrification-on-you-expires-faster"
+  },
+  {
+   "name": "Lesser Blackened Lungs",
+   "mod": "(10-15)% increased Warcry Speed",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 110,
+   "change": 0,
+   "id": "lesser-blackened-lungs-increased-warcry-speed"
+  },
+  {
+   "name": "Lesser Champion's Banner",
+   "mod": "Enemies near your Banner take (4-5)% increased Cold Damage",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 81,
+   "change": 0,
+   "id": "lesser-champions-banner-enemies-near-your-banner-take-increased-cold-damage"
+  },
+  {
+   "name": "Lesser Terrifying Maw",
+   "mod": "(20-30)% reduced Effect of Curses on you",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 77,
+   "change": 0,
+   "id": "lesser-terrifying-maw-reduced-effect-of-curses-on-you"
+  },
+  {
+   "name": "Lesser Skeletal Archer's Arm",
+   "mod": "Projectiles deal (8-12)% increased Damage with Hits and Ailments for each Enemy Pierced",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 150,
+   "change": 0,
+   "id": "lesser-skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced"
+  },
+  {
+   "name": "Lesser Totemic Visage",
+   "mod": "(10-15)% chance to Shock",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 109,
+   "change": 0,
+   "id": "lesser-totemic-visage-chance-to-shock"
+  },
+  {
+   "name": "Lesser Cutthroat's Head",
+   "mod": "(10-15)% increased Global Physical Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 136,
+   "change": 0,
+   "id": "lesser-cutthroats-head-increased-global-physical-damage"
+  },
+  {
+   "name": "Coagulated Essence",
+   "mod": "(35-50)% increased Damage while Bleeding",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 262,
+   "change": 0,
+   "id": "coagulated-essence-increased-damage-while-bleeding"
+  },
+  {
+   "name": "Lesser Poacher's Leg",
+   "mod": "-(30-20) Physical Damage taken from Hits by Animals",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 44,
+   "change": 0,
+   "id": "lesser-poachers-leg-physical-damage-taken-from-hits-by-animals"
+  },
+  {
+   "name": "Lesser Coagulated Essence",
+   "mod": "(20-30)% increased Damage while Bleeding",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 92,
+   "change": 0,
+   "id": "lesser-coagulated-essence-increased-damage-while-bleeding"
+  },
+  {
+   "name": "Lesser Cobra Tail",
+   "mod": "(8-12)% increased Cooldown Recovery Rate of Travel Skills",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 103,
+   "change": -90,
+   "id": "lesser-cobra-tail-increased-cooldown-recovery-rate-of-travel-skills"
+  },
+  {
+   "name": "Lesser Desert Sword",
+   "mod": "15% Global chance to Blind Enemies on hit",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 68,
+   "change": 0,
+   "id": "lesser-desert-sword-global-chance-to-blind-enemies-on-hit"
+  },
+  {
+   "name": "Lesser Flayed Arm",
+   "mod": "(5-7)% of Damage taken Recouped as Life",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 28,
+   "change": 0,
+   "id": "lesser-flayed-arm-of-damage-taken-recouped-as-life"
+  },
+  {
+   "name": "Lesser Statue Leg",
+   "mod": "(10-15)% chance to Knock Enemies Back on hit",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 133,
+   "change": 0,
+   "id": "lesser-statue-leg-chance-to-knock-enemies-back-on-hit"
+  },
+  {
+   "name": "Lesser Desert Queen's Crown",
+   "mod": "(20-30)% increased Damage while Blind",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 54,
+   "change": 0,
+   "id": "lesser-desert-queens-crown-increased-damage-while-blind"
+  },
+  {
+   "name": "Lesser Lithic Haunches",
+   "mod": "(7-10)% chance to Defend with 200% of Armour",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 59,
+   "change": 0,
+   "id": "lesser-lithic-haunches-chance-to-defend-with-of-armour"
+  },
+  {
+   "name": "Lesser Severed Rhoa Head",
+   "mod": "(10-15)% increased Chaos Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 65,
+   "change": -66.67,
+   "id": "lesser-severed-rhoa-head-increased-chaos-damage"
+  },
+  {
+   "name": "Lesser Construct's Head",
+   "mod": "(8-12)% increased Projectile Speed",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 33,
+   "change": -66.67,
+   "id": "lesser-constructs-head-increased-projectile-speed"
+  },
+  {
+   "name": "Lesser Bonestalker's Ribcage",
+   "mod": "(4-5)% reduced Physical Damage taken over time",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 49,
+   "change": 0,
+   "id": "lesser-bonestalkers-ribcage-reduced-physical-damage-taken-over-time"
+  },
+  {
+   "name": "Lesser Charred Leg",
+   "mod": "(20-30)% reduced Ignite Duration on you",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 18,
+   "change": 0,
+   "id": "lesser-charred-leg-reduced-ignite-duration-on-you"
+  },
+  {
+   "name": "Lesser Primate Foot",
+   "mod": "(4-6)% increased Movement Speed while Ignited",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 17,
+   "change": 0,
+   "id": "lesser-primate-foot-increased-movement-speed-while-ignited"
+  },
+  {
+   "name": "Primate Foot",
+   "mod": "(8-10)% increased Movement Speed while Ignited",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 105,
+   "change": 0,
+   "id": "primate-foot-increased-movement-speed-while-ignited"
+  },
+  {
+   "name": "Adherent's Crown",
+   "mod": "(20-30)% of Physical Damage Converted to Fire Damage",
+   "part": "Head",
+   "chaos": 1.0,
+   "listings": 356,
+   "change": -58.33,
+   "id": "adherents-crown-of-physical-damage-converted-to-fire-damage"
+  },
+  {
+   "name": "Vendigo Claws",
+   "mod": "Adds (25-35) to (50-75) Cold Damage to Unarmed Attacks",
+   "part": "Upper Limb",
+   "chaos": 1.0,
+   "listings": 302,
+   "change": -61.54,
+   "id": "vendigo-claws-adds-to-cold-damage-to-unarmed-attacks"
+  },
+  {
+   "name": "Spiked Carapace",
+   "mod": "Reflects (403-500) Cold Damage to Melee Attackers",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 111,
+   "change": 0,
+   "id": "spiked-carapace-reflects-cold-damage-to-melee-attackers"
+  },
+  {
+   "name": "Voidbearer's Leg",
+   "mod": "(12-15)% increased Movement Speed while on Burning Ground",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 146,
+   "change": -62.96,
+   "id": "voidbearers-leg-increased-movement-speed-while-on-burning-ground"
+  },
+  {
+   "name": "Greater Sun-bleached Breastplate",
+   "mod": "Banners also grant 1% of Physical Damage gained as Extra Fire Damage to you and Allies",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 95,
+   "change": -80,
+   "id": "greater-sun-bleached-breastplate-banners-also-grant-of-physical-damage-gained-as-extra-fire-damage-to-you-and-allies"
+  },
+  {
+   "name": "Poacher's Leg",
+   "mod": "-(50-40) Physical Damage taken from Hits by Animals",
+   "part": "Lower Limb",
+   "chaos": 1.0,
+   "listings": 69,
+   "change": 0,
+   "id": "poachers-leg-physical-damage-taken-from-hits-by-animals"
+  },
+  {
+   "name": "Lesser Hallowed Descry",
+   "mod": "(10-14)% increased Effect of Consecrated Ground you create",
+   "part": "Torso",
+   "chaos": 1.0,
+   "listings": 5,
+   "change": 0,
+   "id": "lesser-hallowed-descry-increased-effect-of-consecrated-ground-you-create"
+  },
+  {
+   "name": "Lesser Noble's Head",
+   "mod": "(6-8)% more Damage against Undead Monsters",
+   "part": "Head",
+   "chaos": 0.9,
+   "listings": 178,
+   "change": 1000,
+   "id": "lesser-nobles-head-more-damage-against-undead-monsters"
+  },
+  {
+   "name": "Lesser Golemic Stone",
+   "mod": "(10-15)% chance to Avoid being Stunned",
+   "part": "Torso",
+   "chaos": 0.4,
+   "listings": 860,
+   "change": 95.12,
+   "id": "lesser-golemic-stone-chance-to-avoid-being-stunned"
+  },
+  {
+   "name": "Lesser Sun-bleached Breastplate",
+   "mod": "Enemies near your Banner take (4-5)% increased Fire Damage",
+   "part": "Torso",
+   "chaos": 0.2,
+   "listings": 83,
+   "change": -82,
+   "id": "lesser-sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage"
+  },
+  {
+   "name": "Lesser Justicar's Helm",
+   "mod": "(18-24)% increased Stun Threshold",
+   "part": "Head",
+   "chaos": 0.1,
+   "listings": 1712,
+   "change": -95,
+   "id": "lesser-justicars-helm-increased-stun-threshold"
+  }
+ ]
+};
