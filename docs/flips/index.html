@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Essence Swap Flips</title>
+  <title>Flips</title>
   <script src="data/essences.js"></script>
+  <script src="data/threads.js"></script>
   <style>
     :root {
       --bg: #0f0f12;
@@ -79,7 +80,10 @@
 </head>
 <body>
 <main>
-  <h1>Essence swap flips</h1>
+  <h1>Flips</h1>
+  <div class="sub">Essence swaps (Harvest) · <a href="#threads">Thread vendor recipe</a></div>
+
+  <h2>Essence swaps</h2>
   <div class="sub" id="meta"></div>
 
   <div class="controls">
@@ -114,6 +118,21 @@
     <b>Rerolled</b> is the gain when you keep swapping until you land on a keep essence.
     Prices are poe.ninja mid values: buying and selling eat a spread, and low-volume prices
     (<span class="tag warn">thin</span>, under 100c/day) are unreliable.
+  </p>
+
+  <h2 id="threads">Thread vendor recipe</h2>
+  <div class="sub" id="threadMeta"></div>
+  <div class="controls">
+    <label>Threads per vendor<input type="number" id="threadsIn" step="1" min="1" value="3"></label>
+    <label class="check"><input type="checkbox" id="threadSame" checked> never gives the same thread back</label>
+    <div class="stat"><b id="threadBest"></b>best input</div>
+  </div>
+  <div class="scroll" style="margin-top:14px"><table id="threadTable"></table></div>
+  <p class="note">
+    Assumes the new vendor recipe takes 3 of the same thread and gives one random other thread, each equally likely.
+    <b>Odds</b> lists every thread the vendor can give: its chance, and your gain if you get it, after paying for the 3 threads.
+    <b>P(profit)</b> adds up the outcomes worth more than what you put in. <b>EV</b> is the average gain per vendor.
+    Prices are poe.ninja mid values pasted by hand, so check them before buying in bulk.
   </p>
 </main>
 
@@ -265,6 +284,46 @@ $("essTable").addEventListener("click", ev => {
 });
 ["primal", "perSwap", "unpriced", "minVol", "onlyProfit"].forEach(id => $(id).addEventListener("input", render));
 render();
+
+// Thread vendor recipe: N of one thread -> one random thread (another one, if the box is ticked)
+const T = window.THREADS;
+const tshort = name => name.replace(/ Thread$/, "");
+$("threadMeta").textContent = `${T.league} · thread prices from poe.ninja, ${T.fetched}`;
+
+function renderThreads() {
+  const n = +$("threadsIn").value || 0;
+  const same = !$("threadSame").checked;
+  const all = T.threads;
+  const rows = all.map(t => {
+    const outs = all.filter(o => same || o !== t);
+    const cost = n * t.chaos;
+    const avg = outs.reduce((s, o) => s + o.chaos, 0) / outs.length;
+    const wins = outs.filter(o => o.chaos > cost);
+    return { ...t, cost, avg, ev: avg - cost, evPct: (avg - cost) / cost, pProfit: wins.length / outs.length, outs };
+  }).sort((a, b) => b.ev - a.ev);
+  $("threadBest").textContent = rows.length ? `${tshort(rows[0].name)} ${rows[0].ev > 0 ? "+" : ""}${fmt(rows[0].ev)}c` : "–";
+  const body = rows.map(r => {
+    const odds = r.outs.slice().sort((a, b) => b.chaos - a.chaos).map(o => {
+      const gain = o.chaos - r.cost;
+      return `<span class="${gain > 0 ? "pos" : "dim"}">${tshort(o.name)} ${(100 / r.outs.length).toFixed(1)}% (${gain > 0 ? "+" : ""}${fmt(gain)})</span>`;
+    }).join(" · ");
+    return `<tr>
+      <td>${r.name}${r.volume < 10000 ? '<span class="tag warn">thin</span>' : ""}</td>
+      <td>${fmt(r.chaos)}</td>
+      <td>${fmt(r.cost)}</td>
+      <td>${fmt(r.avg)}</td>
+      <td><span class="bar"><i style="width:${(r.pProfit * 100).toFixed(0)}%"></i></span>${(r.pProfit * 100).toFixed(0)}%</td>
+      <td>${signed(r.ev)}</td>
+      <td>${pct(r.evPct)}</td>
+      <td class="l wrap">${odds}</td>
+    </tr>`;
+  }).join("");
+  $("threadTable").innerHTML = `<thead><tr>
+    <th>Thread in</th><th>Price</th><th>Cost (×${n})</th><th>Avg outcome</th><th>P(profit)</th><th>EV / vendor</th><th>EV %</th><th class="l">Odds (gain if you get it)</th>
+  </tr></thead><tbody>${body}</tbody>`;
+}
+["threadsIn", "threadSame"].forEach(id => $(id).addEventListener("input", renderThreads));
+renderThreads();
 </script>
 </body>
 </html>
