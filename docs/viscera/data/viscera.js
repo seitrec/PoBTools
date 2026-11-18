@@ -72,7 +72,7 @@ window.VISCERA = {
    "change": 501.5,
    "id": "greater-ancestors-club-non-vaal-strike-skills-target-additional-nearby-enemy",
    "source": "map",
-   "map": "The Karui Fortress"
+   "map": "Siege"
   },
   {
    "name": "Greater Severed Stinger",
@@ -83,7 +83,7 @@ window.VISCERA = {
    "change": 4.16,
    "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted",
    "source": "map",
-   "map": "The Chamber of Sins Level 2"
+   "map": "Hallowed Ground"
   },
   {
    "name": "Greater Skeletal Warrior's Leg",
@@ -94,7 +94,7 @@ window.VISCERA = {
    "change": 40.39,
    "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
    "source": "map",
-   "map": "The Lower Prison"
+   "map": "Graveyard"
   },
   {
    "name": "Greater Sirus' Head",
@@ -127,7 +127,7 @@ window.VISCERA = {
    "change": 40,
    "id": "greater-prosthetic-leg-ignites-you-inflict-spread-to-other-enemies-within-a-radius-of-metres",
    "source": "map",
-   "map": "The Desecrated Chambers"
+   "map": "Defiled Cathedral"
   },
   {
    "name": "Maven's Orrery",
@@ -149,7 +149,7 @@ window.VISCERA = {
    "change": 181.0,
    "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky",
    "source": "map",
-   "map": "The Bath House"
+   "map": "Conservatory"
   },
   {
    "name": "Greater Crustacean's Claw",
@@ -171,7 +171,7 @@ window.VISCERA = {
    "change": 250,
    "id": "greater-overseers-whip-minions-are-aggressive-if-youve-used-a-minion-skill-recently",
    "source": "map",
-   "map": "The Slave Pens"
+   "map": "Pen"
   },
   {
    "name": "Greater Totemic Visage",
@@ -182,7 +182,7 @@ window.VISCERA = {
    "change": 157.1,
    "id": "greater-totemic-visage-more-maximum-lightning-damage",
    "source": "map",
-   "map": "The Ledge"
+   "map": "Plateau"
   },
   {
    "name": "Greater Coagulated Essence",
@@ -215,7 +215,7 @@ window.VISCERA = {
    "change": 165.9,
    "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour",
    "source": "map",
-   "map": "The Grain Gate"
+   "map": "Coral Ruins"
   },
   {
    "name": "Greater Shaper's Head",
@@ -237,7 +237,7 @@ window.VISCERA = {
    "change": 64.04,
    "id": "greater-wardens-arm-more-maximum-life",
    "source": "map",
-   "map": "The Upper Prison"
+   "map": "Dungeon"
   },
   {
    "name": "Skeleton Wheel",
@@ -248,7 +248,7 @@ window.VISCERA = {
    "change": -2.83,
    "id": "skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
    "source": "map",
-   "map": "The Ridge"
+   "map": "Act 6, The Ridge"
   },
   {
    "name": "Greater Charred Leg",
@@ -270,7 +270,7 @@ window.VISCERA = {
    "change": 5670,
    "id": "greater-terrifying-maw-increased-damage-per-curse-on-you",
    "source": "map",
-   "map": "The High Gardens"
+   "map": "Terrace"
   },
   {
    "name": "Greater Smouldering Leg",
@@ -280,8 +280,8 @@ window.VISCERA = {
    "listings": 76,
    "change": 316.7,
    "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots",
-   "source": "map",
-   "map": "The Control Blocks"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Sirus' Head",
@@ -303,7 +303,7 @@ window.VISCERA = {
    "change": 54.94,
    "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots",
    "source": "map",
-   "map": "The Mines Level 1"
+   "map": "Crystal Ore"
   },
   {
    "name": "Greater Engorged Eye",
@@ -314,7 +314,7 @@ window.VISCERA = {
    "change": 101.2,
    "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you",
    "source": "map",
-   "map": "The Belly of the Beast Level 2"
+   "map": "Malformation"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -358,7 +358,7 @@ window.VISCERA = {
    "change": 39.32,
    "id": "greater-thaumaturges-head-gain-of-physical-damage-as-extra-fire-damage-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Shrine"
   },
   {
    "name": "Greater Incarnation of Dread's Head",
@@ -402,7 +402,7 @@ window.VISCERA = {
    "change": 71.46,
    "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life",
    "source": "map",
-   "map": "The Control Blocks"
+   "map": "Cage"
   },
   {
    "name": "Greater Golden Ankh",
@@ -413,7 +413,7 @@ window.VISCERA = {
    "change": 330.4,
    "id": "greater-golden-ankh-regenerate-of-life-per-second-for-each-raised-zombie",
    "source": "map",
-   "map": "The Quay"
+   "map": "Mausoleum"
   },
   {
    "name": "Greater Corrupted Carapace",
@@ -424,7 +424,7 @@ window.VISCERA = {
    "change": 183.3,
    "id": "greater-corrupted-carapace-skills-that-cost-life-have-chance-to-deal-double-damage",
    "source": "map",
-   "map": "The Harvest"
+   "map": "Core"
   },
   {
    "name": "Greater Aristocrat's Torso",
@@ -435,7 +435,7 @@ window.VISCERA = {
    "change": 1198,
    "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life",
    "source": "map",
-   "map": "The Sceptre of God"
+   "map": "Residence"
   },
   {
    "name": "Greater Chitinous Leg",
@@ -446,7 +446,7 @@ window.VISCERA = {
    "change": 310,
    "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate",
    "source": "map",
-   "map": "The Belly of the Beast Level 1"
+   "map": "Spider Lair"
   },
   {
    "name": "Greater Gladiator's Heart",
@@ -457,7 +457,7 @@ window.VISCERA = {
    "change": 138.1,
    "id": "greater-gladiators-heart-to-maximum-rage",
    "source": "map",
-   "map": "Daresso's Dream"
+   "map": "Pit"
   },
   {
    "name": "Nightmarish Wings of Catarina",
@@ -479,7 +479,7 @@ window.VISCERA = {
    "change": 249.3,
    "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you",
    "source": "map",
-   "map": "The Ashen Fields"
+   "map": "Fields"
   },
   {
    "name": "Greater Skeletal Beast Leg",
@@ -500,8 +500,8 @@ window.VISCERA = {
    "listings": 48,
    "change": 54,
    "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits",
-   "source": "map",
-   "map": "The Foothills"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Greater Arachnid Egg Sac",
@@ -512,7 +512,7 @@ window.VISCERA = {
    "change": 350,
    "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught",
    "source": "map",
-   "map": "The Wetlands"
+   "map": "Infested Valley"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -534,7 +534,7 @@ window.VISCERA = {
    "change": 49.81,
    "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction",
    "source": "map",
-   "map": "The Crypt Level 1"
+   "map": "Necropolis"
   },
   {
    "name": "Constrictor's Head",
@@ -567,7 +567,7 @@ window.VISCERA = {
    "change": 144.4,
    "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster",
    "source": "map",
-   "map": "The Coast"
+   "map": "Crater"
   },
   {
    "name": "Greater Molten Core",
@@ -600,7 +600,7 @@ window.VISCERA = {
    "change": 59.83,
    "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds",
    "source": "map",
-   "map": "Kaom's Stronghold"
+   "map": "Caldera"
   },
   {
    "name": "Eater of Worlds' Head",
@@ -622,7 +622,7 @@ window.VISCERA = {
    "change": -34.88,
    "id": "sea-witchs-tentacle-minions-deal-increased-damage",
    "source": "map",
-   "map": "The Submerged Passage"
+   "map": "Act 1, The Submerged Passage"
   },
   {
    "name": "Lesser Skeleton Wheel",
@@ -633,7 +633,7 @@ window.VISCERA = {
    "change": -9.53,
    "id": "lesser-skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
    "source": "map",
-   "map": "The Ridge"
+   "map": "Act 6, The Ridge"
   },
   {
    "name": "Aristocrat's Torso",
@@ -644,7 +644,7 @@ window.VISCERA = {
    "change": 128.6,
    "id": "aristocrats-torso-increased-life-regeneration-rate",
    "source": "map",
-   "map": "The Sceptre of God"
+   "map": "Act 3, The Sceptre of God"
   },
   {
    "name": "Greater Skeleton Wheel",
@@ -666,7 +666,7 @@ window.VISCERA = {
    "change": -31.82,
    "id": "infected-leg-minions-have-to-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Chamber of Sins Level 2"
+   "map": "Act 7, The Chamber of Sins Level 2"
   },
   {
    "name": "Greater Inquisitor's Claw",
@@ -677,7 +677,7 @@ window.VISCERA = {
    "change": -1.96,
    "id": "greater-inquisitors-claw-increased-effect-of-withered",
    "source": "map",
-   "map": "Maligaro's Sanctum"
+   "map": "Overgrown Ruin"
   },
   {
    "name": "Greater Gemling Torso",
@@ -688,7 +688,7 @@ window.VISCERA = {
    "change": -3.61,
    "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour",
    "source": "map",
-   "map": "The Grain Gate"
+   "map": "Coral Ruins"
   },
   {
    "name": "Severed Stinger",
@@ -699,7 +699,7 @@ window.VISCERA = {
    "change": -42.11,
    "id": "severed-stinger-damage-penetrates-lightning-resistance",
    "source": "map",
-   "map": "The Chamber of Sins Level 2"
+   "map": "Act 2, The Chamber of Sins Level 2"
   },
   {
    "name": "Greater Bandit Rogue's Head",
@@ -710,7 +710,7 @@ window.VISCERA = {
    "change": 20.83,
    "id": "greater-bandit-rogues-head-increased-action-speed",
    "source": "map",
-   "map": "The Broken Bridge"
+   "map": "Castle Ruins"
   },
   {
    "name": "Greater Lunar Bow",
@@ -721,7 +721,7 @@ window.VISCERA = {
    "change": 400,
    "id": "greater-lunar-bow-gain-of-physical-damage-as-extra-cold-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Moon Temple"
   },
   {
    "name": "Gladiator's Heart",
@@ -732,7 +732,7 @@ window.VISCERA = {
    "change": 400,
    "id": "gladiators-heart-gain-rage-on-melee-hit",
    "source": "map",
-   "map": "Daresso's Dream"
+   "map": "Act 4, Daresso's Dream"
   },
   {
    "name": "Greater Searing Exarch's Descry",
@@ -754,7 +754,7 @@ window.VISCERA = {
    "change": 137.0,
    "id": "lesser-aristocrats-torso-increased-life-regeneration-rate",
    "source": "map",
-   "map": "The Sceptre of God"
+   "map": "Act 3, The Sceptre of God"
   },
   {
    "name": "Skeletal Tail",
@@ -765,7 +765,7 @@ window.VISCERA = {
    "change": -49.67,
    "id": "skeletal-tail-increased-projectile-damage",
    "source": "map",
-   "map": "The Ossuary"
+   "map": "Act 5, The Ossuary"
   },
   {
    "name": "Artificial Appendage",
@@ -798,7 +798,7 @@ window.VISCERA = {
    "change": -39.6,
    "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage",
    "source": "map",
-   "map": "The Submerged Passage"
+   "map": "Act 1, The Submerged Passage"
   },
   {
    "name": "Greater Solar Shield",
@@ -809,7 +809,7 @@ window.VISCERA = {
    "change": 614.3,
    "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Cold River"
   },
   {
    "name": "Greater King Crab's Claw",
@@ -820,7 +820,7 @@ window.VISCERA = {
    "change": -70.85,
    "id": "greater-king-crabs-claw-chance-to-gain-a-brine-charge-instead-of-an-endurance-charge",
    "source": "map",
-   "map": "The Brine King's Reef"
+   "map": "Reef"
   },
   {
    "name": "Lesser Infected Leg",
@@ -831,7 +831,7 @@ window.VISCERA = {
    "change": -22.73,
    "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Chamber of Sins Level 2"
+   "map": "Act 7, The Chamber of Sins Level 2"
   },
   {
    "name": "Inquisitor's Head",
@@ -875,7 +875,7 @@ window.VISCERA = {
    "change": 3750,
    "id": "lesser-bandit-witchs-head-regenerate-mana-per-second",
    "source": "map",
-   "map": "The Western Forest"
+   "map": "Act 2, The Western Forest"
   },
   {
    "name": "Scorched Arm",
@@ -886,7 +886,7 @@ window.VISCERA = {
    "change": 273,
    "id": "scorched-arm-chance-to-ignite",
    "source": "map",
-   "map": "The Coast"
+   "map": "Act 1, The Coast"
   },
   {
    "name": "Chimera's Head",
@@ -907,8 +907,8 @@ window.VISCERA = {
    "listings": 108,
    "change": 89.19,
    "id": "greater-brutes-arm-increased-strength",
-   "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Sirus' Head",
@@ -930,7 +930,7 @@ window.VISCERA = {
    "change": -9.77,
    "id": "spectral-hood-to-chaos-resistance",
    "source": "map",
-   "map": "The Catacombs"
+   "map": "Act 3, The Catacombs"
   },
   {
    "name": "Scholar's Leg",
@@ -941,7 +941,7 @@ window.VISCERA = {
    "change": -25,
    "id": "scholars-leg-increased-bonuses-gained-from-equipped-gloves",
    "source": "map",
-   "map": "The Reliquary"
+   "map": "Act 5, The Reliquary"
   },
   {
    "name": "Greater Gemling Torso",
@@ -952,7 +952,7 @@ window.VISCERA = {
    "change": -26.75,
    "id": "greater-gemling-torso-increased-evasion-rating-from-equipped-body-armour",
    "source": "map",
-   "map": "The Grain Gate"
+   "map": "Coral Ruins"
   },
   {
    "name": "Lesser Skeletal Warrior's Leg",
@@ -963,7 +963,7 @@ window.VISCERA = {
    "change": 45.91,
    "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
    "source": "map",
-   "map": "The Lower Prison"
+   "map": "Act 1, The Lower Prison"
   },
   {
    "name": "Searing Exarch's Descry",
@@ -1017,7 +1017,7 @@ window.VISCERA = {
    "listings": 147,
    "change": 129,
    "id": "greater-bloodied-arm-bleeding-enemies-you-kill-explode-dealing-of-their-maximum-life-as-physical-damage",
-   "source": "map",
+   "source": "extra",
    "map": null
   },
   {
@@ -1029,7 +1029,7 @@ window.VISCERA = {
    "change": 170.3,
    "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently",
    "source": "map",
-   "map": "The Riverways"
+   "map": "Mesa"
   },
   {
    "name": "Nightmarish Core of the Unbreakable",
@@ -1050,8 +1050,8 @@ window.VISCERA = {
    "listings": 46,
    "change": -58.33,
    "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
-   "source": "map",
-   "map": "The Marketplace"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Lesser Severed Stinger",
@@ -1062,7 +1062,7 @@ window.VISCERA = {
    "change": -69.79,
    "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance",
    "source": "map",
-   "map": "The Chamber of Sins Level 2"
+   "map": "Act 2, The Chamber of Sins Level 2"
   },
   {
    "name": "Venarius' Scripture",
@@ -1084,7 +1084,7 @@ window.VISCERA = {
    "change": -55.16,
    "id": "goatmans-horn-increased-area-of-effect",
    "source": "map",
-   "map": "Prisoner's Gate"
+   "map": "Act 1, Prisoner's Gate"
   },
   {
    "name": "Greater Distended Stomach",
@@ -1094,8 +1094,8 @@ window.VISCERA = {
    "listings": 79,
    "change": -66.39,
    "id": "greater-distended-stomach-eat-a-soul-when-you-consume-the-corpse-of-a-rare-monster",
-   "source": "map",
-   "map": "The Canals"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Ghostly Claw",
@@ -1106,7 +1106,7 @@ window.VISCERA = {
    "change": -80.31,
    "id": "ghostly-claw-chance-to-gain-elusive-on-kill",
    "source": "map",
-   "map": "The Grand Promenade"
+   "map": "Act 8, The Grand Promenade"
   },
   {
    "name": "Greater Captain's Leg",
@@ -1116,8 +1116,8 @@ window.VISCERA = {
    "listings": 93,
    "change": 10.67,
    "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour",
-   "source": "map",
-   "map": "The City of Sarn"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Captain's Leg",
@@ -1128,7 +1128,7 @@ window.VISCERA = {
    "change": 6.76,
    "id": "captains-leg-increased-movement-speed",
    "source": "map",
-   "map": "The City of Sarn"
+   "map": "Act 3, The City of Sarn"
   },
   {
    "name": "Greater Flaming Goat Hoof",
@@ -1139,7 +1139,7 @@ window.VISCERA = {
    "change": -2.28,
    "id": "greater-flaming-goat-hoof-increased-fire-damage-per-strength",
    "source": "map",
-   "map": "Prisoner's Gate"
+   "map": "Summit"
   },
   {
    "name": "Greater Siren's Tentacle",
@@ -1150,7 +1150,7 @@ window.VISCERA = {
    "change": -25,
    "id": "greater-sirens-tentacle-to-maximum-effect-of-chill",
    "source": "map",
-   "map": "The Cavern of Anger"
+   "map": "Underground Sea"
   },
   {
    "name": "Hag's Head",
@@ -1172,7 +1172,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster",
    "source": "map",
-   "map": "The Chamber of Sins Level 1"
+   "map": "Arachnid Tomb"
   },
   {
    "name": "Incarnation of Dread's Head",
@@ -1194,7 +1194,7 @@ window.VISCERA = {
    "change": 41,
    "id": "ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
    "source": "map",
-   "map": "The Karui Fortress"
+   "map": "Act 6, The Karui Fortress"
   },
   {
    "name": "Greater Flaming Ribbon",
@@ -1205,7 +1205,7 @@ window.VISCERA = {
    "change": 207.7,
    "id": "greater-flaming-ribbon-reduced-fire-damage-taken",
    "source": "map",
-   "map": "The Solaris Temple Level 1"
+   "map": "Arcade"
   },
   {
    "name": "Lesser Skeletal Tail",
@@ -1216,7 +1216,7 @@ window.VISCERA = {
    "change": -71.15,
    "id": "lesser-skeletal-tail-increased-projectile-damage",
    "source": "map",
-   "map": "The Ossuary"
+   "map": "Act 5, The Ossuary"
   },
   {
    "name": "Lesser Scorched Arm",
@@ -1227,7 +1227,7 @@ window.VISCERA = {
    "change": 1080,
    "id": "lesser-scorched-arm-chance-to-ignite",
    "source": "map",
-   "map": "The Coast"
+   "map": "Act 1, The Coast"
   },
   {
    "name": "Lesser Ghostly Claw",
@@ -1238,7 +1238,7 @@ window.VISCERA = {
    "change": -83.38,
    "id": "lesser-ghostly-claw-chance-to-gain-elusive-on-kill",
    "source": "map",
-   "map": "The Grand Promenade"
+   "map": "Act 8, The Grand Promenade"
   },
   {
    "name": "Warden's Arm",
@@ -1249,7 +1249,7 @@ window.VISCERA = {
    "change": -54,
    "id": "wardens-arm-to-maximum-life",
    "source": "map",
-   "map": "The Upper Prison"
+   "map": "Act 1, The Upper Prison"
   },
   {
    "name": "Artificial Appendage",
@@ -1271,7 +1271,7 @@ window.VISCERA = {
    "change": -74.25,
    "id": "greater-skeletal-archers-arm-projectiles-pierce-additional-targets",
    "source": "map",
-   "map": "The Climb"
+   "map": "Graveyard"
   },
   {
    "name": "Greater Statue Leg",
@@ -1281,8 +1281,8 @@ window.VISCERA = {
    "listings": 59,
    "change": 233.3,
    "id": "greater-statue-leg-cannot-be-knocked-back",
-   "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Greater Galvanic Tentacle",
@@ -1293,7 +1293,7 @@ window.VISCERA = {
    "change": 156.4,
    "id": "greater-galvanic-tentacle-to-maximum-lightning-resistance",
    "source": "map",
-   "map": "The Cavern of Wrath"
+   "map": "Mineral Pools"
   },
   {
    "name": "Templar Banner",
@@ -1304,7 +1304,7 @@ window.VISCERA = {
    "change": 0,
    "id": "templar-banner-increased-spell-damage-per-power-charge",
    "source": "map",
-   "map": "The Dried Lake"
+   "map": "Act 4, The Dried Lake"
   },
   {
    "name": "Greater Templar Banner",
@@ -1315,7 +1315,7 @@ window.VISCERA = {
    "change": 2.04,
    "id": "greater-templar-banner-gain-of-lightning-damage-as-extra-chaos-damage-per-power-charge",
    "source": "map",
-   "map": "The Dried Lake"
+   "map": "Wasteland"
   },
   {
    "name": "Skeletal Warrior's Leg",
@@ -1326,7 +1326,7 @@ window.VISCERA = {
    "change": -61.83,
    "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
    "source": "map",
-   "map": "The Lower Prison"
+   "map": "Act 1, The Lower Prison"
   },
   {
    "name": "Lesser Captain's Leg",
@@ -1337,7 +1337,7 @@ window.VISCERA = {
    "change": 25,
    "id": "lesser-captains-leg-increased-movement-speed",
    "source": "map",
-   "map": "The City of Sarn"
+   "map": "Act 3, The City of Sarn"
   },
   {
    "name": "Greater Elder's Head",
@@ -1381,7 +1381,7 @@ window.VISCERA = {
    "change": -40,
    "id": "greater-voltaic-skull-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
-   "map": "The Refinery"
+   "map": "Factory"
   },
   {
    "name": "Lesser Scholar's Leg",
@@ -1392,7 +1392,7 @@ window.VISCERA = {
    "change": -77.5,
    "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves",
    "source": "map",
-   "map": "The Reliquary"
+   "map": "Act 5, The Reliquary"
   },
   {
    "name": "Lesser Ancestor's Club",
@@ -1403,7 +1403,7 @@ window.VISCERA = {
    "change": 55.17,
    "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
    "source": "map",
-   "map": "The Karui Fortress"
+   "map": "Act 6, The Karui Fortress"
   },
   {
    "name": "Greater Golemic Stone",
@@ -1414,7 +1414,7 @@ window.VISCERA = {
    "change": 125,
    "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds",
    "source": "map",
-   "map": "The Old Fields"
+   "map": "Peninsula"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -1458,7 +1458,7 @@ window.VISCERA = {
    "change": -20,
    "id": "flaming-goat-hoof-increased-fire-damage",
    "source": "map",
-   "map": "Prisoner's Gate"
+   "map": "Act 6, Prisoner's Gate"
   },
   {
    "name": "Greater Spider Queen's Head",
@@ -1469,7 +1469,7 @@ window.VISCERA = {
    "change": 60,
    "id": "greater-spider-queens-head-trigger-level-lesser-raise-spiders-on-kill",
    "source": "map",
-   "map": "The Temple of Decay Level 2"
+   "map": "Sunken City"
   },
   {
    "name": "Osseous Scythe",
@@ -1480,7 +1480,7 @@ window.VISCERA = {
    "change": -70.4,
    "id": "osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks",
    "source": "map",
-   "map": "The Ossuary"
+   "map": "Act 10, The Ossuary"
   },
   {
    "name": "Greater Despot's Fist",
@@ -1491,7 +1491,7 @@ window.VISCERA = {
    "change": 640,
    "id": "greater-despots-fist-increased-area-of-effect-while-unarmed",
    "source": "map",
-   "map": "The Upper Sceptre of God"
+   "map": "Palace"
   },
   {
    "name": "Bandit Rogue's Head",
@@ -1502,7 +1502,7 @@ window.VISCERA = {
    "change": -53.33,
    "id": "bandit-rogues-head-increased-attack-and-cast-speed",
    "source": "map",
-   "map": "The Broken Bridge"
+   "map": "Act 2, The Broken Bridge"
   },
   {
    "name": "Blackguard's Leg",
@@ -1513,7 +1513,7 @@ window.VISCERA = {
    "change": -91.25,
    "id": "blackguards-leg-reduced-effect-of-chill-on-you",
    "source": "map",
-   "map": "The Lunaris Concourse"
+   "map": "Act 8, The Lunaris Concourse"
   },
   {
    "name": "Lesser Goatman's Horn",
@@ -1524,7 +1524,7 @@ window.VISCERA = {
    "change": -85.86,
    "id": "lesser-goatmans-horn-increased-area-of-effect",
    "source": "map",
-   "map": "Prisoner's Gate"
+   "map": "Act 1, Prisoner's Gate"
   },
   {
    "name": "Greater Poacher's Leg",
@@ -1546,7 +1546,7 @@ window.VISCERA = {
    "change": -48.8,
    "id": "molten-core-to-fire-resistance",
    "source": "map",
-   "map": "The Crematorium"
+   "map": "Act 3, The Crematorium"
   },
   {
    "name": "Constrictor's Head",
@@ -1568,7 +1568,7 @@ window.VISCERA = {
    "change": -49.57,
    "id": "greater-ravenous-skull-increased-damage-if-you-have-consumed-a-corpse-recently-regenerate-of-life-per-second-if-youve-consumed-a-corpse-recently-regenerate-of-mana-per-second-if-youve-consumed-a-corpse-recently",
    "source": "map",
-   "map": "The Feeding Trough"
+   "map": "Belfry"
   },
   {
    "name": "Incarnation of Fear's Head",
@@ -1590,7 +1590,7 @@ window.VISCERA = {
    "change": -28.57,
    "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield",
    "source": "map",
-   "map": "The Ebony Barracks"
+   "map": "Colonnade / Armoury"
   },
   {
    "name": "Diseased Wing",
@@ -1601,7 +1601,7 @@ window.VISCERA = {
    "change": 0,
    "id": "diseased-wing-to-chaos-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Cathedral Rooftop"
+   "map": "Act 10, The Cathedral Rooftop"
   },
   {
    "name": "Solar Shield",
@@ -1612,7 +1612,7 @@ window.VISCERA = {
    "change": 66.67,
    "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Act 9, The Harbour Bridge"
   },
   {
    "name": "Greater Scholar's Arm",
@@ -1623,7 +1623,7 @@ window.VISCERA = {
    "change": 400,
    "id": "greater-scholars-arm-increased-intelligence",
    "source": "map",
-   "map": "The Archives"
+   "map": "Academy"
   },
   {
    "name": "Pit Fighter's Helm",
@@ -1645,7 +1645,7 @@ window.VISCERA = {
    "change": -37.5,
    "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
    "source": "map",
-   "map": "The Mines Level 1"
+   "map": "Act 4, The Mines Level 1"
   },
   {
    "name": "King Crab's Claw",
@@ -1656,7 +1656,7 @@ window.VISCERA = {
    "change": 0,
    "id": "king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
-   "map": "The Brine King's Reef"
+   "map": "Act 6, The Brine King's Reef"
   },
   {
    "name": "Greater Severed Rhoa Head",
@@ -1667,7 +1667,7 @@ window.VISCERA = {
    "change": -28.57,
    "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds",
    "source": "map",
-   "map": "The Mud Flats"
+   "map": "Arid Lake"
   },
   {
    "name": "Stag Head",
@@ -1755,7 +1755,7 @@ window.VISCERA = {
    "change": -80.58,
    "id": "skeletal-beast-leg-chance-to-avoid-bleeding",
    "source": "map",
-   "map": "The Library"
+   "map": "Act 3, The Library"
   },
   {
    "name": "Galvanic Tentacle",
@@ -1766,7 +1766,7 @@ window.VISCERA = {
    "change": 0,
    "id": "galvanic-tentacle-to-lightning-resistance",
    "source": "map",
-   "map": "The Cavern of Wrath"
+   "map": "Act 1, The Cavern of Wrath"
   },
   {
    "name": "Greater Flayed Visage",
@@ -1777,7 +1777,7 @@ window.VISCERA = {
    "change": 100,
    "id": "greater-flayed-visage-of-damage-taken-recouped-as-energy-shield",
    "source": "map",
-   "map": "Shavronne's Tower"
+   "map": "Tower"
   },
   {
    "name": "Corrupted Carapace",
@@ -1788,7 +1788,7 @@ window.VISCERA = {
    "change": -1.23,
    "id": "corrupted-carapace-increased-damage-with-skills-that-cost-life",
    "source": "map",
-   "map": "The Harvest"
+   "map": "Act 4, The Harvest"
   },
   {
    "name": "Greater Arachnid Leg",
@@ -1799,7 +1799,7 @@ window.VISCERA = {
    "change": -30.43,
    "id": "greater-arachnid-leg-immune-to-hinder",
    "source": "map",
-   "map": "The Weaver's Chambers"
+   "map": "Jungle Valley / Arachnid Nest"
   },
   {
    "name": "Crustacean's Claw",
@@ -1810,7 +1810,7 @@ window.VISCERA = {
    "change": -94.29,
    "id": "crustaceans-claw-adds-to-physical-damage-to-attacks",
    "source": "map",
-   "map": "The Flooded Depths"
+   "map": "Act 1, The Flooded Depths"
   },
   {
    "name": "Greater Champion's Banner",
@@ -1820,8 +1820,8 @@ window.VISCERA = {
    "listings": 78,
    "change": 100,
    "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies",
-   "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Greater Desert Sword",
@@ -1832,7 +1832,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies",
    "source": "map",
-   "map": "The Vastiri Desert"
+   "map": "Desert"
   },
   {
    "name": "Lesser King Crab's Claw",
@@ -1843,7 +1843,7 @@ window.VISCERA = {
    "change": 33.33,
    "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
-   "map": "The Brine King's Reef"
+   "map": "Act 6, The Brine King's Reef"
   },
   {
    "name": "Greater Devourer's Antenna",
@@ -1854,7 +1854,7 @@ window.VISCERA = {
    "change": 100,
    "id": "greater-devourers-antenna-debilitate-enemies-you-hit-that-are-on-full-life-for-seconds",
    "source": "map",
-   "map": "The Northern Forest"
+   "map": "Mud Geyser"
   },
   {
    "name": "Greater Necromancer's Mask",
@@ -1864,8 +1864,8 @@ window.VISCERA = {
    "listings": 151,
    "change": 29.03,
    "id": "greater-necromancers-mask-offerings-you-create-also-grant-increased-damage",
-   "source": "map",
-   "map": "The Den"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Lesser Templar Banner",
@@ -1876,7 +1876,7 @@ window.VISCERA = {
    "change": 33.33,
    "id": "lesser-templar-banner-increased-spell-damage-per-power-charge",
    "source": "map",
-   "map": "The Dried Lake"
+   "map": "Act 4, The Dried Lake"
   },
   {
    "name": "Lesser Bandit Rogue's Head",
@@ -1887,7 +1887,7 @@ window.VISCERA = {
    "change": -61.54,
    "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed",
    "source": "map",
-   "map": "The Broken Bridge"
+   "map": "Act 2, The Broken Bridge"
   },
   {
    "name": "Lesser Blackguard's Leg",
@@ -1898,7 +1898,7 @@ window.VISCERA = {
    "change": -86.67,
    "id": "lesser-blackguards-leg-reduced-effect-of-chill-on-you",
    "source": "map",
-   "map": "The Lunaris Concourse"
+   "map": "Act 8, The Lunaris Concourse"
   },
   {
    "name": "Smuggler's Hand",
@@ -1909,7 +1909,7 @@ window.VISCERA = {
    "change": -96.9,
    "id": "smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies",
    "source": "map",
-   "map": "The Hidden Underbelly"
+   "map": "Act 9, The Hidden Underbelly"
   },
   {
    "name": "Greater Elemental Essence",
@@ -1942,7 +1942,7 @@ window.VISCERA = {
    "change": 290,
    "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
    "source": "map",
-   "map": "The Temple of Decay Level 2"
+   "map": "Act 7, The Temple of Decay Level 2"
   },
   {
    "name": "Greater Scorpion Stinger",
@@ -1953,7 +1953,7 @@ window.VISCERA = {
    "change": 30,
    "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds",
    "source": "map",
-   "map": "The Oasis"
+   "map": "Desert Spring"
   },
   {
    "name": "Greater Swordmaster's Blade",
@@ -1964,7 +1964,7 @@ window.VISCERA = {
    "change": 240,
    "id": "greater-swordmasters-blade-reduced-enemy-chance-to-block-sword-attacks",
    "source": "map",
-   "map": "The Grand Arena"
+   "map": "Colosseum"
   },
   {
    "name": "Phoenix's Head",
@@ -1986,7 +1986,7 @@ window.VISCERA = {
    "change": -40,
    "id": "vaal-appendage-metres-to-melee-strike-range",
    "source": "map",
-   "map": "The Vaal Ruins"
+   "map": "Act 2, The Vaal Ruins"
   },
   {
    "name": "Lesser Corrupted Carapace",
@@ -1997,7 +1997,7 @@ window.VISCERA = {
    "change": 50,
    "id": "lesser-corrupted-carapace-increased-damage-with-skills-that-cost-life",
    "source": "map",
-   "map": "The Harvest"
+   "map": "Act 4, The Harvest"
   },
   {
    "name": "Severed Rhoa Head",
@@ -2008,7 +2008,7 @@ window.VISCERA = {
    "change": -66.67,
    "id": "severed-rhoa-head-increased-chaos-damage",
    "source": "map",
-   "map": "The Mud Flats"
+   "map": "Act 1, The Mud Flats"
   },
   {
    "name": "Spider Queen's Head",
@@ -2019,7 +2019,7 @@ window.VISCERA = {
    "change": 50,
    "id": "spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
    "source": "map",
-   "map": "The Temple of Decay Level 2"
+   "map": "Act 7, The Temple of Decay Level 2"
   },
   {
    "name": "Lesser Gladiator's Heart",
@@ -2030,7 +2030,7 @@ window.VISCERA = {
    "change": 200,
    "id": "lesser-gladiators-heart-gain-rage-on-melee-hit",
    "source": "map",
-   "map": "Daresso's Dream"
+   "map": "Act 4, Daresso's Dream"
   },
   {
    "name": "Eradicator's Head",
@@ -2063,7 +2063,7 @@ window.VISCERA = {
    "change": 50,
    "id": "thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Act 3, The Lunaris Temple Level 2"
   },
   {
    "name": "Scout's Bow",
@@ -2074,7 +2074,7 @@ window.VISCERA = {
    "change": -95.18,
    "id": "scouts-bow-damage-penetrates-fire-resistance",
    "source": "map",
-   "map": "The Mud Flats"
+   "map": "Act 6, The Mud Flats"
   },
   {
    "name": "Greater Hollowed Skull",
@@ -2084,8 +2084,8 @@ window.VISCERA = {
    "listings": 147,
    "change": -40,
    "id": "greater-hollowed-skull-physical-damage-taken-from-hits-per-level",
-   "source": "map",
-   "map": "The Crossroads"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Lesser Molten Core",
@@ -2096,7 +2096,7 @@ window.VISCERA = {
    "change": -90,
    "id": "lesser-molten-core-to-fire-resistance",
    "source": "map",
-   "map": "The Crematorium"
+   "map": "Act 3, The Crematorium"
   },
   {
    "name": "Lesser Flaming Goat Hoof",
@@ -2107,7 +2107,7 @@ window.VISCERA = {
    "change": -25,
    "id": "lesser-flaming-goat-hoof-increased-fire-damage",
    "source": "map",
-   "map": "Prisoner's Gate"
+   "map": "Act 6, Prisoner's Gate"
   },
   {
    "name": "Baran's Head",
@@ -2129,7 +2129,7 @@ window.VISCERA = {
    "change": -94,
    "id": "gelid-fangs-damage-penetrates-cold-resistance",
    "source": "map",
-   "map": "The Descent"
+   "map": "Act 9, The Descent"
   },
   {
    "name": "Lesser Solar Shield",
@@ -2140,7 +2140,7 @@ window.VISCERA = {
    "change": 200,
    "id": "lesser-solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Act 9, The Harbour Bridge"
   },
   {
    "name": "Nightmarish Wings of Lycia",
@@ -2162,7 +2162,7 @@ window.VISCERA = {
    "change": -88.24,
    "id": "lesser-gelid-fangs-damage-penetrates-cold-resistance",
    "source": "map",
-   "map": "The Descent"
+   "map": "Act 9, The Descent"
   },
   {
    "name": "Greater Voltaic Apparatus",
@@ -2206,7 +2206,7 @@ window.VISCERA = {
    "change": -75,
    "id": "cobra-tail-increased-cooldown-recovery-rate-of-travel-skills",
    "source": "map",
-   "map": "The Northern Forest"
+   "map": "Act 2, The Northern Forest"
   },
   {
    "name": "Greater Ghostly Claw",
@@ -2239,7 +2239,7 @@ window.VISCERA = {
    "change": 160,
    "id": "greater-flesh-fused-lantern-to-fire-damage-over-time-multiplier-while-ignited",
    "source": "map",
-   "map": "The Crystal Veins"
+   "map": "Crystal Ore"
   },
   {
    "name": "Greater Primate Foot",
@@ -2250,7 +2250,7 @@ window.VISCERA = {
    "change": -20,
    "id": "greater-primate-foot-increased-action-speed-while-ignited",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Tropical Island"
   },
   {
    "name": "Nightmarish Head of Uhtred",
@@ -2272,7 +2272,7 @@ window.VISCERA = {
    "change": -26.67,
    "id": "greater-chimeral-eye-grants-level-petrification-statue",
    "source": "map",
-   "map": "The Boiling Lake"
+   "map": "Sulphur Vents"
   },
   {
    "name": "Vulture's Gut",
@@ -2283,7 +2283,7 @@ window.VISCERA = {
    "change": -33.33,
    "id": "vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana",
    "source": "map",
-   "map": "The Aqueduct"
+   "map": "Act 4, The Aqueduct"
   },
   {
    "name": "Greater Carved Haunches",
@@ -2294,7 +2294,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-carved-haunches-skills-that-summon-a-totem-have-chance-to-summon-two-totems-instead-of-one",
    "source": "map",
-   "map": "Kaom's Dream"
+   "map": "Volcano"
   },
   {
    "name": "Flesh-fused Lantern",
@@ -2305,7 +2305,7 @@ window.VISCERA = {
    "change": 100,
    "id": "flesh-fused-lantern-to-fire-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Crystal Veins"
+   "map": "Act 4, The Crystal Veins"
   },
   {
    "name": "Distended Stomach",
@@ -2316,7 +2316,7 @@ window.VISCERA = {
    "change": -85.96,
    "id": "distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently",
    "source": "map",
-   "map": "The Canals"
+   "map": "Act 10, The Canals"
   },
   {
    "name": "Voltaic Skull",
@@ -2327,7 +2327,7 @@ window.VISCERA = {
    "change": 0,
    "id": "voltaic-skull-of-physical-damage-converted-to-lightning-damage",
    "source": "map",
-   "map": "The Refinery"
+   "map": "Act 9, The Refinery"
   },
   {
    "name": "Overseer's Whip",
@@ -2338,7 +2338,7 @@ window.VISCERA = {
    "change": 0,
    "id": "overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently",
    "source": "map",
-   "map": "The Slave Pens"
+   "map": "Act 5, The Slave Pens"
   },
   {
    "name": "Desert Sword",
@@ -2349,7 +2349,7 @@ window.VISCERA = {
    "change": 0,
    "id": "desert-sword-global-chance-to-blind-enemies-on-hit",
    "source": "map",
-   "map": "The Vastiri Desert"
+   "map": "Act 9, The Vastiri Desert"
   },
   {
    "name": "Pit Fighter's Helm",
@@ -2371,7 +2371,7 @@ window.VISCERA = {
    "change": 0,
    "id": "flayed-arm-of-damage-taken-recouped-as-life",
    "source": "map",
-   "map": "The Belly of the Beast"
+   "map": "Act 9, The Belly of the Beast"
   },
   {
    "name": "Al-Hezmin's Head",
@@ -2392,8 +2392,8 @@ window.VISCERA = {
    "listings": 187,
    "change": -33.33,
    "id": "greater-vaal-appendage-increased-damage-with-vaal-skills",
-   "source": "map",
-   "map": "The Vaal Ruins"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Blazing Skull",
@@ -2404,7 +2404,7 @@ window.VISCERA = {
    "change": -33.33,
    "id": "blazing-skull-increased-damage-with-hits-against-rare-monsters",
    "source": "map",
-   "map": "Kaom's Stronghold"
+   "map": "Act 4, Kaom's Stronghold"
   },
   {
    "name": "Terrifying Maw",
@@ -2415,7 +2415,7 @@ window.VISCERA = {
    "change": 100,
    "id": "terrifying-maw-reduced-effect-of-curses-on-you",
    "source": "map",
-   "map": "The High Gardens"
+   "map": "Act 8, The High Gardens"
   },
   {
    "name": "Greater Diseased Wing",
@@ -2426,7 +2426,7 @@ window.VISCERA = {
    "change": 100,
    "id": "greater-diseased-wing-to-chaos-damage-over-time-multiplier-while-poisoned",
    "source": "map",
-   "map": "The Cathedral Rooftop"
+   "map": "Lookout"
   },
   {
    "name": "General's Head",
@@ -2437,7 +2437,7 @@ window.VISCERA = {
    "change": 0,
    "id": "generals-head-increased-maximum-energy-shield",
    "source": "map",
-   "map": "The Ebony Barracks"
+   "map": "Act 3, The Ebony Barracks"
   },
   {
    "name": "Enslaver's Head",
@@ -2459,7 +2459,7 @@ window.VISCERA = {
    "change": 0,
    "id": "bonestalkers-ribcage-reduced-physical-damage-taken-over-time",
    "source": "map",
-   "map": "The Crypt Level 1"
+   "map": "Act 2, The Crypt Level 1"
   },
   {
    "name": "Prosthetic Leg",
@@ -2470,7 +2470,7 @@ window.VISCERA = {
    "change": 100,
    "id": "prosthetic-leg-increased-ignite-duration-on-enemies",
    "source": "map",
-   "map": "The Desecrated Chambers"
+   "map": "Act 10, The Desecrated Chambers"
   },
   {
    "name": "Lesser Smuggler's Hand",
@@ -2481,7 +2481,7 @@ window.VISCERA = {
    "change": -97.18,
    "id": "lesser-smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies",
    "source": "map",
-   "map": "The Hidden Underbelly"
+   "map": "Act 9, The Hidden Underbelly"
   },
   {
    "name": "Elder's Head",
@@ -2503,7 +2503,7 @@ window.VISCERA = {
    "change": 0,
    "id": "arachnid-fangs-chance-to-poison-on-hit",
    "source": "map",
-   "map": "The Chamber of Sins Level 1"
+   "map": "Act 2, The Chamber of Sins Level 1"
   },
   {
    "name": "Drox's Head",
@@ -2558,7 +2558,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-galvanic-tentacle-to-lightning-resistance",
    "source": "map",
-   "map": "The Cavern of Wrath"
+   "map": "Act 1, The Cavern of Wrath"
   },
   {
    "name": "Veritania's Head",
@@ -2580,7 +2580,7 @@ window.VISCERA = {
    "change": -93.1,
    "id": "charred-leg-reduced-ignite-duration-on-you",
    "source": "map",
-   "map": "The Solaris Concourse"
+   "map": "Act 8, The Solaris Concourse"
   },
   {
    "name": "Voltaic Apparatus",
@@ -2591,7 +2591,7 @@ window.VISCERA = {
    "change": -60,
    "id": "voltaic-apparatus-chance-to-gain-a-power-charge-on-kill",
    "source": "map",
-   "map": "The Sewers"
+   "map": "Act 3, The Sewers"
   },
   {
    "name": "Hallowed Descry",
@@ -2612,8 +2612,8 @@ window.VISCERA = {
    "listings": 119,
    "change": -40,
    "id": "greater-flayed-arm-increased-life-recovery-rate-while-recouping-life",
-   "source": "map",
-   "map": "The Belly of the Beast"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Greater Spiked Carapace",
@@ -2635,7 +2635,7 @@ window.VISCERA = {
    "change": 70,
    "id": "lesser-skeletal-beast-leg-chance-to-avoid-bleeding",
    "source": "map",
-   "map": "The Library"
+   "map": "Act 3, The Library"
   },
   {
    "name": "Greater Gargantuan Claws",
@@ -2646,7 +2646,7 @@ window.VISCERA = {
    "change": 20,
    "id": "greater-gargantuan-claws-increased-attack-speed-while-dual-wielding",
    "source": "map",
-   "map": "The Den"
+   "map": "Barrows"
   },
   {
    "name": "Brute's Arm",
@@ -2657,7 +2657,7 @@ window.VISCERA = {
    "change": 0,
    "id": "brutes-arm-to-strength",
    "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "map": "Act 3, The Lunaris Temple Level 1"
   },
   {
    "name": "Siren's Tentacle",
@@ -2668,7 +2668,7 @@ window.VISCERA = {
    "change": 0,
    "id": "sirens-tentacle-increased-effect-of-cold-ailments",
    "source": "map",
-   "map": "The Cavern of Anger"
+   "map": "Act 1, The Cavern of Anger"
   },
   {
    "name": "Golemic Stone",
@@ -2679,7 +2679,7 @@ window.VISCERA = {
    "change": 0,
    "id": "golemic-stone-chance-to-avoid-being-stunned",
    "source": "map",
-   "map": "The Old Fields"
+   "map": "Act 2, The Old Fields"
   },
   {
    "name": "Lesser Scorpion Stinger",
@@ -2690,7 +2690,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage",
    "source": "map",
-   "map": "The Oasis"
+   "map": "Act 9, The Oasis"
   },
   {
    "name": "Lesser Pocked Leg",
@@ -2701,7 +2701,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
    "source": "map",
-   "map": "The Mines Level 1"
+   "map": "Act 4, The Mines Level 1"
   },
   {
    "name": "Greater Blackened Lungs",
@@ -2712,7 +2712,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-blackened-lungs-enemies-taunted-by-your-warcries-have-reduced-action-speed",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Cemetery"
   },
   {
    "name": "Lesser Voidbearer's Leg",
@@ -2723,7 +2723,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-voidbearers-leg-increased-movement-speed-while-on-burning-ground",
    "source": "map",
-   "map": "The Docks"
+   "map": "Act 3, The Docks"
   },
   {
    "name": "Lesser Mariner's Tricorne",
@@ -2734,7 +2734,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill",
    "source": "map",
-   "map": "The Ship Graveyard"
+   "map": "Act 1, The Ship Graveyard"
   },
   {
    "name": "Lesser Crescent Blade",
@@ -2745,7 +2745,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Act 9, The Harbour Bridge"
   },
   {
    "name": "Champion's Banner",
@@ -2756,7 +2756,7 @@ window.VISCERA = {
    "change": 0,
    "id": "champions-banner-enemies-near-your-banner-take-increased-cold-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "map": "Act 8, The Lunaris Temple Level 1"
   },
   {
    "name": "Defaced Bust",
@@ -2767,7 +2767,7 @@ window.VISCERA = {
    "change": 0,
    "id": "defaced-bust-increased-stun-and-block-recovery",
    "source": "map",
-   "map": "The Marketplace"
+   "map": "Act 3, The Marketplace"
   },
   {
    "name": "Engorged Eye",
@@ -2778,7 +2778,7 @@ window.VISCERA = {
    "change": 0,
    "id": "engorged-eye-chance-to-avoid-corrupted-blood",
    "source": "map",
-   "map": "The Belly of the Beast Level 2"
+   "map": "Act 4, The Belly of the Beast Level 2"
   },
   {
    "name": "Chaos Golem's Core",
@@ -2789,7 +2789,7 @@ window.VISCERA = {
    "change": 0,
    "id": "chaos-golems-core-reduced-chaos-damage-taken-over-time",
    "source": "map",
-   "map": "The Tunnel"
+   "map": "Act 9, The Tunnel"
   },
   {
    "name": "Armoured Leg",
@@ -2800,7 +2800,7 @@ window.VISCERA = {
    "change": 0,
    "id": "armoured-leg-chance-to-block-projectile-attack-damage",
    "source": "map",
-   "map": "The Bath House"
+   "map": "Act 8, The Bath House"
   },
   {
    "name": "Lesser Necromancer's Mask",
@@ -2811,7 +2811,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-necromancers-mask-offering-skills-have-increased-duration",
    "source": "map",
-   "map": "The Den"
+   "map": "Act 7, The Den"
   },
   {
    "name": "Lesser Chaos Golem's Core",
@@ -2822,7 +2822,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-chaos-golems-core-reduced-chaos-damage-taken-over-time",
    "source": "map",
-   "map": "The Tunnel"
+   "map": "Act 9, The Tunnel"
   },
   {
    "name": "Lesser Armoured Leg",
@@ -2833,7 +2833,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-armoured-leg-chance-to-block-projectile-attack-damage",
    "source": "map",
-   "map": "The Bath House"
+   "map": "Act 8, The Bath House"
   },
   {
    "name": "Lesser Flaming Furnace",
@@ -2844,7 +2844,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-flaming-furnace-chance-to-inflict-fire-exposure-on-hit",
    "source": "map",
-   "map": "Oriath Square"
+   "map": "Act 5, Oriath Square"
   },
   {
    "name": "Lesser Carved Haunches",
@@ -2855,7 +2855,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-carved-haunches-increased-totem-placement-speed",
    "source": "map",
-   "map": "Kaom's Dream"
+   "map": "Act 4, Kaom's Dream"
   },
   {
    "name": "Lesser Hollowed Skull",
@@ -2866,7 +2866,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-hollowed-skull-physical-damage-taken-from-attack-hits",
    "source": "map",
-   "map": "The Crossroads"
+   "map": "Act 2, The Crossroads"
   },
   {
    "name": "Lesser Conjoined Hound Head",
@@ -2877,7 +2877,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency",
    "source": "map",
-   "map": "The Coast"
+   "map": "Act 6, The Coast"
   },
   {
    "name": "Arachnid Egg Sac",
@@ -2888,7 +2888,7 @@ window.VISCERA = {
    "change": 0,
    "id": "arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed",
    "source": "map",
-   "map": "The Wetlands"
+   "map": "Act 6, The Wetlands"
   },
   {
    "name": "Flaming Furnace",
@@ -2899,7 +2899,7 @@ window.VISCERA = {
    "change": 0,
    "id": "flaming-furnace-chance-to-inflict-fire-exposure-on-hit",
    "source": "map",
-   "map": "Oriath Square"
+   "map": "Act 5, Oriath Square"
   },
   {
    "name": "Lesser Infested Torso",
@@ -2910,7 +2910,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-infested-torso-minions-regenerate-of-life-per-second",
    "source": "map",
-   "map": "The Southern Forest"
+   "map": "Act 6, The Southern Forest"
   },
   {
    "name": "Lesser Arachnid Egg Sac",
@@ -2921,7 +2921,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed",
    "source": "map",
-   "map": "The Wetlands"
+   "map": "Act 6, The Wetlands"
   },
   {
    "name": "Dessicated Head",
@@ -2932,7 +2932,7 @@ window.VISCERA = {
    "change": 0,
    "id": "dessicated-head-raised-zombies-deal-increased-damage",
    "source": "map",
-   "map": "The Toxic Conduits"
+   "map": "Act 8, The Toxic Conduits"
   },
   {
    "name": "Inquisitor's Claw",
@@ -2943,7 +2943,7 @@ window.VISCERA = {
    "change": 0,
    "id": "inquisitors-claw-withered-you-inflict-expires-slower",
    "source": "map",
-   "map": "Maligaro's Sanctum"
+   "map": "Act 7, Maligaro's Sanctum"
   },
   {
    "name": "Wraith Claws",
@@ -2954,7 +2954,7 @@ window.VISCERA = {
    "change": 0,
    "id": "wraith-claws-chance-to-impale-on-spell-hit",
    "source": "map",
-   "map": "The Crypt"
+   "map": "Act 7, The Crypt"
   },
   {
    "name": "Swordmaster's Blade",
@@ -2965,7 +2965,7 @@ window.VISCERA = {
    "change": 0,
    "id": "swordmasters-blade-increased-attack-speed-with-swords",
    "source": "map",
-   "map": "The Grand Arena"
+   "map": "Act 4, The Grand Arena"
   },
   {
    "name": "Bandit Warrior's Head",
@@ -2976,7 +2976,7 @@ window.VISCERA = {
    "change": 0,
    "id": "bandit-warriors-head-regenerate-of-life-per-second",
    "source": "map",
-   "map": "The Riverways"
+   "map": "Act 2, The Riverways"
   },
   {
    "name": "Mariner's Tricorne",
@@ -2987,7 +2987,7 @@ window.VISCERA = {
    "change": 0,
    "id": "mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill",
    "source": "map",
-   "map": "The Ship Graveyard"
+   "map": "Act 1, The Ship Graveyard"
   },
   {
    "name": "Ravenous Skull",
@@ -2998,7 +2998,7 @@ window.VISCERA = {
    "change": 0,
    "id": "ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana",
    "source": "map",
-   "map": "The Feeding Trough"
+   "map": "Act 10, The Feeding Trough"
   },
   {
    "name": "Lesser Ornate Torso",
@@ -3009,7 +3009,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-ornate-torso-minions-have-increased-maximum-life",
    "source": "map",
-   "map": "The Ashen Fields"
+   "map": "Act 7, The Ashen Fields"
   },
   {
    "name": "Lesser Thaumaturge's Head",
@@ -3020,7 +3020,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Act 3, The Lunaris Temple Level 2"
   },
   {
    "name": "Greater Soldier's Head",
@@ -3031,7 +3031,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-soldiers-head-increased-armour-from-equipped-helmet",
    "source": "map",
-   "map": "The Battlefront"
+   "map": "Promenade"
   },
   {
    "name": "Cutthroat's Head",
@@ -3042,7 +3042,7 @@ window.VISCERA = {
    "change": 0,
    "id": "cutthroats-head-increased-global-physical-damage",
    "source": "map",
-   "map": "The Southern Forest"
+   "map": "Act 2, The Southern Forest"
   },
   {
    "name": "Greater Dessicated Head",
@@ -3052,8 +3052,8 @@ window.VISCERA = {
    "listings": 1180,
    "change": 0,
    "id": "greater-dessicated-head-to-maximum-number-of-raised-zombies",
-   "source": "map",
-   "map": "The Toxic Conduits"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Resplendent Sceptre",
@@ -3064,7 +3064,7 @@ window.VISCERA = {
    "change": 0,
    "id": "resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills",
    "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "map": "Act 8, The Solaris Temple Level 2"
   },
   {
    "name": "Lesser Overseer's Whip",
@@ -3075,7 +3075,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently",
    "source": "map",
-   "map": "The Slave Pens"
+   "map": "Act 5, The Slave Pens"
   },
   {
    "name": "Ornate Torso",
@@ -3086,7 +3086,7 @@ window.VISCERA = {
    "change": 0,
    "id": "ornate-torso-minions-have-increased-maximum-life",
    "source": "map",
-   "map": "The Ashen Fields"
+   "map": "Act 7, The Ashen Fields"
   },
   {
    "name": "Lesser Warden's Arm",
@@ -3097,7 +3097,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-wardens-arm-to-maximum-life",
    "source": "map",
-   "map": "The Upper Prison"
+   "map": "Act 1, The Upper Prison"
   },
   {
    "name": "Lesser Swordmaster's Blade",
@@ -3108,7 +3108,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-swordmasters-blade-increased-attack-speed-with-swords",
    "source": "map",
-   "map": "The Grand Arena"
+   "map": "Act 4, The Grand Arena"
   },
   {
    "name": "Desert Queen's Crown",
@@ -3119,7 +3119,7 @@ window.VISCERA = {
    "change": 0,
    "id": "desert-queens-crown-increased-damage-while-blind",
    "source": "map",
-   "map": "The Quarry"
+   "map": "Act 9, The Quarry"
   },
   {
    "name": "Lesser Blazing Skull",
@@ -3130,7 +3130,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-blazing-skull-increased-damage-with-hits-against-rare-monsters",
    "source": "map",
-   "map": "Kaom's Stronghold"
+   "map": "Act 4, Kaom's Stronghold"
   },
   {
    "name": "Lesser Elemental Essence",
@@ -3141,7 +3141,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-elemental-essence-to-cold-resistance",
    "source": "map",
-   "map": "The Ship Graveyard Cave"
+   "map": "Act 1, The Ship Graveyard Cave"
   },
   {
    "name": "Hollowed Skull",
@@ -3152,7 +3152,7 @@ window.VISCERA = {
    "change": 0,
    "id": "hollowed-skull-physical-damage-taken-from-attack-hits",
    "source": "map",
-   "map": "The Crossroads"
+   "map": "Act 2, The Crossroads"
   },
   {
    "name": "Lesser Adherent's Crown",
@@ -3163,7 +3163,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-adherents-crown-of-physical-damage-converted-to-fire-damage",
    "source": "map",
-   "map": "The Templar Courts"
+   "map": "Act 5, The Templar Courts"
   },
   {
    "name": "Carved Haunches",
@@ -3174,7 +3174,7 @@ window.VISCERA = {
    "change": 0,
    "id": "carved-haunches-increased-totem-placement-speed",
    "source": "map",
-   "map": "Kaom's Dream"
+   "map": "Act 4, Kaom's Dream"
   },
   {
    "name": "Chimeral Eye",
@@ -3185,7 +3185,7 @@ window.VISCERA = {
    "change": 0,
    "id": "chimeral-eye-petrification-on-you-expires-faster",
    "source": "map",
-   "map": "The Boiling Lake"
+   "map": "Act 9, The Boiling Lake"
   },
   {
    "name": "Greater Defaced Bust",
@@ -3195,8 +3195,8 @@ window.VISCERA = {
    "listings": 1159,
    "change": 0,
    "id": "greater-defaced-bust-chance-to-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
-   "source": "map",
-   "map": "The Marketplace"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Lesser Devourer's Antenna",
@@ -3207,7 +3207,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life",
    "source": "map",
-   "map": "The Northern Forest"
+   "map": "Act 7, The Northern Forest"
   },
   {
    "name": "Lesser Resplendent Sceptre",
@@ -3218,7 +3218,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills",
    "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "map": "Act 8, The Solaris Temple Level 2"
   },
   {
    "name": "Chitinous Leg",
@@ -3229,7 +3229,7 @@ window.VISCERA = {
    "change": 0,
    "id": "chitinous-leg-corpses-you-spawn-have-increased-maximum-life",
    "source": "map",
-   "map": "The Belly of the Beast Level 1"
+   "map": "Act 4, The Belly of the Beast Level 1"
   },
   {
    "name": "Devourer's Antenna",
@@ -3240,7 +3240,7 @@ window.VISCERA = {
    "change": 0,
    "id": "devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life",
    "source": "map",
-   "map": "The Northern Forest"
+   "map": "Act 7, The Northern Forest"
   },
   {
    "name": "Lesser Wraith Claws",
@@ -3251,7 +3251,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-wraith-claws-chance-to-impale-on-spell-hit",
    "source": "map",
-   "map": "The Crypt"
+   "map": "Act 7, The Crypt"
   },
   {
    "name": "Arachnid Leg",
@@ -3262,7 +3262,7 @@ window.VISCERA = {
    "change": 0,
    "id": "arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells",
    "source": "map",
-   "map": "The Weaver's Chambers"
+   "map": "Act 2, The Weaver's Chambers"
   },
   {
    "name": "Templar Skull",
@@ -3273,7 +3273,7 @@ window.VISCERA = {
    "change": 0,
    "id": "templar-skull-increased-light-radius",
    "source": "map",
-   "map": "The Crypt Level 2"
+   "map": "Act 2, The Crypt Level 2"
   },
   {
    "name": "Scholar's Arm",
@@ -3284,7 +3284,7 @@ window.VISCERA = {
    "change": 0,
    "id": "scholars-arm-to-intelligence",
    "source": "map",
-   "map": "The Archives"
+   "map": "Act 3, The Archives"
   },
   {
    "name": "Pocked Arm",
@@ -3295,7 +3295,7 @@ window.VISCERA = {
    "change": 0,
    "id": "pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots",
    "source": "map",
-   "map": "The Mines Level 2"
+   "map": "Act 4, The Mines Level 2"
   },
   {
    "name": "Despot's Fist",
@@ -3306,7 +3306,7 @@ window.VISCERA = {
    "change": 0,
    "id": "despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits",
    "source": "map",
-   "map": "The Upper Sceptre of God"
+   "map": "Act 3, The Upper Sceptre of God"
   },
   {
    "name": "Infested Torso",
@@ -3317,7 +3317,7 @@ window.VISCERA = {
    "change": 0,
    "id": "infested-torso-minions-regenerate-of-life-per-second",
    "source": "map",
-   "map": "The Southern Forest"
+   "map": "Act 6, The Southern Forest"
   },
   {
    "name": "Spined Claws",
@@ -3328,7 +3328,7 @@ window.VISCERA = {
    "change": 0,
    "id": "spined-claws-attacks-have-chance-to-cause-bleeding",
    "source": "map",
-   "map": "The Slums"
+   "map": "Act 3, The Slums"
   },
   {
    "name": "Ursine Flesh",
@@ -3339,7 +3339,7 @@ window.VISCERA = {
    "change": 0,
    "id": "ursine-flesh-reduced-enemy-stun-threshold",
    "source": "map",
-   "map": "The Caverns"
+   "map": "Act 2, The Caverns"
   },
   {
    "name": "Blackened Lungs",
@@ -3350,7 +3350,7 @@ window.VISCERA = {
    "change": 0,
    "id": "blackened-lungs-increased-warcry-speed",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Act 7, The Dread Thicket"
   },
   {
    "name": "Bat's Wings",
@@ -3372,7 +3372,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-sirens-tentacle-increased-effect-of-cold-ailments",
    "source": "map",
-   "map": "The Cavern of Anger"
+   "map": "Act 1, The Cavern of Anger"
   },
   {
    "name": "Hag's Stomach",
@@ -3383,7 +3383,7 @@ window.VISCERA = {
    "change": 0,
    "id": "hags-stomach-increased-effect-of-your-curses",
    "source": "map",
-   "map": "Doedre's Cesspool"
+   "map": "Act 8, Doedre's Cesspool"
   },
   {
    "name": "Greater Flaming Furnace",
@@ -3394,7 +3394,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-flaming-furnace-fire-exposure-you-inflict-applies-an-extra-to-fire-resistance",
    "source": "map",
-   "map": "Oriath Square"
+   "map": "City Square"
   },
   {
    "name": "Greater Vulture's Gut",
@@ -3405,7 +3405,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana",
    "source": "map",
-   "map": "The Aqueduct"
+   "map": "Channel"
   },
   {
    "name": "Lesser Dessicated Head",
@@ -3416,7 +3416,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-dessicated-head-raised-zombies-deal-increased-damage",
    "source": "map",
-   "map": "The Toxic Conduits"
+   "map": "Act 8, The Toxic Conduits"
   },
   {
    "name": "Heretical Tome",
@@ -3427,7 +3427,7 @@ window.VISCERA = {
    "change": -50,
    "id": "heretical-tome-to-physical-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Torched Courts"
+   "map": "Act 5, The Torched Courts"
   },
   {
    "name": "Lesser Defaced Bust",
@@ -3438,7 +3438,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-defaced-bust-increased-stun-and-block-recovery",
    "source": "map",
-   "map": "The Marketplace"
+   "map": "Act 3, The Marketplace"
   },
   {
    "name": "Greater Ursine Flesh",
@@ -3449,7 +3449,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-ursine-flesh-increased-stun-duration-against-enemies-that-are-on-full-life",
    "source": "map",
-   "map": "The Caverns"
+   "map": "Underground River"
   },
   {
    "name": "Conjoined Hound Head",
@@ -3460,7 +3460,7 @@ window.VISCERA = {
    "change": 0,
    "id": "conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency",
    "source": "map",
-   "map": "The Coast"
+   "map": "Act 6, The Coast"
   },
   {
    "name": "Lesser Vendigo Claws",
@@ -3471,7 +3471,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-vendigo-claws-adds-to-cold-damage-to-unarmed-attacks",
    "source": "map",
-   "map": "The Ascent"
+   "map": "Act 4, The Ascent"
   },
   {
    "name": "Lesser Scout's Bow",
@@ -3482,7 +3482,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-scouts-bow-damage-penetrates-fire-resistance",
    "source": "map",
-   "map": "The Mud Flats"
+   "map": "Act 6, The Mud Flats"
   },
   {
    "name": "Greater Heretical Tome",
@@ -3493,7 +3493,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-heretical-tome-to-physical-damage-over-time-multiplier-while-bleeding",
    "source": "map",
-   "map": "The Torched Courts"
+   "map": "Haunted Mansion"
   },
   {
    "name": "Flayed Visage",
@@ -3504,7 +3504,7 @@ window.VISCERA = {
    "change": 0,
    "id": "flayed-visage-of-chaos-damage-taken-does-not-bypass-energy-shield",
    "source": "map",
-   "map": "Shavronne's Tower"
+   "map": "Act 6, Shavronne's Tower"
   },
   {
    "name": "Lesser Chitinous Leg",
@@ -3515,7 +3515,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-chitinous-leg-corpses-you-spawn-have-increased-maximum-life",
    "source": "map",
-   "map": "The Belly of the Beast Level 1"
+   "map": "Act 4, The Belly of the Beast Level 1"
   },
   {
    "name": "Lunar Bow",
@@ -3526,7 +3526,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lunar-bow-of-physical-damage-converted-to-cold-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Act 8, The Lunaris Temple Level 2"
   },
   {
    "name": "Smouldering Leg",
@@ -3537,7 +3537,7 @@ window.VISCERA = {
    "change": 0,
    "id": "smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency",
    "source": "map",
-   "map": "The Control Blocks"
+   "map": "Act 10, The Control Blocks"
   },
   {
    "name": "Greater Calcified Leg",
@@ -3559,7 +3559,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana",
    "source": "map",
-   "map": "The Aqueduct"
+   "map": "Act 4, The Aqueduct"
   },
   {
    "name": "Calcified Leg",
@@ -3570,7 +3570,7 @@ window.VISCERA = {
    "change": 0,
    "id": "calcified-leg-skeletons-deal-increased-damage",
    "source": "map",
-   "map": "Port"
+   "map": null
   },
   {
    "name": "Skeletal Archer's Arm",
@@ -3581,7 +3581,7 @@ window.VISCERA = {
    "change": 0,
    "id": "skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced",
    "source": "map",
-   "map": "The Climb"
+   "map": "Act 1, The Climb"
   },
   {
    "name": "Lesser Soldier's Head",
@@ -3592,7 +3592,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-soldiers-head-increased-armour",
    "source": "map",
-   "map": "The Battlefront"
+   "map": "Act 3, The Battlefront"
   },
   {
    "name": "Greater Mariner's Tricorne",
@@ -3603,7 +3603,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-mariners-tricorne-chance-to-gain-phasing-on-hit",
    "source": "map",
-   "map": "The Ship Graveyard"
+   "map": "Shore"
   },
   {
    "name": "Greater Cutthroat's Head",
@@ -3614,7 +3614,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-cutthroats-head-hits-have-chance-to-ignore-enemy-physical-damage-reduction",
    "source": "map",
-   "map": "The Southern Forest"
+   "map": "Strand"
   },
   {
    "name": "Necromancer's Mask",
@@ -3625,7 +3625,7 @@ window.VISCERA = {
    "change": 0,
    "id": "necromancers-mask-offering-skills-have-increased-duration",
    "source": "map",
-   "map": "The Den"
+   "map": "Act 7, The Den"
   },
   {
    "name": "Greater Bandit Witch's Head",
@@ -3636,7 +3636,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-bandit-witchs-head-of-damage-taken-recouped-as-mana",
    "source": "map",
-   "map": "The Western Forest"
+   "map": "Spider Forest"
   },
   {
    "name": "Flaming Ribbon",
@@ -3647,7 +3647,7 @@ window.VISCERA = {
    "change": 0,
    "id": "flaming-ribbon-reduced-burning-damage-taken",
    "source": "map",
-   "map": "The Solaris Temple Level 1"
+   "map": "Act 3, The Solaris Temple Level 1"
   },
   {
    "name": "Lesser Calcified Leg",
@@ -3658,7 +3658,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-calcified-leg-skeletons-deal-increased-damage",
    "source": "map",
-   "map": "Port"
+   "map": null
   },
   {
    "name": "Greater Spectral Hood",
@@ -3669,7 +3669,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-spectral-hood-to-maximum-chaos-resistance",
    "source": "map",
-   "map": "The Catacombs"
+   "map": "Grave Trough"
   },
   {
    "name": "Scorpion Stinger",
@@ -3680,7 +3680,7 @@ window.VISCERA = {
    "change": 0,
    "id": "scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage",
    "source": "map",
-   "map": "The Oasis"
+   "map": "Act 9, The Oasis"
   },
   {
    "name": "Greater Crescent Blade",
@@ -3691,7 +3691,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-crescent-blade-of-fire-damage-from-hits-taken-as-cold-damage-of-lightning-damage-from-hits-taken-as-cold-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Cold River"
   },
   {
    "name": "Statue Leg",
@@ -3702,7 +3702,7 @@ window.VISCERA = {
    "change": -59.18,
    "id": "statue-leg-chance-to-knock-enemies-back-on-hit",
    "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "map": "Act 3, The Solaris Temple Level 2"
   },
   {
    "name": "Lesser Smouldering Leg",
@@ -3713,7 +3713,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency",
    "source": "map",
-   "map": "The Control Blocks"
+   "map": "Act 10, The Control Blocks"
   },
   {
    "name": "Gemling Torso",
@@ -3724,7 +3724,7 @@ window.VISCERA = {
    "change": 0,
    "id": "gemling-torso-items-and-gems-have-reduced-attribute-requirements",
    "source": "map",
-   "map": "The Grain Gate"
+   "map": "Act 8, The Grain Gate"
   },
   {
    "name": "Lesser Flesh-fused Lantern",
@@ -3735,7 +3735,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-flesh-fused-lantern-to-fire-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Crystal Veins"
+   "map": "Act 4, The Crystal Veins"
   },
   {
    "name": "Lesser Golden Ankh",
@@ -3746,7 +3746,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-golden-ankh-raised-zombies-have-increased-maximum-life",
    "source": "map",
-   "map": "The Quay"
+   "map": "Act 8, The Quay"
   },
   {
    "name": "Lesser Ravenous Skull",
@@ -3757,7 +3757,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana",
    "source": "map",
-   "map": "The Feeding Trough"
+   "map": "Act 10, The Feeding Trough"
   },
   {
    "name": "Lesser Vaal Appendage",
@@ -3768,7 +3768,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-vaal-appendage-metres-to-melee-strike-range",
    "source": "map",
-   "map": "The Vaal Ruins"
+   "map": "Act 2, The Vaal Ruins"
   },
   {
    "name": "Lesser Gargantuan Claws",
@@ -3779,7 +3779,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-gargantuan-claws-increased-attack-speed-with-claws",
    "source": "map",
-   "map": "The Den"
+   "map": "Act 2, The Den"
   },
   {
    "name": "Crescent Blade",
@@ -3790,7 +3790,7 @@ window.VISCERA = {
    "change": 0,
    "id": "crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage",
    "source": "map",
-   "map": "The Harbour Bridge"
+   "map": "Act 9, The Harbour Bridge"
   },
   {
    "name": "Lesser Bloodied Arm",
@@ -3812,7 +3812,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-spectral-hood-to-chaos-resistance",
    "source": "map",
-   "map": "The Catacombs"
+   "map": "Act 3, The Catacombs"
   },
   {
    "name": "Lesser General's Head",
@@ -3823,7 +3823,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-generals-head-increased-maximum-energy-shield",
    "source": "map",
-   "map": "The Ebony Barracks"
+   "map": "Act 3, The Ebony Barracks"
   },
   {
    "name": "Lion's Claws",
@@ -3845,7 +3845,7 @@ window.VISCERA = {
    "change": 0,
    "id": "soldiers-head-increased-armour",
    "source": "map",
-   "map": "The Battlefront"
+   "map": "Act 3, The Battlefront"
   },
   {
    "name": "Golden Ankh",
@@ -3856,7 +3856,7 @@ window.VISCERA = {
    "change": 0,
    "id": "golden-ankh-raised-zombies-have-increased-maximum-life",
    "source": "map",
-   "map": "The Quay"
+   "map": "Act 8, The Quay"
   },
   {
    "name": "Bandit Witch's Head",
@@ -3867,7 +3867,7 @@ window.VISCERA = {
    "change": 0,
    "id": "bandit-witchs-head-regenerate-mana-per-second",
    "source": "map",
-   "map": "The Western Forest"
+   "map": "Act 2, The Western Forest"
   },
   {
    "name": "Justicar's Helm",
@@ -3878,7 +3878,7 @@ window.VISCERA = {
    "change": 0,
    "id": "justicars-helm-increased-stun-threshold",
    "source": "map",
-   "map": "The Control Blocks"
+   "map": "Act 5, The Control Blocks"
   },
   {
    "name": "Lesser Hag's Stomach",
@@ -3889,7 +3889,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-hags-stomach-increased-effect-of-your-curses",
    "source": "map",
-   "map": "Doedre's Cesspool"
+   "map": "Act 8, Doedre's Cesspool"
   },
   {
    "name": "Greater Pocked Arm",
@@ -3900,7 +3900,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-pocked-arm-increased-evasion-rating-from-equipped-helmet-body-armour-gloves-and-boots",
    "source": "map",
-   "map": "The Mines Level 2"
+   "map": "Excavation"
   },
   {
    "name": "Lesser Spined Claws",
@@ -3911,7 +3911,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-spined-claws-attacks-have-chance-to-cause-bleeding",
    "source": "map",
-   "map": "The Slums"
+   "map": "Act 3, The Slums"
   },
   {
    "name": "Lithic Haunches",
@@ -3922,7 +3922,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lithic-haunches-chance-to-defend-with-of-armour",
    "source": "map",
-   "map": "The Foothills"
+   "map": "Act 9, The Foothills"
   },
   {
    "name": "Lesser Heretical Tome",
@@ -3933,7 +3933,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-heretical-tome-to-physical-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Torched Courts"
+   "map": "Act 5, The Torched Courts"
   },
   {
    "name": "Greater Wraith Claws",
@@ -3943,8 +3943,8 @@ window.VISCERA = {
    "listings": 319,
    "change": 0,
    "id": "greater-wraith-claws-increased-effect-of-impales-inflicted-with-spells",
-   "source": "map",
-   "map": "The Crypt"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Elemental Essence",
@@ -3955,7 +3955,7 @@ window.VISCERA = {
    "change": 0,
    "id": "elemental-essence-to-cold-resistance",
    "source": "map",
-   "map": "The Ship Graveyard Cave"
+   "map": "Act 1, The Ship Graveyard Cave"
   },
   {
    "name": "Lesser Crustacean's Claw",
@@ -3966,7 +3966,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks",
    "source": "map",
-   "map": "The Flooded Depths"
+   "map": "Act 1, The Flooded Depths"
   },
   {
    "name": "Gargantuan Claws",
@@ -3977,7 +3977,7 @@ window.VISCERA = {
    "change": 0,
    "id": "gargantuan-claws-increased-attack-speed-with-claws",
    "source": "map",
-   "map": "The Den"
+   "map": "Act 2, The Den"
   },
   {
    "name": "Lesser Osseous Scythe",
@@ -3988,7 +3988,7 @@ window.VISCERA = {
    "change": -81.13,
    "id": "lesser-osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks",
    "source": "map",
-   "map": "The Ossuary"
+   "map": "Act 10, The Ossuary"
   },
   {
    "name": "Lesser Diseased Wing",
@@ -3999,7 +3999,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-diseased-wing-to-chaos-damage-over-time-multiplier",
    "source": "map",
-   "map": "The Cathedral Rooftop"
+   "map": "Act 10, The Cathedral Rooftop"
   },
   {
    "name": "Witch's Head",
@@ -4021,7 +4021,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-prosthetic-leg-increased-ignite-duration-on-enemies",
    "source": "map",
-   "map": "The Desecrated Chambers"
+   "map": "Act 10, The Desecrated Chambers"
   },
   {
    "name": "Noble's Head",
@@ -4032,7 +4032,7 @@ window.VISCERA = {
    "change": 0,
    "id": "nobles-head-more-damage-against-undead-monsters",
    "source": "map",
-   "map": "The Twilight Strand"
+   "map": "Act 6, The Twilight Strand"
   },
   {
    "name": "Lesser Lunar Bow",
@@ -4043,7 +4043,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-lunar-bow-of-physical-damage-converted-to-cold-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 2"
+   "map": "Act 8, The Lunaris Temple Level 2"
   },
   {
    "name": "Greater Hag's Stomach",
@@ -4054,7 +4054,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-hags-stomach-increased-damage-with-hits-and-ailments-per-curse-on-enemy",
    "source": "map",
-   "map": "Doedre's Cesspool"
+   "map": "Waste Pool"
   },
   {
    "name": "Lesser Arachnid Leg",
@@ -4065,7 +4065,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells",
    "source": "map",
-   "map": "The Weaver's Chambers"
+   "map": "Act 2, The Weaver's Chambers"
   },
   {
    "name": "Lesser Despot's Fist",
@@ -4076,7 +4076,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits",
    "source": "map",
-   "map": "The Upper Sceptre of God"
+   "map": "Act 3, The Upper Sceptre of God"
   },
   {
    "name": "Greater Resplendent Sceptre",
@@ -4087,7 +4087,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-resplendent-sceptre-attacks-have-increased-ignite-duration",
    "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "map": "Temple"
   },
   {
    "name": "Lesser Osseous Talon",
@@ -4109,7 +4109,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-flaming-ribbon-reduced-burning-damage-taken",
    "source": "map",
-   "map": "The Solaris Temple Level 1"
+   "map": "Act 3, The Solaris Temple Level 1"
   },
   {
    "name": "Totemic Visage",
@@ -4120,7 +4120,7 @@ window.VISCERA = {
    "change": 0,
    "id": "totemic-visage-chance-to-shock",
    "source": "map",
-   "map": "The Ledge"
+   "map": "Act 1, The Ledge"
   },
   {
    "name": "Lesser Ursine Flesh",
@@ -4131,7 +4131,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-ursine-flesh-reduced-enemy-stun-threshold",
    "source": "map",
-   "map": "The Caverns"
+   "map": "Act 2, The Caverns"
   },
   {
    "name": "Greater Desert Queen's Crown",
@@ -4142,7 +4142,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-desert-queens-crown-enemies-you-blind-while-in-sand-stance-take-increased-damage",
    "source": "map",
-   "map": "The Quarry"
+   "map": "Dig"
   },
   {
    "name": "Lesser Bandit Warrior's Head",
@@ -4153,7 +4153,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-bandit-warriors-head-regenerate-of-life-per-second",
    "source": "map",
-   "map": "The Riverways"
+   "map": "Act 2, The Riverways"
   },
   {
    "name": "Broken Bust",
@@ -4175,7 +4175,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots",
    "source": "map",
-   "map": "The Mines Level 2"
+   "map": "Act 4, The Mines Level 2"
   },
   {
    "name": "Boar Head",
@@ -4208,7 +4208,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-arachnid-fangs-chance-to-poison-on-hit",
    "source": "map",
-   "map": "The Chamber of Sins Level 1"
+   "map": "Act 2, The Chamber of Sins Level 1"
   },
   {
    "name": "Lesser Templar Skull",
@@ -4219,7 +4219,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-templar-skull-increased-light-radius",
    "source": "map",
-   "map": "The Crypt Level 2"
+   "map": "Act 2, The Crypt Level 2"
   },
   {
    "name": "Lion's Claws",
@@ -4241,7 +4241,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-templar-skull-increases-and-reductions-to-light-radius-also-apply-to-life-regeneration-rate-at-value",
    "source": "map",
-   "map": "The Crypt Level 2"
+   "map": "Cursed Crypt"
   },
   {
    "name": "Construct's Head",
@@ -4252,7 +4252,7 @@ window.VISCERA = {
    "change": -94.44,
    "id": "constructs-head-increased-projectile-speed",
    "source": "map",
-   "map": "The Causeway"
+   "map": "Act 7, The Causeway"
   },
   {
    "name": "Sun-bleached Breastplate",
@@ -4263,7 +4263,7 @@ window.VISCERA = {
    "change": 0,
    "id": "sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage",
    "source": "map",
-   "map": "The Solaris Temple Level 1"
+   "map": "Act 8, The Solaris Temple Level 1"
   },
   {
    "name": "Scarecrow's Pitchfork",
@@ -4274,7 +4274,7 @@ window.VISCERA = {
    "change": 0,
    "id": "scarecrows-pitchfork-chance-to-cause-monsters-to-flee",
    "source": "map",
-   "map": "The Imperial Fields"
+   "map": "Act 8, The Imperial Fields"
   },
   {
    "name": "Greater Spined Claws",
@@ -4285,7 +4285,7 @@ window.VISCERA = {
    "change": -50,
    "id": "greater-spined-claws-bleeding-you-inflict-deals-damage-faster",
    "source": "map",
-   "map": "The Slums"
+   "map": "Ramparts"
   },
   {
    "name": "Greater Infested Torso",
@@ -4295,8 +4295,8 @@ window.VISCERA = {
    "listings": 297,
    "change": 0,
    "id": "greater-infested-torso-minions-recover-of-life-on-killing-a-poisoned-enemy",
-   "source": "map",
-   "map": "The Southern Forest"
+   "source": "extra",
+   "map": null
   },
   {
    "name": "Greater Chaos Golem's Core",
@@ -4307,7 +4307,7 @@ window.VISCERA = {
    "change": 0,
    "id": "greater-chaos-golems-core-of-physical-damage-over-time-taken-as-chaos-damage",
    "source": "map",
-   "map": "The Tunnel"
+   "map": "Geode"
   },
   {
    "name": "Inquisitor's Head",
@@ -4329,7 +4329,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-scholars-arm-to-intelligence",
    "source": "map",
-   "map": "The Archives"
+   "map": "Act 3, The Archives"
   },
   {
    "name": "Bear Head",
@@ -4351,7 +4351,7 @@ window.VISCERA = {
    "change": -5.66,
    "id": "lesser-distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently",
    "source": "map",
-   "map": "The Canals"
+   "map": "Act 10, The Canals"
   },
   {
    "name": "Lesser Voltaic Skull",
@@ -4362,7 +4362,7 @@ window.VISCERA = {
    "change": -50,
    "id": "lesser-voltaic-skull-of-physical-damage-converted-to-lightning-damage",
    "source": "map",
-   "map": "The Refinery"
+   "map": "Act 9, The Refinery"
   },
   {
    "name": "Lesser Brute's Arm",
@@ -4373,7 +4373,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-brutes-arm-to-strength",
    "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "map": "Act 3, The Lunaris Temple Level 1"
   },
   {
    "name": "Lesser Voltaic Apparatus",
@@ -4384,7 +4384,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-voltaic-apparatus-chance-to-gain-a-power-charge-on-kill",
    "source": "map",
-   "map": "The Sewers"
+   "map": "Act 3, The Sewers"
   },
   {
    "name": "Lesser Scarecrow's Pitchfork",
@@ -4395,7 +4395,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-scarecrows-pitchfork-chance-to-cause-monsters-to-flee",
    "source": "map",
-   "map": "The Imperial Fields"
+   "map": "Act 8, The Imperial Fields"
   },
   {
    "name": "Lesser Gemling Torso",
@@ -4406,7 +4406,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-gemling-torso-items-and-gems-have-reduced-attribute-requirements",
    "source": "map",
-   "map": "The Grain Gate"
+   "map": "Act 8, The Grain Gate"
   },
   {
    "name": "Lesser Chimeral Eye",
@@ -4417,7 +4417,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-chimeral-eye-petrification-on-you-expires-faster",
    "source": "map",
-   "map": "The Boiling Lake"
+   "map": "Act 9, The Boiling Lake"
   },
   {
    "name": "Lesser Blackened Lungs",
@@ -4428,7 +4428,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-blackened-lungs-increased-warcry-speed",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Act 7, The Dread Thicket"
   },
   {
    "name": "Lesser Champion's Banner",
@@ -4439,7 +4439,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-champions-banner-enemies-near-your-banner-take-increased-cold-damage",
    "source": "map",
-   "map": "The Lunaris Temple Level 1"
+   "map": "Act 8, The Lunaris Temple Level 1"
   },
   {
    "name": "Lesser Terrifying Maw",
@@ -4450,7 +4450,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-terrifying-maw-reduced-effect-of-curses-on-you",
    "source": "map",
-   "map": "The High Gardens"
+   "map": "Act 8, The High Gardens"
   },
   {
    "name": "Lesser Skeletal Archer's Arm",
@@ -4461,7 +4461,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced",
    "source": "map",
-   "map": "The Climb"
+   "map": "Act 1, The Climb"
   },
   {
    "name": "Lesser Totemic Visage",
@@ -4472,7 +4472,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-totemic-visage-chance-to-shock",
    "source": "map",
-   "map": "The Ledge"
+   "map": "Act 1, The Ledge"
   },
   {
    "name": "Lesser Cutthroat's Head",
@@ -4483,7 +4483,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-cutthroats-head-increased-global-physical-damage",
    "source": "map",
-   "map": "The Southern Forest"
+   "map": "Act 2, The Southern Forest"
   },
   {
    "name": "Coagulated Essence",
@@ -4494,7 +4494,7 @@ window.VISCERA = {
    "change": 0,
    "id": "coagulated-essence-increased-damage-while-bleeding",
    "source": "map",
-   "map": "The Blood Aqueduct"
+   "map": "Act 9, The Blood Aqueduct"
   },
   {
    "name": "Lesser Poacher's Leg",
@@ -4505,7 +4505,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-poachers-leg-physical-damage-taken-from-hits-by-animals",
    "source": "map",
-   "map": "The Riverways"
+   "map": "Act 2, The Riverways"
   },
   {
    "name": "Lesser Coagulated Essence",
@@ -4516,7 +4516,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-coagulated-essence-increased-damage-while-bleeding",
    "source": "map",
-   "map": "The Blood Aqueduct"
+   "map": "Act 9, The Blood Aqueduct"
   },
   {
    "name": "Lesser Cobra Tail",
@@ -4527,7 +4527,7 @@ window.VISCERA = {
    "change": -90,
    "id": "lesser-cobra-tail-increased-cooldown-recovery-rate-of-travel-skills",
    "source": "map",
-   "map": "The Northern Forest"
+   "map": "Act 2, The Northern Forest"
   },
   {
    "name": "Lesser Desert Sword",
@@ -4538,7 +4538,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-desert-sword-global-chance-to-blind-enemies-on-hit",
    "source": "map",
-   "map": "The Vastiri Desert"
+   "map": "Act 9, The Vastiri Desert"
   },
   {
    "name": "Lesser Flayed Arm",
@@ -4549,7 +4549,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-flayed-arm-of-damage-taken-recouped-as-life",
    "source": "map",
-   "map": "The Belly of the Beast"
+   "map": "Act 9, The Belly of the Beast"
   },
   {
    "name": "Lesser Statue Leg",
@@ -4560,7 +4560,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-statue-leg-chance-to-knock-enemies-back-on-hit",
    "source": "map",
-   "map": "The Solaris Temple Level 2"
+   "map": "Act 3, The Solaris Temple Level 2"
   },
   {
    "name": "Lesser Desert Queen's Crown",
@@ -4571,7 +4571,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-desert-queens-crown-increased-damage-while-blind",
    "source": "map",
-   "map": "The Quarry"
+   "map": "Act 9, The Quarry"
   },
   {
    "name": "Lesser Lithic Haunches",
@@ -4582,7 +4582,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-lithic-haunches-chance-to-defend-with-of-armour",
    "source": "map",
-   "map": "The Foothills"
+   "map": "Act 9, The Foothills"
   },
   {
    "name": "Lesser Severed Rhoa Head",
@@ -4593,7 +4593,7 @@ window.VISCERA = {
    "change": -66.67,
    "id": "lesser-severed-rhoa-head-increased-chaos-damage",
    "source": "map",
-   "map": "The Mud Flats"
+   "map": "Act 1, The Mud Flats"
   },
   {
    "name": "Lesser Construct's Head",
@@ -4604,7 +4604,7 @@ window.VISCERA = {
    "change": -66.67,
    "id": "lesser-constructs-head-increased-projectile-speed",
    "source": "map",
-   "map": "The Causeway"
+   "map": "Act 7, The Causeway"
   },
   {
    "name": "Lesser Bonestalker's Ribcage",
@@ -4615,7 +4615,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-bonestalkers-ribcage-reduced-physical-damage-taken-over-time",
    "source": "map",
-   "map": "The Crypt Level 1"
+   "map": "Act 2, The Crypt Level 1"
   },
   {
    "name": "Lesser Charred Leg",
@@ -4626,7 +4626,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-charred-leg-reduced-ignite-duration-on-you",
    "source": "map",
-   "map": "The Solaris Concourse"
+   "map": "Act 8, The Solaris Concourse"
   },
   {
    "name": "Lesser Primate Foot",
@@ -4637,7 +4637,7 @@ window.VISCERA = {
    "change": 0,
    "id": "lesser-primate-foot-increased-movement-speed-while-ignited",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Act 2, The Dread Thicket"
   },
   {
    "name": "Primate Foot",
@@ -4648,7 +4648,7 @@ window.VISCERA = {
    "change": 0,
    "id": "primate-foot-increased-movement-speed-while-ignited",
    "source": "map",
-   "map": "The Dread Thicket"
+   "map": "Act 2, The Dread Thicket"
   },
   {
    "name": "Adherent's Crown",
@@ -4659,7 +4659,7 @@ window.VISCERA = {
    "change": -58.33,
    "id": "adherents-crown-of-physical-damage-converted-to-fire-damage",
    "source": "map",
-   "map": "The Templar Courts"
+   "map": "Act 5, The Templar Courts"
   },
   {
    "name": "Vendigo Claws",
@@ -4670,7 +4670,7 @@ window.VISCERA = {
    "change": -61.54,
    "id": "vendigo-claws-adds-to-cold-damage-to-unarmed-attacks",
    "source": "map",
-   "map": "The Ascent"
+   "map": "Act 4, The Ascent"
   },
   {
    "name": "Spiked Carapace",
@@ -4692,7 +4692,7 @@ window.VISCERA = {
    "change": -62.96,
    "id": "voidbearers-leg-increased-movement-speed-while-on-burning-ground",
    "source": "map",
-   "map": "The Docks"
+   "map": "Act 3, The Docks"
   },
   {
    "name": "Greater Sun-bleached Breastplate",
@@ -4714,7 +4714,7 @@ window.VISCERA = {
    "change": 0,
    "id": "poachers-leg-physical-damage-taken-from-hits-by-animals",
    "source": "map",
-   "map": "The Riverways"
+   "map": "Act 2, The Riverways"
   },
   {
    "name": "Lesser Hallowed Descry",
@@ -4736,7 +4736,7 @@ window.VISCERA = {
    "change": 1000,
    "id": "lesser-nobles-head-more-damage-against-undead-monsters",
    "source": "map",
-   "map": "The Twilight Strand"
+   "map": "Act 6, The Twilight Strand"
   },
   {
    "name": "Lesser Golemic Stone",
@@ -4747,7 +4747,7 @@ window.VISCERA = {
    "change": 95.12,
    "id": "lesser-golemic-stone-chance-to-avoid-being-stunned",
    "source": "map",
-   "map": "The Old Fields"
+   "map": "Act 2, The Old Fields"
   },
   {
    "name": "Lesser Sun-bleached Breastplate",
@@ -4758,7 +4758,7 @@ window.VISCERA = {
    "change": -82,
    "id": "lesser-sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage",
    "source": "map",
-   "map": "The Solaris Temple Level 1"
+   "map": "Act 8, The Solaris Temple Level 1"
   },
   {
    "name": "Lesser Justicar's Helm",
@@ -4769,7 +4769,7 @@ window.VISCERA = {
    "change": -95,
    "id": "lesser-justicars-helm-increased-stun-threshold",
    "source": "map",
-   "map": "The Control Blocks"
+   "map": "Act 5, The Control Blocks"
   }
  ]
 };
