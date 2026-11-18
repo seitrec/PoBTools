@@ -15,7 +15,8 @@ window.VISCERA = {
    "chaos": 2493,
    "listings": 9,
    "change": -3.83,
-   "id": "greater-incarnation-of-neglects-cube-damaging-retaliation-skills-become-usable-every-seconds"
+   "id": "greater-incarnation-of-neglects-cube-damaging-retaliation-skills-become-usable-every-seconds",
+   "source": "uber"
   },
   {
    "name": "Greater Scholar's Leg",
@@ -24,7 +25,8 @@ window.VISCERA = {
    "chaos": 2321,
    "listings": 51,
    "change": 134.9,
-   "id": "greater-scholars-leg-reduced-bonuses-gained-from-equipped-boots-increased-bonuses-gained-from-equipped-gloves"
+   "id": "greater-scholars-leg-reduced-bonuses-gained-from-equipped-boots-increased-bonuses-gained-from-equipped-gloves",
+   "source": "extra"
   },
   {
    "name": "Greater Maven's Orrery",
@@ -33,7 +35,8 @@ window.VISCERA = {
    "chaos": 1870,
    "listings": 12,
    "change": -20.41,
-   "id": "greater-mavens-orrery-to-maximum-number-of-sacred-wisps-to-number-of-sacred-wisps-summoned"
+   "id": "greater-mavens-orrery-to-maximum-number-of-sacred-wisps-to-number-of-sacred-wisps-summoned",
+   "source": "uber"
   },
   {
    "name": "Greater Sea Witch's Tentacle",
@@ -42,7 +45,8 @@ window.VISCERA = {
    "chaos": 1620,
    "listings": 23,
    "change": 115.9,
-   "id": "greater-sea-witchs-tentacle-minions-have-chance-to-deal-double-damage"
+   "id": "greater-sea-witchs-tentacle-minions-have-chance-to-deal-double-damage",
+   "source": "extra"
   },
   {
    "name": "Greater Skeletal Tail",
@@ -51,7 +55,8 @@ window.VISCERA = {
    "chaos": 1558,
    "listings": 21,
    "change": 4.49,
-   "id": "greater-skeletal-tail-projectiles-pierce-fork-or-chain-an-additional-time-at-random"
+   "id": "greater-skeletal-tail-projectiles-pierce-fork-or-chain-an-additional-time-at-random",
+   "source": "extra"
   },
   {
    "name": "Greater Ancestor's Club",
@@ -60,7 +65,8 @@ window.VISCERA = {
    "chaos": 779.0,
    "listings": 31,
    "change": 501.5,
-   "id": "greater-ancestors-club-non-vaal-strike-skills-target-additional-nearby-enemy"
+   "id": "greater-ancestors-club-non-vaal-strike-skills-target-additional-nearby-enemy",
+   "source": "map"
   },
   {
    "name": "Greater Severed Stinger",
@@ -69,7 +75,8 @@ window.VISCERA = {
    "chaos": 623.2,
    "listings": 46,
    "change": 4.16,
-   "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted"
+   "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted",
+   "source": "map"
   },
   {
    "name": "Greater Skeletal Warrior's Leg",
@@ -78,7 +85,8 @@ window.VISCERA = {
    "chaos": 519.6,
    "listings": 34,
    "change": 40.39,
-   "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+   "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
+   "source": "map"
   },
   {
    "name": "Greater Sirus' Head",
@@ -87,7 +95,8 @@ window.VISCERA = {
    "chaos": 485.0,
    "listings": 49,
    "change": -73.15,
-   "id": "greater-sirus-head-enemies-you-kill-have-a-chance-to-explode-dealing-a-tenth-of-their-maximum-life-as-damage-of-a-random-element"
+   "id": "greater-sirus-head-enemies-you-kill-have-a-chance-to-explode-dealing-a-tenth-of-their-maximum-life-as-damage-of-a-random-element",
+   "source": "uber"
   },
   {
    "name": "Greater Infected Leg",
@@ -96,7 +105,8 @@ window.VISCERA = {
    "chaos": 450.0,
    "listings": 34,
    "change": -20.86,
-   "id": "greater-infected-leg-damaging-ailments-inflicted-by-minions-deal-damage-faster"
+   "id": "greater-infected-leg-damaging-ailments-inflicted-by-minions-deal-damage-faster",
+   "source": "extra"
   },
   {
    "name": "Greater Prosthetic Leg",
@@ -105,7 +115,8 @@ window.VISCERA = {
    "chaos": 385.0,
    "listings": 49,
    "change": 40,
-   "id": "greater-prosthetic-leg-ignites-you-inflict-spread-to-other-enemies-within-a-radius-of-metres"
+   "id": "greater-prosthetic-leg-ignites-you-inflict-spread-to-other-enemies-within-a-radius-of-metres",
+   "source": "map"
   },
   {
    "name": "Maven's Orrery",
@@ -114,7 +125,8 @@ window.VISCERA = {
    "chaos": 370.0,
    "listings": 60,
    "change": -40.75,
-   "id": "mavens-orrery-enemies-within-metres-are-scorched"
+   "id": "mavens-orrery-enemies-within-metres-are-scorched",
+   "source": "boss"
   },
   {
    "name": "Greater Armoured Leg",
@@ -123,7 +135,8 @@ window.VISCERA = {
    "chaos": 350.0,
    "listings": 30,
    "change": 181.0,
-   "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky"
+   "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky",
+   "source": "map"
   },
   {
    "name": "Greater Crustacean's Claw",
@@ -132,7 +145,8 @@ window.VISCERA = {
    "chaos": 329.0,
    "listings": 60,
    "change": 4.61,
-   "id": "greater-crustaceans-claw-more-maximum-physical-attack-damage"
+   "id": "greater-crustaceans-claw-more-maximum-physical-attack-damage",
+   "source": "extra"
   },
   {
    "name": "Greater Overseer's Whip",
@@ -141,7 +155,8 @@ window.VISCERA = {
    "chaos": 315.0,
    "listings": 98,
    "change": 250,
-   "id": "greater-overseers-whip-minions-are-aggressive-if-youve-used-a-minion-skill-recently"
+   "id": "greater-overseers-whip-minions-are-aggressive-if-youve-used-a-minion-skill-recently",
+   "source": "map"
   },
   {
    "name": "Greater Totemic Visage",
@@ -150,7 +165,8 @@ window.VISCERA = {
    "chaos": 311.6,
    "listings": 43,
    "change": 157.1,
-   "id": "greater-totemic-visage-more-maximum-lightning-damage"
+   "id": "greater-totemic-visage-more-maximum-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Greater Coagulated Essence",
@@ -159,7 +175,8 @@ window.VISCERA = {
    "chaos": 311.6,
    "listings": 47,
    "change": -28.71,
-   "id": "greater-coagulated-essence-increased-damage-while-in-blood-stance"
+   "id": "greater-coagulated-essence-increased-damage-while-in-blood-stance",
+   "source": "extra"
   },
   {
    "name": "Greater Vendigo Claws",
@@ -168,7 +185,8 @@ window.VISCERA = {
    "chaos": 311.6,
    "listings": 80,
    "change": -29.0,
-   "id": "greater-vendigo-claws-increased-damage-with-hits-against-chilled-enemies"
+   "id": "greater-vendigo-claws-increased-damage-with-hits-against-chilled-enemies",
+   "source": "extra"
   },
   {
    "name": "Greater Gemling Torso",
@@ -177,7 +195,8 @@ window.VISCERA = {
    "chaos": 310.0,
    "listings": 74,
    "change": 165.9,
-   "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour"
+   "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour",
+   "source": "map"
   },
   {
    "name": "Greater Shaper's Head",
@@ -186,7 +205,8 @@ window.VISCERA = {
    "chaos": 309.2,
    "listings": 43,
    "change": -42.74,
-   "id": "greater-shapers-head-utility-flasks-gain-charges-every-seconds"
+   "id": "greater-shapers-head-utility-flasks-gain-charges-every-seconds",
+   "source": "uber"
   },
   {
    "name": "Greater Warden's Arm",
@@ -195,7 +215,8 @@ window.VISCERA = {
    "chaos": 296.5,
    "listings": 46,
    "change": 64.04,
-   "id": "greater-wardens-arm-more-maximum-life"
+   "id": "greater-wardens-arm-more-maximum-life",
+   "source": "map"
   },
   {
    "name": "Skeleton Wheel",
@@ -204,7 +225,8 @@ window.VISCERA = {
    "chaos": 291.5,
    "listings": 49,
    "change": -2.83,
-   "id": "skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently"
+   "id": "skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
+   "source": "map"
   },
   {
    "name": "Greater Charred Leg",
@@ -213,7 +235,8 @@ window.VISCERA = {
    "chaos": 290.0,
    "listings": 33,
    "change": -27.32,
-   "id": "greater-charred-leg-unaffected-by-burning-ground"
+   "id": "greater-charred-leg-unaffected-by-burning-ground",
+   "source": "extra"
   },
   {
    "name": "Greater Terrifying Maw",
@@ -222,7 +245,8 @@ window.VISCERA = {
    "chaos": 288.5,
    "listings": 90,
    "change": 5670,
-   "id": "greater-terrifying-maw-increased-damage-per-curse-on-you"
+   "id": "greater-terrifying-maw-increased-damage-per-curse-on-you",
+   "source": "map"
   },
   {
    "name": "Greater Smouldering Leg",
@@ -231,7 +255,8 @@ window.VISCERA = {
    "chaos": 250.0,
    "listings": 76,
    "change": 316.7,
-   "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots"
+   "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots",
+   "source": "map"
   },
   {
    "name": "Sirus' Head",
@@ -240,7 +265,8 @@ window.VISCERA = {
    "chaos": 220.0,
    "listings": 57,
    "change": 25.07,
-   "id": "sirus-head-transfiguration-of-soul"
+   "id": "sirus-head-transfiguration-of-soul",
+   "source": "boss"
   },
   {
    "name": "Greater Pocked Leg",
@@ -249,7 +275,8 @@ window.VISCERA = {
    "chaos": 207.0,
    "listings": 74,
    "change": 54.94,
-   "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots"
+   "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots",
+   "source": "map"
   },
   {
    "name": "Greater Engorged Eye",
@@ -258,7 +285,8 @@ window.VISCERA = {
    "chaos": 200.0,
    "listings": 33,
    "change": 101.2,
-   "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you"
+   "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you",
+   "source": "map"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -267,7 +295,8 @@ window.VISCERA = {
    "chaos": 200.0,
    "listings": 62,
    "change": -44.99,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-an-endurance-charge-on-hit"
+   "id": "nightmarish-book-of-depravity-chance-to-gain-an-endurance-charge-on-hit",
+   "source": "boss"
   },
   {
    "name": "Greater Goatman's Horn",
@@ -276,7 +305,8 @@ window.VISCERA = {
    "chaos": 200.0,
    "listings": 75,
    "change": -14.71,
-   "id": "greater-goatmans-horn-area-skills-have-chance-to-deal-double-damage"
+   "id": "greater-goatmans-horn-area-skills-have-chance-to-deal-double-damage",
+   "source": "extra"
   },
   {
    "name": "Greater Hallowed Descry",
@@ -285,7 +315,8 @@ window.VISCERA = {
    "chaos": 200.0,
    "listings": 40,
    "change": 0,
-   "id": "greater-hallowed-descry-consecrated-ground-you-create-grants-reduced-damage-taken-to-you-and-allies"
+   "id": "greater-hallowed-descry-consecrated-ground-you-create-grants-reduced-damage-taken-to-you-and-allies",
+   "source": "extra"
   },
   {
    "name": "Greater Thaumaturge's Head",
@@ -294,7 +325,8 @@ window.VISCERA = {
    "chaos": 180.0,
    "listings": 156,
    "change": 39.32,
-   "id": "greater-thaumaturges-head-gain-of-physical-damage-as-extra-fire-damage-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+   "id": "greater-thaumaturges-head-gain-of-physical-damage-as-extra-fire-damage-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Greater Incarnation of Dread's Head",
@@ -303,7 +335,8 @@ window.VISCERA = {
    "chaos": 180.0,
    "listings": 132,
    "change": -86.59,
-   "id": "greater-incarnation-of-dreads-head-gain-a-random-shrine-buff-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+   "id": "greater-incarnation-of-dreads-head-gain-a-random-shrine-buff-for-seconds-when-you-kill-a-rare-or-unique-enemy",
+   "source": "uber"
   },
   {
    "name": "Greater Incarnation of Fear's Head",
@@ -312,7 +345,8 @@ window.VISCERA = {
    "chaos": 180.0,
    "listings": 36,
    "change": -85.16,
-   "id": "greater-incarnation-of-fears-head-your-chaos-damage-can-freeze"
+   "id": "greater-incarnation-of-fears-head-your-chaos-damage-can-freeze",
+   "source": "uber"
   },
   {
    "name": "Greater Smuggler's Hand",
@@ -321,7 +355,8 @@ window.VISCERA = {
    "chaos": 170.4,
    "listings": 53,
    "change": -52.13,
-   "id": "greater-smugglers-hand-chance-for-a-coin-shower-on-kill"
+   "id": "greater-smugglers-hand-chance-for-a-coin-shower-on-kill",
+   "source": "extra"
   },
   {
    "name": "Greater Justicar's Helm",
@@ -330,7 +365,8 @@ window.VISCERA = {
    "chaos": 170.0,
    "listings": 99,
    "change": 71.46,
-   "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life"
+   "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life",
+   "source": "map"
   },
   {
    "name": "Greater Golden Ankh",
@@ -339,7 +375,8 @@ window.VISCERA = {
    "chaos": 155.8,
    "listings": 53,
    "change": 330.4,
-   "id": "greater-golden-ankh-regenerate-of-life-per-second-for-each-raised-zombie"
+   "id": "greater-golden-ankh-regenerate-of-life-per-second-for-each-raised-zombie",
+   "source": "map"
   },
   {
    "name": "Greater Corrupted Carapace",
@@ -348,7 +385,8 @@ window.VISCERA = {
    "chaos": 155.8,
    "listings": 131,
    "change": 183.3,
-   "id": "greater-corrupted-carapace-skills-that-cost-life-have-chance-to-deal-double-damage"
+   "id": "greater-corrupted-carapace-skills-that-cost-life-have-chance-to-deal-double-damage",
+   "source": "map"
   },
   {
    "name": "Greater Aristocrat's Torso",
@@ -357,7 +395,8 @@ window.VISCERA = {
    "chaos": 155.8,
    "listings": 8,
    "change": 1198,
-   "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life"
+   "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life",
+   "source": "map"
   },
   {
    "name": "Greater Chitinous Leg",
@@ -366,7 +405,8 @@ window.VISCERA = {
    "chaos": 155.8,
    "listings": 18,
    "change": 310,
-   "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate"
+   "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate",
+   "source": "map"
   },
   {
    "name": "Greater Gladiator's Heart",
@@ -375,7 +415,8 @@ window.VISCERA = {
    "chaos": 150.0,
    "listings": 56,
    "change": 138.1,
-   "id": "greater-gladiators-heart-to-maximum-rage"
+   "id": "greater-gladiators-heart-to-maximum-rage",
+   "source": "map"
   },
   {
    "name": "Nightmarish Wings of Catarina",
@@ -384,7 +425,8 @@ window.VISCERA = {
    "chaos": 150.0,
    "listings": 81,
    "change": -73.56,
-   "id": "nightmarish-wings-of-catarina-to-maximum-number-of-spectres"
+   "id": "nightmarish-wings-of-catarina-to-maximum-number-of-spectres",
+   "source": "boss"
   },
   {
    "name": "Greater Ornate Torso",
@@ -393,7 +435,8 @@ window.VISCERA = {
    "chaos": 142.5,
    "listings": 56,
    "change": 249.3,
-   "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you"
+   "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you",
+   "source": "map"
   },
   {
    "name": "Greater Skeletal Beast Leg",
@@ -402,7 +445,8 @@ window.VISCERA = {
    "chaos": 139.0,
    "listings": 20,
    "change": 6.4,
-   "id": "greater-skeletal-beast-leg-moving-while-bleeding-doesnt-cause-you-to-take-extra-damage"
+   "id": "greater-skeletal-beast-leg-moving-while-bleeding-doesnt-cause-you-to-take-extra-damage",
+   "source": "extra"
   },
   {
    "name": "Greater Lithic Haunches",
@@ -411,7 +455,8 @@ window.VISCERA = {
    "chaos": 138.6,
    "listings": 48,
    "change": 54,
-   "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits"
+   "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits",
+   "source": "map"
   },
   {
    "name": "Greater Arachnid Egg Sac",
@@ -420,7 +465,8 @@ window.VISCERA = {
    "chaos": 135.0,
    "listings": 47,
    "change": 350,
-   "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught"
+   "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught",
+   "source": "map"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -429,7 +475,8 @@ window.VISCERA = {
    "chaos": 123.6,
    "listings": 29,
    "change": -52.09,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-a-frenzy-charge-on-hit"
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-frenzy-charge-on-hit",
+   "source": "boss"
   },
   {
    "name": "Greater Bonestalker's Ribcage",
@@ -438,7 +485,8 @@ window.VISCERA = {
    "chaos": 120.0,
    "listings": 67,
    "change": 49.81,
-   "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction"
+   "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction",
+   "source": "map"
   },
   {
    "name": "Constrictor's Head",
@@ -447,7 +495,8 @@ window.VISCERA = {
    "chaos": 120.0,
    "listings": 103,
    "change": -41.23,
-   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-used-a-movement-skill-recently"
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-used-a-movement-skill-recently",
+   "source": "boss"
   },
   {
    "name": "Greater Eater of Worlds' Head",
@@ -456,7 +505,8 @@ window.VISCERA = {
    "chaos": 118.8,
    "listings": 139,
    "change": -78,
-   "id": "greater-eater-of-worlds-head-to-quality-of-all-skill-gems"
+   "id": "greater-eater-of-worlds-head-to-quality-of-all-skill-gems",
+   "source": "uber"
   },
   {
    "name": "Greater Scorched Arm",
@@ -465,7 +515,8 @@ window.VISCERA = {
    "chaos": 110.0,
    "listings": 74,
    "change": 144.4,
-   "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster"
+   "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster",
+   "source": "map"
   },
   {
    "name": "Greater Molten Core",
@@ -474,7 +525,8 @@ window.VISCERA = {
    "chaos": 105.0,
    "listings": 86,
    "change": -43.73,
-   "id": "greater-molten-core-to-maximum-fire-resistance"
+   "id": "greater-molten-core-to-maximum-fire-resistance",
+   "source": "extra"
   },
   {
    "name": "Incarnation of Neglect's Cube",
@@ -483,7 +535,8 @@ window.VISCERA = {
    "chaos": 100.0,
    "listings": 97,
    "change": -74.16,
-   "id": "incarnation-of-neglects-cube-chance-to-inflict-an-additional-poison-on-the-same-target-when-you-inflict-poison"
+   "id": "incarnation-of-neglects-cube-chance-to-inflict-an-additional-poison-on-the-same-target-when-you-inflict-poison",
+   "source": "boss"
   },
   {
    "name": "Greater Blazing Skull",
@@ -492,7 +545,8 @@ window.VISCERA = {
    "chaos": 95.9,
    "listings": 189,
    "change": 59.83,
-   "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds"
+   "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds",
+   "source": "map"
   },
   {
    "name": "Eater of Worlds' Head",
@@ -501,7 +555,8 @@ window.VISCERA = {
    "chaos": 85.0,
    "listings": 212,
    "change": -80.47,
-   "id": "eater-of-worlds-head-chance-to-gain-a-frenzy-charge-for-each-enemy-you-hit-with-a-critical-strike"
+   "id": "eater-of-worlds-head-chance-to-gain-a-frenzy-charge-for-each-enemy-you-hit-with-a-critical-strike",
+   "source": "boss"
   },
   {
    "name": "Sea Witch's Tentacle",
@@ -510,7 +565,8 @@ window.VISCERA = {
    "chaos": 84.0,
    "listings": 179,
    "change": -34.88,
-   "id": "sea-witchs-tentacle-minions-deal-increased-damage"
+   "id": "sea-witchs-tentacle-minions-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Skeleton Wheel",
@@ -519,7 +575,8 @@ window.VISCERA = {
    "chaos": 83.5,
    "listings": 25,
    "change": -9.53,
-   "id": "lesser-skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently"
+   "id": "lesser-skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
+   "source": "map"
   },
   {
    "name": "Aristocrat's Torso",
@@ -528,7 +585,8 @@ window.VISCERA = {
    "chaos": 80.0,
    "listings": 96,
    "change": 128.6,
-   "id": "aristocrats-torso-increased-life-regeneration-rate"
+   "id": "aristocrats-torso-increased-life-regeneration-rate",
+   "source": "map"
   },
   {
    "name": "Greater Skeleton Wheel",
@@ -537,7 +595,8 @@ window.VISCERA = {
    "chaos": 76.0,
    "listings": 71,
    "change": -43.7,
-   "id": "greater-skeleton-wheel-to-level-of-all-movement-skill-gems"
+   "id": "greater-skeleton-wheel-to-level-of-all-movement-skill-gems",
+   "source": "extra"
   },
   {
    "name": "Infected Leg",
@@ -546,7 +605,8 @@ window.VISCERA = {
    "chaos": 75.0,
    "listings": 155,
    "change": -31.82,
-   "id": "infected-leg-minions-have-to-damage-over-time-multiplier"
+   "id": "infected-leg-minions-have-to-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Greater Inquisitor's Claw",
@@ -555,7 +615,8 @@ window.VISCERA = {
    "chaos": 65.0,
    "listings": 157,
    "change": -1.96,
-   "id": "greater-inquisitors-claw-increased-effect-of-withered"
+   "id": "greater-inquisitors-claw-increased-effect-of-withered",
+   "source": "map"
   },
   {
    "name": "Greater Gemling Torso",
@@ -564,7 +625,8 @@ window.VISCERA = {
    "chaos": 60.0,
    "listings": 68,
    "change": -3.61,
-   "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour"
+   "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour",
+   "source": "map"
   },
   {
    "name": "Severed Stinger",
@@ -573,7 +635,8 @@ window.VISCERA = {
    "chaos": 55.0,
    "listings": 105,
    "change": -42.11,
-   "id": "severed-stinger-damage-penetrates-lightning-resistance"
+   "id": "severed-stinger-damage-penetrates-lightning-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Bandit Rogue's Head",
@@ -582,7 +645,8 @@ window.VISCERA = {
    "chaos": 52.5,
    "listings": 91,
    "change": 20.83,
-   "id": "greater-bandit-rogues-head-increased-action-speed"
+   "id": "greater-bandit-rogues-head-increased-action-speed",
+   "source": "map"
   },
   {
    "name": "Greater Lunar Bow",
@@ -591,7 +655,8 @@ window.VISCERA = {
    "chaos": 50.0,
    "listings": 99,
    "change": 400,
-   "id": "greater-lunar-bow-gain-of-physical-damage-as-extra-cold-damage"
+   "id": "greater-lunar-bow-gain-of-physical-damage-as-extra-cold-damage",
+   "source": "map"
   },
   {
    "name": "Gladiator's Heart",
@@ -600,7 +665,8 @@ window.VISCERA = {
    "chaos": 50.0,
    "listings": 171,
    "change": 400,
-   "id": "gladiators-heart-gain-rage-on-melee-hit"
+   "id": "gladiators-heart-gain-rage-on-melee-hit",
+   "source": "map"
   },
   {
    "name": "Greater Searing Exarch's Descry",
@@ -609,7 +675,8 @@ window.VISCERA = {
    "chaos": 50.0,
    "listings": 157,
    "change": -89.29,
-   "id": "greater-searing-exarchs-descry-to-maximum-fortification"
+   "id": "greater-searing-exarchs-descry-to-maximum-fortification",
+   "source": "uber"
   },
   {
    "name": "Lesser Aristocrat's Torso",
@@ -618,7 +685,8 @@ window.VISCERA = {
    "chaos": 50.0,
    "listings": 23,
    "change": 137.0,
-   "id": "lesser-aristocrats-torso-increased-life-regeneration-rate"
+   "id": "lesser-aristocrats-torso-increased-life-regeneration-rate",
+   "source": "map"
   },
   {
    "name": "Skeletal Tail",
@@ -627,7 +695,8 @@ window.VISCERA = {
    "chaos": 50.0,
    "listings": 161,
    "change": -49.67,
-   "id": "skeletal-tail-increased-projectile-damage"
+   "id": "skeletal-tail-increased-projectile-damage",
+   "source": "map"
   },
   {
    "name": "Artificial Appendage",
@@ -636,7 +705,8 @@ window.VISCERA = {
    "chaos": 49.8,
    "listings": 72,
    "change": 232,
-   "id": "artificial-appendage-minions-have-increased-critical-strike-chance"
+   "id": "artificial-appendage-minions-have-increased-critical-strike-chance",
+   "source": "boss"
   },
   {
    "name": "Greater Osseous Scythe",
@@ -645,7 +715,8 @@ window.VISCERA = {
    "chaos": 49.3,
    "listings": 75,
    "change": -65.76,
-   "id": "greater-osseous-scythe-increased-impale-effect"
+   "id": "greater-osseous-scythe-increased-impale-effect",
+   "source": "extra"
   },
   {
    "name": "Lesser Sea Witch's Tentacle",
@@ -654,7 +725,8 @@ window.VISCERA = {
    "chaos": 47.9,
    "listings": 68,
    "change": -39.6,
-   "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage"
+   "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Greater Solar Shield",
@@ -663,7 +735,8 @@ window.VISCERA = {
    "chaos": 45.0,
    "listings": 194,
    "change": 614.3,
-   "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage"
+   "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage",
+   "source": "map"
   },
   {
    "name": "Greater King Crab's Claw",
@@ -672,7 +745,8 @@ window.VISCERA = {
    "chaos": 45.0,
    "listings": 229,
    "change": -70.85,
-   "id": "greater-king-crabs-claw-chance-to-gain-a-brine-charge-instead-of-an-endurance-charge"
+   "id": "greater-king-crabs-claw-chance-to-gain-a-brine-charge-instead-of-an-endurance-charge",
+   "source": "map"
   },
   {
    "name": "Lesser Infected Leg",
@@ -681,7 +755,8 @@ window.VISCERA = {
    "chaos": 42.5,
    "listings": 39,
    "change": -22.73,
-   "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier"
+   "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Inquisitor's Head",
@@ -690,7 +765,8 @@ window.VISCERA = {
    "chaos": 41.0,
    "listings": 99,
    "change": 4000,
-   "id": "inquisitors-head-causes-bleeding-on-melee-critical-strike"
+   "id": "inquisitors-head-causes-bleeding-on-melee-critical-strike",
+   "source": "boss"
   },
   {
    "name": "Shaper's Head",
@@ -699,7 +775,8 @@ window.VISCERA = {
    "chaos": 40.0,
    "listings": 70,
    "change": -73.33,
-   "id": "shapers-head-gain-shapers-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+   "id": "shapers-head-gain-shapers-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy",
+   "source": "boss"
   },
   {
    "name": "Greater Blackguard's Leg",
@@ -708,7 +785,8 @@ window.VISCERA = {
    "chaos": 40.0,
    "listings": 37,
    "change": -41.35,
-   "id": "greater-blackguards-leg-unaffected-by-chilled-ground"
+   "id": "greater-blackguards-leg-unaffected-by-chilled-ground",
+   "source": "extra"
   },
   {
    "name": "Lesser Bandit Witch's Head",
@@ -717,7 +795,8 @@ window.VISCERA = {
    "chaos": 38.5,
    "listings": 12,
    "change": 3750,
-   "id": "lesser-bandit-witchs-head-regenerate-mana-per-second"
+   "id": "lesser-bandit-witchs-head-regenerate-mana-per-second",
+   "source": "map"
   },
   {
    "name": "Scorched Arm",
@@ -726,7 +805,8 @@ window.VISCERA = {
    "chaos": 37.3,
    "listings": 181,
    "change": 273,
-   "id": "scorched-arm-chance-to-ignite"
+   "id": "scorched-arm-chance-to-ignite",
+   "source": "map"
   },
   {
    "name": "Chimera's Head",
@@ -735,7 +815,8 @@ window.VISCERA = {
    "chaos": 36.0,
    "listings": 199,
    "change": -18.27,
-   "id": "chimeras-head-minions-deal-increased-damage-if-youve-hit-recently"
+   "id": "chimeras-head-minions-deal-increased-damage-if-youve-hit-recently",
+   "source": "boss"
   },
   {
    "name": "Greater Brute's Arm",
@@ -744,7 +825,8 @@ window.VISCERA = {
    "chaos": 35.0,
    "listings": 108,
    "change": 89.19,
-   "id": "greater-brutes-arm-increased-strength"
+   "id": "greater-brutes-arm-increased-strength",
+   "source": "map"
   },
   {
    "name": "Sirus' Head",
@@ -753,7 +835,8 @@ window.VISCERA = {
    "chaos": 35.0,
    "listings": 42,
    "change": -80.56,
-   "id": "sirus-head-transfiguration-of-body"
+   "id": "sirus-head-transfiguration-of-body",
+   "source": "boss"
   },
   {
    "name": "Spectral Hood",
@@ -762,7 +845,8 @@ window.VISCERA = {
    "chaos": 30.0,
    "listings": 179,
    "change": -9.77,
-   "id": "spectral-hood-to-chaos-resistance"
+   "id": "spectral-hood-to-chaos-resistance",
+   "source": "map"
   },
   {
    "name": "Scholar's Leg",
@@ -771,7 +855,8 @@ window.VISCERA = {
    "chaos": 30.0,
    "listings": 79,
    "change": -25,
-   "id": "scholars-leg-increased-bonuses-gained-from-equipped-gloves"
+   "id": "scholars-leg-increased-bonuses-gained-from-equipped-gloves",
+   "source": "map"
   },
   {
    "name": "Greater Gemling Torso",
@@ -780,7 +865,8 @@ window.VISCERA = {
    "chaos": 29.3,
    "listings": 96,
    "change": -26.75,
-   "id": "greater-gemling-torso-increased-evasion-rating-from-equipped-body-armour"
+   "id": "greater-gemling-torso-increased-evasion-rating-from-equipped-body-armour",
+   "source": "map"
   },
   {
    "name": "Lesser Skeletal Warrior's Leg",
@@ -789,7 +875,8 @@ window.VISCERA = {
    "chaos": 28.9,
    "listings": 23,
    "change": 45.91,
-   "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+   "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
+   "source": "map"
   },
   {
    "name": "Searing Exarch's Descry",
@@ -798,7 +885,8 @@ window.VISCERA = {
    "chaos": 25.0,
    "listings": 336,
    "change": -79.37,
-   "id": "searing-exarchs-descry-of-cold-damage-taken-as-fire-damage-of-lightning-damage-taken-as-fire-damage-of-physical-damage-taken-as-fire-damage"
+   "id": "searing-exarchs-descry-of-cold-damage-taken-as-fire-damage-of-lightning-damage-taken-as-fire-damage-of-physical-damage-taken-as-fire-damage",
+   "source": "boss"
   },
   {
    "name": "Greater Shaper's Head",
@@ -807,7 +895,8 @@ window.VISCERA = {
    "chaos": 25.0,
    "listings": 61,
    "change": -74.77,
-   "id": "greater-shapers-head-utility-flasks-gain-charge-every-seconds"
+   "id": "greater-shapers-head-utility-flasks-gain-charge-every-seconds",
+   "source": "uber"
   },
   {
    "name": "Greater Construct's Head",
@@ -816,7 +905,8 @@ window.VISCERA = {
    "chaos": 25.0,
    "listings": 156,
    "change": -79.08,
-   "id": "greater-constructs-head-skills-deal-increased-projectile-damage-per-projectile-created"
+   "id": "greater-constructs-head-skills-deal-increased-projectile-damage-per-projectile-created",
+   "source": "extra"
   },
   {
    "name": "Sirus' Head",
@@ -825,7 +915,8 @@ window.VISCERA = {
    "chaos": 23.0,
    "listings": 47,
    "change": -90.51,
-   "id": "sirus-head-transfiguration-of-mind"
+   "id": "sirus-head-transfiguration-of-mind",
+   "source": "boss"
   },
   {
    "name": "Greater Bloodied Arm",
@@ -834,7 +925,8 @@ window.VISCERA = {
    "chaos": 22.9,
    "listings": 147,
    "change": 129,
-   "id": "greater-bloodied-arm-bleeding-enemies-you-kill-explode-dealing-of-their-maximum-life-as-physical-damage"
+   "id": "greater-bloodied-arm-bleeding-enemies-you-kill-explode-dealing-of-their-maximum-life-as-physical-damage",
+   "source": "map"
   },
   {
    "name": "Greater Bandit Warrior's Head",
@@ -843,7 +935,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 294,
    "change": 170.3,
-   "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently"
+   "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently",
+   "source": "map"
   },
   {
    "name": "Nightmarish Core of the Unbreakable",
@@ -852,7 +945,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 134,
    "change": -20,
-   "id": "nightmarish-core-of-the-unbreakable-enemies-take-increased-damage-for-each-type-of-ailment-you-have-inflicted-on-them"
+   "id": "nightmarish-core-of-the-unbreakable-enemies-take-increased-damage-for-each-type-of-ailment-you-have-inflicted-on-them",
+   "source": "boss"
   },
   {
    "name": "Greater Defaced Bust",
@@ -861,7 +955,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 46,
    "change": -58.33,
-   "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit"
+   "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Severed Stinger",
@@ -870,7 +965,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 84,
    "change": -69.79,
-   "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance"
+   "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance",
+   "source": "map"
   },
   {
    "name": "Venarius' Scripture",
@@ -879,7 +975,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 110,
    "change": -82.53,
-   "id": "venarius-scripture-consecrated-ground-you-create-applies-increased-damage-taken-to-enemies"
+   "id": "venarius-scripture-consecrated-ground-you-create-applies-increased-damage-taken-to-enemies",
+   "source": "boss"
   },
   {
    "name": "Goatman's Horn",
@@ -888,7 +985,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 208,
    "change": -55.16,
-   "id": "goatmans-horn-increased-area-of-effect"
+   "id": "goatmans-horn-increased-area-of-effect",
+   "source": "map"
   },
   {
    "name": "Greater Distended Stomach",
@@ -897,7 +995,8 @@ window.VISCERA = {
    "chaos": 20.0,
    "listings": 79,
    "change": -66.39,
-   "id": "greater-distended-stomach-eat-a-soul-when-you-consume-the-corpse-of-a-rare-monster"
+   "id": "greater-distended-stomach-eat-a-soul-when-you-consume-the-corpse-of-a-rare-monster",
+   "source": "map"
   },
   {
    "name": "Ghostly Claw",
@@ -906,7 +1005,8 @@ window.VISCERA = {
    "chaos": 19.0,
    "listings": 234,
    "change": -80.31,
-   "id": "ghostly-claw-chance-to-gain-elusive-on-kill"
+   "id": "ghostly-claw-chance-to-gain-elusive-on-kill",
+   "source": "map"
   },
   {
    "name": "Greater Captain's Leg",
@@ -915,7 +1015,8 @@ window.VISCERA = {
    "chaos": 16.6,
    "listings": 93,
    "change": 10.67,
-   "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour"
+   "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour",
+   "source": "map"
   },
   {
    "name": "Captain's Leg",
@@ -924,7 +1025,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 203,
    "change": 6.76,
-   "id": "captains-leg-increased-movement-speed"
+   "id": "captains-leg-increased-movement-speed",
+   "source": "map"
   },
   {
    "name": "Greater Flaming Goat Hoof",
@@ -933,7 +1035,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 205,
    "change": -2.28,
-   "id": "greater-flaming-goat-hoof-increased-fire-damage-per-strength"
+   "id": "greater-flaming-goat-hoof-increased-fire-damage-per-strength",
+   "source": "map"
   },
   {
    "name": "Greater Siren's Tentacle",
@@ -942,7 +1045,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 82,
    "change": -25,
-   "id": "greater-sirens-tentacle-to-maximum-effect-of-chill"
+   "id": "greater-sirens-tentacle-to-maximum-effect-of-chill",
+   "source": "map"
   },
   {
    "name": "Hag's Head",
@@ -951,7 +1055,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 125,
    "change": -21.05,
-   "id": "hags-head-enemies-cursed-by-you-cannot-deal-critical-strikes"
+   "id": "hags-head-enemies-cursed-by-you-cannot-deal-critical-strikes",
+   "source": "boss"
   },
   {
    "name": "Greater Arachnid Fangs",
@@ -960,7 +1065,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 167,
    "change": -50,
-   "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster"
+   "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster",
+   "source": "map"
   },
   {
    "name": "Incarnation of Dread's Head",
@@ -969,7 +1075,8 @@ window.VISCERA = {
    "chaos": 15.0,
    "listings": 114,
    "change": -70,
-   "id": "incarnation-of-dreads-head-minions-gain-added-resistances-equal-to-of-your-resistances"
+   "id": "incarnation-of-dreads-head-minions-gain-added-resistances-equal-to-of-your-resistances",
+   "source": "boss"
   },
   {
    "name": "Ancestor's Club",
@@ -978,7 +1085,8 @@ window.VISCERA = {
    "chaos": 14.1,
    "listings": 203,
    "change": 41,
-   "id": "ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away"
+   "id": "ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
+   "source": "map"
   },
   {
    "name": "Greater Flaming Ribbon",
@@ -987,7 +1095,8 @@ window.VISCERA = {
    "chaos": 12.0,
    "listings": 35,
    "change": 207.7,
-   "id": "greater-flaming-ribbon-reduced-fire-damage-taken"
+   "id": "greater-flaming-ribbon-reduced-fire-damage-taken",
+   "source": "map"
   },
   {
    "name": "Lesser Skeletal Tail",
@@ -996,7 +1105,8 @@ window.VISCERA = {
    "chaos": 12.0,
    "listings": 161,
    "change": -71.15,
-   "id": "lesser-skeletal-tail-increased-projectile-damage"
+   "id": "lesser-skeletal-tail-increased-projectile-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Scorched Arm",
@@ -1005,7 +1115,8 @@ window.VISCERA = {
    "chaos": 11.8,
    "listings": 35,
    "change": 1080,
-   "id": "lesser-scorched-arm-chance-to-ignite"
+   "id": "lesser-scorched-arm-chance-to-ignite",
+   "source": "map"
   },
   {
    "name": "Lesser Ghostly Claw",
@@ -1014,7 +1125,8 @@ window.VISCERA = {
    "chaos": 11.8,
    "listings": 31,
    "change": -83.38,
-   "id": "lesser-ghostly-claw-chance-to-gain-elusive-on-kill"
+   "id": "lesser-ghostly-claw-chance-to-gain-elusive-on-kill",
+   "source": "map"
   },
   {
    "name": "Warden's Arm",
@@ -1023,7 +1135,8 @@ window.VISCERA = {
    "chaos": 11.5,
    "listings": 368,
    "change": -54,
-   "id": "wardens-arm-to-maximum-life"
+   "id": "wardens-arm-to-maximum-life",
+   "source": "map"
   },
   {
    "name": "Artificial Appendage",
@@ -1032,7 +1145,8 @@ window.VISCERA = {
    "chaos": 11.0,
    "listings": 183,
    "change": -56,
-   "id": "artificial-appendage-increased-area-of-effect-for-attacks"
+   "id": "artificial-appendage-increased-area-of-effect-for-attacks",
+   "source": "boss"
   },
   {
    "name": "Greater Skeletal Archer's Arm",
@@ -1041,7 +1155,8 @@ window.VISCERA = {
    "chaos": 10.3,
    "listings": 242,
    "change": -74.25,
-   "id": "greater-skeletal-archers-arm-projectiles-pierce-additional-targets"
+   "id": "greater-skeletal-archers-arm-projectiles-pierce-additional-targets",
+   "source": "map"
   },
   {
    "name": "Greater Statue Leg",
@@ -1050,7 +1165,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 59,
    "change": 233.3,
-   "id": "greater-statue-leg-cannot-be-knocked-back"
+   "id": "greater-statue-leg-cannot-be-knocked-back",
+   "source": "map"
   },
   {
    "name": "Greater Galvanic Tentacle",
@@ -1059,7 +1175,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 82,
    "change": 156.4,
-   "id": "greater-galvanic-tentacle-to-maximum-lightning-resistance"
+   "id": "greater-galvanic-tentacle-to-maximum-lightning-resistance",
+   "source": "map"
   },
   {
    "name": "Templar Banner",
@@ -1068,7 +1185,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 165,
    "change": 0,
-   "id": "templar-banner-increased-spell-damage-per-power-charge"
+   "id": "templar-banner-increased-spell-damage-per-power-charge",
+   "source": "map"
   },
   {
    "name": "Greater Templar Banner",
@@ -1077,7 +1195,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 129,
    "change": 2.04,
-   "id": "greater-templar-banner-gain-of-lightning-damage-as-extra-chaos-damage-per-power-charge"
+   "id": "greater-templar-banner-gain-of-lightning-damage-as-extra-chaos-damage-per-power-charge",
+   "source": "map"
   },
   {
    "name": "Skeletal Warrior's Leg",
@@ -1086,7 +1205,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 302,
    "change": -61.83,
-   "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage"
+   "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Captain's Leg",
@@ -1095,7 +1215,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 34,
    "change": 25,
-   "id": "lesser-captains-leg-increased-movement-speed"
+   "id": "lesser-captains-leg-increased-movement-speed",
+   "source": "map"
   },
   {
    "name": "Greater Elder's Head",
@@ -1104,7 +1225,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 72,
    "change": -87.5,
-   "id": "greater-elders-head-enemies-chilled-by-your-hits-can-be-shattered-as-though-frozen"
+   "id": "greater-elders-head-enemies-chilled-by-your-hits-can-be-shattered-as-though-frozen",
+   "source": "uber"
   },
   {
    "name": "Greater Gelid Fangs",
@@ -1113,7 +1235,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 156,
    "change": -80,
-   "id": "greater-gelid-fangs-hits-have-chance-to-treat-enemy-monster-cold-resistance-values-as-inverted"
+   "id": "greater-gelid-fangs-hits-have-chance-to-treat-enemy-monster-cold-resistance-values-as-inverted",
+   "source": "extra"
   },
   {
    "name": "Greater Adherent's Crown",
@@ -1122,7 +1245,8 @@ window.VISCERA = {
    "chaos": 10.0,
    "listings": 196,
    "change": -80,
-   "id": "greater-adherents-crown-gain-of-physical-damage-as-extra-fire-damage"
+   "id": "greater-adherents-crown-gain-of-physical-damage-as-extra-fire-damage",
+   "source": "extra"
   },
   {
    "name": "Greater Voltaic Skull",
@@ -1131,7 +1255,8 @@ window.VISCERA = {
    "chaos": 9.0,
    "listings": 194,
    "change": -40,
-   "id": "greater-voltaic-skull-gain-of-physical-damage-as-extra-lightning-damage"
+   "id": "greater-voltaic-skull-gain-of-physical-damage-as-extra-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Scholar's Leg",
@@ -1140,7 +1265,8 @@ window.VISCERA = {
    "chaos": 9.0,
    "listings": 85,
    "change": -77.5,
-   "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves"
+   "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves",
+   "source": "map"
   },
   {
    "name": "Lesser Ancestor's Club",
@@ -1149,7 +1275,8 @@ window.VISCERA = {
    "chaos": 9.0,
    "listings": 24,
    "change": 55.17,
-   "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away"
+   "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
+   "source": "map"
   },
   {
    "name": "Greater Golemic Stone",
@@ -1158,7 +1285,8 @@ window.VISCERA = {
    "chaos": 9.0,
    "listings": 94,
    "change": 125,
-   "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds"
+   "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds",
+   "source": "map"
   },
   {
    "name": "Nightmarish Book of Depravity",
@@ -1167,7 +1295,8 @@ window.VISCERA = {
    "chaos": 8.4,
    "listings": 121,
    "change": -80.35,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-a-power-charge-on-hit"
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-power-charge-on-hit",
+   "source": "boss"
   },
   {
    "name": "Greater Venarius' Scripture",
@@ -1176,7 +1305,8 @@ window.VISCERA = {
    "chaos": 8.3,
    "listings": 77,
    "change": -89.49,
-   "id": "greater-venarius-scripture-effects-of-consecrated-ground-you-create-linger-for-seconds"
+   "id": "greater-venarius-scripture-effects-of-consecrated-ground-you-create-linger-for-seconds",
+   "source": "uber"
   },
   {
    "name": "Minotaur's Head",
@@ -1185,7 +1315,8 @@ window.VISCERA = {
    "chaos": 8.0,
    "listings": 112,
    "change": -11.11,
-   "id": "minotaurs-head-to-all-maximum-elemental-resistances"
+   "id": "minotaurs-head-to-all-maximum-elemental-resistances",
+   "source": "boss"
   },
   {
    "name": "Flaming Goat Hoof",
@@ -1194,7 +1325,8 @@ window.VISCERA = {
    "chaos": 8.0,
    "listings": 260,
    "change": -20,
-   "id": "flaming-goat-hoof-increased-fire-damage"
+   "id": "flaming-goat-hoof-increased-fire-damage",
+   "source": "map"
   },
   {
    "name": "Greater Spider Queen's Head",
@@ -1203,7 +1335,8 @@ window.VISCERA = {
    "chaos": 8.0,
    "listings": 126,
    "change": 60,
-   "id": "greater-spider-queens-head-trigger-level-lesser-raise-spiders-on-kill"
+   "id": "greater-spider-queens-head-trigger-level-lesser-raise-spiders-on-kill",
+   "source": "map"
   },
   {
    "name": "Osseous Scythe",
@@ -1212,7 +1345,8 @@ window.VISCERA = {
    "chaos": 7.4,
    "listings": 177,
    "change": -70.4,
-   "id": "osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks"
+   "id": "osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks",
+   "source": "map"
   },
   {
    "name": "Greater Despot's Fist",
@@ -1221,7 +1355,8 @@ window.VISCERA = {
    "chaos": 7.4,
    "listings": 169,
    "change": 640,
-   "id": "greater-despots-fist-increased-area-of-effect-while-unarmed"
+   "id": "greater-despots-fist-increased-area-of-effect-while-unarmed",
+   "source": "map"
   },
   {
    "name": "Bandit Rogue's Head",
@@ -1230,7 +1365,8 @@ window.VISCERA = {
    "chaos": 7.0,
    "listings": 280,
    "change": -53.33,
-   "id": "bandit-rogues-head-increased-attack-and-cast-speed"
+   "id": "bandit-rogues-head-increased-attack-and-cast-speed",
+   "source": "map"
   },
   {
    "name": "Blackguard's Leg",
@@ -1239,7 +1375,8 @@ window.VISCERA = {
    "chaos": 7.0,
    "listings": 252,
    "change": -91.25,
-   "id": "blackguards-leg-reduced-effect-of-chill-on-you"
+   "id": "blackguards-leg-reduced-effect-of-chill-on-you",
+   "source": "map"
   },
   {
    "name": "Lesser Goatman's Horn",
@@ -1248,7 +1385,8 @@ window.VISCERA = {
    "chaos": 7.0,
    "listings": 91,
    "change": -85.86,
-   "id": "lesser-goatmans-horn-increased-area-of-effect"
+   "id": "lesser-goatmans-horn-increased-area-of-effect",
+   "source": "map"
   },
   {
    "name": "Greater Poacher's Leg",
@@ -1257,7 +1395,8 @@ window.VISCERA = {
    "chaos": 6.5,
    "listings": 101,
    "change": -94.93,
-   "id": "greater-poachers-leg-increased-damage-against-beasts"
+   "id": "greater-poachers-leg-increased-damage-against-beasts",
+   "source": "extra"
   },
   {
    "name": "Molten Core",
@@ -1266,7 +1405,8 @@ window.VISCERA = {
    "chaos": 6.4,
    "listings": 177,
    "change": -48.8,
-   "id": "molten-core-to-fire-resistance"
+   "id": "molten-core-to-fire-resistance",
+   "source": "map"
   },
   {
    "name": "Constrictor's Head",
@@ -1275,7 +1415,8 @@ window.VISCERA = {
    "chaos": 6.0,
    "listings": 120,
    "change": -14.29,
-   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-been-hit-recently"
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-been-hit-recently",
+   "source": "boss"
   },
   {
    "name": "Greater Ravenous Skull",
@@ -1284,7 +1425,8 @@ window.VISCERA = {
    "chaos": 5.9,
    "listings": 284,
    "change": -49.57,
-   "id": "greater-ravenous-skull-increased-damage-if-you-have-consumed-a-corpse-recently-regenerate-of-life-per-second-if-youve-consumed-a-corpse-recently-regenerate-of-mana-per-second-if-youve-consumed-a-corpse-recently"
+   "id": "greater-ravenous-skull-increased-damage-if-you-have-consumed-a-corpse-recently-regenerate-of-life-per-second-if-youve-consumed-a-corpse-recently-regenerate-of-mana-per-second-if-youve-consumed-a-corpse-recently",
+   "source": "map"
   },
   {
    "name": "Incarnation of Fear's Head",
@@ -1293,7 +1435,8 @@ window.VISCERA = {
    "chaos": 5.8,
    "listings": 75,
    "change": -92.53,
-   "id": "incarnation-of-fears-head-trigger-level-summon-void-spawn-every-seconds"
+   "id": "incarnation-of-fears-head-trigger-level-summon-void-spawn-every-seconds",
+   "source": "boss"
   },
   {
    "name": "Greater General's Head",
@@ -1302,7 +1445,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 187,
    "change": -28.57,
-   "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield"
+   "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield",
+   "source": "map"
   },
   {
    "name": "Diseased Wing",
@@ -1311,7 +1455,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 416,
    "change": 0,
-   "id": "diseased-wing-to-chaos-damage-over-time-multiplier"
+   "id": "diseased-wing-to-chaos-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Solar Shield",
@@ -1320,7 +1465,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 242,
    "change": 66.67,
-   "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage"
+   "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
+   "source": "map"
   },
   {
    "name": "Greater Scholar's Arm",
@@ -1329,7 +1475,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 151,
    "change": 400,
-   "id": "greater-scholars-arm-increased-intelligence"
+   "id": "greater-scholars-arm-increased-intelligence",
+   "source": "map"
   },
   {
    "name": "Pit Fighter's Helm",
@@ -1338,7 +1485,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 210,
    "change": -41.52,
-   "id": "pit-fighters-helm-chance-to-gain-an-endurance-charge-when-you-block"
+   "id": "pit-fighters-helm-chance-to-gain-an-endurance-charge-when-you-block",
+   "source": "boss"
   },
   {
    "name": "Pocked Leg",
@@ -1347,7 +1495,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 205,
    "change": -37.5,
-   "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves"
+   "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
+   "source": "map"
   },
   {
    "name": "King Crab's Claw",
@@ -1356,7 +1505,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 319,
    "change": 0,
-   "id": "king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+   "id": "king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Greater Severed Rhoa Head",
@@ -1365,7 +1515,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 146,
    "change": -28.57,
-   "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds"
+   "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds",
+   "source": "map"
   },
   {
    "name": "Stag Head",
@@ -1374,7 +1525,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 230,
    "change": -75,
-   "id": "stag-head-chance-to-suppress-spell-damage"
+   "id": "stag-head-chance-to-suppress-spell-damage",
+   "source": "boss"
   },
   {
    "name": "Osseous Talon",
@@ -1383,7 +1535,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 265,
    "change": -88.89,
-   "id": "osseous-talon-to-dexterity"
+   "id": "osseous-talon-to-dexterity",
+   "source": "map"
   },
   {
    "name": "Greater Cobra Tail",
@@ -1392,7 +1545,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 84,
    "change": -50,
-   "id": "greater-cobra-tail-travel-skills-have-chance-to-not-consume-a-cooldown-on-use"
+   "id": "greater-cobra-tail-travel-skills-have-chance-to-not-consume-a-cooldown-on-use",
+   "source": "extra"
   },
   {
    "name": "Greater Osseous Talon",
@@ -1401,7 +1555,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 159,
    "change": -96.46,
-   "id": "greater-osseous-talon-increased-dexterity"
+   "id": "greater-osseous-talon-increased-dexterity",
+   "source": "extra"
   },
   {
    "name": "Greater Scout's Bow",
@@ -1410,7 +1565,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 187,
    "change": -83.33,
-   "id": "greater-scouts-bow-hits-have-chance-to-treat-enemy-monster-fire-resistance-values-as-inverted"
+   "id": "greater-scouts-bow-hits-have-chance-to-treat-enemy-monster-fire-resistance-values-as-inverted",
+   "source": "extra"
   },
   {
    "name": "Severed Scythe-hand",
@@ -1419,7 +1575,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 96,
    "change": -39.02,
-   "id": "severed-scythe-hand-recover-of-life-on-kill"
+   "id": "severed-scythe-hand-recover-of-life-on-kill",
+   "source": "extra"
   },
   {
    "name": "Greater Severed Scythe-hand",
@@ -1428,7 +1585,8 @@ window.VISCERA = {
    "chaos": 5.0,
    "listings": 62,
    "change": -76.64,
-   "id": "greater-severed-scythe-hand-chance-to-recover-all-life-when-you-kill-an-enemy"
+   "id": "greater-severed-scythe-hand-chance-to-recover-all-life-when-you-kill-an-enemy",
+   "source": "extra"
   },
   {
    "name": "Skeletal Beast Leg",
@@ -1437,7 +1595,8 @@ window.VISCERA = {
    "chaos": 4.7,
    "listings": 102,
    "change": -80.58,
-   "id": "skeletal-beast-leg-chance-to-avoid-bleeding"
+   "id": "skeletal-beast-leg-chance-to-avoid-bleeding",
+   "source": "map"
   },
   {
    "name": "Galvanic Tentacle",
@@ -1446,7 +1605,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 240,
    "change": 0,
-   "id": "galvanic-tentacle-to-lightning-resistance"
+   "id": "galvanic-tentacle-to-lightning-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Flayed Visage",
@@ -1455,7 +1615,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 106,
    "change": 100,
-   "id": "greater-flayed-visage-of-damage-taken-recouped-as-energy-shield"
+   "id": "greater-flayed-visage-of-damage-taken-recouped-as-energy-shield",
+   "source": "map"
   },
   {
    "name": "Corrupted Carapace",
@@ -1464,7 +1625,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 637,
    "change": -1.23,
-   "id": "corrupted-carapace-increased-damage-with-skills-that-cost-life"
+   "id": "corrupted-carapace-increased-damage-with-skills-that-cost-life",
+   "source": "map"
   },
   {
    "name": "Greater Arachnid Leg",
@@ -1473,7 +1635,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 186,
    "change": -30.43,
-   "id": "greater-arachnid-leg-immune-to-hinder"
+   "id": "greater-arachnid-leg-immune-to-hinder",
+   "source": "map"
   },
   {
    "name": "Crustacean's Claw",
@@ -1482,7 +1645,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 303,
    "change": -94.29,
-   "id": "crustaceans-claw-adds-to-physical-damage-to-attacks"
+   "id": "crustaceans-claw-adds-to-physical-damage-to-attacks",
+   "source": "map"
   },
   {
    "name": "Greater Champion's Banner",
@@ -1491,7 +1655,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 78,
    "change": 100,
-   "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies"
+   "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies",
+   "source": "map"
   },
   {
    "name": "Greater Desert Sword",
@@ -1500,7 +1665,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 115,
    "change": 0,
-   "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies"
+   "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies",
+   "source": "map"
   },
   {
    "name": "Lesser King Crab's Claw",
@@ -1509,7 +1675,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 71,
    "change": 33.33,
-   "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage"
+   "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Greater Devourer's Antenna",
@@ -1518,7 +1685,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 60,
    "change": 100,
-   "id": "greater-devourers-antenna-debilitate-enemies-you-hit-that-are-on-full-life-for-seconds"
+   "id": "greater-devourers-antenna-debilitate-enemies-you-hit-that-are-on-full-life-for-seconds",
+   "source": "map"
   },
   {
    "name": "Greater Necromancer's Mask",
@@ -1527,7 +1695,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 151,
    "change": 29.03,
-   "id": "greater-necromancers-mask-offerings-you-create-also-grant-increased-damage"
+   "id": "greater-necromancers-mask-offerings-you-create-also-grant-increased-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Templar Banner",
@@ -1536,7 +1705,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 101,
    "change": 33.33,
-   "id": "lesser-templar-banner-increased-spell-damage-per-power-charge"
+   "id": "lesser-templar-banner-increased-spell-damage-per-power-charge",
+   "source": "map"
   },
   {
    "name": "Lesser Bandit Rogue's Head",
@@ -1545,7 +1715,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 43,
    "change": -61.54,
-   "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed"
+   "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed",
+   "source": "map"
   },
   {
    "name": "Lesser Blackguard's Leg",
@@ -1554,7 +1725,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 30,
    "change": -86.67,
-   "id": "lesser-blackguards-leg-reduced-effect-of-chill-on-you"
+   "id": "lesser-blackguards-leg-reduced-effect-of-chill-on-you",
+   "source": "map"
   },
   {
    "name": "Smuggler's Hand",
@@ -1563,7 +1735,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 324,
    "change": -96.9,
-   "id": "smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies"
+   "id": "smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies",
+   "source": "map"
   },
   {
    "name": "Greater Elemental Essence",
@@ -1572,7 +1745,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 126,
    "change": -79.06,
-   "id": "greater-elemental-essence-to-maximum-cold-resistance"
+   "id": "greater-elemental-essence-to-maximum-cold-resistance",
+   "source": "extra"
   },
   {
    "name": "Greater Scarecrow's Pitchfork",
@@ -1581,7 +1755,8 @@ window.VISCERA = {
    "chaos": 4.0,
    "listings": 69,
    "change": -73.33,
-   "id": "greater-scarecrows-pitchfork-your-chance-to-cause-monsters-to-flee-on-hit-is-also-chance-to-terrify-monsters-on-hit"
+   "id": "greater-scarecrows-pitchfork-your-chance-to-cause-monsters-to-flee-on-hit-is-also-chance-to-terrify-monsters-on-hit",
+   "source": "extra"
   },
   {
    "name": "Lesser Spider Queen's Head",
@@ -1590,7 +1765,8 @@ window.VISCERA = {
    "chaos": 3.9,
    "listings": 50,
    "change": 290,
-   "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-"
+   "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
+   "source": "map"
   },
   {
    "name": "Greater Scorpion Stinger",
@@ -1599,7 +1775,8 @@ window.VISCERA = {
    "chaos": 3.9,
    "listings": 122,
    "change": 30,
-   "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds"
+   "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds",
+   "source": "map"
   },
   {
    "name": "Greater Swordmaster's Blade",
@@ -1608,7 +1785,8 @@ window.VISCERA = {
    "chaos": 3.4,
    "listings": 67,
    "change": 240,
-   "id": "greater-swordmasters-blade-reduced-enemy-chance-to-block-sword-attacks"
+   "id": "greater-swordmasters-blade-reduced-enemy-chance-to-block-sword-attacks",
+   "source": "map"
   },
   {
    "name": "Phoenix's Head",
@@ -1617,7 +1795,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 221,
    "change": 200,
-   "id": "phoenixs-head-of-fire-damage-leeched-as-life-while-ignited"
+   "id": "phoenixs-head-of-fire-damage-leeched-as-life-while-ignited",
+   "source": "boss"
   },
   {
    "name": "Vaal Appendage",
@@ -1626,7 +1805,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 330,
    "change": -40,
-   "id": "vaal-appendage-metres-to-melee-strike-range"
+   "id": "vaal-appendage-metres-to-melee-strike-range",
+   "source": "map"
   },
   {
    "name": "Lesser Corrupted Carapace",
@@ -1635,7 +1815,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 61,
    "change": 50,
-   "id": "lesser-corrupted-carapace-increased-damage-with-skills-that-cost-life"
+   "id": "lesser-corrupted-carapace-increased-damage-with-skills-that-cost-life",
+   "source": "map"
   },
   {
    "name": "Severed Rhoa Head",
@@ -1644,7 +1825,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 555,
    "change": -66.67,
-   "id": "severed-rhoa-head-increased-chaos-damage"
+   "id": "severed-rhoa-head-increased-chaos-damage",
+   "source": "map"
   },
   {
    "name": "Spider Queen's Head",
@@ -1653,7 +1835,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 318,
    "change": 50,
-   "id": "spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-"
+   "id": "spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
+   "source": "map"
   },
   {
    "name": "Lesser Gladiator's Heart",
@@ -1662,7 +1845,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 120,
    "change": 200,
-   "id": "lesser-gladiators-heart-gain-rage-on-melee-hit"
+   "id": "lesser-gladiators-heart-gain-rage-on-melee-hit",
+   "source": "map"
   },
   {
    "name": "Eradicator's Head",
@@ -1671,7 +1855,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 143,
    "change": 50,
-   "id": "eradicators-head-projectiles-that-have-chained-gain-of-non-chaos-damage-as-extra-chaos-damage"
+   "id": "eradicators-head-projectiles-that-have-chained-gain-of-non-chaos-damage-as-extra-chaos-damage",
+   "source": "boss"
   },
   {
    "name": "Nightmarish Wings of Lycia",
@@ -1680,7 +1865,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 171,
    "change": -62.5,
-   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cast-speed"
+   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cast-speed",
+   "source": "boss"
   },
   {
    "name": "Thaumaturge's Head",
@@ -1689,7 +1875,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 390,
    "change": 50,
-   "id": "thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element"
+   "id": "thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element",
+   "source": "map"
   },
   {
    "name": "Scout's Bow",
@@ -1698,7 +1885,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 275,
    "change": -95.18,
-   "id": "scouts-bow-damage-penetrates-fire-resistance"
+   "id": "scouts-bow-damage-penetrates-fire-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Hollowed Skull",
@@ -1707,7 +1895,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 147,
    "change": -40,
-   "id": "greater-hollowed-skull-physical-damage-taken-from-hits-per-level"
+   "id": "greater-hollowed-skull-physical-damage-taken-from-hits-per-level",
+   "source": "map"
   },
   {
    "name": "Lesser Molten Core",
@@ -1716,7 +1905,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 57,
    "change": -90,
-   "id": "lesser-molten-core-to-fire-resistance"
+   "id": "lesser-molten-core-to-fire-resistance",
+   "source": "map"
   },
   {
    "name": "Lesser Flaming Goat Hoof",
@@ -1725,7 +1915,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 41,
    "change": -25,
-   "id": "lesser-flaming-goat-hoof-increased-fire-damage"
+   "id": "lesser-flaming-goat-hoof-increased-fire-damage",
+   "source": "map"
   },
   {
    "name": "Baran's Head",
@@ -1734,7 +1925,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 54,
    "change": 200,
-   "id": "barans-head-curse-enemies-with-conductivity-on-hit-if-crusader-items-are-equipped"
+   "id": "barans-head-curse-enemies-with-conductivity-on-hit-if-crusader-items-are-equipped",
+   "source": "boss"
   },
   {
    "name": "Gelid Fangs",
@@ -1743,7 +1935,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 282,
    "change": -94,
-   "id": "gelid-fangs-damage-penetrates-cold-resistance"
+   "id": "gelid-fangs-damage-penetrates-cold-resistance",
+   "source": "map"
   },
   {
    "name": "Lesser Solar Shield",
@@ -1752,7 +1945,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 41,
    "change": 200,
-   "id": "lesser-solar-shield-of-physical-damage-from-hits-taken-as-fire-damage"
+   "id": "lesser-solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
+   "source": "map"
   },
   {
    "name": "Nightmarish Wings of Lycia",
@@ -1761,7 +1955,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 137,
    "change": -48.28,
-   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cooldown-recovery-rate"
+   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cooldown-recovery-rate",
+   "source": "boss"
   },
   {
    "name": "Lesser Gelid Fangs",
@@ -1770,7 +1965,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 31,
    "change": -88.24,
-   "id": "lesser-gelid-fangs-damage-penetrates-cold-resistance"
+   "id": "lesser-gelid-fangs-damage-penetrates-cold-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Voltaic Apparatus",
@@ -1779,7 +1975,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 153,
    "change": -80,
-   "id": "greater-voltaic-apparatus-chance-that-if-you-would-gain-power-charges-you-instead-gain-up-to-your-maximum-number-of-power-charges"
+   "id": "greater-voltaic-apparatus-chance-that-if-you-would-gain-power-charges-you-instead-gain-up-to-your-maximum-number-of-power-charges",
+   "source": "extra"
   },
   {
    "name": "Greater Voidbearer's Leg",
@@ -1788,7 +1985,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 131,
    "change": -40,
-   "id": "greater-voidbearers-leg-increased-damage-on-burning-ground"
+   "id": "greater-voidbearers-leg-increased-damage-on-burning-ground",
+   "source": "extra"
   },
   {
    "name": "Greater Conjoined Hound Head",
@@ -1797,7 +1995,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 158,
    "change": -79.31,
-   "id": "greater-conjoined-hound-head-skills-supported-by-unleash-have-to-maximum-number-of-seals"
+   "id": "greater-conjoined-hound-head-skills-supported-by-unleash-have-to-maximum-number-of-seals",
+   "source": "extra"
   },
   {
    "name": "Cobra Tail",
@@ -1806,7 +2005,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 218,
    "change": -75,
-   "id": "cobra-tail-increased-cooldown-recovery-rate-of-travel-skills"
+   "id": "cobra-tail-increased-cooldown-recovery-rate-of-travel-skills",
+   "source": "map"
   },
   {
    "name": "Greater Ghostly Claw",
@@ -1815,7 +2015,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 97,
    "change": -40,
-   "id": "greater-ghostly-claw-increased-elusive-effect"
+   "id": "greater-ghostly-claw-increased-elusive-effect",
+   "source": "extra"
   },
   {
    "name": "Greater Noble's Head",
@@ -1824,7 +2025,8 @@ window.VISCERA = {
    "chaos": 3.0,
    "listings": 66,
    "change": -90,
-   "id": "greater-nobles-head-kill-undead-enemies-that-have-or-lower-life-when-hit-by-your-skills"
+   "id": "greater-nobles-head-kill-undead-enemies-that-have-or-lower-life-when-hit-by-your-skills",
+   "source": "extra"
   },
   {
    "name": "Greater Flesh-fused Lantern",
@@ -1833,7 +2035,8 @@ window.VISCERA = {
    "chaos": 2.6,
    "listings": 333,
    "change": 160,
-   "id": "greater-flesh-fused-lantern-to-fire-damage-over-time-multiplier-while-ignited"
+   "id": "greater-flesh-fused-lantern-to-fire-damage-over-time-multiplier-while-ignited",
+   "source": "map"
   },
   {
    "name": "Greater Primate Foot",
@@ -1842,7 +2045,8 @@ window.VISCERA = {
    "chaos": 2.4,
    "listings": 55,
    "change": -20,
-   "id": "greater-primate-foot-increased-action-speed-while-ignited"
+   "id": "greater-primate-foot-increased-action-speed-while-ignited",
+   "source": "map"
   },
   {
    "name": "Nightmarish Head of Uhtred",
@@ -1851,7 +2055,8 @@ window.VISCERA = {
    "chaos": 2.3,
    "listings": 45,
    "change": -54,
-   "id": "nightmarish-head-of-uhtred-iron-flasks-applied-to-you-have-increased-effect"
+   "id": "nightmarish-head-of-uhtred-iron-flasks-applied-to-you-have-increased-effect",
+   "source": "boss"
   },
   {
    "name": "Greater Chimeral Eye",
@@ -1860,7 +2065,8 @@ window.VISCERA = {
    "chaos": 2.2,
    "listings": 167,
    "change": -26.67,
-   "id": "greater-chimeral-eye-grants-level-petrification-statue"
+   "id": "greater-chimeral-eye-grants-level-petrification-statue",
+   "source": "map"
   },
   {
    "name": "Vulture's Gut",
@@ -1869,7 +2075,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 453,
    "change": -33.33,
-   "id": "vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana"
+   "id": "vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana",
+   "source": "map"
   },
   {
    "name": "Greater Carved Haunches",
@@ -1878,7 +2085,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 403,
    "change": 0,
-   "id": "greater-carved-haunches-skills-that-summon-a-totem-have-chance-to-summon-two-totems-instead-of-one"
+   "id": "greater-carved-haunches-skills-that-summon-a-totem-have-chance-to-summon-two-totems-instead-of-one",
+   "source": "map"
   },
   {
    "name": "Flesh-fused Lantern",
@@ -1887,7 +2095,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 531,
    "change": 100,
-   "id": "flesh-fused-lantern-to-fire-damage-over-time-multiplier"
+   "id": "flesh-fused-lantern-to-fire-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Distended Stomach",
@@ -1896,7 +2105,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 268,
    "change": -85.96,
-   "id": "distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently"
+   "id": "distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently",
+   "source": "map"
   },
   {
    "name": "Voltaic Skull",
@@ -1905,7 +2115,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 584,
    "change": 0,
-   "id": "voltaic-skull-of-physical-damage-converted-to-lightning-damage"
+   "id": "voltaic-skull-of-physical-damage-converted-to-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Overseer's Whip",
@@ -1914,7 +2125,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 514,
    "change": 0,
-   "id": "overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently"
+   "id": "overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently",
+   "source": "map"
   },
   {
    "name": "Desert Sword",
@@ -1923,7 +2135,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 223,
    "change": 0,
-   "id": "desert-sword-global-chance-to-blind-enemies-on-hit"
+   "id": "desert-sword-global-chance-to-blind-enemies-on-hit",
+   "source": "map"
   },
   {
    "name": "Pit Fighter's Helm",
@@ -1932,7 +2145,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 327,
    "change": -50,
-   "id": "pit-fighters-helm-chance-to-gain-a-frenzy-charge-when-you-block"
+   "id": "pit-fighters-helm-chance-to-gain-a-frenzy-charge-when-you-block",
+   "source": "boss"
   },
   {
    "name": "Flayed Arm",
@@ -1941,7 +2155,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 285,
    "change": 0,
-   "id": "flayed-arm-of-damage-taken-recouped-as-life"
+   "id": "flayed-arm-of-damage-taken-recouped-as-life",
+   "source": "map"
   },
   {
    "name": "Al-Hezmin's Head",
@@ -1950,7 +2165,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 78,
    "change": 100,
-   "id": "al-hezmins-head-curse-enemies-with-despair-on-hit-if-hunter-items-are-equipped"
+   "id": "al-hezmins-head-curse-enemies-with-despair-on-hit-if-hunter-items-are-equipped",
+   "source": "boss"
   },
   {
    "name": "Greater Vaal Appendage",
@@ -1959,7 +2175,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 187,
    "change": -33.33,
-   "id": "greater-vaal-appendage-increased-damage-with-vaal-skills"
+   "id": "greater-vaal-appendage-increased-damage-with-vaal-skills",
+   "source": "map"
   },
   {
    "name": "Blazing Skull",
@@ -1968,7 +2185,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 557,
    "change": -33.33,
-   "id": "blazing-skull-increased-damage-with-hits-against-rare-monsters"
+   "id": "blazing-skull-increased-damage-with-hits-against-rare-monsters",
+   "source": "map"
   },
   {
    "name": "Terrifying Maw",
@@ -1977,7 +2195,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 394,
    "change": 100,
-   "id": "terrifying-maw-reduced-effect-of-curses-on-you"
+   "id": "terrifying-maw-reduced-effect-of-curses-on-you",
+   "source": "map"
   },
   {
    "name": "Greater Diseased Wing",
@@ -1986,7 +2205,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 211,
    "change": 100,
-   "id": "greater-diseased-wing-to-chaos-damage-over-time-multiplier-while-poisoned"
+   "id": "greater-diseased-wing-to-chaos-damage-over-time-multiplier-while-poisoned",
+   "source": "map"
   },
   {
    "name": "General's Head",
@@ -1995,7 +2215,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 384,
    "change": 0,
-   "id": "generals-head-increased-maximum-energy-shield"
+   "id": "generals-head-increased-maximum-energy-shield",
+   "source": "map"
   },
   {
    "name": "Enslaver's Head",
@@ -2004,7 +2225,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 68,
    "change": 0,
-   "id": "enslavers-head-increased-armour-per-reserved-mana"
+   "id": "enslavers-head-increased-armour-per-reserved-mana",
+   "source": "boss"
   },
   {
    "name": "Bonestalker's Ribcage",
@@ -2013,7 +2235,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 250,
    "change": 0,
-   "id": "bonestalkers-ribcage-reduced-physical-damage-taken-over-time"
+   "id": "bonestalkers-ribcage-reduced-physical-damage-taken-over-time",
+   "source": "map"
   },
   {
    "name": "Prosthetic Leg",
@@ -2022,7 +2245,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 231,
    "change": 100,
-   "id": "prosthetic-leg-increased-ignite-duration-on-enemies"
+   "id": "prosthetic-leg-increased-ignite-duration-on-enemies",
+   "source": "map"
   },
   {
    "name": "Lesser Smuggler's Hand",
@@ -2031,7 +2255,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 21,
    "change": -97.18,
-   "id": "lesser-smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies"
+   "id": "lesser-smugglers-hand-increased-quantity-of-gold-dropped-by-slain-enemies",
+   "source": "map"
   },
   {
    "name": "Elder's Head",
@@ -2040,7 +2265,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 102,
    "change": -75.61,
-   "id": "elders-head-gain-maddening-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy"
+   "id": "elders-head-gain-maddening-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy",
+   "source": "boss"
   },
   {
    "name": "Arachnid Fangs",
@@ -2049,7 +2275,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 397,
    "change": 0,
-   "id": "arachnid-fangs-chance-to-poison-on-hit"
+   "id": "arachnid-fangs-chance-to-poison-on-hit",
+   "source": "map"
   },
   {
    "name": "Drox's Head",
@@ -2058,7 +2285,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 91,
    "change": 100,
-   "id": "droxs-head-curse-enemies-with-flammability-on-hit-if-warlord-items-are-equipped"
+   "id": "droxs-head-curse-enemies-with-flammability-on-hit-if-warlord-items-are-equipped",
+   "source": "boss"
   },
   {
    "name": "Purifier's Head",
@@ -2067,7 +2295,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 106,
    "change": 0,
-   "id": "purifiers-head-shared-suffering"
+   "id": "purifiers-head-shared-suffering",
+   "source": "boss"
   },
   {
    "name": "Artificial Appendage",
@@ -2076,7 +2305,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 191,
    "change": -60,
-   "id": "artificial-appendage-increased-effect-of-chill"
+   "id": "artificial-appendage-increased-effect-of-chill",
+   "source": "boss"
   },
   {
    "name": "Hydra's Head",
@@ -2085,7 +2315,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 101,
    "change": 100,
-   "id": "hydras-head-arrows-pierce-all-targets-after-forking"
+   "id": "hydras-head-arrows-pierce-all-targets-after-forking",
+   "source": "boss"
   },
   {
    "name": "Lesser Galvanic Tentacle",
@@ -2094,7 +2325,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 24,
    "change": 0,
-   "id": "lesser-galvanic-tentacle-to-lightning-resistance"
+   "id": "lesser-galvanic-tentacle-to-lightning-resistance",
+   "source": "map"
   },
   {
    "name": "Veritania's Head",
@@ -2103,7 +2335,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 76,
    "change": 100,
-   "id": "veritanias-head-curse-enemies-with-frostbite-on-hit-if-redeemer-items-are-equipped"
+   "id": "veritanias-head-curse-enemies-with-frostbite-on-hit-if-redeemer-items-are-equipped",
+   "source": "boss"
   },
   {
    "name": "Charred Leg",
@@ -2112,7 +2345,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 216,
    "change": -93.1,
-   "id": "charred-leg-reduced-ignite-duration-on-you"
+   "id": "charred-leg-reduced-ignite-duration-on-you",
+   "source": "map"
   },
   {
    "name": "Voltaic Apparatus",
@@ -2121,7 +2355,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 283,
    "change": -60,
-   "id": "voltaic-apparatus-chance-to-gain-a-power-charge-on-kill"
+   "id": "voltaic-apparatus-chance-to-gain-a-power-charge-on-kill",
+   "source": "map"
   },
   {
    "name": "Hallowed Descry",
@@ -2130,7 +2365,8 @@ window.VISCERA = {
    "chaos": 2.0,
    "listings": 139,
    "change": 0,
-   "id": "hallowed-descry-increased-effect-of-consecrated-ground-you-create"
+   "id": "hallowed-descry-increased-effect-of-consecrated-ground-you-create",
+   "source": "extra"
   },
   {
    "name": "Greater Flayed Arm",
@@ -2139,7 +2375,8 @@ window.VISCERA = {
    "chaos": 1.8,
    "listings": 119,
    "change": -40,
-   "id": "greater-flayed-arm-increased-life-recovery-rate-while-recouping-life"
+   "id": "greater-flayed-arm-increased-life-recovery-rate-while-recouping-life",
+   "source": "map"
   },
   {
    "name": "Greater Spiked Carapace",
@@ -2148,7 +2385,8 @@ window.VISCERA = {
    "chaos": 1.8,
    "listings": 60,
    "change": 38.46,
-   "id": "greater-spiked-carapace-of-melee-cold-damage-taken-reflected-to-attacker"
+   "id": "greater-spiked-carapace-of-melee-cold-damage-taken-reflected-to-attacker",
+   "source": "extra"
   },
   {
    "name": "Lesser Skeletal Beast Leg",
@@ -2157,7 +2395,8 @@ window.VISCERA = {
    "chaos": 1.7,
    "listings": 38,
    "change": 70,
-   "id": "lesser-skeletal-beast-leg-chance-to-avoid-bleeding"
+   "id": "lesser-skeletal-beast-leg-chance-to-avoid-bleeding",
+   "source": "map"
   },
   {
    "name": "Greater Gargantuan Claws",
@@ -2166,7 +2405,8 @@ window.VISCERA = {
    "chaos": 1.2,
    "listings": 165,
    "change": 20,
-   "id": "greater-gargantuan-claws-increased-attack-speed-while-dual-wielding"
+   "id": "greater-gargantuan-claws-increased-attack-speed-while-dual-wielding",
+   "source": "map"
   },
   {
    "name": "Brute's Arm",
@@ -2175,7 +2415,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 337,
    "change": 0,
-   "id": "brutes-arm-to-strength"
+   "id": "brutes-arm-to-strength",
+   "source": "map"
   },
   {
    "name": "Siren's Tentacle",
@@ -2184,7 +2425,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 382,
    "change": 0,
-   "id": "sirens-tentacle-increased-effect-of-cold-ailments"
+   "id": "sirens-tentacle-increased-effect-of-cold-ailments",
+   "source": "map"
   },
   {
    "name": "Golemic Stone",
@@ -2193,7 +2435,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 714,
    "change": 0,
-   "id": "golemic-stone-chance-to-avoid-being-stunned"
+   "id": "golemic-stone-chance-to-avoid-being-stunned",
+   "source": "map"
   },
   {
    "name": "Lesser Scorpion Stinger",
@@ -2202,7 +2445,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 80,
    "change": 0,
-   "id": "lesser-scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage"
+   "id": "lesser-scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Pocked Leg",
@@ -2211,7 +2455,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1327,
    "change": 0,
-   "id": "lesser-pocked-leg-increased-armour-from-equipped-helmet-and-gloves"
+   "id": "lesser-pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
+   "source": "map"
   },
   {
    "name": "Greater Blackened Lungs",
@@ -2220,7 +2465,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 270,
    "change": 0,
-   "id": "greater-blackened-lungs-enemies-taunted-by-your-warcries-have-reduced-action-speed"
+   "id": "greater-blackened-lungs-enemies-taunted-by-your-warcries-have-reduced-action-speed",
+   "source": "map"
   },
   {
    "name": "Lesser Voidbearer's Leg",
@@ -2229,7 +2475,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 113,
    "change": 0,
-   "id": "lesser-voidbearers-leg-increased-movement-speed-while-on-burning-ground"
+   "id": "lesser-voidbearers-leg-increased-movement-speed-while-on-burning-ground",
+   "source": "map"
   },
   {
    "name": "Lesser Mariner's Tricorne",
@@ -2238,7 +2485,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 92,
    "change": 0,
-   "id": "lesser-mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill"
+   "id": "lesser-mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill",
+   "source": "map"
   },
   {
    "name": "Lesser Crescent Blade",
@@ -2247,7 +2495,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 62,
    "change": 0,
-   "id": "lesser-crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage"
+   "id": "lesser-crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage",
+   "source": "map"
   },
   {
    "name": "Champion's Banner",
@@ -2256,7 +2505,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 711,
    "change": 0,
-   "id": "champions-banner-enemies-near-your-banner-take-increased-cold-damage"
+   "id": "champions-banner-enemies-near-your-banner-take-increased-cold-damage",
+   "source": "map"
   },
   {
    "name": "Defaced Bust",
@@ -2265,7 +2515,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 818,
    "change": 0,
-   "id": "defaced-bust-increased-stun-and-block-recovery"
+   "id": "defaced-bust-increased-stun-and-block-recovery",
+   "source": "map"
   },
   {
    "name": "Engorged Eye",
@@ -2274,7 +2525,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 560,
    "change": 0,
-   "id": "engorged-eye-chance-to-avoid-corrupted-blood"
+   "id": "engorged-eye-chance-to-avoid-corrupted-blood",
+   "source": "map"
   },
   {
    "name": "Chaos Golem's Core",
@@ -2283,7 +2535,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1234,
    "change": 0,
-   "id": "chaos-golems-core-reduced-chaos-damage-taken-over-time"
+   "id": "chaos-golems-core-reduced-chaos-damage-taken-over-time",
+   "source": "map"
   },
   {
    "name": "Armoured Leg",
@@ -2292,7 +2545,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 459,
    "change": 0,
-   "id": "armoured-leg-chance-to-block-projectile-attack-damage"
+   "id": "armoured-leg-chance-to-block-projectile-attack-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Necromancer's Mask",
@@ -2301,7 +2555,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 142,
    "change": 0,
-   "id": "lesser-necromancers-mask-offering-skills-have-increased-duration"
+   "id": "lesser-necromancers-mask-offering-skills-have-increased-duration",
+   "source": "map"
   },
   {
    "name": "Lesser Chaos Golem's Core",
@@ -2310,7 +2565,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 548,
    "change": 0,
-   "id": "lesser-chaos-golems-core-reduced-chaos-damage-taken-over-time"
+   "id": "lesser-chaos-golems-core-reduced-chaos-damage-taken-over-time",
+   "source": "map"
   },
   {
    "name": "Lesser Armoured Leg",
@@ -2319,7 +2575,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 429,
    "change": 0,
-   "id": "lesser-armoured-leg-chance-to-block-projectile-attack-damage"
+   "id": "lesser-armoured-leg-chance-to-block-projectile-attack-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Flaming Furnace",
@@ -2328,7 +2585,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 411,
    "change": 0,
-   "id": "lesser-flaming-furnace-chance-to-inflict-fire-exposure-on-hit"
+   "id": "lesser-flaming-furnace-chance-to-inflict-fire-exposure-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Carved Haunches",
@@ -2337,7 +2595,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 228,
    "change": 0,
-   "id": "lesser-carved-haunches-increased-totem-placement-speed"
+   "id": "lesser-carved-haunches-increased-totem-placement-speed",
+   "source": "map"
   },
   {
    "name": "Lesser Hollowed Skull",
@@ -2346,7 +2605,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 247,
    "change": 0,
-   "id": "lesser-hollowed-skull-physical-damage-taken-from-attack-hits"
+   "id": "lesser-hollowed-skull-physical-damage-taken-from-attack-hits",
+   "source": "map"
   },
   {
    "name": "Lesser Conjoined Hound Head",
@@ -2355,7 +2615,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 133,
    "change": 0,
-   "id": "lesser-conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency"
+   "id": "lesser-conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency",
+   "source": "map"
   },
   {
    "name": "Arachnid Egg Sac",
@@ -2364,7 +2625,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 816,
    "change": 0,
-   "id": "arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed"
+   "id": "arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed",
+   "source": "map"
   },
   {
    "name": "Flaming Furnace",
@@ -2373,7 +2635,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 3288,
    "change": 0,
-   "id": "flaming-furnace-chance-to-inflict-fire-exposure-on-hit"
+   "id": "flaming-furnace-chance-to-inflict-fire-exposure-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Infested Torso",
@@ -2382,7 +2645,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 108,
    "change": 0,
-   "id": "lesser-infested-torso-minions-regenerate-of-life-per-second"
+   "id": "lesser-infested-torso-minions-regenerate-of-life-per-second",
+   "source": "map"
   },
   {
    "name": "Lesser Arachnid Egg Sac",
@@ -2391,7 +2655,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 263,
    "change": 0,
-   "id": "lesser-arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed"
+   "id": "lesser-arachnid-egg-sac-minions-created-recently-have-increased-attack-and-cast-speed",
+   "source": "map"
   },
   {
    "name": "Dessicated Head",
@@ -2400,7 +2665,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1682,
    "change": 0,
-   "id": "dessicated-head-raised-zombies-deal-increased-damage"
+   "id": "dessicated-head-raised-zombies-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Inquisitor's Claw",
@@ -2409,7 +2675,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1251,
    "change": 0,
-   "id": "inquisitors-claw-withered-you-inflict-expires-slower"
+   "id": "inquisitors-claw-withered-you-inflict-expires-slower",
+   "source": "map"
   },
   {
    "name": "Wraith Claws",
@@ -2418,7 +2685,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 685,
    "change": 0,
-   "id": "wraith-claws-chance-to-impale-on-spell-hit"
+   "id": "wraith-claws-chance-to-impale-on-spell-hit",
+   "source": "map"
   },
   {
    "name": "Swordmaster's Blade",
@@ -2427,7 +2695,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 613,
    "change": 0,
-   "id": "swordmasters-blade-increased-attack-speed-with-swords"
+   "id": "swordmasters-blade-increased-attack-speed-with-swords",
+   "source": "map"
   },
   {
    "name": "Bandit Warrior's Head",
@@ -2436,7 +2705,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 791,
    "change": 0,
-   "id": "bandit-warriors-head-regenerate-of-life-per-second"
+   "id": "bandit-warriors-head-regenerate-of-life-per-second",
+   "source": "map"
   },
   {
    "name": "Mariner's Tricorne",
@@ -2445,7 +2715,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1019,
    "change": 0,
-   "id": "mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill"
+   "id": "mariners-tricorne-chance-to-gain-phasing-for-seconds-on-kill",
+   "source": "map"
   },
   {
    "name": "Ravenous Skull",
@@ -2454,7 +2725,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1665,
    "change": 0,
-   "id": "ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana"
+   "id": "ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana",
+   "source": "map"
   },
   {
    "name": "Lesser Ornate Torso",
@@ -2463,7 +2735,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 114,
    "change": 0,
-   "id": "lesser-ornate-torso-minions-have-increased-maximum-life"
+   "id": "lesser-ornate-torso-minions-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Lesser Thaumaturge's Head",
@@ -2472,7 +2745,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 166,
    "change": 0,
-   "id": "lesser-thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element"
+   "id": "lesser-thaumaturges-head-gain-of-physical-damage-as-extra-damage-of-a-random-element",
+   "source": "map"
   },
   {
    "name": "Greater Soldier's Head",
@@ -2481,7 +2755,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 289,
    "change": 0,
-   "id": "greater-soldiers-head-increased-armour-from-equipped-helmet"
+   "id": "greater-soldiers-head-increased-armour-from-equipped-helmet",
+   "source": "map"
   },
   {
    "name": "Cutthroat's Head",
@@ -2490,7 +2765,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1803,
    "change": 0,
-   "id": "cutthroats-head-increased-global-physical-damage"
+   "id": "cutthroats-head-increased-global-physical-damage",
+   "source": "map"
   },
   {
    "name": "Greater Dessicated Head",
@@ -2499,7 +2775,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1180,
    "change": 0,
-   "id": "greater-dessicated-head-to-maximum-number-of-raised-zombies"
+   "id": "greater-dessicated-head-to-maximum-number-of-raised-zombies",
+   "source": "map"
   },
   {
    "name": "Resplendent Sceptre",
@@ -2508,7 +2785,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 704,
    "change": 0,
-   "id": "resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills"
+   "id": "resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills",
+   "source": "map"
   },
   {
    "name": "Lesser Overseer's Whip",
@@ -2517,7 +2795,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 223,
    "change": 0,
-   "id": "lesser-overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently"
+   "id": "lesser-overseers-whip-minions-have-increased-movement-speed-if-youve-used-a-minion-skill-recently",
+   "source": "map"
   },
   {
    "name": "Ornate Torso",
@@ -2526,7 +2805,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 674,
    "change": 0,
-   "id": "ornate-torso-minions-have-increased-maximum-life"
+   "id": "ornate-torso-minions-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Lesser Warden's Arm",
@@ -2535,7 +2815,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 725,
    "change": 0,
-   "id": "lesser-wardens-arm-to-maximum-life"
+   "id": "lesser-wardens-arm-to-maximum-life",
+   "source": "map"
   },
   {
    "name": "Lesser Swordmaster's Blade",
@@ -2544,7 +2825,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 302,
    "change": 0,
-   "id": "lesser-swordmasters-blade-increased-attack-speed-with-swords"
+   "id": "lesser-swordmasters-blade-increased-attack-speed-with-swords",
+   "source": "map"
   },
   {
    "name": "Desert Queen's Crown",
@@ -2553,7 +2835,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 640,
    "change": 0,
-   "id": "desert-queens-crown-increased-damage-while-blind"
+   "id": "desert-queens-crown-increased-damage-while-blind",
+   "source": "map"
   },
   {
    "name": "Lesser Blazing Skull",
@@ -2562,7 +2845,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 194,
    "change": 0,
-   "id": "lesser-blazing-skull-increased-damage-with-hits-against-rare-monsters"
+   "id": "lesser-blazing-skull-increased-damage-with-hits-against-rare-monsters",
+   "source": "map"
   },
   {
    "name": "Lesser Elemental Essence",
@@ -2571,7 +2855,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 549,
    "change": 0,
-   "id": "lesser-elemental-essence-to-cold-resistance"
+   "id": "lesser-elemental-essence-to-cold-resistance",
+   "source": "map"
   },
   {
    "name": "Hollowed Skull",
@@ -2580,7 +2865,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 494,
    "change": 0,
-   "id": "hollowed-skull-physical-damage-taken-from-attack-hits"
+   "id": "hollowed-skull-physical-damage-taken-from-attack-hits",
+   "source": "map"
   },
   {
    "name": "Lesser Adherent's Crown",
@@ -2589,7 +2875,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 181,
    "change": 0,
-   "id": "lesser-adherents-crown-of-physical-damage-converted-to-fire-damage"
+   "id": "lesser-adherents-crown-of-physical-damage-converted-to-fire-damage",
+   "source": "map"
   },
   {
    "name": "Carved Haunches",
@@ -2598,7 +2885,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 912,
    "change": 0,
-   "id": "carved-haunches-increased-totem-placement-speed"
+   "id": "carved-haunches-increased-totem-placement-speed",
+   "source": "map"
   },
   {
    "name": "Chimeral Eye",
@@ -2607,7 +2895,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 287,
    "change": 0,
-   "id": "chimeral-eye-petrification-on-you-expires-faster"
+   "id": "chimeral-eye-petrification-on-you-expires-faster",
+   "source": "map"
   },
   {
    "name": "Greater Defaced Bust",
@@ -2616,7 +2905,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1159,
    "change": 0,
-   "id": "greater-defaced-bust-chance-to-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit"
+   "id": "greater-defaced-bust-chance-to-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Devourer's Antenna",
@@ -2625,7 +2915,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 719,
    "change": 0,
-   "id": "lesser-devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life"
+   "id": "lesser-devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life",
+   "source": "map"
   },
   {
    "name": "Lesser Resplendent Sceptre",
@@ -2634,7 +2925,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 170,
    "change": 0,
-   "id": "lesser-resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills"
+   "id": "lesser-resplendent-sceptre-to-fire-damage-over-time-multiplier-with-attack-skills",
+   "source": "map"
   },
   {
    "name": "Chitinous Leg",
@@ -2643,7 +2935,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 624,
    "change": 0,
-   "id": "chitinous-leg-corpses-you-spawn-have-increased-maximum-life"
+   "id": "chitinous-leg-corpses-you-spawn-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Devourer's Antenna",
@@ -2652,7 +2945,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1312,
    "change": 0,
-   "id": "devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life"
+   "id": "devourers-antenna-increased-damage-with-hits-and-ailments-against-enemies-that-are-on-full-life",
+   "source": "map"
   },
   {
    "name": "Lesser Wraith Claws",
@@ -2661,7 +2955,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 121,
    "change": 0,
-   "id": "lesser-wraith-claws-chance-to-impale-on-spell-hit"
+   "id": "lesser-wraith-claws-chance-to-impale-on-spell-hit",
+   "source": "map"
   },
   {
    "name": "Arachnid Leg",
@@ -2670,7 +2965,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 610,
    "change": 0,
-   "id": "arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells"
+   "id": "arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells",
+   "source": "map"
   },
   {
    "name": "Templar Skull",
@@ -2679,7 +2975,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 723,
    "change": 0,
-   "id": "templar-skull-increased-light-radius"
+   "id": "templar-skull-increased-light-radius",
+   "source": "map"
   },
   {
    "name": "Scholar's Arm",
@@ -2688,7 +2985,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 361,
    "change": 0,
-   "id": "scholars-arm-to-intelligence"
+   "id": "scholars-arm-to-intelligence",
+   "source": "map"
   },
   {
    "name": "Pocked Arm",
@@ -2697,7 +2995,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 964,
    "change": 0,
-   "id": "pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots"
+   "id": "pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots",
+   "source": "map"
   },
   {
    "name": "Despot's Fist",
@@ -2706,7 +3005,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 896,
    "change": 0,
-   "id": "despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits"
+   "id": "despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits",
+   "source": "map"
   },
   {
    "name": "Infested Torso",
@@ -2715,7 +3015,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 764,
    "change": 0,
-   "id": "infested-torso-minions-regenerate-of-life-per-second"
+   "id": "infested-torso-minions-regenerate-of-life-per-second",
+   "source": "map"
   },
   {
    "name": "Spined Claws",
@@ -2724,7 +3025,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 515,
    "change": 0,
-   "id": "spined-claws-attacks-have-chance-to-cause-bleeding"
+   "id": "spined-claws-attacks-have-chance-to-cause-bleeding",
+   "source": "map"
   },
   {
    "name": "Ursine Flesh",
@@ -2733,7 +3035,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 258,
    "change": 0,
-   "id": "ursine-flesh-reduced-enemy-stun-threshold"
+   "id": "ursine-flesh-reduced-enemy-stun-threshold",
+   "source": "map"
   },
   {
    "name": "Blackened Lungs",
@@ -2742,7 +3045,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1048,
    "change": 0,
-   "id": "blackened-lungs-increased-warcry-speed"
+   "id": "blackened-lungs-increased-warcry-speed",
+   "source": "map"
   },
   {
    "name": "Bat's Wings",
@@ -2751,7 +3055,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 355,
    "change": -50,
-   "id": "bats-wings-chance-to-avoid-elemental-ailments"
+   "id": "bats-wings-chance-to-avoid-elemental-ailments",
+   "source": "boss"
   },
   {
    "name": "Lesser Siren's Tentacle",
@@ -2760,7 +3065,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 119,
    "change": 0,
-   "id": "lesser-sirens-tentacle-increased-effect-of-cold-ailments"
+   "id": "lesser-sirens-tentacle-increased-effect-of-cold-ailments",
+   "source": "map"
   },
   {
    "name": "Hag's Stomach",
@@ -2769,7 +3075,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 956,
    "change": 0,
-   "id": "hags-stomach-increased-effect-of-your-curses"
+   "id": "hags-stomach-increased-effect-of-your-curses",
+   "source": "map"
   },
   {
    "name": "Greater Flaming Furnace",
@@ -2778,7 +3085,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 1638,
    "change": 0,
-   "id": "greater-flaming-furnace-fire-exposure-you-inflict-applies-an-extra-to-fire-resistance"
+   "id": "greater-flaming-furnace-fire-exposure-you-inflict-applies-an-extra-to-fire-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Vulture's Gut",
@@ -2787,7 +3095,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 93,
    "change": 0,
-   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana"
+   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana",
+   "source": "map"
   },
   {
    "name": "Lesser Dessicated Head",
@@ -2796,7 +3105,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 96,
    "change": 0,
-   "id": "lesser-dessicated-head-raised-zombies-deal-increased-damage"
+   "id": "lesser-dessicated-head-raised-zombies-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Heretical Tome",
@@ -2805,7 +3115,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 507,
    "change": -50,
-   "id": "heretical-tome-to-physical-damage-over-time-multiplier"
+   "id": "heretical-tome-to-physical-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Lesser Defaced Bust",
@@ -2814,7 +3125,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 112,
    "change": 0,
-   "id": "lesser-defaced-bust-increased-stun-and-block-recovery"
+   "id": "lesser-defaced-bust-increased-stun-and-block-recovery",
+   "source": "map"
   },
   {
    "name": "Greater Ursine Flesh",
@@ -2823,7 +3135,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 174,
    "change": 0,
-   "id": "greater-ursine-flesh-increased-stun-duration-against-enemies-that-are-on-full-life"
+   "id": "greater-ursine-flesh-increased-stun-duration-against-enemies-that-are-on-full-life",
+   "source": "map"
   },
   {
    "name": "Conjoined Hound Head",
@@ -2832,7 +3145,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 244,
    "change": 0,
-   "id": "conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency"
+   "id": "conjoined-hound-head-skills-supported-by-unleash-have-increased-seal-gain-frequency",
+   "source": "map"
   },
   {
    "name": "Lesser Vendigo Claws",
@@ -2841,7 +3155,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 125,
    "change": 0,
-   "id": "lesser-vendigo-claws-adds-to-cold-damage-to-unarmed-attacks"
+   "id": "lesser-vendigo-claws-adds-to-cold-damage-to-unarmed-attacks",
+   "source": "map"
   },
   {
    "name": "Lesser Scout's Bow",
@@ -2850,7 +3165,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 58,
    "change": 0,
-   "id": "lesser-scouts-bow-damage-penetrates-fire-resistance"
+   "id": "lesser-scouts-bow-damage-penetrates-fire-resistance",
+   "source": "map"
   },
   {
    "name": "Greater Heretical Tome",
@@ -2859,7 +3175,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 280,
    "change": -50,
-   "id": "greater-heretical-tome-to-physical-damage-over-time-multiplier-while-bleeding"
+   "id": "greater-heretical-tome-to-physical-damage-over-time-multiplier-while-bleeding",
+   "source": "map"
   },
   {
    "name": "Flayed Visage",
@@ -2868,7 +3185,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 512,
    "change": 0,
-   "id": "flayed-visage-of-chaos-damage-taken-does-not-bypass-energy-shield"
+   "id": "flayed-visage-of-chaos-damage-taken-does-not-bypass-energy-shield",
+   "source": "map"
   },
   {
    "name": "Lesser Chitinous Leg",
@@ -2877,7 +3195,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 189,
    "change": 0,
-   "id": "lesser-chitinous-leg-corpses-you-spawn-have-increased-maximum-life"
+   "id": "lesser-chitinous-leg-corpses-you-spawn-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Lunar Bow",
@@ -2886,7 +3205,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 643,
    "change": 0,
-   "id": "lunar-bow-of-physical-damage-converted-to-cold-damage"
+   "id": "lunar-bow-of-physical-damage-converted-to-cold-damage",
+   "source": "map"
   },
   {
    "name": "Smouldering Leg",
@@ -2895,7 +3215,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 584,
    "change": 0,
-   "id": "smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency"
+   "id": "smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency",
+   "source": "map"
   },
   {
    "name": "Greater Calcified Leg",
@@ -2904,7 +3225,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 239,
    "change": 0,
-   "id": "greater-calcified-leg-to-maximum-number-of-skeletons"
+   "id": "greater-calcified-leg-to-maximum-number-of-skeletons",
+   "source": "map"
   },
   {
    "name": "Lesser Vulture's Gut",
@@ -2913,7 +3235,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 88,
    "change": 0,
-   "id": "lesser-vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana"
+   "id": "lesser-vultures-gut-killing-blows-consume-corpses-to-recover-life-and-mana",
+   "source": "map"
   },
   {
    "name": "Calcified Leg",
@@ -2922,7 +3245,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 534,
    "change": 0,
-   "id": "calcified-leg-skeletons-deal-increased-damage"
+   "id": "calcified-leg-skeletons-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Skeletal Archer's Arm",
@@ -2931,7 +3255,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 628,
    "change": 0,
-   "id": "skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced"
+   "id": "skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced",
+   "source": "map"
   },
   {
    "name": "Lesser Soldier's Head",
@@ -2940,7 +3265,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 140,
    "change": 0,
-   "id": "lesser-soldiers-head-increased-armour"
+   "id": "lesser-soldiers-head-increased-armour",
+   "source": "map"
   },
   {
    "name": "Greater Mariner's Tricorne",
@@ -2949,7 +3275,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 249,
    "change": 0,
-   "id": "greater-mariners-tricorne-chance-to-gain-phasing-on-hit"
+   "id": "greater-mariners-tricorne-chance-to-gain-phasing-on-hit",
+   "source": "map"
   },
   {
    "name": "Greater Cutthroat's Head",
@@ -2958,7 +3285,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 922,
    "change": 0,
-   "id": "greater-cutthroats-head-hits-have-chance-to-ignore-enemy-physical-damage-reduction"
+   "id": "greater-cutthroats-head-hits-have-chance-to-ignore-enemy-physical-damage-reduction",
+   "source": "map"
   },
   {
    "name": "Necromancer's Mask",
@@ -2967,7 +3295,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 728,
    "change": 0,
-   "id": "necromancers-mask-offering-skills-have-increased-duration"
+   "id": "necromancers-mask-offering-skills-have-increased-duration",
+   "source": "map"
   },
   {
    "name": "Greater Bandit Witch's Head",
@@ -2976,7 +3305,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 230,
    "change": -50,
-   "id": "greater-bandit-witchs-head-of-damage-taken-recouped-as-mana"
+   "id": "greater-bandit-witchs-head-of-damage-taken-recouped-as-mana",
+   "source": "map"
   },
   {
    "name": "Flaming Ribbon",
@@ -2985,7 +3315,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 263,
    "change": 0,
-   "id": "flaming-ribbon-reduced-burning-damage-taken"
+   "id": "flaming-ribbon-reduced-burning-damage-taken",
+   "source": "map"
   },
   {
    "name": "Lesser Calcified Leg",
@@ -2994,7 +3325,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 135,
    "change": 0,
-   "id": "lesser-calcified-leg-skeletons-deal-increased-damage"
+   "id": "lesser-calcified-leg-skeletons-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Greater Spectral Hood",
@@ -3003,7 +3335,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 106,
    "change": -50,
-   "id": "greater-spectral-hood-to-maximum-chaos-resistance"
+   "id": "greater-spectral-hood-to-maximum-chaos-resistance",
+   "source": "map"
   },
   {
    "name": "Scorpion Stinger",
@@ -3012,7 +3345,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 805,
    "change": 0,
-   "id": "scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage"
+   "id": "scorpion-stinger-poisons-you-inflict-on-non-poisoned-enemies-deal-increased-damage",
+   "source": "map"
   },
   {
    "name": "Greater Crescent Blade",
@@ -3021,7 +3355,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 235,
    "change": 0,
-   "id": "greater-crescent-blade-of-fire-damage-from-hits-taken-as-cold-damage-of-lightning-damage-from-hits-taken-as-cold-damage"
+   "id": "greater-crescent-blade-of-fire-damage-from-hits-taken-as-cold-damage-of-lightning-damage-from-hits-taken-as-cold-damage",
+   "source": "map"
   },
   {
    "name": "Statue Leg",
@@ -3030,7 +3365,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 220,
    "change": -59.18,
-   "id": "statue-leg-chance-to-knock-enemies-back-on-hit"
+   "id": "statue-leg-chance-to-knock-enemies-back-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Smouldering Leg",
@@ -3039,7 +3375,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 57,
    "change": 0,
-   "id": "lesser-smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency"
+   "id": "lesser-smouldering-leg-skills-socketed-in-equipped-boots-have-increased-mana-cost-efficiency",
+   "source": "map"
   },
   {
    "name": "Gemling Torso",
@@ -3048,7 +3385,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 146,
    "change": 0,
-   "id": "gemling-torso-items-and-gems-have-reduced-attribute-requirements"
+   "id": "gemling-torso-items-and-gems-have-reduced-attribute-requirements",
+   "source": "map"
   },
   {
    "name": "Lesser Flesh-fused Lantern",
@@ -3057,7 +3395,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 321,
    "change": 0,
-   "id": "lesser-flesh-fused-lantern-to-fire-damage-over-time-multiplier"
+   "id": "lesser-flesh-fused-lantern-to-fire-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Lesser Golden Ankh",
@@ -3066,7 +3405,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 122,
    "change": 0,
-   "id": "lesser-golden-ankh-raised-zombies-have-increased-maximum-life"
+   "id": "lesser-golden-ankh-raised-zombies-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Lesser Ravenous Skull",
@@ -3075,7 +3415,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 621,
    "change": 0,
-   "id": "lesser-ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana"
+   "id": "lesser-ravenous-skull-every-seconds-consume-a-corpse-within-metres-to-recover-of-life-every-seconds-consume-a-corpse-within-metres-to-recover-of-mana",
+   "source": "map"
   },
   {
    "name": "Lesser Vaal Appendage",
@@ -3084,7 +3425,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 121,
    "change": 0,
-   "id": "lesser-vaal-appendage-metres-to-melee-strike-range"
+   "id": "lesser-vaal-appendage-metres-to-melee-strike-range",
+   "source": "map"
   },
   {
    "name": "Lesser Gargantuan Claws",
@@ -3093,7 +3435,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 67,
    "change": 0,
-   "id": "lesser-gargantuan-claws-increased-attack-speed-with-claws"
+   "id": "lesser-gargantuan-claws-increased-attack-speed-with-claws",
+   "source": "map"
   },
   {
    "name": "Crescent Blade",
@@ -3102,7 +3445,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 237,
    "change": 0,
-   "id": "crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage"
+   "id": "crescent-blade-of-physical-damage-from-hits-taken-as-cold-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Bloodied Arm",
@@ -3111,7 +3455,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 49,
    "change": 0,
-   "id": "lesser-bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks"
+   "id": "lesser-bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks",
+   "source": "map"
   },
   {
    "name": "Lesser Spectral Hood",
@@ -3120,7 +3465,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 688,
    "change": 0,
-   "id": "lesser-spectral-hood-to-chaos-resistance"
+   "id": "lesser-spectral-hood-to-chaos-resistance",
+   "source": "map"
   },
   {
    "name": "Lesser General's Head",
@@ -3129,7 +3475,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 103,
    "change": 0,
-   "id": "lesser-generals-head-increased-maximum-energy-shield"
+   "id": "lesser-generals-head-increased-maximum-energy-shield",
+   "source": "map"
   },
   {
    "name": "Lion's Claws",
@@ -3138,7 +3485,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 321,
    "change": 0,
-   "id": "lions-claws-of-attack-damage-leeched-as-life"
+   "id": "lions-claws-of-attack-damage-leeched-as-life",
+   "source": "boss"
   },
   {
    "name": "Soldier's Head",
@@ -3147,7 +3495,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 607,
    "change": 0,
-   "id": "soldiers-head-increased-armour"
+   "id": "soldiers-head-increased-armour",
+   "source": "map"
   },
   {
    "name": "Golden Ankh",
@@ -3156,7 +3505,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 831,
    "change": 0,
-   "id": "golden-ankh-raised-zombies-have-increased-maximum-life"
+   "id": "golden-ankh-raised-zombies-have-increased-maximum-life",
+   "source": "map"
   },
   {
    "name": "Bandit Witch's Head",
@@ -3165,7 +3515,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 407,
    "change": 0,
-   "id": "bandit-witchs-head-regenerate-mana-per-second"
+   "id": "bandit-witchs-head-regenerate-mana-per-second",
+   "source": "map"
   },
   {
    "name": "Justicar's Helm",
@@ -3174,7 +3525,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 307,
    "change": 0,
-   "id": "justicars-helm-increased-stun-threshold"
+   "id": "justicars-helm-increased-stun-threshold",
+   "source": "map"
   },
   {
    "name": "Lesser Hag's Stomach",
@@ -3183,7 +3535,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 129,
    "change": 0,
-   "id": "lesser-hags-stomach-increased-effect-of-your-curses"
+   "id": "lesser-hags-stomach-increased-effect-of-your-curses",
+   "source": "map"
   },
   {
    "name": "Greater Pocked Arm",
@@ -3192,7 +3545,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 333,
    "change": -50,
-   "id": "greater-pocked-arm-increased-evasion-rating-from-equipped-helmet-body-armour-gloves-and-boots"
+   "id": "greater-pocked-arm-increased-evasion-rating-from-equipped-helmet-body-armour-gloves-and-boots",
+   "source": "map"
   },
   {
    "name": "Lesser Spined Claws",
@@ -3201,7 +3555,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 104,
    "change": 0,
-   "id": "lesser-spined-claws-attacks-have-chance-to-cause-bleeding"
+   "id": "lesser-spined-claws-attacks-have-chance-to-cause-bleeding",
+   "source": "map"
   },
   {
    "name": "Lithic Haunches",
@@ -3210,7 +3565,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 372,
    "change": 0,
-   "id": "lithic-haunches-chance-to-defend-with-of-armour"
+   "id": "lithic-haunches-chance-to-defend-with-of-armour",
+   "source": "map"
   },
   {
    "name": "Lesser Heretical Tome",
@@ -3219,7 +3575,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 176,
    "change": 0,
-   "id": "lesser-heretical-tome-to-physical-damage-over-time-multiplier"
+   "id": "lesser-heretical-tome-to-physical-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Greater Wraith Claws",
@@ -3228,7 +3585,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 319,
    "change": 0,
-   "id": "greater-wraith-claws-increased-effect-of-impales-inflicted-with-spells"
+   "id": "greater-wraith-claws-increased-effect-of-impales-inflicted-with-spells",
+   "source": "map"
   },
   {
    "name": "Elemental Essence",
@@ -3237,7 +3595,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 446,
    "change": 0,
-   "id": "elemental-essence-to-cold-resistance"
+   "id": "elemental-essence-to-cold-resistance",
+   "source": "map"
   },
   {
    "name": "Lesser Crustacean's Claw",
@@ -3246,7 +3605,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 60,
    "change": 0,
-   "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks"
+   "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks",
+   "source": "map"
   },
   {
    "name": "Gargantuan Claws",
@@ -3255,7 +3615,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 657,
    "change": 0,
-   "id": "gargantuan-claws-increased-attack-speed-with-claws"
+   "id": "gargantuan-claws-increased-attack-speed-with-claws",
+   "source": "map"
   },
   {
    "name": "Lesser Osseous Scythe",
@@ -3264,7 +3625,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 54,
    "change": -81.13,
-   "id": "lesser-osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks"
+   "id": "lesser-osseous-scythe-chance-to-impale-enemies-on-hit-with-attacks",
+   "source": "map"
   },
   {
    "name": "Lesser Diseased Wing",
@@ -3273,7 +3635,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 58,
    "change": 0,
-   "id": "lesser-diseased-wing-to-chaos-damage-over-time-multiplier"
+   "id": "lesser-diseased-wing-to-chaos-damage-over-time-multiplier",
+   "source": "map"
   },
   {
    "name": "Witch's Head",
@@ -3282,7 +3645,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 347,
    "change": 0,
-   "id": "witchs-head-increases-and-reductions-to-mana-regeneration-rate-also-apply-to-energy-shield-recharge-rate-at-of-their-value"
+   "id": "witchs-head-increases-and-reductions-to-mana-regeneration-rate-also-apply-to-energy-shield-recharge-rate-at-of-their-value",
+   "source": "boss"
   },
   {
    "name": "Lesser Prosthetic Leg",
@@ -3291,7 +3655,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 57,
    "change": 0,
-   "id": "lesser-prosthetic-leg-increased-ignite-duration-on-enemies"
+   "id": "lesser-prosthetic-leg-increased-ignite-duration-on-enemies",
+   "source": "map"
   },
   {
    "name": "Noble's Head",
@@ -3300,7 +3665,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 239,
    "change": 0,
-   "id": "nobles-head-more-damage-against-undead-monsters"
+   "id": "nobles-head-more-damage-against-undead-monsters",
+   "source": "map"
   },
   {
    "name": "Lesser Lunar Bow",
@@ -3309,7 +3675,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 83,
    "change": 0,
-   "id": "lesser-lunar-bow-of-physical-damage-converted-to-cold-damage"
+   "id": "lesser-lunar-bow-of-physical-damage-converted-to-cold-damage",
+   "source": "map"
   },
   {
    "name": "Greater Hag's Stomach",
@@ -3318,7 +3685,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 438,
    "change": -50,
-   "id": "greater-hags-stomach-increased-damage-with-hits-and-ailments-per-curse-on-enemy"
+   "id": "greater-hags-stomach-increased-damage-with-hits-and-ailments-per-curse-on-enemy",
+   "source": "map"
   },
   {
    "name": "Lesser Arachnid Leg",
@@ -3327,7 +3695,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 125,
    "change": 0,
-   "id": "lesser-arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells"
+   "id": "lesser-arachnid-leg-chance-to-hinder-enemies-on-hit-with-spells",
+   "source": "map"
   },
   {
    "name": "Lesser Despot's Fist",
@@ -3336,7 +3705,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 196,
    "change": 0,
-   "id": "lesser-despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits"
+   "id": "lesser-despots-fist-adds-to-lightning-damage-to-unarmed-melee-hits",
+   "source": "map"
   },
   {
    "name": "Greater Resplendent Sceptre",
@@ -3345,7 +3715,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 136,
    "change": 0,
-   "id": "greater-resplendent-sceptre-attacks-have-increased-ignite-duration"
+   "id": "greater-resplendent-sceptre-attacks-have-increased-ignite-duration",
+   "source": "map"
   },
   {
    "name": "Lesser Osseous Talon",
@@ -3354,7 +3725,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 47,
    "change": 0,
-   "id": "lesser-osseous-talon-to-dexterity"
+   "id": "lesser-osseous-talon-to-dexterity",
+   "source": "map"
   },
   {
    "name": "Lesser Flaming Ribbon",
@@ -3363,7 +3735,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 139,
    "change": 0,
-   "id": "lesser-flaming-ribbon-reduced-burning-damage-taken"
+   "id": "lesser-flaming-ribbon-reduced-burning-damage-taken",
+   "source": "map"
   },
   {
    "name": "Totemic Visage",
@@ -3372,7 +3745,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 269,
    "change": 0,
-   "id": "totemic-visage-chance-to-shock"
+   "id": "totemic-visage-chance-to-shock",
+   "source": "map"
   },
   {
    "name": "Lesser Ursine Flesh",
@@ -3381,7 +3755,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 109,
    "change": 0,
-   "id": "lesser-ursine-flesh-reduced-enemy-stun-threshold"
+   "id": "lesser-ursine-flesh-reduced-enemy-stun-threshold",
+   "source": "map"
   },
   {
    "name": "Greater Desert Queen's Crown",
@@ -3390,7 +3765,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 118,
    "change": 0,
-   "id": "greater-desert-queens-crown-enemies-you-blind-while-in-sand-stance-take-increased-damage"
+   "id": "greater-desert-queens-crown-enemies-you-blind-while-in-sand-stance-take-increased-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Bandit Warrior's Head",
@@ -3399,7 +3775,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 72,
    "change": 0,
-   "id": "lesser-bandit-warriors-head-regenerate-of-life-per-second"
+   "id": "lesser-bandit-warriors-head-regenerate-of-life-per-second",
+   "source": "map"
   },
   {
    "name": "Broken Bust",
@@ -3408,7 +3785,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 131,
    "change": 0,
-   "id": "broken-bust-chance-for-slain-monsters-to-drop-an-additional-scroll-of-wisdom"
+   "id": "broken-bust-chance-for-slain-monsters-to-drop-an-additional-scroll-of-wisdom",
+   "source": "boss"
   },
   {
    "name": "Lesser Pocked Arm",
@@ -3417,7 +3795,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 226,
    "change": 0,
-   "id": "lesser-pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots"
+   "id": "lesser-pocked-arm-increased-evasion-rating-from-equipped-helmet-and-boots",
+   "source": "map"
   },
   {
    "name": "Boar Head",
@@ -3426,7 +3805,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 129,
    "change": 0,
-   "id": "boar-head-chance-to-deal-double-damage-if-you-have-stunned-an-enemy-recently"
+   "id": "boar-head-chance-to-deal-double-damage-if-you-have-stunned-an-enemy-recently",
+   "source": "boss"
   },
   {
    "name": "Bloodied Arm",
@@ -3435,7 +3815,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 326,
    "change": 0,
-   "id": "bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks"
+   "id": "bloodied-arm-chance-to-aggravate-bleeding-on-targets-you-hit-with-attacks",
+   "source": "map"
   },
   {
    "name": "Lesser Arachnid Fangs",
@@ -3444,7 +3825,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 112,
    "change": 0,
-   "id": "lesser-arachnid-fangs-chance-to-poison-on-hit"
+   "id": "lesser-arachnid-fangs-chance-to-poison-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Templar Skull",
@@ -3453,7 +3835,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 117,
    "change": 0,
-   "id": "lesser-templar-skull-increased-light-radius"
+   "id": "lesser-templar-skull-increased-light-radius",
+   "source": "map"
   },
   {
    "name": "Lion's Claws",
@@ -3462,7 +3845,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 298,
    "change": 0,
-   "id": "lions-claws-increased-maximum-recovery-per-life-leech"
+   "id": "lions-claws-increased-maximum-recovery-per-life-leech",
+   "source": "boss"
   },
   {
    "name": "Greater Templar Skull",
@@ -3471,7 +3855,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 267,
    "change": 0,
-   "id": "greater-templar-skull-increases-and-reductions-to-light-radius-also-apply-to-life-regeneration-rate-at-value"
+   "id": "greater-templar-skull-increases-and-reductions-to-light-radius-also-apply-to-life-regeneration-rate-at-value",
+   "source": "map"
   },
   {
    "name": "Construct's Head",
@@ -3480,7 +3865,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 246,
    "change": -94.44,
-   "id": "constructs-head-increased-projectile-speed"
+   "id": "constructs-head-increased-projectile-speed",
+   "source": "map"
   },
   {
    "name": "Sun-bleached Breastplate",
@@ -3489,7 +3875,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 214,
    "change": 0,
-   "id": "sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage"
+   "id": "sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage",
+   "source": "map"
   },
   {
    "name": "Scarecrow's Pitchfork",
@@ -3498,7 +3885,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 125,
    "change": 0,
-   "id": "scarecrows-pitchfork-chance-to-cause-monsters-to-flee"
+   "id": "scarecrows-pitchfork-chance-to-cause-monsters-to-flee",
+   "source": "map"
   },
   {
    "name": "Greater Spined Claws",
@@ -3507,7 +3895,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 148,
    "change": -50,
-   "id": "greater-spined-claws-bleeding-you-inflict-deals-damage-faster"
+   "id": "greater-spined-claws-bleeding-you-inflict-deals-damage-faster",
+   "source": "map"
   },
   {
    "name": "Greater Infested Torso",
@@ -3516,7 +3905,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 297,
    "change": 0,
-   "id": "greater-infested-torso-minions-recover-of-life-on-killing-a-poisoned-enemy"
+   "id": "greater-infested-torso-minions-recover-of-life-on-killing-a-poisoned-enemy",
+   "source": "map"
   },
   {
    "name": "Greater Chaos Golem's Core",
@@ -3525,7 +3915,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 110,
    "change": 0,
-   "id": "greater-chaos-golems-core-of-physical-damage-over-time-taken-as-chaos-damage"
+   "id": "greater-chaos-golems-core-of-physical-damage-over-time-taken-as-chaos-damage",
+   "source": "map"
   },
   {
    "name": "Inquisitor's Head",
@@ -3534,7 +3925,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 122,
    "change": 0,
-   "id": "inquisitors-head-melee-critical-strikes-poison-the-enemy"
+   "id": "inquisitors-head-melee-critical-strikes-poison-the-enemy",
+   "source": "boss"
   },
   {
    "name": "Lesser Scholar's Arm",
@@ -3543,7 +3935,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 114,
    "change": 0,
-   "id": "lesser-scholars-arm-to-intelligence"
+   "id": "lesser-scholars-arm-to-intelligence",
+   "source": "map"
   },
   {
    "name": "Bear Head",
@@ -3552,7 +3945,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 180,
    "change": 0,
-   "id": "bear-head-to-minimum-rage"
+   "id": "bear-head-to-minimum-rage",
+   "source": "boss"
   },
   {
    "name": "Lesser Distended Stomach",
@@ -3561,7 +3955,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 49,
    "change": -5.66,
-   "id": "lesser-distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently"
+   "id": "lesser-distended-stomach-increased-damage-if-you-have-consumed-a-corpse-recently",
+   "source": "map"
   },
   {
    "name": "Lesser Voltaic Skull",
@@ -3570,7 +3965,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 43,
    "change": -50,
-   "id": "lesser-voltaic-skull-of-physical-damage-converted-to-lightning-damage"
+   "id": "lesser-voltaic-skull-of-physical-damage-converted-to-lightning-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Brute's Arm",
@@ -3579,7 +3975,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 141,
    "change": 0,
-   "id": "lesser-brutes-arm-to-strength"
+   "id": "lesser-brutes-arm-to-strength",
+   "source": "map"
   },
   {
    "name": "Lesser Voltaic Apparatus",
@@ -3588,7 +3985,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 257,
    "change": 0,
-   "id": "lesser-voltaic-apparatus-chance-to-gain-a-power-charge-on-kill"
+   "id": "lesser-voltaic-apparatus-chance-to-gain-a-power-charge-on-kill",
+   "source": "map"
   },
   {
    "name": "Lesser Scarecrow's Pitchfork",
@@ -3597,7 +3995,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 56,
    "change": 0,
-   "id": "lesser-scarecrows-pitchfork-chance-to-cause-monsters-to-flee"
+   "id": "lesser-scarecrows-pitchfork-chance-to-cause-monsters-to-flee",
+   "source": "map"
   },
   {
    "name": "Lesser Gemling Torso",
@@ -3606,7 +4005,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 72,
    "change": 0,
-   "id": "lesser-gemling-torso-items-and-gems-have-reduced-attribute-requirements"
+   "id": "lesser-gemling-torso-items-and-gems-have-reduced-attribute-requirements",
+   "source": "map"
   },
   {
    "name": "Lesser Chimeral Eye",
@@ -3615,7 +4015,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 80,
    "change": 0,
-   "id": "lesser-chimeral-eye-petrification-on-you-expires-faster"
+   "id": "lesser-chimeral-eye-petrification-on-you-expires-faster",
+   "source": "map"
   },
   {
    "name": "Lesser Blackened Lungs",
@@ -3624,7 +4025,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 110,
    "change": 0,
-   "id": "lesser-blackened-lungs-increased-warcry-speed"
+   "id": "lesser-blackened-lungs-increased-warcry-speed",
+   "source": "map"
   },
   {
    "name": "Lesser Champion's Banner",
@@ -3633,7 +4035,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 81,
    "change": 0,
-   "id": "lesser-champions-banner-enemies-near-your-banner-take-increased-cold-damage"
+   "id": "lesser-champions-banner-enemies-near-your-banner-take-increased-cold-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Terrifying Maw",
@@ -3642,7 +4045,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 77,
    "change": 0,
-   "id": "lesser-terrifying-maw-reduced-effect-of-curses-on-you"
+   "id": "lesser-terrifying-maw-reduced-effect-of-curses-on-you",
+   "source": "map"
   },
   {
    "name": "Lesser Skeletal Archer's Arm",
@@ -3651,7 +4055,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 150,
    "change": 0,
-   "id": "lesser-skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced"
+   "id": "lesser-skeletal-archers-arm-projectiles-deal-increased-damage-with-hits-and-ailments-for-each-enemy-pierced",
+   "source": "map"
   },
   {
    "name": "Lesser Totemic Visage",
@@ -3660,7 +4065,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 109,
    "change": 0,
-   "id": "lesser-totemic-visage-chance-to-shock"
+   "id": "lesser-totemic-visage-chance-to-shock",
+   "source": "map"
   },
   {
    "name": "Lesser Cutthroat's Head",
@@ -3669,7 +4075,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 136,
    "change": 0,
-   "id": "lesser-cutthroats-head-increased-global-physical-damage"
+   "id": "lesser-cutthroats-head-increased-global-physical-damage",
+   "source": "map"
   },
   {
    "name": "Coagulated Essence",
@@ -3678,7 +4085,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 262,
    "change": 0,
-   "id": "coagulated-essence-increased-damage-while-bleeding"
+   "id": "coagulated-essence-increased-damage-while-bleeding",
+   "source": "map"
   },
   {
    "name": "Lesser Poacher's Leg",
@@ -3687,7 +4095,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 44,
    "change": 0,
-   "id": "lesser-poachers-leg-physical-damage-taken-from-hits-by-animals"
+   "id": "lesser-poachers-leg-physical-damage-taken-from-hits-by-animals",
+   "source": "map"
   },
   {
    "name": "Lesser Coagulated Essence",
@@ -3696,7 +4105,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 92,
    "change": 0,
-   "id": "lesser-coagulated-essence-increased-damage-while-bleeding"
+   "id": "lesser-coagulated-essence-increased-damage-while-bleeding",
+   "source": "map"
   },
   {
    "name": "Lesser Cobra Tail",
@@ -3705,7 +4115,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 103,
    "change": -90,
-   "id": "lesser-cobra-tail-increased-cooldown-recovery-rate-of-travel-skills"
+   "id": "lesser-cobra-tail-increased-cooldown-recovery-rate-of-travel-skills",
+   "source": "map"
   },
   {
    "name": "Lesser Desert Sword",
@@ -3714,7 +4125,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 68,
    "change": 0,
-   "id": "lesser-desert-sword-global-chance-to-blind-enemies-on-hit"
+   "id": "lesser-desert-sword-global-chance-to-blind-enemies-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Flayed Arm",
@@ -3723,7 +4135,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 28,
    "change": 0,
-   "id": "lesser-flayed-arm-of-damage-taken-recouped-as-life"
+   "id": "lesser-flayed-arm-of-damage-taken-recouped-as-life",
+   "source": "map"
   },
   {
    "name": "Lesser Statue Leg",
@@ -3732,7 +4145,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 133,
    "change": 0,
-   "id": "lesser-statue-leg-chance-to-knock-enemies-back-on-hit"
+   "id": "lesser-statue-leg-chance-to-knock-enemies-back-on-hit",
+   "source": "map"
   },
   {
    "name": "Lesser Desert Queen's Crown",
@@ -3741,7 +4155,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 54,
    "change": 0,
-   "id": "lesser-desert-queens-crown-increased-damage-while-blind"
+   "id": "lesser-desert-queens-crown-increased-damage-while-blind",
+   "source": "map"
   },
   {
    "name": "Lesser Lithic Haunches",
@@ -3750,7 +4165,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 59,
    "change": 0,
-   "id": "lesser-lithic-haunches-chance-to-defend-with-of-armour"
+   "id": "lesser-lithic-haunches-chance-to-defend-with-of-armour",
+   "source": "map"
   },
   {
    "name": "Lesser Severed Rhoa Head",
@@ -3759,7 +4175,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 65,
    "change": -66.67,
-   "id": "lesser-severed-rhoa-head-increased-chaos-damage"
+   "id": "lesser-severed-rhoa-head-increased-chaos-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Construct's Head",
@@ -3768,7 +4185,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 33,
    "change": -66.67,
-   "id": "lesser-constructs-head-increased-projectile-speed"
+   "id": "lesser-constructs-head-increased-projectile-speed",
+   "source": "map"
   },
   {
    "name": "Lesser Bonestalker's Ribcage",
@@ -3777,7 +4195,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 49,
    "change": 0,
-   "id": "lesser-bonestalkers-ribcage-reduced-physical-damage-taken-over-time"
+   "id": "lesser-bonestalkers-ribcage-reduced-physical-damage-taken-over-time",
+   "source": "map"
   },
   {
    "name": "Lesser Charred Leg",
@@ -3786,7 +4205,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 18,
    "change": 0,
-   "id": "lesser-charred-leg-reduced-ignite-duration-on-you"
+   "id": "lesser-charred-leg-reduced-ignite-duration-on-you",
+   "source": "map"
   },
   {
    "name": "Lesser Primate Foot",
@@ -3795,7 +4215,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 17,
    "change": 0,
-   "id": "lesser-primate-foot-increased-movement-speed-while-ignited"
+   "id": "lesser-primate-foot-increased-movement-speed-while-ignited",
+   "source": "map"
   },
   {
    "name": "Primate Foot",
@@ -3804,7 +4225,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 105,
    "change": 0,
-   "id": "primate-foot-increased-movement-speed-while-ignited"
+   "id": "primate-foot-increased-movement-speed-while-ignited",
+   "source": "map"
   },
   {
    "name": "Adherent's Crown",
@@ -3813,7 +4235,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 356,
    "change": -58.33,
-   "id": "adherents-crown-of-physical-damage-converted-to-fire-damage"
+   "id": "adherents-crown-of-physical-damage-converted-to-fire-damage",
+   "source": "map"
   },
   {
    "name": "Vendigo Claws",
@@ -3822,7 +4245,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 302,
    "change": -61.54,
-   "id": "vendigo-claws-adds-to-cold-damage-to-unarmed-attacks"
+   "id": "vendigo-claws-adds-to-cold-damage-to-unarmed-attacks",
+   "source": "map"
   },
   {
    "name": "Spiked Carapace",
@@ -3831,7 +4255,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 111,
    "change": 0,
-   "id": "spiked-carapace-reflects-cold-damage-to-melee-attackers"
+   "id": "spiked-carapace-reflects-cold-damage-to-melee-attackers",
+   "source": "extra"
   },
   {
    "name": "Voidbearer's Leg",
@@ -3840,7 +4265,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 146,
    "change": -62.96,
-   "id": "voidbearers-leg-increased-movement-speed-while-on-burning-ground"
+   "id": "voidbearers-leg-increased-movement-speed-while-on-burning-ground",
+   "source": "map"
   },
   {
    "name": "Greater Sun-bleached Breastplate",
@@ -3849,7 +4275,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 95,
    "change": -80,
-   "id": "greater-sun-bleached-breastplate-banners-also-grant-of-physical-damage-gained-as-extra-fire-damage-to-you-and-allies"
+   "id": "greater-sun-bleached-breastplate-banners-also-grant-of-physical-damage-gained-as-extra-fire-damage-to-you-and-allies",
+   "source": "extra"
   },
   {
    "name": "Poacher's Leg",
@@ -3858,7 +4285,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 69,
    "change": 0,
-   "id": "poachers-leg-physical-damage-taken-from-hits-by-animals"
+   "id": "poachers-leg-physical-damage-taken-from-hits-by-animals",
+   "source": "map"
   },
   {
    "name": "Lesser Hallowed Descry",
@@ -3867,7 +4295,8 @@ window.VISCERA = {
    "chaos": 1.0,
    "listings": 5,
    "change": 0,
-   "id": "lesser-hallowed-descry-increased-effect-of-consecrated-ground-you-create"
+   "id": "lesser-hallowed-descry-increased-effect-of-consecrated-ground-you-create",
+   "source": "extra"
   },
   {
    "name": "Lesser Noble's Head",
@@ -3876,7 +4305,8 @@ window.VISCERA = {
    "chaos": 0.9,
    "listings": 178,
    "change": 1000,
-   "id": "lesser-nobles-head-more-damage-against-undead-monsters"
+   "id": "lesser-nobles-head-more-damage-against-undead-monsters",
+   "source": "map"
   },
   {
    "name": "Lesser Golemic Stone",
@@ -3885,7 +4315,8 @@ window.VISCERA = {
    "chaos": 0.4,
    "listings": 860,
    "change": 95.12,
-   "id": "lesser-golemic-stone-chance-to-avoid-being-stunned"
+   "id": "lesser-golemic-stone-chance-to-avoid-being-stunned",
+   "source": "map"
   },
   {
    "name": "Lesser Sun-bleached Breastplate",
@@ -3894,7 +4325,8 @@ window.VISCERA = {
    "chaos": 0.2,
    "listings": 83,
    "change": -82,
-   "id": "lesser-sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage"
+   "id": "lesser-sun-bleached-breastplate-enemies-near-your-banner-take-increased-fire-damage",
+   "source": "map"
   },
   {
    "name": "Lesser Justicar's Helm",
@@ -3903,7 +4335,8 @@ window.VISCERA = {
    "chaos": 0.1,
    "listings": 1712,
    "change": -95,
-   "id": "lesser-justicars-helm-increased-stun-threshold"
+   "id": "lesser-justicars-helm-increased-stun-threshold",
+   "source": "map"
   }
  ]
 };
