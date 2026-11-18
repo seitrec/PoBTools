@@ -88,7 +88,7 @@
   <div class="sub" id="meta"></div>
 
   <div class="controls">
-    <label>Search name or mod<input type="search" id="q" placeholder="e.g. minion, sirus"></label>
+    <label>Search name, mod or map<input type="search" id="q" placeholder="e.g. minion, sirus"></label>
     <label>Min price (chaos)<input type="number" id="minPrice" step="5" min="0" value="10"></label>
     <label>Size
       <select id="size">
@@ -116,7 +116,7 @@
     Prices are poe.ninja's listing-based estimates, so a viscera with few listings
     (<span class="tag warn">thin</span>, under 10) can be far off. The same viscera can appear several times,
     once per mod, at very different prices.
-    <b>Source</b> comes from <a href="https://poedb.tw/us/Viscera">poedb</a>: <span class="src">map</span> drops in maps
+    <b>Source</b> comes from <a href="https://poedb.tw/us/Viscera">poedb</a>: <span class="src">map</span> drops in the map named next to it
     (Lesser, plain and Greater are its low, medium and high versions), <span class="src extra">extra</span> is a high version
     with no map drop that needs a random extra encounter, <span class="src boss">boss</span> drops from the boss itself,
     and <span class="src uber">uber</span> is the Greater version from the uber boss. <b>Change</b> is poe.ninja's price change over the last 7 days.
@@ -164,7 +164,7 @@ function rows() {
     .filter(v => state.part === "all" || v.part === state.part)
     .filter(v => src === "all" || v.source === src)
     .filter(v => size === "all" || v.name.startsWith("Greater ") === (size === "greater"))
-    .filter(v => !q || v.name.toLowerCase().includes(q) || v.mod.toLowerCase().includes(q))
+    .filter(v => !q || v.name.toLowerCase().includes(q) || v.mod.toLowerCase().includes(q) || (v.map || "").toLowerCase().includes(q))
     .sort((a, b) => (typeof a[k] === "string" ? a[k].localeCompare(b[k]) : (a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * state.dir);
 }
 
@@ -181,7 +181,7 @@ function render() {
   const body = list.map(v => `<tr>
     <td class="l"><a href="https://poe.ninja/poe1/economy/${D.slug}/viscera/${v.id}" target="_blank" rel="noopener">${esc(v.name)}</a>${v.listings < THIN ? '<span class="tag warn">thin</span>' : ""}</td>
     <td class="l wrap">${esc(v.mod)}</td>
-    <td class="l">${v.source ? `<span class="src ${v.source}">${v.source}</span>` : '<span class="dim">–</span>'}</td>
+    <td class="l">${v.source ? `<span class="src ${v.source}">${v.source}</span>` : '<span class="dim">–</span>'}${v.map ? ` <span class="dim">${esc(v.map)}</span>` : ""}</td>
     <td class="l dim">${v.part}</td>
     <td>${price(v.chaos)}</td>
     <td class="dim">${v.listings}</td>
