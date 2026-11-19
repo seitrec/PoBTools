@@ -73,6 +73,11 @@
     .src.extra { color: var(--bad); }
     .src.boss, .src.uber { color: var(--accent); }
     .src.uber { font-weight: 600; }
+    .quad { font-size: 11px; font-weight: 600; padding: 0 5px; border-radius: 4px; margin-left: 3px; border: 1px solid currentColor; }
+    .quad.tl { color: #6aa9e9; }
+    .quad.tr { color: #6fbf73; }
+    .quad.bl { color: #e09a4a; }
+    .quad.br { color: #c08ee6; }
 
     @media (max-width: 640px) {
       main { padding-top: 18px; }
@@ -106,6 +111,15 @@
         <option value="uber">uber boss</option>
       </select>
     </label>
+    <label>Atlas quadrant
+      <select id="quad">
+        <option value="all">all</option>
+        <option value="tl">↖ top left</option>
+        <option value="tr">↗ top right</option>
+        <option value="bl">↙ bottom left</option>
+        <option value="br">↘ bottom right</option>
+      </select>
+    </label>
     <label>Min listings<input type="number" id="minList" step="1" min="0" value="0"></label>
     <div class="stat"><b id="shown"></b>viscera shown</div>
   </div>
@@ -119,7 +133,9 @@
     <b>Source</b> comes from <a href="https://poedb.tw/us/Viscera">poedb</a>: <span class="src">map</span>: the Greater version drops in the map named next to it,
     the Lesser and plain ones in the campaign zone named next to them; <span class="src extra">extra</span> is a Greater version
     that no map drops, so it needs a random extra encounter; <span class="src boss">boss</span> drops from the boss itself,
-    and <span class="src uber">uber</span> is the Greater version from the uber boss. <b>Change</b> is poe.ninja's price change over the last 7 days.
+    and <span class="src uber">uber</span> is the Greater version from the uber boss.
+    The arrow after a map is its quadrant of the atlas (<span class="quad tl">↖ TL</span> top left,
+    <span class="quad tr">↗ TR</span>, <span class="quad bl">↙ BL</span>, <span class="quad br">↘ BR</span>), from poedb's atlas. <b>Change</b> is poe.ninja's price change over the last 7 days.
     Coven Queen's Crown is left out: it has hundreds of versions, one per mod.
   </p>
 </main>
@@ -142,6 +158,13 @@ const price = c => D.divineChaos && c >= D.divineChaos
 const change = x => x == null ? '<span class="dim">–</span>'
   : `<span class="${x > 0 ? "pos" : x < 0 ? "neg" : "dim"}">${x > 0 ? "+" : ""}${x.toFixed(0)}%</span>`;
 
+const QUAD = { tl: "↖ TL", tr: "↗ TR", bl: "↙ BL", br: "↘ BR" };
+const QUAD_NAME = { tl: "top left", tr: "top right", bl: "bottom left", br: "bottom right" };
+const places = v => !v.map ? "" : v.map.split(" / ").map((m, i) => {
+  const q = v.quadrants && v.quadrants[i];
+  return `<span class="dim">${esc(m)}</span>${q ? `<span class="quad ${q}" title="${QUAD_NAME[q]} of the atlas">${QUAD[q]}</span>` : ""}`;
+}).join(" ");
+
 const COLS = [
   { key: "name", label: "Viscera", cls: "l" },
   { key: "mod", label: "Mod", cls: "l" },
@@ -158,11 +181,13 @@ function rows() {
   const minList = +$("minList").value || 0;
   const size = $("size").value;
   const src = $("source").value;
+  const quad = $("quad").value;
   const k = state.sort;
   return D.viscera
     .filter(v => v.chaos >= minPrice && v.listings >= minList)
     .filter(v => state.part === "all" || v.part === state.part)
     .filter(v => src === "all" || v.source === src)
+    .filter(v => quad === "all" || (v.quadrants || []).includes(quad))
     .filter(v => size === "all" || v.name.startsWith("Greater ") === (size === "greater"))
     .filter(v => !q || v.name.toLowerCase().includes(q) || v.mod.toLowerCase().includes(q) || (v.map || "").toLowerCase().includes(q))
     .sort((a, b) => (typeof a[k] === "string" ? a[k].localeCompare(b[k]) : (a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * state.dir);
@@ -181,7 +206,7 @@ function render() {
   const body = list.map(v => `<tr>
     <td class="l"><a href="https://poe.ninja/poe1/economy/${D.slug}/viscera/${v.id}" target="_blank" rel="noopener">${esc(v.name)}</a>${v.listings < THIN ? '<span class="tag warn">thin</span>' : ""}</td>
     <td class="l wrap">${esc(v.mod)}</td>
-    <td class="l">${v.source ? `<span class="src ${v.source}">${v.source}</span>` : '<span class="dim">–</span>'}${v.map ? ` <span class="dim">${esc(v.map)}</span>` : ""}</td>
+    <td class="l">${v.source ? `<span class="src ${v.source}">${v.source}</span>` : '<span class="dim">–</span>'}${v.map ? " " + places(v) : ""}</td>
     <td class="l dim">${v.part}</td>
     <td>${price(v.chaos)}</td>
     <td class="dim">${v.listings}</td>
@@ -202,7 +227,7 @@ $("table").addEventListener("click", ev => {
   state.sort = k;
   render();
 });
-["q", "minPrice", "size", "source", "minList"].forEach(id => $(id).addEventListener("input", render));
+["q", "minPrice", "size", "source", "quad", "minList"].forEach(id => $(id).addEventListener("input", render));
 render();
 </script>
 </body>
