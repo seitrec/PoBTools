@@ -1,9 +1,9 @@
 window.VISCERA = {
  "league": "Covens",
  "slug": "covens",
- "fetched": "2026-11-19 14:06 UTC",
- "source": "poe.ninja",
- "divineChaos": 218.1,
+ "fetched": "2026-11-19 (pasted page)",
+ "source": "poe.ninja (pasted)",
+ "divineChaos": 225.0,
  "skipped": [
   "Coven Queen's Crown"
  ],
@@ -12,9 +12,9 @@ window.VISCERA = {
    "name": "Greater Maven's Orrery",
    "mod": "+1 to maximum number of Sacred Wisps / +1 to number of Sacred Wisps Summoned",
    "part": "Torso",
-   "chaos": 1596,
-   "listings": 16,
-   "change": -32.06,
+   "chaos": 1575.0,
+   "listings": 30,
+   "change": -33.0,
    "id": "greater-mavens-orrery-to-maximum-number-of-sacred-wisps-to-number-of-sacred-wisps-summoned",
    "source": "uber",
    "map": null,
@@ -24,35 +24,21 @@ window.VISCERA = {
    "name": "Greater Incarnation of Neglect's Cube",
    "mod": "Damaging Retaliation Skills become Usable every 4 seconds",
    "part": "Upper Limb",
-   "chaos": 1527,
-   "listings": 51,
-   "change": -41.1,
+   "chaos": 1125.0,
+   "listings": 70,
+   "change": -57.0,
    "id": "greater-incarnation-of-neglects-cube-damaging-retaliation-skills-become-usable-every-seconds",
    "source": "uber",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Gemling Torso",
-   "mod": "(30-35)% increased Energy Shield from Equipped Body Armour",
-   "part": "Torso",
-   "chaos": 654.3,
-   "listings": 106,
-   "change": 461.2,
-   "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour",
-   "source": "map",
-   "map": "Coral Ruins",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
    "name": "Greater Prosthetic Leg",
    "mod": "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres",
    "part": "Lower Limb",
-   "chaos": 505.0,
-   "listings": 75,
-   "change": 83.64,
+   "chaos": 630.0,
+   "listings": 100,
+   "change": 126.0,
    "id": "greater-prosthetic-leg-ignites-you-inflict-spread-to-other-enemies-within-a-radius-of-metres",
    "source": "map",
    "map": "Defiled Cathedral",
@@ -61,26 +47,52 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Scorched Arm",
-   "mod": "Ignites you inflict deal Damage (10-15)% Faster",
-   "part": "Upper Limb",
-   "chaos": 436.2,
-   "listings": 61,
-   "change": 869.3,
-   "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster",
+   "name": "Greater Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 50 to 75 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 540.0,
+   "listings": 50,
+   "change": 49.0,
+   "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
    "source": "map",
-   "map": "Crater",
+   "map": "Graveyard",
    "quadrants": [
     "tl"
    ]
   },
   {
+   "name": "Greater Gemling Torso",
+   "mod": "(30-35)% increased Energy Shield from Equipped Body Armour",
+   "part": "Torso",
+   "chaos": 450.0,
+   "listings": 200,
+   "change": 286.0,
+   "id": "greater-gemling-torso-increased-energy-shield-from-equipped-body-armour",
+   "source": "map",
+   "map": "Coral Ruins",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Greater Incarnation of Dread's Head",
+   "mod": "Gain a random Shrine Buff for (1.02-4) seconds when you Kill a Rare or Unique Enemy",
+   "part": "Head",
+   "chaos": 450.0,
+   "listings": 200,
+   "change": -66.0,
+   "id": "greater-incarnation-of-dreads-head-gain-a-random-shrine-buff-for-seconds-when-you-kill-a-rare-or-unique-enemy",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
    "name": "Greater Ancestor's Club",
    "mod": "Non-Vaal Strike Skills target 1 additional nearby Enemy",
    "part": "Upper Limb",
-   "chaos": 436.2,
-   "listings": 111,
-   "change": 236.8,
+   "chaos": 400.0,
+   "listings": 100,
+   "change": 209.0,
    "id": "greater-ancestors-club-non-vaal-strike-skills-target-additional-nearby-enemy",
    "source": "map",
    "map": "Siege",
@@ -92,9 +104,9 @@ window.VISCERA = {
    "name": "Greater Warden's Arm",
    "mod": "(5-7)% more Maximum Life",
    "part": "Upper Limb",
-   "chaos": 436.2,
-   "listings": 176,
-   "change": 141.3,
+   "chaos": 400.0,
+   "listings": 200,
+   "change": 121.0,
    "id": "greater-wardens-arm-more-maximum-life",
    "source": "map",
    "map": "Dungeon",
@@ -103,52 +115,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Incarnation of Dread's Head",
-   "mod": "Gain a random Shrine Buff for (1.02-4) seconds when you Kill a Rare or Unique Enemy",
-   "part": "Head",
-   "chaos": 436.2,
-   "listings": 185,
-   "change": -67.5,
-   "id": "greater-incarnation-of-dreads-head-gain-a-random-shrine-buff-for-seconds-when-you-kill-a-rare-or-unique-enemy",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Skeletal Warrior's Leg",
-   "mod": "You and Allies within 5 metres deal 50 to 75 additional Cold Damage",
-   "part": "Lower Limb",
-   "chaos": 400.0,
-   "listings": 62,
-   "change": 8.08,
-   "id": "greater-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
-   "source": "map",
-   "map": "Graveyard",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Greater Engorged Eye",
-   "mod": "Corrupted Blood cannot be inflicted on you",
-   "part": "Head",
-   "chaos": 400.0,
-   "listings": 66,
-   "change": 302.4,
-   "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you",
-   "source": "map",
-   "map": "Malformation",
-   "quadrants": [
-    "br"
-   ]
-  },
-  {
    "name": "Greater Skeletal Tail",
    "mod": "Projectiles Pierce, Fork or Chain an additional time at random",
    "part": "Lower Limb",
    "chaos": 400.0,
-   "listings": 228,
-   "change": -73.17,
+   "listings": 200,
+   "change": -73.0,
    "id": "greater-skeletal-tail-projectiles-pierce-fork-or-chain-an-additional-time-at-random",
    "source": "extra",
    "map": null,
@@ -158,9 +130,9 @@ window.VISCERA = {
    "name": "Greater Overseer's Whip",
    "mod": "Minions are Aggressive if you've used a Minion Skill Recently",
    "part": "Upper Limb",
-   "chaos": 398.0,
-   "listings": 124,
-   "change": 342.2,
+   "chaos": 400.0,
+   "listings": 100,
+   "change": 344.0,
    "id": "greater-overseers-whip-minions-are-aggressive-if-youve-used-a-minion-skill-recently",
    "source": "map",
    "map": "Pen",
@@ -172,9 +144,9 @@ window.VISCERA = {
    "name": "Greater Terrifying Maw",
    "mod": "(8-12)% increased Damage per Curse on you",
    "part": "Head",
-   "chaos": 355.0,
-   "listings": 76,
-   "change": 7000,
+   "chaos": 339.0,
+   "listings": 100,
+   "change": 6680.0,
    "id": "greater-terrifying-maw-increased-damage-per-curse-on-you",
    "source": "map",
    "map": "Terrace",
@@ -183,15 +155,29 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Pocked Leg",
-   "mod": "(35-50)% increased Armour from Equipped Helmet, Body Armour, Gloves, and Boots",
-   "part": "Lower Limb",
-   "chaos": 320.0,
-   "listings": 58,
-   "change": 139.5,
-   "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots",
+   "name": "Greater Scorched Arm",
+   "mod": "Ignites you inflict deal Damage (10-15)% Faster",
+   "part": "Upper Limb",
+   "chaos": 331.0,
+   "listings": 100,
+   "change": 636.0,
+   "id": "greater-scorched-arm-ignites-you-inflict-deal-damage-faster",
    "source": "map",
-   "map": "Crystal Ore",
+   "map": "Crater",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Greater Engorged Eye",
+   "mod": "Corrupted Blood cannot be inflicted on you",
+   "part": "Head",
+   "chaos": 290.0,
+   "listings": 80,
+   "change": 192.0,
+   "id": "greater-engorged-eye-corrupted-blood-cannot-be-inflicted-on-you",
+   "source": "map",
+   "map": "Malformation",
    "quadrants": [
     "br"
    ]
@@ -200,9 +186,9 @@ window.VISCERA = {
    "name": "Greater Totemic Visage",
    "mod": "(10-12)% more Maximum Lightning Damage",
    "part": "Head",
-   "chaos": 300.0,
-   "listings": 185,
-   "change": 147.5,
+   "chaos": 280.0,
+   "listings": 100,
+   "change": 131.0,
    "id": "greater-totemic-visage-more-maximum-lightning-damage",
    "source": "map",
    "map": "Plateau",
@@ -211,52 +197,26 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Armoured Leg",
-   "mod": "Chance to Block Projectile Attack Damage is Lucky",
+   "name": "Greater Pocked Leg",
+   "mod": "(35-50)% increased Armour from Equipped Helmet, Body Armour, Gloves, and Boots",
    "part": "Lower Limb",
-   "chaos": 299.4,
-   "listings": 133,
-   "change": 140.4,
-   "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky",
+   "chaos": 277.5,
+   "listings": 100,
+   "change": 108.0,
+   "id": "greater-pocked-leg-increased-armour-from-equipped-helmet-body-armour-gloves-and-boots",
    "source": "map",
-   "map": "Conservatory",
+   "map": "Crystal Ore",
    "quadrants": [
-    "tl"
+    "br"
    ]
-  },
-  {
-   "name": "Greater Arachnid Egg Sac",
-   "mod": "Minions created Recently have Onslaught",
-   "part": "Torso",
-   "chaos": 259.4,
-   "listings": 126,
-   "change": 764.7,
-   "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught",
-   "source": "map",
-   "map": "Infested Valley",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Greater Lithic Haunches",
-   "mod": "(10-15)% chance to Avoid Physical Damage from Hits",
-   "part": "Lower Limb",
-   "chaos": 240.0,
-   "listings": 72,
-   "change": 166.7,
-   "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
   },
   {
    "name": "Greater Thaumaturge's Head",
    "mod": "Gain (4-6)% of Physical Damage as Extra Fire Damage / Gain (4-6)% of Physical Damage as Extra Cold Damage / Gain (4-6)% of Physical Damage as Extra Lightning Damage",
    "part": "Head",
-   "chaos": 218.1,
-   "listings": 145,
-   "change": 68.81,
+   "chaos": 225.0,
+   "listings": 200,
+   "change": 74.0,
    "id": "greater-thaumaturges-head-gain-of-physical-damage-as-extra-fire-damage-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
    "map": "Shrine",
@@ -265,25 +225,41 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Sirus' Head",
-   "mod": "Enemies you Kill have a (5-10)% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element",
-   "part": "Head",
-   "chaos": 218.1,
-   "listings": 166,
-   "change": -87.92,
-   "id": "greater-sirus-head-enemies-you-kill-have-a-chance-to-explode-dealing-a-tenth-of-their-maximum-life-as-damage-of-a-random-element",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
+   "name": "Greater Scorpion Stinger",
+   "mod": "When you Poison a non-Poisoned target, also inflict (4-6) Withered debuffs, lasting 2 seconds",
+   "part": "Torso",
+   "chaos": 225.0,
+   "listings": 90,
+   "change": 7400.0,
+   "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds",
+   "source": "map",
+   "map": "Desert Spring",
+   "quadrants": [
+    "tl"
+   ]
   },
   {
-   "name": "Greater Smouldering Leg",
-   "mod": "(8-12)% increased bonuses gained from Equipped Boots",
+   "name": "Greater Armoured Leg",
+   "mod": "Chance to Block Projectile Attack Damage is Lucky",
    "part": "Lower Limb",
-   "chaos": 215.7,
-   "listings": 150,
-   "change": 259.4,
-   "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots",
+   "chaos": 224.0,
+   "listings": 200,
+   "change": 80.0,
+   "id": "greater-armoured-leg-chance-to-block-projectile-attack-damage-is-lucky",
+   "source": "map",
+   "map": "Conservatory",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Greater Lithic Haunches",
+   "mod": "(10-15)% chance to Avoid Physical Damage from Hits",
+   "part": "Lower Limb",
+   "chaos": 200.8,
+   "listings": 200,
+   "change": 123.0,
+   "id": "greater-lithic-haunches-chance-to-avoid-physical-damage-from-hits",
    "source": "extra",
    "map": null,
    "quadrants": null
@@ -292,9 +268,9 @@ window.VISCERA = {
    "name": "Greater Gladiator's Heart",
    "mod": "+(5-7) to Maximum Rage",
    "part": "Torso",
-   "chaos": 207.2,
-   "listings": 114,
-   "change": 229.0,
+   "chaos": 200.0,
+   "listings": 200,
+   "change": 218.0,
    "id": "greater-gladiators-heart-to-maximum-rage",
    "source": "map",
    "map": "Pit",
@@ -303,26 +279,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Ornate Torso",
-   "mod": "(3-5)% of Damage from Hits is taken from your Damagable Minions' Life before you",
-   "part": "Torso",
-   "chaos": 202.0,
-   "listings": 96,
-   "change": 395.1,
-   "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you",
-   "source": "map",
-   "map": "Fields",
-   "quadrants": [
-    "br"
-   ]
-  },
-  {
    "name": "Greater Golden Ankh",
    "mod": "Regenerate (0.5-0.8)% of Life per second for each Raised Zombie",
    "part": "Upper Limb",
-   "chaos": 200.0,
-   "listings": 85,
-   "change": 452.5,
+   "chaos": 190.0,
+   "listings": 100,
+   "change": 425.0,
    "id": "greater-golden-ankh-regenerate-of-life-per-second-for-each-raised-zombie",
    "source": "map",
    "map": "Mausoleum",
@@ -334,9 +296,9 @@ window.VISCERA = {
    "name": "Greater Corrupted Carapace",
    "mod": "Skills that Cost Life have (6-8)% chance to deal Double Damage",
    "part": "Torso",
-   "chaos": 200.0,
-   "listings": 182,
-   "change": 263.6,
+   "chaos": 187.0,
+   "listings": 300,
+   "change": 240.0,
    "id": "greater-corrupted-carapace-skills-that-cost-life-have-chance-to-deal-double-damage",
    "source": "map",
    "map": "Core",
@@ -345,26 +307,38 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Justicar's Helm",
-   "mod": "(10-15)% of Damage taken from Stunning Hits is Recovered as Life",
+   "name": "Greater Sirus' Head",
+   "mod": "Enemies you Kill have a (5-10)% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element",
    "part": "Head",
-   "chaos": 190.0,
-   "listings": 170,
-   "change": 91.63,
-   "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life",
+   "chaos": 184.8,
+   "listings": 200,
+   "change": -90.0,
+   "id": "greater-sirus-head-enemies-you-kill-have-a-chance-to-explode-dealing-a-tenth-of-their-maximum-life-as-damage-of-a-random-element",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Arachnid Egg Sac",
+   "mod": "Minions created Recently have Onslaught",
+   "part": "Torso",
+   "chaos": 170.0,
+   "listings": 200,
+   "change": 467.0,
+   "id": "greater-arachnid-egg-sac-minions-created-recently-have-onslaught",
    "source": "map",
-   "map": "Cage",
+   "map": "Infested Valley",
    "quadrants": [
-    "br"
+    "tl"
    ]
   },
   {
    "name": "Greater King Crab's Claw",
    "mod": "(10-15)% chance to gain a Brine Charge instead of an Endurance Charge",
    "part": "Upper Limb",
-   "chaos": 170.0,
-   "listings": 138,
-   "change": 10.14,
+   "chaos": 150.0,
+   "listings": 200,
+   "change": -3.0,
    "id": "greater-king-crabs-claw-chance-to-gain-a-brine-charge-instead-of-an-endurance-charge",
    "source": "map",
    "map": "Reef",
@@ -373,52 +347,78 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Smouldering Leg",
+   "mod": "(8-12)% increased bonuses gained from Equipped Boots",
+   "part": "Lower Limb",
+   "chaos": 140.0,
+   "listings": 200,
+   "change": 133.0,
+   "id": "greater-smouldering-leg-increased-bonuses-gained-from-equipped-boots",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Justicar's Helm",
+   "mod": "(10-15)% of Damage taken from Stunning Hits is Recovered as Life",
+   "part": "Head",
+   "chaos": 140.0,
+   "listings": 200,
+   "change": 41.0,
+   "id": "greater-justicars-helm-of-damage-taken-from-stunning-hits-is-recovered-as-life",
+   "source": "map",
+   "map": "Cage",
+   "quadrants": [
+    "br"
+   ]
+  },
+  {
    "name": "Artificial Appendage",
    "mod": "Minions have (25-40)% increased Critical Strike Chance",
    "part": "Upper Limb",
-   "chaos": 167.6,
-   "listings": 140,
-   "change": 1017,
+   "chaos": 130.0,
+   "listings": 300,
+   "change": 767.0,
    "id": "artificial-appendage-minions-have-increased-critical-strike-chance",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Scholar's Leg",
-   "mod": "(40-50)% reduced bonuses gained from Equipped Boots / (20-30)% increased bonuses gained from Equipped Gloves",
-   "part": "Lower Limb",
-   "chaos": 166.0,
-   "listings": 467,
-   "change": -83.21,
-   "id": "greater-scholars-leg-reduced-bonuses-gained-from-equipped-boots-increased-bonuses-gained-from-equipped-gloves",
-   "source": "extra",
+   "name": "Greater Eater of Worlds' Head",
+   "mod": "+(5-10)% to Quality of all Skill Gems",
+   "part": "Head",
+   "chaos": 120.0,
+   "listings": 200,
+   "change": -78.0,
+   "id": "greater-eater-of-worlds-head-to-quality-of-all-skill-gems",
+   "source": "uber",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Chitinous Leg",
-   "mod": "Enemies within 6 metres of corpses you spawned Recently / have 100% reduced Life Regeneration Rate",
-   "part": "Lower Limb",
-   "chaos": 158.4,
-   "listings": 80,
-   "change": 316.8,
-   "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate",
+   "name": "Greater Ornate Torso",
+   "mod": "(3-5)% of Damage from Hits is taken from your Damagable Minions' Life before you",
+   "part": "Torso",
+   "chaos": 117.3,
+   "listings": 100,
+   "change": 188.0,
+   "id": "greater-ornate-torso-of-damage-from-hits-is-taken-from-your-damagable-minions-life-before-you",
    "source": "map",
-   "map": "Spider Lair",
+   "map": "Fields",
    "quadrants": [
     "br"
    ]
   },
   {
-   "name": "Greater Shaper's Head",
-   "mod": "Utility Flasks gain 2 Charges every 3 seconds",
-   "part": "Head",
-   "chaos": 155.0,
-   "listings": 91,
-   "change": -71.3,
-   "id": "greater-shapers-head-utility-flasks-gain-charges-every-seconds",
-   "source": "uber",
+   "name": "Greater Brute's Arm",
+   "mod": "(4-6)% increased Strength",
+   "part": "Upper Limb",
+   "chaos": 105.5,
+   "listings": 100,
+   "change": 470.0,
+   "id": "greater-brutes-arm-increased-strength",
+   "source": "extra",
    "map": null,
    "quadrants": null
   },
@@ -426,9 +426,9 @@ window.VISCERA = {
    "name": "Greater Inquisitor's Claw",
    "mod": "(15-20)% increased Effect of Withered",
    "part": "Upper Limb",
-   "chaos": 140.5,
-   "listings": 187,
-   "change": 111.9,
+   "chaos": 100.0,
+   "listings": 300,
+   "change": 51.0,
    "id": "greater-inquisitors-claw-increased-effect-of-withered",
    "source": "map",
    "map": "Overgrown Ruin",
@@ -437,130 +437,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Maven's Orrery",
-   "mod": "Enemies within 3 metres are Scorched",
-   "part": "Torso",
-   "chaos": 130.0,
-   "listings": 254,
-   "change": -79.18,
-   "id": "mavens-orrery-enemies-within-metres-are-scorched",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Scorpion Stinger",
-   "mod": "When you Poison a non-Poisoned target, also inflict (4-6) Withered debuffs, lasting 2 seconds",
-   "part": "Torso",
-   "chaos": 100.0,
-   "listings": 38,
-   "change": 3233,
-   "id": "greater-scorpion-stinger-when-you-poison-a-non-poisoned-target-also-inflict-withered-debuffs-lasting-seconds",
-   "source": "map",
-   "map": "Desert Spring",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Greater Sea Witch's Tentacle",
-   "mod": "Minions have (8-12)% chance to deal Double Damage",
-   "part": "Lower Limb",
-   "chaos": 100.0,
-   "listings": 430,
-   "change": -86.67,
-   "id": "greater-sea-witchs-tentacle-minions-have-chance-to-deal-double-damage",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Brute's Arm",
-   "mod": "(4-6)% increased Strength",
-   "part": "Upper Limb",
-   "chaos": 97.5,
-   "listings": 128,
-   "change": 427.0,
-   "id": "greater-brutes-arm-increased-strength",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Eater of Worlds' Head",
-   "mod": "+(5-10)% to Quality of all Skill Gems",
-   "part": "Head",
-   "chaos": 84.0,
-   "listings": 233,
-   "change": -84.44,
-   "id": "greater-eater-of-worlds-head-to-quality-of-all-skill-gems",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Lesser Skeletal Warrior's Leg",
-   "mod": "You and Allies within 5 metres deal 8 to 12 additional Cold Damage",
-   "part": "Lower Limb",
-   "chaos": 82.4,
-   "listings": 34,
-   "change": 316.2,
-   "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
-   "source": "map",
-   "map": "Act 1, The Lower Prison",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Greater Blazing Skull",
-   "mod": "When you Kill a Rare Monster, (20-30)% chance to gain one of its Modifiers for 10 seconds",
-   "part": "Head",
-   "chaos": 70.0,
-   "listings": 247,
-   "change": 16.67,
-   "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds",
-   "source": "map",
-   "map": "Caldera",
-   "quadrants": [
-    "tr"
-   ]
-  },
-  {
-   "name": "Greater Solar Shield",
-   "mod": "(10-15)% of Cold Damage from Hits taken as Fire Damage / (10-15)% of Lightning Damage from Hits taken as Fire Damage",
-   "part": "Upper Limb",
-   "chaos": 70.0,
-   "listings": 285,
-   "change": 1011,
-   "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage",
-   "source": "map",
-   "map": "Cold River",
-   "quadrants": [
-    "br"
-   ]
-  },
-  {
-   "name": "Greater Bonestalker's Ribcage",
-   "mod": "(4-6)% additional Physical Damage Reduction",
-   "part": "Torso",
-   "chaos": 64.0,
-   "listings": 173,
-   "change": -20.1,
-   "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction",
-   "source": "map",
-   "map": "Necropolis",
-   "quadrants": [
-    "bl"
-   ]
-  },
-  {
    "name": "Lesser Bandit Witch's Head",
    "mod": "Regenerate (4-6) Mana per second",
    "part": "Head",
-   "chaos": 64.0,
-   "listings": 13,
-   "change": 6300,
+   "chaos": 79.4,
+   "listings": 10,
+   "change": 7840.0,
    "id": "lesser-bandit-witchs-head-regenerate-mana-per-second",
    "source": "map",
    "map": "Act 2, The Western Forest",
@@ -569,12 +451,88 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Shaper's Head",
+   "mod": "Utility Flasks gain 2 Charges every 3 seconds",
+   "part": "Head",
+   "chaos": 77.2,
+   "listings": 100,
+   "change": -86.0,
+   "id": "greater-shapers-head-utility-flasks-gain-charges-every-seconds",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Maven's Orrery",
+   "mod": "Enemies within 3 metres are Scorched",
+   "part": "Torso",
+   "chaos": 70.0,
+   "listings": 300,
+   "change": -89.0,
+   "id": "mavens-orrery-enemies-within-metres-are-scorched",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Blazing Skull",
+   "mod": "When you Kill a Rare Monster, (20-30)% chance to gain one of its Modifiers for 10 seconds",
+   "part": "Head",
+   "chaos": 70.0,
+   "listings": 200,
+   "change": 17.0,
+   "id": "greater-blazing-skull-when-you-kill-a-rare-monster-chance-to-gain-one-of-its-modifiers-for-seconds",
+   "source": "map",
+   "map": "Caldera",
+   "quadrants": [
+    "tr"
+   ]
+  },
+  {
+   "name": "Greater Sea Witch's Tentacle",
+   "mod": "Minions have (8-12)% chance to deal Double Damage",
+   "part": "Lower Limb",
+   "chaos": 66.4,
+   "listings": 600,
+   "change": -91.0,
+   "id": "greater-sea-witchs-tentacle-minions-have-chance-to-deal-double-damage",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Chitinous Leg",
+   "mod": "Enemies within 6 metres of corpses you spawned Recently / have 100% reduced Life Regeneration Rate",
+   "part": "Lower Limb",
+   "chaos": 63.0,
+   "listings": 100,
+   "change": 66.0,
+   "id": "greater-chitinous-leg-enemies-within-metres-of-corpses-you-spawned-recently-have-reduced-life-regeneration-rate",
+   "source": "map",
+   "map": "Spider Lair",
+   "quadrants": [
+    "br"
+   ]
+  },
+  {
+   "name": "Greater Scholar's Leg",
+   "mod": "(40-50)% reduced bonuses gained from Equipped Boots / (20-30)% increased bonuses gained from Equipped Gloves",
+   "part": "Lower Limb",
+   "chaos": 60.0,
+   "listings": 700,
+   "change": -94.0,
+   "id": "greater-scholars-leg-reduced-bonuses-gained-from-equipped-boots-increased-bonuses-gained-from-equipped-gloves",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
    "name": "Greater Spider Queen's Head",
    "mod": "Trigger Level 1 Lesser Raise Spiders on Kill",
    "part": "Head",
-   "chaos": 58.0,
-   "listings": 84,
-   "change": 1060,
+   "chaos": 59.0,
+   "listings": 90,
+   "change": 1080.0,
    "id": "greater-spider-queens-head-trigger-level-lesser-raise-spiders-on-kill",
    "source": "map",
    "map": "Sunken City",
@@ -583,168 +541,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Bandit Rogue's Head",
-   "mod": "(3-4)% increased Action Speed",
-   "part": "Head",
-   "chaos": 54.0,
-   "listings": 168,
-   "change": 24.28,
-   "id": "greater-bandit-rogues-head-increased-action-speed",
-   "source": "map",
-   "map": "Castle Ruins",
-   "quadrants": [
-    "bl"
-   ]
-  },
-  {
-   "name": "Aristocrat's Torso",
-   "mod": "(15-20)% increased Life Regeneration rate",
-   "part": "Torso",
-   "chaos": 53.0,
-   "listings": 179,
-   "change": 51.43,
-   "id": "aristocrats-torso-increased-life-regeneration-rate",
-   "source": "map",
-   "map": "Act 3, The Sceptre of God",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Shaper's Head",
-   "mod": "Gain Shaper's Presence for 10 seconds when you kill a Rare or Unique Enemy",
-   "part": "Head",
-   "chaos": 43.2,
-   "listings": 349,
-   "change": -71.2,
-   "id": "shapers-head-gain-shapers-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Statue Leg",
-   "mod": "Cannot be Knocked Back",
-   "part": "Lower Limb",
-   "chaos": 42.0,
-   "listings": 77,
-   "change": 1300,
-   "id": "greater-statue-leg-cannot-be-knocked-back",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Scholar's Arm",
-   "mod": "(4-6)% increased Intelligence",
-   "part": "Upper Limb",
-   "chaos": 40.0,
-   "listings": 78,
-   "change": 3900,
-   "id": "greater-scholars-arm-increased-intelligence",
-   "source": "map",
-   "map": "Academy",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Constrictor's Head",
-   "mod": "Skills fire an additional Projectile if you've used a Movement Skill Recently",
-   "part": "Head",
-   "chaos": 38.8,
-   "listings": 183,
-   "change": -81.0,
-   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-used-a-movement-skill-recently",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Lesser Sea Witch's Tentacle",
-   "mod": "Minions deal (10-15)% increased Damage",
-   "part": "Lower Limb",
-   "chaos": 35.0,
-   "listings": 68,
-   "change": -55.86,
-   "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage",
-   "source": "map",
-   "map": "Act 1, The Submerged Passage",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Greater Gemling Torso",
-   "mod": "(60-70)% increased Armour from Equipped Body Armour",
-   "part": "Torso",
-   "chaos": 30.0,
-   "listings": 186,
-   "change": -51.81,
-   "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour",
-   "source": "map",
-   "map": "Coral Ruins",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Incarnation of Neglect's Cube",
-   "mod": "(10-20)% chance to inflict an additional Poison on the same Target when you inflict Poison",
-   "part": "Upper Limb",
-   "chaos": 30.0,
-   "listings": 325,
-   "change": -92.25,
-   "id": "incarnation-of-neglects-cube-chance-to-inflict-an-additional-poison-on-the-same-target-when-you-inflict-poison",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Nightmarish Book of Depravity",
-   "mod": "(2-3)% chance to gain a Frenzy Charge on Hit",
-   "part": "Upper Limb",
-   "chaos": 30.0,
-   "listings": 156,
-   "change": -88.37,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-a-frenzy-charge-on-hit",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Incarnation of Fear's Head",
-   "mod": "Your Chaos Damage can Freeze",
-   "part": "Head",
-   "chaos": 30.0,
-   "listings": 109,
-   "change": -97.53,
-   "id": "greater-incarnation-of-fears-head-your-chaos-damage-can-freeze",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Severed Stinger",
-   "mod": "Hits have (10-15)% chance to treat Enemy Monster Lightning Resistance values as inverted",
-   "part": "Torso",
-   "chaos": 29.8,
-   "listings": 464,
-   "change": -95.02,
-   "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted",
-   "source": "map",
-   "map": "Hallowed Ground",
-   "quadrants": [
-    "bl"
-   ]
-  },
-  {
    "name": "Greater Skeletal Archer's Arm",
    "mod": "Projectiles Pierce (2-3) additional Targets",
    "part": "Upper Limb",
-   "chaos": 28.6,
-   "listings": 212,
-   "change": -28.5,
+   "chaos": 50.0,
+   "listings": 100,
+   "change": 25.0,
    "id": "greater-skeletal-archers-arm-projectiles-pierce-additional-targets",
    "source": "map",
    "map": "Graveyard",
@@ -753,50 +555,80 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Lesser Aristocrat's Torso",
-   "mod": "(8-10)% increased Life Regeneration rate",
-   "part": "Torso",
-   "chaos": 25.2,
-   "listings": 53,
-   "change": 19.43,
-   "id": "lesser-aristocrats-torso-increased-life-regeneration-rate",
+   "name": "Greater Solar Shield",
+   "mod": "(10-15)% of Cold Damage from Hits taken as Fire Damage / (10-15)% of Lightning Damage from Hits taken as Fire Damage",
+   "part": "Upper Limb",
+   "chaos": 49.1,
+   "listings": 400,
+   "change": 679.0,
+   "id": "greater-solar-shield-of-cold-damage-from-hits-taken-as-fire-damage-of-lightning-damage-from-hits-taken-as-fire-damage",
    "source": "map",
-   "map": "Act 3, The Sceptre of God",
+   "map": "Cold River",
+   "quadrants": [
+    "br"
+   ]
+  },
+  {
+   "name": "Lesser Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 8 to 12 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 49.0,
+   "listings": 40,
+   "change": 148.0,
+   "id": "lesser-skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
+   "source": "map",
+   "map": "Act 1, The Lower Prison",
    "quadrants": [
     null
    ]
   },
   {
-   "name": "Greater Hallowed Descry",
-   "mod": "Consecrated Ground you create grants (4-6)% reduced damage taken to you and Allies",
-   "part": "Torso",
-   "chaos": 25.0,
-   "listings": 192,
-   "change": -89.16,
-   "id": "greater-hallowed-descry-consecrated-ground-you-create-grants-reduced-damage-taken-to-you-and-allies",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Nightmarish Book of Depravity",
-   "mod": "(2-3)% chance to gain an Endurance Charge on Hit",
-   "part": "Upper Limb",
-   "chaos": 24.5,
-   "listings": 220,
-   "change": -93.26,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-an-endurance-charge-on-hit",
+   "name": "Shaper's Head",
+   "mod": "Gain Shaper's Presence for 10 seconds when you kill a Rare or Unique Enemy",
+   "part": "Head",
+   "chaos": 43.0,
+   "listings": 300,
+   "change": -71.0,
+   "id": "shapers-head-gain-shapers-presence-for-seconds-when-you-kill-a-rare-or-unique-enemy",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
+   "name": "Greater Bonestalker's Ribcage",
+   "mod": "(4-6)% additional Physical Damage Reduction",
+   "part": "Torso",
+   "chaos": 40.0,
+   "listings": 200,
+   "change": -50.0,
+   "id": "greater-bonestalkers-ribcage-additional-physical-damage-reduction",
+   "source": "map",
+   "map": "Necropolis",
+   "quadrants": [
+    "bl"
+   ]
+  },
+  {
+   "name": "Greater Bandit Rogue's Head",
+   "mod": "(3-4)% increased Action Speed",
+   "part": "Head",
+   "chaos": 40.0,
+   "listings": 200,
+   "change": -8.0,
+   "id": "greater-bandit-rogues-head-increased-action-speed",
+   "source": "map",
+   "map": "Castle Ruins",
+   "quadrants": [
+    "bl"
+   ]
+  },
+  {
    "name": "Greater Lunar Bow",
    "mod": "Gain (10-15)% of Physical Damage as Extra Cold Damage",
    "part": "Upper Limb",
-   "chaos": 20.0,
-   "listings": 174,
-   "change": 100,
+   "chaos": 36.0,
+   "listings": 200,
+   "change": 260.0,
    "id": "greater-lunar-bow-gain-of-physical-damage-as-extra-cold-damage",
    "source": "map",
    "map": "Moon Temple",
@@ -805,69 +637,129 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Chimera's Head",
-   "mod": "Minions deal (35-50)% increased Damage if you've Hit Recently",
-   "part": "Head",
-   "chaos": 20.0,
-   "listings": 453,
-   "change": -54.6,
-   "id": "chimeras-head-minions-deal-increased-damage-if-youve-hit-recently",
+   "name": "Aristocrat's Torso",
+   "mod": "(15-20)% increased Life Regeneration rate",
+   "part": "Torso",
+   "chaos": 35.0,
+   "listings": 300,
+   "change": null,
+   "id": "aristocrats-torso-increased-life-regeneration-rate",
+   "source": "map",
+   "map": "Act 3, The Sceptre of God",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain an Endurance Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 27.7,
+   "listings": 200,
+   "change": -92.0,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-an-endurance-charge-on-hit",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Gladiator's Heart",
-   "mod": "Gain 2 Rage on Melee Hit",
-   "part": "Torso",
-   "chaos": 20.0,
-   "listings": 314,
-   "change": 100,
-   "id": "gladiators-heart-gain-rage-on-melee-hit",
-   "source": "map",
-   "map": "Act 4, Daresso's Dream",
-   "quadrants": [
-    null
-   ]
+   "name": "Greater Incarnation of Fear's Head",
+   "mod": "Your Chaos Damage can Freeze",
+   "part": "Head",
+   "chaos": 25.0,
+   "listings": 100,
+   "change": -98.0,
+   "id": "greater-incarnation-of-fears-head-your-chaos-damage-can-freeze",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
   },
   {
-   "name": "Spectral Hood",
-   "mod": "+(17-19)% to Chaos Resistance",
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain a Frenzy Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 22.4,
+   "listings": 100,
+   "change": -91.0,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-frenzy-charge-on-hit",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Incarnation of Neglect's Cube",
+   "mod": "(10-20)% chance to inflict an additional Poison on the same Target when you inflict Poison",
+   "part": "Upper Limb",
+   "chaos": 22.3,
+   "listings": 300,
+   "change": -94.0,
+   "id": "incarnation-of-neglects-cube-chance-to-inflict-an-additional-poison-on-the-same-target-when-you-inflict-poison",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Constrictor's Head",
+   "mod": "Skills fire an additional Projectile if you've used a Movement Skill Recently",
    "part": "Head",
    "chaos": 20.0,
-   "listings": 246,
-   "change": -39.85,
-   "id": "spectral-hood-to-chaos-resistance",
-   "source": "map",
-   "map": "Act 3, The Catacombs",
-   "quadrants": [
-    null
-   ]
+   "listings": 200,
+   "change": -90.0,
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-used-a-movement-skill-recently",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
   },
   {
-   "name": "Greater Aristocrat's Torso",
-   "mod": "2% increased Life Recovery rate per 5% missing Unreserved Life",
+   "name": "Greater Severed Stinger",
+   "mod": "Hits have (10-15)% chance to treat Enemy Monster Lightning Resistance values as inverted",
    "part": "Torso",
    "chaos": 20.0,
-   "listings": 96,
-   "change": 66.67,
-   "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life",
+   "listings": 600,
+   "change": -97.0,
+   "id": "greater-severed-stinger-hits-have-chance-to-treat-enemy-monster-lightning-resistance-values-as-inverted",
    "source": "map",
-   "map": "Residence",
+   "map": "Hallowed Ground",
    "quadrants": [
     "bl"
    ]
   },
   {
-   "name": "Greater Arachnid Fangs",
-   "mod": "Poisons you inflict deal Damage (10-15)% Faster",
-   "part": "Head",
+   "name": "Nightmarish Wings of Catarina",
+   "mod": "+1 to maximum number of Spectres",
+   "part": "Torso",
    "chaos": 20.0,
-   "listings": 157,
-   "change": -33.33,
-   "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster",
+   "listings": 400,
+   "change": -96.0,
+   "id": "nightmarish-wings-of-catarina-to-maximum-number-of-spectres",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Gemling Torso",
+   "mod": "(60-70)% increased Armour from Equipped Body Armour",
+   "part": "Torso",
+   "chaos": 19.0,
+   "listings": 200,
+   "change": -69.0,
+   "id": "greater-gemling-torso-increased-armour-from-equipped-body-armour",
    "source": "map",
-   "map": "Arachnid Tomb",
+   "map": "Coral Ruins",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Lesser Aristocrat's Torso",
+   "mod": "(8-10)% increased Life Regeneration rate",
+   "part": "Torso",
+   "chaos": 18.0,
+   "listings": 80,
+   "change": -15.0,
+   "id": "lesser-aristocrats-torso-increased-life-regeneration-rate",
+   "source": "map",
+   "map": "Act 3, The Sceptre of God",
    "quadrants": [
     null
    ]
@@ -876,33 +768,89 @@ window.VISCERA = {
    "name": "Greater Searing Exarch's Descry",
    "mod": "+(3-5) to maximum Fortification",
    "part": "Torso",
-   "chaos": 20.0,
-   "listings": 257,
-   "change": -95.72,
+   "chaos": 18.0,
+   "listings": 200,
+   "change": -96.0,
    "id": "greater-searing-exarchs-descry-to-maximum-fortification",
    "source": "uber",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Shaper's Head",
-   "mod": "Utility Flasks gain 1 Charge every 3 seconds",
+   "name": "Spectral Hood",
+   "mod": "+(17-19)% to Chaos Resistance",
    "part": "Head",
-   "chaos": 20.0,
-   "listings": 61,
-   "change": -79.82,
-   "id": "greater-shapers-head-utility-flasks-gain-charge-every-seconds",
-   "source": "uber",
+   "chaos": 17.0,
+   "listings": 300,
+   "change": -49.0,
+   "id": "spectral-hood-to-chaos-resistance",
+   "source": "map",
+   "map": "Act 3, The Catacombs",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Golemic Stone",
+   "mod": "You cannot be Stunned if you've been Stunned or Blocked / a Stunning Hit in the past 2 seconds",
+   "part": "Torso",
+   "chaos": 17.0,
+   "listings": 200,
+   "change": 325.0,
+   "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds",
+   "source": "map",
+   "map": "Peninsula",
+   "quadrants": [
+    "br"
+   ]
+  },
+  {
+   "name": "Greater Scholar's Arm",
+   "mod": "(4-6)% increased Intelligence",
+   "part": "Upper Limb",
+   "chaos": 15.0,
+   "listings": 100,
+   "change": 1400.0,
+   "id": "greater-scholars-arm-increased-intelligence",
+   "source": "map",
+   "map": "Academy",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Chimera's Head",
+   "mod": "Minions deal (35-50)% increased Damage if you've Hit Recently",
+   "part": "Head",
+   "chaos": 15.0,
+   "listings": 600,
+   "change": -66.0,
+   "id": "chimeras-head-minions-deal-increased-damage-if-youve-hit-recently",
+   "source": "boss",
    "map": null,
    "quadrants": null
+  },
+  {
+   "name": "Greater Arachnid Fangs",
+   "mod": "Poisons you inflict deal Damage (10-15)% Faster",
+   "part": "Head",
+   "chaos": 15.0,
+   "listings": 200,
+   "change": -50.0,
+   "id": "greater-arachnid-fangs-poisons-you-inflict-deal-damage-faster",
+   "source": "map",
+   "map": "Arachnid Tomb",
+   "quadrants": [
+    null
+   ]
   },
   {
    "name": "Greater Coagulated Essence",
    "mod": "(30-40)% increased Damage while in Blood Stance",
    "part": "Lower Limb",
-   "chaos": 20.0,
-   "listings": 325,
-   "change": -95.42,
+   "chaos": 15.0,
+   "listings": 400,
+   "change": -97.0,
    "id": "greater-coagulated-essence-increased-damage-while-in-blood-stance",
    "source": "extra",
    "map": null,
@@ -912,90 +860,47 @@ window.VISCERA = {
    "name": "Sirus' Head",
    "mod": "Transfiguration of Soul",
    "part": "Head",
-   "chaos": 18.0,
-   "listings": 158,
-   "change": -89.77,
+   "chaos": 15.0,
+   "listings": 200,
+   "change": -91.0,
    "id": "sirus-head-transfiguration-of-soul",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Golemic Stone",
-   "mod": "You cannot be Stunned if you've been Stunned or Blocked / a Stunning Hit in the past 2 seconds",
+   "name": "Gladiator's Heart",
+   "mod": "Gain 2 Rage on Melee Hit",
    "part": "Torso",
-   "chaos": 18.0,
-   "listings": 183,
-   "change": 350,
-   "id": "greater-golemic-stone-you-cannot-be-stunned-if-youve-been-stunned-or-blocked-a-stunning-hit-in-the-past-seconds",
+   "chaos": 14.0,
+   "listings": 400,
+   "change": 40.0,
+   "id": "gladiators-heart-gain-rage-on-melee-hit",
    "source": "map",
-   "map": "Peninsula",
-   "quadrants": [
-    "br"
-   ]
-  },
-  {
-   "name": "Scorched Arm",
-   "mod": "(20-30)% chance to Ignite",
-   "part": "Upper Limb",
-   "chaos": 17.1,
-   "listings": 336,
-   "change": 71,
-   "id": "scorched-arm-chance-to-ignite",
-   "source": "map",
-   "map": "Act 1, The Coast",
+   "map": "Act 4, Daresso's Dream",
    "quadrants": [
     null
    ]
   },
   {
-   "name": "Flaming Goat Hoof",
-   "mod": "(20-30)% increased Fire Damage",
+   "name": "Greater Statue Leg",
+   "mod": "Cannot be Knocked Back",
    "part": "Lower Limb",
-   "chaos": 16.7,
-   "listings": 302,
-   "change": 67,
-   "id": "flaming-goat-hoof-increased-fire-damage",
-   "source": "map",
-   "map": "Act 6, Prisoner's Gate",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Nightmarish Wings of Catarina",
-   "mod": "+1 to maximum number of Spectres",
-   "part": "Torso",
-   "chaos": 16.0,
-   "listings": 488,
-   "change": -97.18,
-   "id": "nightmarish-wings-of-catarina-to-maximum-number-of-spectres",
-   "source": "boss",
+   "chaos": 13.6,
+   "listings": 100,
+   "change": 353.0,
+   "id": "greater-statue-leg-cannot-be-knocked-back",
+   "source": "extra",
    "map": null,
    "quadrants": null
-  },
-  {
-   "name": "Greater General's Head",
-   "mod": "Gain (4-6)% of Maximum Life as Extra Maximum Energy Shield",
-   "part": "Head",
-   "chaos": 15.0,
-   "listings": 177,
-   "change": 114.3,
-   "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield",
-   "source": "map",
-   "map": "Colonnade / Armoury",
-   "quadrants": [
-    "tr",
-    "bl"
-   ]
   },
   {
    "name": "Desert Sword",
    "mod": "30% Global chance to Blind Enemies on hit",
    "part": "Upper Limb",
-   "chaos": 15.0,
-   "listings": 190,
-   "change": 650,
+   "chaos": 13.0,
+   "listings": 200,
+   "change": 550.0,
    "id": "desert-sword-global-chance-to-blind-enemies-on-hit",
    "source": "map",
    "map": "Act 9, The Vastiri Desert",
@@ -1007,49 +912,21 @@ window.VISCERA = {
    "name": "Greater Bloodied Arm",
    "mod": "Bleeding Enemies you Kill Explode, dealing (2-3)% of / their Maximum Life as Physical Damage",
    "part": "Upper Limb",
-   "chaos": 15.0,
-   "listings": 234,
-   "change": 50,
+   "chaos": 13.0,
+   "listings": 300,
+   "change": 30.0,
    "id": "greater-bloodied-arm-bleeding-enemies-you-kill-explode-dealing-of-their-maximum-life-as-physical-damage",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Templar Banner",
-   "mod": "4% increased Spell Damage per Power Charge",
-   "part": "Torso",
-   "chaos": 15.0,
-   "listings": 161,
-   "change": 50,
-   "id": "templar-banner-increased-spell-damage-per-power-charge",
-   "source": "map",
-   "map": "Act 4, The Dried Lake",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Greater Bandit Warrior's Head",
-   "mod": "Regenerate (3-4)% of Life per second if you have been Hit Recently",
-   "part": "Head",
-   "chaos": 15.0,
-   "listings": 459,
-   "change": 102.7,
-   "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently",
-   "source": "map",
-   "map": "Mesa",
-   "quadrants": [
-    "tr"
-   ]
-  },
-  {
    "name": "Greater Gemling Torso",
    "mod": "(60-70)% increased Evasion Rating from Equipped Body Armour",
    "part": "Torso",
-   "chaos": 15.0,
-   "listings": 188,
-   "change": -62.5,
+   "chaos": 12.8,
+   "listings": 200,
+   "change": -68.0,
    "id": "greater-gemling-torso-increased-evasion-rating-from-equipped-body-armour",
    "source": "map",
    "map": "Coral Ruins",
@@ -1058,12 +935,107 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Hallowed Descry",
+   "mod": "Consecrated Ground you create grants (4-6)% reduced damage taken to you and Allies",
+   "part": "Torso",
+   "chaos": 12.4,
+   "listings": 300,
+   "change": -95.0,
+   "id": "greater-hallowed-descry-consecrated-ground-you-create-grants-reduced-damage-taken-to-you-and-allies",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Aristocrat's Torso",
+   "mod": "2% increased Life Recovery rate per 5% missing Unreserved Life",
+   "part": "Torso",
+   "chaos": 12.0,
+   "listings": 100,
+   "change": null,
+   "id": "greater-aristocrats-torso-increased-life-recovery-rate-per-missing-unreserved-life",
+   "source": "map",
+   "map": "Residence",
+   "quadrants": [
+    "bl"
+   ]
+  },
+  {
+   "name": "Greater General's Head",
+   "mod": "Gain (4-6)% of Maximum Life as Extra Maximum Energy Shield",
+   "part": "Head",
+   "chaos": 12.0,
+   "listings": 200,
+   "change": 71.0,
+   "id": "greater-generals-head-gain-of-maximum-life-as-extra-maximum-energy-shield",
+   "source": "map",
+   "map": "Colonnade / Armoury",
+   "quadrants": [
+    "tr",
+    "bl"
+   ]
+  },
+  {
+   "name": "Templar Banner",
+   "mod": "4% increased Spell Damage per Power Charge",
+   "part": "Torso",
+   "chaos": 11.6,
+   "listings": 200,
+   "change": 16.0,
+   "id": "templar-banner-increased-spell-damage-per-power-charge",
+   "source": "map",
+   "map": "Act 4, The Dried Lake",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Shaper's Head",
+   "mod": "Utility Flasks gain 1 Charge every 3 seconds",
+   "part": "Head",
+   "chaos": 10.0,
+   "listings": 90,
+   "change": -90.0,
+   "id": "greater-shapers-head-utility-flasks-gain-charge-every-seconds",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Scorched Arm",
+   "mod": "(20-30)% chance to Ignite",
+   "part": "Upper Limb",
+   "chaos": 10.0,
+   "listings": 400,
+   "change": null,
+   "id": "scorched-arm-chance-to-ignite",
+   "source": "map",
+   "map": "Act 1, The Coast",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Bandit Warrior's Head",
+   "mod": "Regenerate (3-4)% of Life per second if you have been Hit Recently",
+   "part": "Head",
+   "chaos": 10.0,
+   "listings": 500,
+   "change": 35.0,
+   "id": "greater-bandit-warriors-head-regenerate-of-life-per-second-if-you-have-been-hit-recently",
+   "source": "map",
+   "map": "Mesa",
+   "quadrants": [
+    "tr"
+   ]
+  },
+  {
    "name": "Greater Galvanic Tentacle",
    "mod": "+(2-3)% to maximum Lightning Resistance",
    "part": "Lower Limb",
-   "chaos": 13.0,
-   "listings": 121,
-   "change": 233.3,
+   "chaos": 10.0,
+   "listings": 100,
+   "change": 156.0,
    "id": "greater-galvanic-tentacle-to-maximum-lightning-resistance",
    "source": "map",
    "map": "Mineral Pools",
@@ -1072,52 +1044,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Nightmarish Core of the Unbreakable",
-   "mod": "Enemies take (2-3)% increased Damage for each type of Ailment you have inflicted on them",
-   "part": "Torso",
-   "chaos": 13.0,
-   "listings": 370,
-   "change": -48,
-   "id": "nightmarish-core-of-the-unbreakable-enemies-take-increased-damage-for-each-type-of-ailment-you-have-inflicted-on-them",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Lesser Severed Stinger",
-   "mod": "Damage Penetrates (3-4)% Lightning Resistance",
-   "part": "Torso",
-   "chaos": 11.4,
-   "listings": 78,
-   "change": -82.78,
-   "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance",
-   "source": "map",
-   "map": "Act 2, The Chamber of Sins Level 2",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Diseased Wing",
-   "mod": "+(10-14)% to Chaos Damage over Time Multiplier",
-   "part": "Torso",
-   "chaos": 10.0,
-   "listings": 401,
-   "change": 100,
-   "id": "diseased-wing-to-chaos-damage-over-time-multiplier",
-   "source": "map",
-   "map": "Act 10, The Cathedral Rooftop",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Greater Flayed Visage",
    "mod": "(10-15)% of Damage taken Recouped as Energy Shield",
    "part": "Head",
    "chaos": 10.0,
-   "listings": 145,
-   "change": 400,
+   "listings": 200,
+   "change": 400.0,
    "id": "greater-flayed-visage-of-damage-taken-recouped-as-energy-shield",
    "source": "map",
    "map": "Tower",
@@ -1126,52 +1058,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Solar Shield",
-   "mod": "(5-6)% of Physical Damage from Hits taken as Fire Damage",
-   "part": "Upper Limb",
-   "chaos": 10.0,
-   "listings": 202,
-   "change": 233.3,
-   "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
-   "source": "map",
-   "map": "Act 9, The Harbour Bridge",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Artificial Appendage",
-   "mod": "(15-20)% increased Area of Effect for Attacks",
-   "part": "Upper Limb",
-   "chaos": 10.0,
-   "listings": 212,
-   "change": -60,
-   "id": "artificial-appendage-increased-area-of-effect-for-attacks",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Despot's Fist",
-   "mod": "(20-30)% increased Area of Effect while Unarmed",
-   "part": "Upper Limb",
-   "chaos": 10.0,
-   "listings": 149,
-   "change": 900,
-   "id": "greater-despots-fist-increased-area-of-effect-while-unarmed",
-   "source": "map",
-   "map": "Palace",
-   "quadrants": [
-    "bl"
-   ]
-  },
-  {
    "name": "Greater Flaming Goat Hoof",
    "mod": "1% increased Fire Damage per 20 Strength",
    "part": "Lower Limb",
    "chaos": 10.0,
-   "listings": 259,
-   "change": -34.85,
+   "listings": 300,
+   "change": -35.0,
    "id": "greater-flaming-goat-hoof-increased-fire-damage-per-strength",
    "source": "map",
    "map": "Summit",
@@ -1184,8 +1076,8 @@ window.VISCERA = {
    "mod": "(16-24)% increased Damage if you have Consumed a corpse Recently / Regenerate (1.6-2)% of Life per second if you've Consumed a corpse Recently / Regenerate (0.8-1)% of Mana per second if you've Consumed a corpse Recently",
    "part": "Head",
    "chaos": 10.0,
-   "listings": 242,
-   "change": -14.53,
+   "listings": 300,
+   "change": -15.0,
    "id": "greater-ravenous-skull-increased-damage-if-you-have-consumed-a-corpse-recently-regenerate-of-life-per-second-if-youve-consumed-a-corpse-recently-regenerate-of-mana-per-second-if-youve-consumed-a-corpse-recently",
    "source": "map",
    "map": "Belfry",
@@ -1194,12 +1086,40 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Despot's Fist",
+   "mod": "(20-30)% increased Area of Effect while Unarmed",
+   "part": "Upper Limb",
+   "chaos": 9.2,
+   "listings": 200,
+   "change": 820.0,
+   "id": "greater-despots-fist-increased-area-of-effect-while-unarmed",
+   "source": "map",
+   "map": "Palace",
+   "quadrants": [
+    "bl"
+   ]
+  },
+  {
+   "name": "Flaming Goat Hoof",
+   "mod": "(20-30)% increased Fire Damage",
+   "part": "Lower Limb",
+   "chaos": 9.0,
+   "listings": 500,
+   "change": -10.0,
+   "id": "flaming-goat-hoof-increased-fire-damage",
+   "source": "map",
+   "map": "Act 6, Prisoner's Gate",
+   "quadrants": [
+    null
+   ]
+  },
+  {
    "name": "Ancestor's Club",
    "mod": "Strike Skills which target additional Enemies can do so from (20-30)% further away",
    "part": "Upper Limb",
-   "chaos": 10.0,
-   "listings": 414,
-   "change": 0,
+   "chaos": 9.0,
+   "listings": 500,
+   "change": -10.0,
    "id": "ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
    "source": "map",
    "map": "Act 6, The Karui Fortress",
@@ -1208,12 +1128,26 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Vulture's Gut",
+   "mod": "Killing Blows Consume corpses to Recover (3-4)% of Mana",
+   "part": "Torso",
+   "chaos": 9.0,
+   "listings": 10,
+   "change": 800.0,
+   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana",
+   "source": "map",
+   "map": "Channel",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
    "name": "Greater Siren's Tentacle",
    "mod": "+5% to Maximum Effect of Chill",
    "part": "Lower Limb",
-   "chaos": 10.0,
-   "listings": 94,
-   "change": -50,
+   "chaos": 8.5,
+   "listings": 100,
+   "change": -57.0,
    "id": "greater-sirens-tentacle-to-maximum-effect-of-chill",
    "source": "map",
    "map": "Underground Sea",
@@ -1222,25 +1156,87 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Hag's Head",
-   "mod": "Enemies Cursed by you cannot deal Critical Strikes",
-   "part": "Head",
-   "chaos": 10.0,
-   "listings": 167,
-   "change": -47.37,
-   "id": "hags-head-enemies-cursed-by-you-cannot-deal-critical-strikes",
+   "name": "Artificial Appendage",
+   "mod": "(15-20)% increased Area of Effect for Attacks",
+   "part": "Upper Limb",
+   "chaos": 8.0,
+   "listings": 300,
+   "change": -68.0,
+   "id": "artificial-appendage-increased-area-of-effect-for-attacks",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Inquisitor's Head",
-   "mod": "Causes Bleeding on Melee Critical Strike",
+   "name": "Greater Captain's Leg",
+   "mod": "Ignore all Movement Penalties from Armour",
+   "part": "Lower Limb",
+   "chaos": 8.0,
+   "listings": 200,
+   "change": -47.0,
+   "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Constrictor's Head",
+   "mod": "Skills fire an additional Projectile if you've been Hit Recently",
    "part": "Head",
-   "chaos": 10.0,
-   "listings": 147,
-   "change": 900,
-   "id": "inquisitors-head-causes-bleeding-on-melee-critical-strike",
+   "chaos": 8.0,
+   "listings": 200,
+   "change": 14.0,
+   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-been-hit-recently",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Skeletal Warrior's Leg",
+   "mod": "You and Allies within 5 metres deal 25 to 40 additional Cold Damage",
+   "part": "Lower Limb",
+   "chaos": 8.0,
+   "listings": 400,
+   "change": -69.0,
+   "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
+   "source": "map",
+   "map": "Act 1, The Lower Prison",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Infected Leg",
+   "mod": "Damaging Ailments inflicted by Minions deal damage (15-20)% Faster",
+   "part": "Lower Limb",
+   "chaos": 7.3,
+   "listings": 500,
+   "change": -99.0,
+   "id": "greater-infected-leg-damaging-ailments-inflicted-by-minions-deal-damage-faster",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Nightmarish Core of the Unbreakable",
+   "mod": "Enemies take (2-3)% increased Damage for each type of Ailment you have inflicted on them",
+   "part": "Torso",
+   "chaos": 7.0,
+   "listings": 400,
+   "change": -72.0,
+   "id": "nightmarish-core-of-the-unbreakable-enemies-take-increased-damage-for-each-type-of-ailment-you-have-inflicted-on-them",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Hag's Head",
+   "mod": "Enemies Cursed by you cannot deal Critical Strikes",
+   "part": "Head",
+   "chaos": 7.0,
+   "listings": 200,
+   "change": -63.0,
+   "id": "hags-head-enemies-cursed-by-you-cannot-deal-critical-strikes",
    "source": "boss",
    "map": null,
    "quadrants": null
@@ -1249,34 +1245,100 @@ window.VISCERA = {
    "name": "Greater Charred Leg",
    "mod": "Unaffected by Burning Ground",
    "part": "Lower Limb",
-   "chaos": 10.0,
-   "listings": 158,
-   "change": -97.49,
+   "chaos": 7.0,
+   "listings": 200,
+   "change": -98.0,
    "id": "greater-charred-leg-unaffected-by-burning-ground",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Vendigo Claws",
-   "mod": "(25-40)% increased Damage with Hits against Chilled Enemies",
-   "part": "Upper Limb",
-   "chaos": 10.0,
-   "listings": 463,
-   "change": -97.72,
-   "id": "greater-vendigo-claws-increased-damage-with-hits-against-chilled-enemies",
-   "source": "extra",
+   "name": "Minotaur's Head",
+   "mod": "+1% to all maximum Elemental Resistances",
+   "part": "Head",
+   "chaos": 7.0,
+   "listings": 200,
+   "change": -22.0,
+   "id": "minotaurs-head-to-all-maximum-elemental-resistances",
+   "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Greater Infected Leg",
-   "mod": "Damaging Ailments inflicted by Minions deal damage (15-20)% Faster",
-   "part": "Lower Limb",
-   "chaos": 10.0,
-   "listings": 464,
-   "change": -98.24,
-   "id": "greater-infected-leg-damaging-ailments-inflicted-by-minions-deal-damage-faster",
+   "name": "Greater Bat's Wings",
+   "mod": "(20-30)% chance to Avoid Elemental Ailments",
+   "part": "Torso",
+   "chaos": 7.0,
+   "listings": 100,
+   "change": 75.0,
+   "id": "greater-bats-wings-chance-to-avoid-elemental-ailments",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Inquisitor's Head",
+   "mod": "Causes Bleeding on Melee Critical Strike",
+   "part": "Head",
+   "chaos": 6.0,
+   "listings": 200,
+   "change": 500.0,
+   "id": "inquisitors-head-causes-bleeding-on-melee-critical-strike",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Severed Rhoa Head",
+   "mod": "Every second, inflict Withered on Enemies within 6 metres for 5 seconds",
+   "part": "Head",
+   "chaos": 6.0,
+   "listings": 200,
+   "change": -14.0,
+   "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds",
+   "source": "map",
+   "map": "Arid Lake",
+   "quadrants": [
+    "tr"
+   ]
+  },
+  {
+   "name": "Diseased Wing",
+   "mod": "+(10-14)% to Chaos Damage over Time Multiplier",
+   "part": "Torso",
+   "chaos": 5.0,
+   "listings": 600,
+   "change": null,
+   "id": "diseased-wing-to-chaos-damage-over-time-multiplier",
+   "source": "map",
+   "map": "Act 10, The Cathedral Rooftop",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Solar Shield",
+   "mod": "(5-6)% of Physical Damage from Hits taken as Fire Damage",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 300,
+   "change": 67.0,
+   "id": "solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
+   "source": "map",
+   "map": "Act 9, The Harbour Bridge",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Vendigo Claws",
+   "mod": "(25-40)% increased Damage with Hits against Chilled Enemies",
+   "part": "Upper Limb",
+   "chaos": 5.0,
+   "listings": 600,
+   "change": -99.0,
+   "id": "greater-vendigo-claws-increased-damage-with-hits-against-chilled-enemies",
    "source": "extra",
    "map": null,
    "quadrants": null
@@ -1285,9 +1347,9 @@ window.VISCERA = {
    "name": "Greater Flaming Ribbon",
    "mod": "(5-6)% reduced Fire Damage taken",
    "part": "Upper Limb",
-   "chaos": 9.5,
-   "listings": 63,
-   "change": 143.6,
+   "chaos": 5.0,
+   "listings": 60,
+   "change": 28.0,
    "id": "greater-flaming-ribbon-reduced-fire-damage-taken",
    "source": "map",
    "map": "Arcade",
@@ -1299,9 +1361,9 @@ window.VISCERA = {
    "name": "Captain's Leg",
    "mod": "(5-6)% increased Movement Speed",
    "part": "Lower Limb",
-   "chaos": 9.0,
-   "listings": 364,
-   "change": -35.94,
+   "chaos": 5.0,
+   "listings": 400,
+   "change": -64.0,
    "id": "captains-leg-increased-movement-speed",
    "source": "map",
    "map": "Act 3, The City of Sarn",
@@ -1313,9 +1375,9 @@ window.VISCERA = {
    "name": "Warden's Arm",
    "mod": "+(60-80) to maximum Life",
    "part": "Upper Limb",
-   "chaos": 8.0,
-   "listings": 581,
-   "change": -68,
+   "chaos": 5.0,
+   "listings": 600,
+   "change": -80.0,
    "id": "wardens-arm-to-maximum-life",
    "source": "map",
    "map": "Act 1, The Upper Prison",
@@ -1324,64 +1386,14 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Severed Rhoa Head",
-   "mod": "Every second, inflict Withered on Enemies within 6 metres for 5 seconds",
-   "part": "Head",
-   "chaos": 8.0,
-   "listings": 147,
-   "change": 14.29,
-   "id": "greater-severed-rhoa-head-every-second-inflict-withered-on-enemies-within-metres-for-seconds",
-   "source": "map",
-   "map": "Arid Lake",
-   "quadrants": [
-    "tr"
-   ]
-  },
-  {
    "name": "Greater Crustacean's Claw",
    "mod": "(10-12)% more Maximum Physical Attack Damage",
    "part": "Upper Limb",
-   "chaos": 8.0,
-   "listings": 477,
-   "change": -97.46,
+   "chaos": 5.0,
+   "listings": 500,
+   "change": -98.0,
    "id": "greater-crustaceans-claw-more-maximum-physical-attack-damage",
    "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Captain's Leg",
-   "mod": "Ignore all Movement Penalties from Armour",
-   "part": "Lower Limb",
-   "chaos": 7.0,
-   "listings": 162,
-   "change": -53.33,
-   "id": "greater-captains-leg-ignore-all-movement-penalties-from-armour",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Constrictor's Head",
-   "mod": "Skills fire an additional Projectile if you've been Hit Recently",
-   "part": "Head",
-   "chaos": 7.0,
-   "listings": 161,
-   "change": 0,
-   "id": "constrictors-head-skills-fire-an-additional-projectile-if-youve-been-hit-recently",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Minotaur's Head",
-   "mod": "+1% to all maximum Elemental Resistances",
-   "part": "Head",
-   "chaos": 7.0,
-   "listings": 149,
-   "change": -22.22,
-   "id": "minotaurs-head-to-all-maximum-elemental-resistances",
-   "source": "boss",
    "map": null,
    "quadrants": null
   },
@@ -1389,9 +1401,9 @@ window.VISCERA = {
    "name": "King Crab's Claw",
    "mod": "Gain (4-5)% of Physical Damage as Extra Cold Damage / Gain (4-5)% of Physical Damage as Extra Lightning Damage",
    "part": "Upper Limb",
-   "chaos": 7.0,
-   "listings": 363,
-   "change": 40,
+   "chaos": 5.0,
+   "listings": 400,
+   "change": null,
    "id": "king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
    "map": "Act 6, The Brine King's Reef",
@@ -1403,9 +1415,9 @@ window.VISCERA = {
    "name": "Sirus' Head",
    "mod": "Transfiguration of Body",
    "part": "Head",
-   "chaos": 7.0,
-   "listings": 78,
-   "change": -96.11,
+   "chaos": 5.0,
+   "listings": 80,
+   "change": -97.0,
    "id": "sirus-head-transfiguration-of-body",
    "source": "boss",
    "map": null,
@@ -1415,35 +1427,21 @@ window.VISCERA = {
    "name": "Greater Molten Core",
    "mod": "+(2-3)% to maximum Fire Resistance",
    "part": "Torso",
-   "chaos": 7.0,
-   "listings": 389,
-   "change": -96.25,
+   "chaos": 5.0,
+   "listings": 400,
+   "change": -97.0,
    "id": "greater-molten-core-to-maximum-fire-resistance",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Lesser Scorched Arm",
-   "mod": "(10-15)% chance to Ignite",
-   "part": "Upper Limb",
-   "chaos": 6.1,
-   "listings": 54,
-   "change": 510,
-   "id": "lesser-scorched-arm-chance-to-ignite",
-   "source": "map",
-   "map": "Act 1, The Coast",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Flesh-fused Lantern",
    "mod": "+(10-14)% to Fire Damage over Time Multiplier",
    "part": "Upper Limb",
    "chaos": 5.0,
-   "listings": 476,
-   "change": 400,
+   "listings": 600,
+   "change": 400.0,
    "id": "flesh-fused-lantern-to-fire-damage-over-time-multiplier",
    "source": "map",
    "map": "Act 4, The Crystal Veins",
@@ -1456,8 +1454,8 @@ window.VISCERA = {
    "mod": "(10-12)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
    "part": "Lower Limb",
    "chaos": 5.0,
-   "listings": 625,
-   "change": -98.33,
+   "listings": 600,
+   "change": -98.0,
    "id": "skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
    "source": "map",
    "map": "Act 6, The Ridge",
@@ -1470,25 +1468,11 @@ window.VISCERA = {
    "mod": "Gain (10-15)% of Physical Damage as Extra Lightning Damage",
    "part": "Head",
    "chaos": 5.0,
-   "listings": 267,
-   "change": -66.67,
+   "listings": 300,
+   "change": -67.0,
    "id": "greater-voltaic-skull-gain-of-physical-damage-as-extra-lightning-damage",
    "source": "map",
    "map": "Factory",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "Greater Vulture's Gut",
-   "mod": "Killing Blows Consume corpses to Recover (3-4)% of Mana",
-   "part": "Torso",
-   "chaos": 5.0,
-   "listings": 15,
-   "change": 400,
-   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana",
-   "source": "map",
-   "map": "Channel",
    "quadrants": [
     "tl"
    ]
@@ -1498,107 +1482,23 @@ window.VISCERA = {
    "mod": "(10-20)% chance to gain an Endurance Charge when you Block",
    "part": "Head",
    "chaos": 5.0,
-   "listings": 360,
-   "change": -41.52,
+   "listings": 400,
+   "change": -42.0,
    "id": "pit-fighters-helm-chance-to-gain-an-endurance-charge-when-you-block",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Bandit Rogue's Head",
-   "mod": "(8-10)% increased Attack and Cast Speed",
-   "part": "Head",
-   "chaos": 5.0,
-   "listings": 413,
-   "change": -66.67,
-   "id": "bandit-rogues-head-increased-attack-and-cast-speed",
-   "source": "map",
-   "map": "Act 2, The Broken Bridge",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Greater Desert Sword",
-   "mod": "40% increased Damage with Hits and Ailments against Blinded Enemies",
-   "part": "Upper Limb",
-   "chaos": 5.0,
-   "listings": 145,
-   "change": 25,
-   "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies",
-   "source": "map",
-   "map": "Desert",
-   "quadrants": [
-    "tl"
-   ]
-  },
-  {
-   "name": "General's Head",
-   "mod": "(15-20)% increased maximum Energy Shield",
-   "part": "Head",
-   "chaos": 5.0,
-   "listings": 388,
-   "change": 150,
-   "id": "generals-head-increased-maximum-energy-shield",
-   "source": "map",
-   "map": "Act 3, The Ebony Barracks",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Lesser Skeletal Tail",
    "mod": "(10-15)% increased Projectile Damage",
    "part": "Lower Limb",
    "chaos": 5.0,
-   "listings": 186,
-   "change": -87.98,
+   "listings": 200,
+   "change": -88.0,
    "id": "lesser-skeletal-tail-increased-projectile-damage",
    "source": "map",
    "map": "Act 5, The Ossuary",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Lesser King Crab's Claw",
-   "mod": "Gain (3-4)% of Physical Damage as Extra Cold Damage / Gain (3-4)% of Physical Damage as Extra Lightning Damage",
-   "part": "Upper Limb",
-   "chaos": 5.0,
-   "listings": 67,
-   "change": 66.67,
-   "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
-   "source": "map",
-   "map": "Act 6, The Brine King's Reef",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Lesser Ancestor's Club",
-   "mod": "Strike Skills which target additional Enemies can do so from (10-15)% further away",
-   "part": "Upper Limb",
-   "chaos": 5.0,
-   "listings": 47,
-   "change": -13.79,
-   "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
-   "source": "map",
-   "map": "Act 6, The Karui Fortress",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Pocked Leg",
-   "mod": "(35-50)% increased Armour from Equipped Helmet and Gloves",
-   "part": "Lower Limb",
-   "chaos": 5.0,
-   "listings": 355,
-   "change": -37.5,
-   "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
-   "source": "map",
-   "map": "Act 4, The Mines Level 1",
    "quadrants": [
     null
    ]
@@ -1609,7 +1509,7 @@ window.VISCERA = {
    "part": "Torso",
    "chaos": 5.0,
    "listings": 200,
-   "change": -48.98,
+   "change": -49.0,
    "id": "greater-templar-banner-gain-of-lightning-damage-as-extra-chaos-damage-per-power-charge",
    "source": "map",
    "map": "Wasteland",
@@ -1622,62 +1522,10 @@ window.VISCERA = {
    "mod": "(4-6)% of Cold Damage taken as Fire Damage / (4-6)% of Lightning Damage taken as Fire Damage / (4-6)% of Physical Damage taken as Fire Damage",
    "part": "Torso",
    "chaos": 5.0,
-   "listings": 916,
-   "change": -95.87,
+   "listings": 1000,
+   "change": -96.0,
    "id": "searing-exarchs-descry-of-cold-damage-taken-as-fire-damage-of-lightning-damage-taken-as-fire-damage-of-physical-damage-taken-as-fire-damage",
    "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Lesser Infected Leg",
-   "mod": "Minions have +(6-8)% to Damage over Time Multiplier",
-   "part": "Lower Limb",
-   "chaos": 5.0,
-   "listings": 70,
-   "change": -90.91,
-   "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier",
-   "source": "map",
-   "map": "Act 7, The Chamber of Sins Level 2",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Skeletal Warrior's Leg",
-   "mod": "You and Allies within 5 metres deal 25 to 40 additional Cold Damage",
-   "part": "Lower Limb",
-   "chaos": 5.0,
-   "listings": 519,
-   "change": -80.92,
-   "id": "skeletal-warriors-leg-you-and-allies-within-metres-deal-to-additional-cold-damage",
-   "source": "map",
-   "map": "Act 1, The Lower Prison",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Greater Venarius' Scripture",
-   "mod": "Effects of Consecrated Ground you create Linger for 4 seconds",
-   "part": "Upper Limb",
-   "chaos": 5.0,
-   "listings": 107,
-   "change": -93.67,
-   "id": "greater-venarius-scripture-effects-of-consecrated-ground-you-create-linger-for-seconds",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Defaced Bust",
-   "mod": "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit",
-   "part": "Head",
-   "chaos": 5.0,
-   "listings": 91,
-   "change": -89.58,
-   "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
-   "source": "extra",
    "map": null,
    "quadrants": null
   },
@@ -1686,8 +1534,8 @@ window.VISCERA = {
    "mod": "(10-15)% chance to gain a Frenzy Charge for each Enemy you hit with a Critical Strike",
    "part": "Head",
    "chaos": 5.0,
-   "listings": 727,
-   "change": -98.85,
+   "listings": 700,
+   "change": -99.0,
    "id": "eater-of-worlds-head-chance-to-gain-a-frenzy-charge-for-each-enemy-you-hit-with-a-critical-strike",
    "source": "boss",
    "map": null,
@@ -1698,8 +1546,8 @@ window.VISCERA = {
    "mod": "Transfiguration of Mind",
    "part": "Head",
    "chaos": 5.0,
-   "listings": 73,
-   "change": -97.94,
+   "listings": 90,
+   "change": -98.0,
    "id": "sirus-head-transfiguration-of-mind",
    "source": "boss",
    "map": null,
@@ -1710,22 +1558,142 @@ window.VISCERA = {
    "mod": "Pact Skills have (25-40)% increased Cooldown Recovery Rate",
    "part": "Torso",
    "chaos": 5.0,
-   "listings": 163,
-   "change": -13.79,
+   "listings": 200,
+   "change": -14.0,
    "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cooldown-recovery-rate",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Venarius' Scripture",
-   "mod": "Consecrated Ground you create applies (8-10)% increased Damage taken to Enemies",
+   "name": "Greater Smuggler's Hand",
+   "mod": "2% chance for a Coin Shower on Kill",
    "part": "Upper Limb",
    "chaos": 5.0,
-   "listings": 231,
-   "change": -95.63,
-   "id": "venarius-scripture-consecrated-ground-you-create-applies-increased-damage-taken-to-enemies",
+   "listings": 300,
+   "change": -99.0,
+   "id": "greater-smugglers-hand-chance-for-a-coin-shower-on-kill",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Nightmarish Wings of Lycia",
+   "mod": "Pact Skills have (30-50)% increased Cast Speed",
+   "part": "Torso",
+   "chaos": 5.0,
+   "listings": 200,
+   "change": -37.0,
+   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cast-speed",
    "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Lesser Scholar's Leg",
+   "mod": "(5-6)% increased bonuses gained from Equipped Gloves",
+   "part": "Lower Limb",
+   "chaos": 4.2,
+   "listings": 80,
+   "change": -89.0,
+   "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves",
+   "source": "map",
+   "map": "Act 5, The Reliquary",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Lesser Scorched Arm",
+   "mod": "(10-15)% chance to Ignite",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 80,
+   "change": 300.0,
+   "id": "lesser-scorched-arm-chance-to-ignite",
+   "source": "map",
+   "map": "Act 1, The Coast",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Bandit Rogue's Head",
+   "mod": "(8-10)% increased Attack and Cast Speed",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 400,
+   "change": -73.0,
+   "id": "bandit-rogues-head-increased-attack-and-cast-speed",
+   "source": "map",
+   "map": "Act 2, The Broken Bridge",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Desert Sword",
+   "mod": "40% increased Damage with Hits and Ailments against Blinded Enemies",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 200,
+   "change": null,
+   "id": "greater-desert-sword-increased-damage-with-hits-and-ailments-against-blinded-enemies",
+   "source": "map",
+   "map": "Desert",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Lesser Ancestor's Club",
+   "mod": "Strike Skills which target additional Enemies can do so from (10-15)% further away",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 50,
+   "change": -31.0,
+   "id": "lesser-ancestors-club-strike-skills-which-target-additional-enemies-can-do-so-from-further-away",
+   "source": "map",
+   "map": "Act 6, The Karui Fortress",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Pocked Leg",
+   "mod": "(35-50)% increased Armour from Equipped Helmet and Gloves",
+   "part": "Lower Limb",
+   "chaos": 4.0,
+   "listings": 500,
+   "change": -50.0,
+   "id": "pocked-leg-increased-armour-from-equipped-helmet-and-gloves",
+   "source": "map",
+   "map": "Act 4, The Mines Level 1",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Venarius' Scripture",
+   "mod": "Effects of Consecrated Ground you create Linger for 4 seconds",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 100,
+   "change": -95.0,
+   "id": "greater-venarius-scripture-effects-of-consecrated-ground-you-create-linger-for-seconds",
+   "source": "uber",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Defaced Bust",
+   "mod": "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 90,
+   "change": -92.0,
+   "id": "greater-defaced-bust-gain-an-endurance-charge-when-you-stun-an-enemy-with-a-melee-hit",
+   "source": "extra",
    "map": null,
    "quadrants": null
   },
@@ -1733,9 +1701,9 @@ window.VISCERA = {
    "name": "Incarnation of Dread's Head",
    "mod": "Minions gain added Resistances equal to (20-30)% of your Resistances",
    "part": "Head",
-   "chaos": 5.0,
-   "listings": 236,
-   "change": -90,
+   "chaos": 4.0,
+   "listings": 300,
+   "change": -92.0,
    "id": "incarnation-of-dreads-head-minions-gain-added-resistances-equal-to-of-your-resistances",
    "source": "boss",
    "map": null,
@@ -1745,34 +1713,10 @@ window.VISCERA = {
    "name": "Greater Elder's Head",
    "mod": "Enemies Chilled by your Hits can be Shattered as though Frozen",
    "part": "Head",
-   "chaos": 5.0,
-   "listings": 110,
-   "change": -93.75,
+   "chaos": 4.0,
+   "listings": 100,
+   "change": -95.0,
    "id": "greater-elders-head-enemies-chilled-by-your-hits-can-be-shattered-as-though-frozen",
-   "source": "uber",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Smuggler's Hand",
-   "mod": "2% chance for a Coin Shower on Kill",
-   "part": "Upper Limb",
-   "chaos": 5.0,
-   "listings": 251,
-   "change": -98.6,
-   "id": "greater-smugglers-hand-chance-for-a-coin-shower-on-kill",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Bat's Wings",
-   "mod": "(20-30)% chance to Avoid Elemental Ailments",
-   "part": "Torso",
-   "chaos": 5.0,
-   "listings": 148,
-   "change": 25,
-   "id": "greater-bats-wings-chance-to-avoid-elemental-ailments",
    "source": "uber",
    "map": null,
    "quadrants": null
@@ -1781,9 +1725,9 @@ window.VISCERA = {
    "name": "Greater Swordmaster's Blade",
    "mod": "100% reduced Enemy Chance to Block Sword Attacks",
    "part": "Upper Limb",
-   "chaos": 4.8,
-   "listings": 71,
-   "change": 380,
+   "chaos": 4.0,
+   "listings": 70,
+   "change": 300.0,
    "id": "greater-swordmasters-blade-reduced-enemy-chance-to-block-sword-attacks",
    "source": "map",
    "map": "Colosseum",
@@ -1792,12 +1736,116 @@ window.VISCERA = {
    ]
   },
   {
+   "name": "Greater Goatman's Horn",
+   "mod": "Area Skills have (6-8)% chance to deal Double Damage",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 500,
+   "change": -98.0,
+   "id": "greater-goatmans-horn-area-skills-have-chance-to-deal-double-damage",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Nightmarish Book of Depravity",
+   "mod": "(2-3)% chance to gain a Power Charge on Hit",
+   "part": "Upper Limb",
+   "chaos": 4.0,
+   "listings": 200,
+   "change": -91.0,
+   "id": "nightmarish-book-of-depravity-chance-to-gain-a-power-charge-on-hit",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Enslaver's Head",
+   "mod": "1% increased Armour per 100 Reserved Mana",
+   "part": "Head",
+   "chaos": 4.0,
+   "listings": 90,
+   "change": 100.0,
+   "id": "enslavers-head-increased-armour-per-reserved-mana",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Greater Vulture's Gut",
+   "mod": "Killing Blows Consume corpses to Recover (3-4)% of Mana / Killing Blows Consume corpses to Recover (3-4)% of Life",
+   "part": "Torso",
+   "chaos": 4.0,
+   "listings": 50,
+   "change": 196.0,
+   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana-killing-blows-consume-corpses-to-recover-of-life",
+   "source": "map",
+   "map": "Channel",
+   "quadrants": [
+    "tl"
+   ]
+  },
+  {
+   "name": "Lesser Infected Leg",
+   "mod": "Minions have +(6-8)% to Damage over Time Multiplier",
+   "part": "Lower Limb",
+   "chaos": 3.5,
+   "listings": 70,
+   "change": -94.0,
+   "id": "lesser-infected-leg-minions-have-to-damage-over-time-multiplier",
+   "source": "map",
+   "map": "Act 7, The Chamber of Sins Level 2",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Lesser King Crab's Claw",
+   "mod": "Gain (3-4)% of Physical Damage as Extra Cold Damage / Gain (3-4)% of Physical Damage as Extra Lightning Damage",
+   "part": "Upper Limb",
+   "chaos": 3.2,
+   "listings": 70,
+   "change": 7.0,
+   "id": "lesser-king-crabs-claw-gain-of-physical-damage-as-extra-cold-damage-gain-of-physical-damage-as-extra-lightning-damage",
+   "source": "map",
+   "map": "Act 6, The Brine King's Reef",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "General's Head",
+   "mod": "(15-20)% increased maximum Energy Shield",
+   "part": "Head",
+   "chaos": 3.0,
+   "listings": 500,
+   "change": 50.0,
+   "id": "generals-head-increased-maximum-energy-shield",
+   "source": "map",
+   "map": "Act 3, The Ebony Barracks",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Venarius' Scripture",
+   "mod": "Consecrated Ground you create applies (8-10)% increased Damage taken to Enemies",
+   "part": "Upper Limb",
+   "chaos": 3.0,
+   "listings": 300,
+   "change": -97.0,
+   "id": "venarius-scripture-consecrated-ground-you-create-applies-increased-damage-taken-to-enemies",
+   "source": "boss",
+   "map": null,
+   "quadrants": null
+  },
+  {
    "name": "Lesser Skeleton Wheel",
    "mod": "(5-7)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
    "part": "Lower Limb",
-   "chaos": 4.6,
-   "listings": 41,
-   "change": -95.02,
+   "chaos": 3.0,
+   "listings": 30,
+   "change": -97.0,
    "id": "lesser-skeleton-wheel-increased-attack-and-cast-speed-if-youve-used-a-movement-skill-recently",
    "source": "map",
    "map": "Act 6, The Ridge",
@@ -1806,24 +1854,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Goatman's Horn",
-   "mod": "Area Skills have (6-8)% chance to deal Double Damage",
-   "part": "Head",
-   "chaos": 4.2,
-   "listings": 499,
-   "change": -98.21,
-   "id": "greater-goatmans-horn-area-skills-have-chance-to-deal-double-damage",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
    "name": "Corrupted Carapace",
    "mod": "(30-40)% increased Damage with Skills that Cost Life",
    "part": "Torso",
-   "chaos": 4.0,
-   "listings": 801,
-   "change": -1.23,
+   "chaos": 3.0,
+   "listings": 1000,
+   "change": -26.0,
    "id": "corrupted-carapace-increased-damage-with-skills-that-cost-life",
    "source": "map",
    "map": "Act 4, The Harvest",
@@ -1835,9 +1871,9 @@ window.VISCERA = {
    "name": "Lesser Gladiator's Heart",
    "mod": "Gain 1 Rage on Melee Hit",
    "part": "Torso",
-   "chaos": 4.0,
-   "listings": 110,
-   "change": 300,
+   "chaos": 3.0,
+   "listings": 100,
+   "change": 200.0,
    "id": "lesser-gladiators-heart-gain-rage-on-melee-hit",
    "source": "map",
    "map": "Act 4, Daresso's Dream",
@@ -1846,38 +1882,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Spectral Hood",
-   "mod": "+(2-3)% to maximum Chaos Resistance",
-   "part": "Head",
-   "chaos": 4.0,
-   "listings": 186,
-   "change": 100,
-   "id": "greater-spectral-hood-to-maximum-chaos-resistance",
-   "source": "map",
-   "map": "Grave Trough",
-   "quadrants": [
-    "br"
-   ]
-  },
-  {
-   "name": "Greater Champion's Banner",
-   "mod": "Banners also grant 1% of Physical Damage gained as Extra Cold Damage to you and Allies",
-   "part": "Torso",
-   "chaos": 4.0,
-   "listings": 109,
-   "change": 100,
-   "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
    "name": "Greater Pocked Arm",
    "mod": "(35-50)% increased Evasion Rating from Equipped Helmet, Body Armour Gloves and Boots",
    "part": "Upper Limb",
-   "chaos": 4.0,
-   "listings": 366,
-   "change": 100,
+   "chaos": 3.0,
+   "listings": 400,
+   "change": 50.0,
    "id": "greater-pocked-arm-increased-evasion-rating-from-equipped-helmet-body-armour-gloves-and-boots",
    "source": "map",
    "map": "Excavation",
@@ -1889,9 +1899,9 @@ window.VISCERA = {
    "name": "Lesser Diseased Wing",
    "mod": "+(6-8)% to Chaos Damage over Time Multiplier",
    "part": "Torso",
-   "chaos": 4.0,
-   "listings": 52,
-   "change": 300,
+   "chaos": 3.0,
+   "listings": 60,
+   "change": 200.0,
    "id": "lesser-diseased-wing-to-chaos-damage-over-time-multiplier",
    "source": "map",
    "map": "Act 10, The Cathedral Rooftop",
@@ -1900,38 +1910,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Nightmarish Book of Depravity",
-   "mod": "(2-3)% chance to gain a Power Charge on Hit",
-   "part": "Upper Limb",
-   "chaos": 4.0,
-   "listings": 235,
-   "change": -90.64,
-   "id": "nightmarish-book-of-depravity-chance-to-gain-a-power-charge-on-hit",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Lesser Goatman's Horn",
-   "mod": "(8-12)% increased Area of Effect",
-   "part": "Head",
-   "chaos": 4.0,
-   "listings": 119,
-   "change": -91.92,
-   "id": "lesser-goatmans-horn-increased-area-of-effect",
-   "source": "map",
-   "map": "Act 1, Prisoner's Gate",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Lesser Captain's Leg",
    "mod": "(3-4)% increased Movement Speed",
    "part": "Lower Limb",
-   "chaos": 4.0,
-   "listings": 64,
-   "change": -50,
+   "chaos": 3.0,
+   "listings": 80,
+   "change": -62.0,
    "id": "lesser-captains-leg-increased-movement-speed",
    "source": "map",
    "map": "Act 3, The City of Sarn",
@@ -1940,50 +1924,24 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Greater Gelid Fangs",
-   "mod": "Hits have (10-15)% chance to treat Enemy Monster Cold Resistance values as inverted",
-   "part": "Head",
-   "chaos": 4.0,
-   "listings": 399,
-   "change": -92,
-   "id": "greater-gelid-fangs-hits-have-chance-to-treat-enemy-monster-cold-resistance-values-as-inverted",
-   "source": "extra",
-   "map": null,
-   "quadrants": null
-  },
-  {
    "name": "Greater Construct's Head",
    "mod": "Skills deal (4-5)% increased Projectile damage per Projectile created",
    "part": "Head",
-   "chaos": 4.0,
-   "listings": 334,
-   "change": -96.65,
+   "chaos": 3.0,
+   "listings": 400,
+   "change": -97.0,
    "id": "greater-constructs-head-skills-deal-increased-projectile-damage-per-projectile-created",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Lesser Crustacean's Claw",
-   "mod": "Adds (2-4) to (5-7) Physical Damage to Attacks",
-   "part": "Upper Limb",
-   "chaos": 3.8,
-   "listings": 27,
-   "change": 280,
-   "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks",
-   "source": "map",
-   "map": "Act 1, The Flooded Depths",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Greater Skeletal Beast Leg",
    "mod": "Moving while Bleeding doesn't cause you to take extra Damage",
    "part": "Lower Limb",
-   "chaos": 3.8,
-   "listings": 142,
-   "change": -97.09,
+   "chaos": 3.0,
+   "listings": 100,
+   "change": -98.0,
    "id": "greater-skeletal-beast-leg-moving-while-bleeding-doesnt-cause-you-to-take-extra-damage",
    "source": "extra",
    "map": null,
@@ -1994,8 +1952,8 @@ window.VISCERA = {
    "mod": "+(22-28)% to Lightning Resistance",
    "part": "Lower Limb",
    "chaos": 3.0,
-   "listings": 308,
-   "change": -25,
+   "listings": 400,
+   "change": -25.0,
    "id": "galvanic-tentacle-to-lightning-resistance",
    "source": "map",
    "map": "Act 1, The Cavern of Wrath",
@@ -2008,34 +1966,20 @@ window.VISCERA = {
    "mod": "(1-2)% of Fire Damage Leeched as Life while Ignited",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 268,
-   "change": 200,
+   "listings": 300,
+   "change": 200.0,
    "id": "phoenixs-head-of-fire-damage-leeched-as-life-while-ignited",
    "source": "boss",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Lesser Spider Queen's Head",
-   "mod": "2% increased Damage per Minion, up to a maximum of 40%",
-   "part": "Head",
-   "chaos": 3.0,
-   "listings": 55,
-   "change": 200,
-   "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
-   "source": "map",
-   "map": "Act 7, The Temple of Decay Level 2",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Spider Queen's Head",
    "mod": "3% increased Damage per Minion, up to a maximum of 40%",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 417,
-   "change": 50,
+   "listings": 400,
+   "change": 50.0,
    "id": "spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
    "source": "map",
    "map": "Act 7, The Temple of Decay Level 2",
@@ -2049,35 +1993,8 @@ window.VISCERA = {
    "part": "Head",
    "chaos": 3.0,
    "listings": 200,
-   "change": 50,
+   "change": 50.0,
    "id": "eradicators-head-projectiles-that-have-chained-gain-of-non-chaos-damage-as-extra-chaos-damage",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
-   "name": "Greater Arachnid Leg",
-   "mod": "Immune to Hinder",
-   "part": "Lower Limb",
-   "chaos": 3.0,
-   "listings": 225,
-   "change": -47.83,
-   "id": "greater-arachnid-leg-immune-to-hinder",
-   "source": "map",
-   "map": "Jungle Valley / Arachnid Nest",
-   "quadrants": [
-    "br",
-    "tl"
-   ]
-  },
-  {
-   "name": "Nightmarish Wings of Lycia",
-   "mod": "Pact Skills have (30-50)% increased Cast Speed",
-   "part": "Torso",
-   "chaos": 3.0,
-   "listings": 186,
-   "change": -62.5,
-   "id": "nightmarish-wings-of-lycia-pact-skills-have-increased-cast-speed",
    "source": "boss",
    "map": null,
    "quadrants": null
@@ -2087,8 +2004,8 @@ window.VISCERA = {
    "mod": "+(20-30)% to Chaos Damage over Time Multiplier while Poisoned",
    "part": "Torso",
    "chaos": 3.0,
-   "listings": 183,
-   "change": 200,
+   "listings": 200,
+   "change": 200.0,
    "id": "greater-diseased-wing-to-chaos-damage-over-time-multiplier-while-poisoned",
    "source": "map",
    "map": "Lookout",
@@ -2097,24 +2014,12 @@ window.VISCERA = {
    ]
   },
   {
-   "name": "Enslaver's Head",
-   "mod": "1% increased Armour per 100 Reserved Mana",
-   "part": "Head",
-   "chaos": 3.0,
-   "listings": 93,
-   "change": 50,
-   "id": "enslavers-head-increased-armour-per-reserved-mana",
-   "source": "boss",
-   "map": null,
-   "quadrants": null
-  },
-  {
    "name": "Greater Devourer's Antenna",
    "mod": "Debilitate Enemies you Hit that are on Full Life for 4 seconds",
    "part": "Upper Limb",
    "chaos": 3.0,
-   "listings": 81,
-   "change": 50,
+   "listings": 90,
+   "change": 50.0,
    "id": "greater-devourers-antenna-debilitate-enemies-you-hit-that-are-on-full-life-for-seconds",
    "source": "map",
    "map": "Mud Geyser",
@@ -2127,8 +2032,8 @@ window.VISCERA = {
    "mod": "-1 Physical Damage taken from Hits per Level",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 182,
-   "change": -40,
+   "listings": 200,
+   "change": -40.0,
    "id": "greater-hollowed-skull-physical-damage-taken-from-hits-per-level",
    "source": "extra",
    "map": null,
@@ -2139,8 +2044,8 @@ window.VISCERA = {
    "mod": "Shared Suffering",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 130,
-   "change": 50,
+   "listings": 100,
+   "change": 50.0,
    "id": "purifiers-head-shared-suffering",
    "source": "boss",
    "map": null,
@@ -2151,8 +2056,8 @@ window.VISCERA = {
    "mod": "(10-15)% increased Fire Damage",
    "part": "Lower Limb",
    "chaos": 3.0,
-   "listings": 50,
-   "change": -25,
+   "listings": 60,
+   "change": -25.0,
    "id": "lesser-flaming-goat-hoof-increased-fire-damage",
    "source": "map",
    "map": "Act 6, Prisoner's Gate",
@@ -2165,34 +2070,20 @@ window.VISCERA = {
    "mod": "Offerings you create also grant (15-20)% increased Damage",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 170,
-   "change": -3.23,
+   "listings": 200,
+   "change": -3.0,
    "id": "greater-necromancers-mask-offerings-you-create-also-grant-increased-damage",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
-   "name": "Lesser Templar Banner",
-   "mod": "3% increased Spell Damage per Power Charge",
-   "part": "Torso",
-   "chaos": 3.0,
-   "listings": 103,
-   "change": 0,
-   "id": "lesser-templar-banner-increased-spell-damage-per-power-charge",
-   "source": "map",
-   "map": "Act 4, The Dried Lake",
-   "quadrants": [
-    null
-   ]
-  },
-  {
    "name": "Baran's Head",
    "mod": "Curse Enemies with Conductivity on Hit if 5 Crusader Items are Equipped",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 97,
-   "change": 200,
+   "listings": 100,
+   "change": 200.0,
    "id": "barans-head-curse-enemies-with-conductivity-on-hit-if-crusader-items-are-equipped",
    "source": "boss",
    "map": null,
@@ -2203,8 +2094,8 @@ window.VISCERA = {
    "mod": "Arrows Pierce all Targets after Forking",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 138,
-   "change": 200,
+   "listings": 200,
+   "change": 200.0,
    "id": "hydras-head-arrows-pierce-all-targets-after-forking",
    "source": "boss",
    "map": null,
@@ -2216,24 +2107,10 @@ window.VISCERA = {
    "part": "Upper Limb",
    "chaos": 3.0,
    "listings": 50,
-   "change": 200,
+   "change": 200.0,
    "id": "lesser-solar-shield-of-physical-damage-from-hits-taken-as-fire-damage",
    "source": "map",
    "map": "Act 9, The Harbour Bridge",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Lesser Bandit Rogue's Head",
-   "mod": "(4-6)% increased Attack and Cast Speed",
-   "part": "Head",
-   "chaos": 3.0,
-   "listings": 54,
-   "change": -71.15,
-   "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed",
-   "source": "map",
-   "map": "Act 2, The Broken Bridge",
    "quadrants": [
     null
    ]
@@ -2243,8 +2120,8 @@ window.VISCERA = {
    "mod": "Trigger Level 20 Summon Void Spawn every 4 seconds",
    "part": "Head",
    "chaos": 3.0,
-   "listings": 103,
-   "change": -96.13,
+   "listings": 100,
+   "change": -96.0,
    "id": "incarnation-of-fears-head-trigger-level-summon-void-spawn-every-seconds",
    "source": "boss",
    "map": null,
@@ -2255,8 +2132,8 @@ window.VISCERA = {
    "mod": "+1 to Level of all Movement Skill Gems",
    "part": "Lower Limb",
    "chaos": 3.0,
-   "listings": 266,
-   "change": -97.78,
+   "listings": 300,
+   "change": -98.0,
    "id": "greater-skeleton-wheel-to-level-of-all-movement-skill-gems",
    "source": "extra",
    "map": null,
@@ -2267,8 +2144,8 @@ window.VISCERA = {
    "mod": "Eat a Soul when you Consume the corpse of a Rare Monster",
    "part": "Torso",
    "chaos": 3.0,
-   "listings": 196,
-   "change": -94.96,
+   "listings": 200,
+   "change": -95.0,
    "id": "greater-distended-stomach-eat-a-soul-when-you-consume-the-corpse-of-a-rare-monster",
    "source": "extra",
    "map": null,
@@ -2279,18 +2156,169 @@ window.VISCERA = {
    "mod": "(15-20)% increased Impale Effect",
    "part": "Upper Limb",
    "chaos": 3.0,
-   "listings": 219,
-   "change": -97.92,
+   "listings": 300,
+   "change": -98.0,
    "id": "greater-osseous-scythe-increased-impale-effect",
    "source": "extra",
    "map": null,
    "quadrants": null
   },
   {
+   "name": "Lesser Spider Queen's Head",
+   "mod": "2% increased Damage per Minion, up to a maximum of 40%",
+   "part": "Head",
+   "chaos": 2.7,
+   "listings": 60,
+   "change": 170.0,
+   "id": "lesser-spider-queens-head-increased-damage-per-minion-up-to-a-maximum-of-",
+   "source": "map",
+   "map": "Act 7, The Temple of Decay Level 2",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Lesser Sea Witch's Tentacle",
+   "mod": "Minions deal (10-15)% increased Damage",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 68,
+   "change": -55.86,
+   "id": "lesser-sea-witchs-tentacle-minions-deal-increased-damage",
+   "source": "map",
+   "map": "Act 1, The Submerged Passage",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Lesser Severed Stinger",
+   "mod": "Damage Penetrates (3-4)% Lightning Resistance",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 78,
+   "change": -82.78,
+   "id": "lesser-severed-stinger-damage-penetrates-lightning-resistance",
+   "source": "map",
+   "map": "Act 2, The Chamber of Sins Level 2",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Spectral Hood",
+   "mod": "+(2-3)% to maximum Chaos Resistance",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 186,
+   "change": 100,
+   "id": "greater-spectral-hood-to-maximum-chaos-resistance",
+   "source": "map",
+   "map": "Grave Trough",
+   "quadrants": [
+    "br"
+   ]
+  },
+  {
+   "name": "Greater Champion's Banner",
+   "mod": "Banners also grant 1% of Physical Damage gained as Extra Cold Damage to you and Allies",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 109,
+   "change": 100,
+   "id": "greater-champions-banner-banners-also-grant-of-physical-damage-gained-as-extra-cold-damage-to-you-and-allies",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Lesser Goatman's Horn",
+   "mod": "(8-12)% increased Area of Effect",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 119,
+   "change": -91.92,
+   "id": "lesser-goatmans-horn-increased-area-of-effect",
+   "source": "map",
+   "map": "Act 1, Prisoner's Gate",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Gelid Fangs",
+   "mod": "Hits have (10-15)% chance to treat Enemy Monster Cold Resistance values as inverted",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 399,
+   "change": -92,
+   "id": "greater-gelid-fangs-hits-have-chance-to-treat-enemy-monster-cold-resistance-values-as-inverted",
+   "source": "extra",
+   "map": null,
+   "quadrants": null
+  },
+  {
+   "name": "Lesser Crustacean's Claw",
+   "mod": "Adds (2-4) to (5-7) Physical Damage to Attacks",
+   "part": "Upper Limb",
+   "chaos": 2.0,
+   "listings": 27,
+   "change": 280,
+   "id": "lesser-crustaceans-claw-adds-to-physical-damage-to-attacks",
+   "source": "map",
+   "map": "Act 1, The Flooded Depths",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Greater Arachnid Leg",
+   "mod": "Immune to Hinder",
+   "part": "Lower Limb",
+   "chaos": 2.0,
+   "listings": 225,
+   "change": -47.83,
+   "id": "greater-arachnid-leg-immune-to-hinder",
+   "source": "map",
+   "map": "Jungle Valley / Arachnid Nest",
+   "quadrants": [
+    "br",
+    "tl"
+   ]
+  },
+  {
+   "name": "Lesser Templar Banner",
+   "mod": "3% increased Spell Damage per Power Charge",
+   "part": "Torso",
+   "chaos": 2.0,
+   "listings": 103,
+   "change": 0,
+   "id": "lesser-templar-banner-increased-spell-damage-per-power-charge",
+   "source": "map",
+   "map": "Act 4, The Dried Lake",
+   "quadrants": [
+    null
+   ]
+  },
+  {
+   "name": "Lesser Bandit Rogue's Head",
+   "mod": "(4-6)% increased Attack and Cast Speed",
+   "part": "Head",
+   "chaos": 2.0,
+   "listings": 54,
+   "change": -71.15,
+   "id": "lesser-bandit-rogues-head-increased-attack-and-cast-speed",
+   "source": "map",
+   "map": "Act 2, The Broken Bridge",
+   "quadrants": [
+    null
+   ]
+  },
+  {
    "name": "Greater Adherent's Crown",
    "mod": "Gain (10-15)% of Physical Damage as Extra Fire Damage",
    "part": "Head",
-   "chaos": 3.0,
+   "chaos": 2.0,
    "listings": 403,
    "change": -94,
    "id": "greater-adherents-crown-gain-of-physical-damage-as-extra-fire-damage",
@@ -2302,7 +2330,7 @@ window.VISCERA = {
    "name": "Scholar's Leg",
    "mod": "(8-10)% increased bonuses gained from Equipped Gloves",
    "part": "Lower Limb",
-   "chaos": 3.0,
+   "chaos": 2.0,
    "listings": 353,
    "change": -92.5,
    "id": "scholars-leg-increased-bonuses-gained-from-equipped-gloves",
@@ -2316,7 +2344,7 @@ window.VISCERA = {
    "name": "Skeletal Tail",
    "mod": "(20-30)% increased Projectile Damage",
    "part": "Lower Limb",
-   "chaos": 3.0,
+   "chaos": 2.0,
    "listings": 621,
    "change": -96.98,
    "id": "skeletal-tail-increased-projectile-damage",
@@ -2324,20 +2352,6 @@ window.VISCERA = {
    "map": "Act 5, The Ossuary",
    "quadrants": [
     null
-   ]
-  },
-  {
-   "name": "Greater Vulture's Gut",
-   "mod": "Killing Blows Consume corpses to Recover (3-4)% of Mana / Killing Blows Consume corpses to Recover (3-4)% of Life",
-   "part": "Torso",
-   "chaos": 3.0,
-   "listings": 49,
-   "change": 122.2,
-   "id": "greater-vultures-gut-killing-blows-consume-corpses-to-recover-of-mana-killing-blows-consume-corpses-to-recover-of-life",
-   "source": "map",
-   "map": "Channel",
-   "quadrants": [
-    "tl"
    ]
   },
   {
@@ -2570,20 +2584,6 @@ window.VISCERA = {
    "id": "prosthetic-leg-increased-ignite-duration-on-enemies",
    "source": "map",
    "map": "Act 10, The Desecrated Chambers",
-   "quadrants": [
-    null
-   ]
-  },
-  {
-   "name": "Lesser Scholar's Leg",
-   "mod": "(5-6)% increased bonuses gained from Equipped Gloves",
-   "part": "Lower Limb",
-   "chaos": 2.0,
-   "listings": 79,
-   "change": -95,
-   "id": "lesser-scholars-leg-increased-bonuses-gained-from-equipped-gloves",
-   "source": "map",
-   "map": "Act 5, The Reliquary",
    "quadrants": [
     null
    ]
