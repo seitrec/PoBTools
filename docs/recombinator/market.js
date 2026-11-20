@@ -1,9 +1,9 @@
 window.MARKET = {
  "league": "Standard",
- "fetched": "2026-11-19",
+ "fetched": "2026-11-20",
  "source": "poe.ninja",
  "altPrice": 0.17,
- "divinePrice": 390.0,
+ "divinePrice": 359.7,
  "bases": {
   "Claws": [
    {
@@ -15,8 +15,8 @@ window.MARKET = {
    {
     "name": "Terror Claw",
     "dropLevel": 70,
-    "chaos": 1.4,
-    "listings": 112
+    "chaos": 1.6,
+    "listings": 114
    },
    {
     "name": "Void Fangs",
@@ -27,26 +27,26 @@ window.MARKET = {
    {
     "name": "Imperial Claw",
     "dropLevel": 68,
-    "chaos": 26.2,
-    "listings": 191
+    "chaos": 22.0,
+    "listings": 193
    },
    {
     "name": "Vaal Claw",
     "dropLevel": 66,
-    "chaos": 3.0,
-    "listings": 102
+    "chaos": 2.9,
+    "listings": 77
    },
    {
     "name": "Eye Gouger",
     "dropLevel": 64,
-    "chaos": 2.2,
-    "listings": 178
+    "chaos": 2.3,
+    "listings": 179
    },
    {
     "name": "Hellion's Paw",
     "dropLevel": 62,
-    "chaos": 5.0,
-    "listings": 168
+    "chaos": 5.4,
+    "listings": 169
    },
    {
     "name": "Throat Stabber",
@@ -60,7 +60,7 @@ window.MARKET = {
     "name": "Pneumatic Dagger",
     "dropLevel": 70,
     "chaos": 100.0,
-    "listings": 135
+    "listings": 136
    },
    {
     "name": "Sai",
@@ -71,14 +71,14 @@ window.MARKET = {
    {
     "name": "Ambusher",
     "dropLevel": 60,
-    "chaos": 7.0,
+    "chaos": 5.0,
     "listings": 294
    },
    {
     "name": "Gutting Knife",
     "dropLevel": 56,
-    "chaos": 5.2,
-    "listings": 192
+    "chaos": 5.4,
+    "listings": 193
    },
    {
     "name": "Trisula",
@@ -104,37 +104,37 @@ window.MARKET = {
     "name": "Convoking Wand",
     "dropLevel": 72,
     "chaos": 20.0,
-    "listings": 852
+    "listings": 855
    },
    {
     "name": "Accumulator Wand",
     "dropLevel": 70,
-    "chaos": 88.0,
-    "listings": 149
+    "chaos": 76.0,
+    "listings": 150
    },
    {
     "name": "Profane Wand",
     "dropLevel": 70,
-    "chaos": 79.7,
+    "chaos": 80.0,
     "listings": 345
    },
    {
     "name": "Prophecy Wand",
     "dropLevel": 68,
     "chaos": 5.0,
-    "listings": 1765
+    "listings": 1774
    },
    {
     "name": "Tornado Wand",
     "dropLevel": 65,
     "chaos": 5.0,
-    "listings": 1776
+    "listings": 1779
    },
    {
     "name": "Opal Wand",
     "dropLevel": 62,
     "chaos": 2.0,
-    "listings": 1690
+    "listings": 1695
    },
    {
     "name": "Imbued Wand",
@@ -145,16 +145,16 @@ window.MARKET = {
    {
     "name": "Kinetic Wand",
     "dropLevel": 59,
-    "chaos": 40.4,
-    "listings": 634
+    "chaos": 44.7,
+    "listings": 623
    }
   ],
   "One_Hand_Swords": [
    {
     "name": "Anarchic Spiritblade",
     "dropLevel": 70,
-    "chaos": 745.4,
-    "listings": 131
+    "chaos": 686.6,
+    "listings": 130
    },
    {
     "name": "Tiger Hook",
@@ -165,7 +165,7 @@ window.MARKET = {
    {
     "name": "Ghostflame Blade",
     "dropLevel": 68,
-    "chaos": 1372567,
+    "chaos": 1390928,
     "listings": 2
    },
    {
@@ -178,7 +178,7 @@ window.MARKET = {
     "name": "Eternal Sword",
     "dropLevel": 66,
     "chaos": 5.0,
-    "listings": 75
+    "listings": 76
    },
    {
     "name": "Vaal Blade",
@@ -195,7 +195,7 @@ window.MARKET = {
    {
     "name": "Gladius",
     "dropLevel": 60,
-    "chaos": 89.9,
+    "chaos": 90.6,
     "listings": 53
    }
   ],
@@ -209,14 +209,14 @@ window.MARKET = {
    {
     "name": "Psychotic Axe",
     "dropLevel": 70,
-    "chaos": 4045,
+    "chaos": 4490,
     "listings": 40
    },
    {
     "name": "Infernal Axe",
     "dropLevel": 69,
-    "chaos": 1.1,
-    "listings": 42
+    "chaos": 1.2,
+    "listings": 43
    },
    {
     "name": "Royal Axe",
@@ -239,13 +239,13 @@ window.MARKET = {
    {
     "name": "Reaver Axe",
     "dropLevel": 61,
-    "chaos": 55.0,
-    "listings": 46
+    "chaos": 18.0,
+    "listings": 47
    },
    {
     "name": "Siege Axe",
     "dropLevel": 59,
-    "chaos": 4.7,
+    "chaos": 5.0,
     "listings": 162
    }
   ],
@@ -259,8 +259,8 @@ window.MARKET = {
    {
     "name": "Boom Mace",
     "dropLevel": 70,
-    "chaos": 50.0,
-    "listings": 48
+    "chaos": 57.0,
+    "listings": 47
    },
    {
     "name": "Nightmare Mace",
@@ -309,20 +309,20 @@ window.MARKET = {
    {
     "name": "Sambar Sceptre",
     "dropLevel": 70,
-    "chaos": 5.0,
-    "listings": 224
+    "chaos": 5.2,
+    "listings": 226
    },
    {
     "name": "Void Sceptre",
     "dropLevel": 68,
     "chaos": 20.0,
-    "listings": 403
+    "listings": 408
    },
    {
     "name": "Carnal Sceptre",
     "dropLevel": 66,
     "chaos": 5.0,
-    "listings": 258
+    "listings": 259
    },
    {
     "name": "Vaal Sceptre",
@@ -333,69 +333,69 @@ window.MARKET = {
    {
     "name": "Platinum Sceptre",
     "dropLevel": 62,
-    "chaos": 3.2,
-    "listings": 217
+    "chaos": 2.8,
+    "listings": 216
    },
    {
     "name": "Opal Sceptre",
     "dropLevel": 60,
-    "chaos": 11.8,
+    "chaos": 11.6,
     "listings": 317
    },
    {
     "name": "Tyrant's Sekhem",
     "dropLevel": 58,
-    "chaos": 2.5,
-    "listings": 176
+    "chaos": 3.0,
+    "listings": 181
    }
   ],
   "Rune_Daggers": [
    {
     "name": "Infernal Blade",
     "dropLevel": 70,
-    "chaos": 32.5,
+    "chaos": 31.0,
     "listings": 77
    },
    {
     "name": "Demon Dagger",
     "dropLevel": 68,
-    "chaos": 14.6,
-    "listings": 184
+    "chaos": 12.7,
+    "listings": 186
    },
    {
     "name": "Imperial Skean",
     "dropLevel": 66,
-    "chaos": 8.9,
+    "chaos": 9.0,
     "listings": 233
    },
    {
     "name": "Platinum Kris",
     "dropLevel": 64,
     "chaos": 9.0,
-    "listings": 301
+    "listings": 302
    },
    {
     "name": "Ezomyte Dagger",
     "dropLevel": 62,
-    "chaos": 3.8,
-    "listings": 231
+    "chaos": 4.0,
+    "listings": 233
    },
    {
     "name": "Slaughter Knife",
     "dropLevel": 58,
-    "chaos": 4.6,
-    "listings": 229
+    "chaos": 4.8,
+    "listings": 231
    },
    {
     "name": "Fiend Dagger",
     "dropLevel": 53,
     "chaos": 5.0,
-    "listings": 206
+    "listings": 209
    },
    {
     "name": "Flashfire Blade",
     "dropLevel": 50,
-    "chaos": 944.0,
+    "chaos": 951.4,
     "listings": 23
    }
   ],
@@ -409,14 +409,14 @@ window.MARKET = {
    {
     "name": "Harpy Rapier",
     "dropLevel": 70,
-    "chaos": 46.0,
+    "chaos": 124.0,
     "listings": 51
    },
    {
     "name": "Jewelled Foil",
     "dropLevel": 68,
     "chaos": 5.0,
-    "listings": 160
+    "listings": 162
    },
    {
     "name": "Vaal Rapier",
@@ -427,8 +427,8 @@ window.MARKET = {
    {
     "name": "Spiraled Foil",
     "dropLevel": 64,
-    "chaos": 3.6,
-    "listings": 106
+    "chaos": 2.2,
+    "listings": 109
    },
    {
     "name": "Pecoraro",
@@ -445,7 +445,7 @@ window.MARKET = {
    {
     "name": "Dragonbone Rapier",
     "dropLevel": 58,
-    "chaos": 2.6,
+    "chaos": 2.3,
     "listings": 63
    }
   ],
@@ -459,32 +459,32 @@ window.MARKET = {
    {
     "name": "Solarine Bow",
     "dropLevel": 70,
-    "chaos": 341.6,
+    "chaos": 344.6,
     "listings": 14
    },
    {
     "name": "Harbinger Bow",
     "dropLevel": 68,
     "chaos": 5.0,
-    "listings": 80
+    "listings": 82
    },
    {
     "name": "Imperial Bow",
     "dropLevel": 66,
-    "chaos": 9.1,
-    "listings": 130
+    "chaos": 7.4,
+    "listings": 131
    },
    {
     "name": "Spine Bow",
     "dropLevel": 64,
-    "chaos": 136.0,
-    "listings": 297
+    "chaos": 816.4,
+    "listings": 296
    },
    {
     "name": "Assassin Bow",
     "dropLevel": 62,
     "chaos": 1.0,
-    "listings": 75
+    "listings": 76
    },
    {
     "name": "Ranger Bow",
@@ -495,34 +495,34 @@ window.MARKET = {
    {
     "name": "Citadel Bow",
     "dropLevel": 58,
-    "chaos": 12.5,
-    "listings": 135
+    "chaos": 14.0,
+    "listings": 136
    }
   ],
   "Staves": [
    {
     "name": "Battery Staff",
     "dropLevel": 70,
-    "chaos": 809.0,
-    "listings": 29
+    "chaos": 816.4,
+    "listings": 30
    },
    {
     "name": "Eclipse Staff",
     "dropLevel": 70,
-    "chaos": 42.0,
-    "listings": 86
+    "chaos": 27.0,
+    "listings": 87
    },
    {
     "name": "Imperial Staff",
     "dropLevel": 66,
-    "chaos": 70.0,
-    "listings": 41
+    "chaos": 73.0,
+    "listings": 42
    },
    {
     "name": "Lathi",
     "dropLevel": 62,
     "chaos": 50.0,
-    "listings": 22
+    "listings": 23
    },
    {
     "name": "Primordial Staff",
@@ -533,7 +533,7 @@ window.MARKET = {
    {
     "name": "Moon Staff",
     "dropLevel": 57,
-    "chaos": 201.8,
+    "chaos": 203.3,
     "listings": 10
    },
    {
@@ -545,7 +545,7 @@ window.MARKET = {
    {
     "name": "Reciprocation Staff",
     "dropLevel": 50,
-    "chaos": 3074,
+    "chaos": 3102,
     "listings": 13
    }
   ],
@@ -553,14 +553,14 @@ window.MARKET = {
    {
     "name": "Banishing Blade",
     "dropLevel": 70,
-    "chaos": 291.7,
+    "chaos": 293.9,
     "listings": 17
    },
    {
     "name": "Exquisite Blade",
     "dropLevel": 70,
-    "chaos": 25.4,
-    "listings": 49
+    "chaos": 6.8,
+    "listings": 50
    },
    {
     "name": "Infernal Sword",
@@ -583,8 +583,8 @@ window.MARKET = {
    {
     "name": "Ezomyte Blade",
     "dropLevel": 61,
-    "chaos": 9.6,
-    "listings": 74
+    "chaos": 12.2,
+    "listings": 76
    },
    {
     "name": "Reaver Sword",
@@ -595,22 +595,22 @@ window.MARKET = {
    {
     "name": "Headman's Sword",
     "dropLevel": 57,
-    "chaos": 7.6,
-    "listings": 34
+    "chaos": 7.3,
+    "listings": 35
    }
   ],
   "Two_Hand_Axes": [
    {
     "name": "Apex Cleaver",
     "dropLevel": 70,
-    "chaos": 255.3,
+    "chaos": 257.5,
     "listings": 21
    },
    {
     "name": "Fleshripper",
     "dropLevel": 70,
-    "chaos": 42.0,
-    "listings": 40
+    "chaos": 12.5,
+    "listings": 41
    },
    {
     "name": "Void Axe",
@@ -622,12 +622,12 @@ window.MARKET = {
     "name": "Despot Axe",
     "dropLevel": 66,
     "chaos": 3.0,
-    "listings": 107
+    "listings": 106
    },
    {
     "name": "Vaal Axe",
     "dropLevel": 64,
-    "chaos": 14.0,
+    "chaos": 14.5,
     "listings": 71
    },
    {
@@ -639,8 +639,8 @@ window.MARKET = {
    {
     "name": "Sundering Axe",
     "dropLevel": 60,
-    "chaos": 8.0,
-    "listings": 18
+    "chaos": 5.0,
+    "listings": 20
    },
    {
     "name": "Talon Axe",
@@ -665,14 +665,14 @@ window.MARKET = {
    {
     "name": "Imperial Maul",
     "dropLevel": 65,
-    "chaos": 8.8,
-    "listings": 44
+    "chaos": 4.9,
+    "listings": 45
    },
    {
     "name": "Meatgrinder",
     "dropLevel": 63,
-    "chaos": 2.1,
-    "listings": 74
+    "chaos": 3.5,
+    "listings": 76
    },
    {
     "name": "Piledriver",
@@ -689,8 +689,8 @@ window.MARKET = {
    {
     "name": "Karui Maul",
     "dropLevel": 57,
-    "chaos": 4.4,
-    "listings": 47
+    "chaos": 4.7,
+    "listings": 48
    },
    {
     "name": "Solar Maul",
@@ -703,7 +703,7 @@ window.MARKET = {
    {
     "name": "Eventuality Rod",
     "dropLevel": 70,
-    "chaos": 686.3,
+    "chaos": 691.5,
     "listings": 28
    },
    {
@@ -715,14 +715,14 @@ window.MARKET = {
    {
     "name": "Maelström Staff",
     "dropLevel": 64,
-    "chaos": 33.0,
-    "listings": 37
+    "chaos": 36.0,
+    "listings": 38
    },
    {
     "name": "Ezomyte Staff",
     "dropLevel": 60,
     "chaos": 34.0,
-    "listings": 37
+    "listings": 38
    },
    {
     "name": "Foul Staff",
@@ -733,19 +733,19 @@ window.MARKET = {
    {
     "name": "Potentiality Rod",
     "dropLevel": 50,
-    "chaos": 1699,
+    "chaos": 1714,
     "listings": 9
    },
    {
     "name": "Serpentine Staff",
     "dropLevel": 49,
-    "chaos": 169.8,
+    "chaos": 171.3,
     "listings": 18
    },
    {
     "name": "Military Staff",
     "dropLevel": 41,
-    "chaos": 4045,
+    "chaos": 4082,
     "listings": 4
    }
   ],
@@ -753,7 +753,7 @@ window.MARKET = {
    {
     "name": "Fishing Rod",
     "dropLevel": 1,
-    "chaos": 54203,
+    "chaos": 54699,
     "listings": 70
    }
   ],
@@ -761,49 +761,49 @@ window.MARKET = {
    {
     "name": "Focused Amulet",
     "dropLevel": 80,
-    "chaos": 87210,
-    "listings": 140
+    "chaos": 62863,
+    "listings": 143
    },
    {
     "name": "Simplex Amulet",
     "dropLevel": 80,
-    "chaos": 36405,
-    "listings": 204
+    "chaos": 35922,
+    "listings": 208
    },
    {
     "name": "Blue Pearl Amulet",
     "dropLevel": 77,
-    "chaos": 2.0,
-    "listings": 83
+    "chaos": 2.9,
+    "listings": 82
    },
    {
     "name": "Marble Amulet",
     "dropLevel": 74,
-    "chaos": 23.6,
-    "listings": 101
+    "chaos": 22.0,
+    "listings": 102
    },
    {
     "name": "Seaglass Amulet",
     "dropLevel": 74,
     "chaos": 6.5,
-    "listings": 84
+    "listings": 85
    },
    {
     "name": "Croaker Talisman",
     "dropLevel": 36,
-    "chaos": 1372567,
+    "chaos": 1390928,
     "listings": 11
    },
    {
     "name": "Great Maw Talisman",
     "dropLevel": 36,
-    "chaos": 2022,
+    "chaos": 2041,
     "listings": 11
    },
    {
     "name": "Octopus Talisman",
     "dropLevel": 36,
-    "chaos": 1214,
+    "chaos": 1225,
     "listings": 4
    }
   ],
@@ -811,20 +811,20 @@ window.MARKET = {
    {
     "name": "Cerulean Ring",
     "dropLevel": 80,
-    "chaos": 39.0,
-    "listings": 110
+    "chaos": 51.0,
+    "listings": 109
    },
    {
     "name": "Vermillion Ring",
     "dropLevel": 80,
-    "chaos": 458.0,
-    "listings": 253
+    "chaos": 278.0,
+    "listings": 254
    },
    {
     "name": "Iolite Ring",
     "dropLevel": 78,
     "chaos": 50.0,
-    "listings": 126
+    "listings": 128
    },
    {
     "name": "Opal Ring",
@@ -841,40 +841,40 @@ window.MARKET = {
    {
     "name": "Helical Ring",
     "dropLevel": 75,
-    "chaos": 33007,
-    "listings": 450
+    "chaos": 28574,
+    "listings": 456
    },
    {
     "name": "Manifold Ring",
     "dropLevel": 75,
-    "chaos": 1618,
-    "listings": 746
+    "chaos": 1633,
+    "listings": 749
    },
    {
     "name": "Cogwork Ring",
     "dropLevel": 68,
-    "chaos": 809.0,
-    "listings": 587
+    "chaos": 816.4,
+    "listings": 589
    }
   ],
   "Belts": [
    {
     "name": "Cord Belt",
     "dropLevel": 75,
-    "chaos": 2589,
-    "listings": 129
+    "chaos": 1143,
+    "listings": 131
    },
    {
     "name": "Stygian Vise",
     "dropLevel": 75,
-    "chaos": 9.1,
-    "listings": 10653
+    "chaos": 6.0,
+    "listings": 10689
    },
    {
     "name": "Crystal Belt",
     "dropLevel": 73,
-    "chaos": 10.5,
-    "listings": 286
+    "chaos": 10.0,
+    "listings": 289
    },
    {
     "name": "Vanguard Belt",
@@ -885,46 +885,46 @@ window.MARKET = {
    {
     "name": "Mechalarm Belt",
     "dropLevel": 70,
-    "chaos": 1456,
+    "chaos": 1470,
     "listings": 25
    },
    {
     "name": "Mechanical Belt",
     "dropLevel": 70,
-    "chaos": 8.5,
+    "chaos": 8.0,
     "listings": 89
    },
    {
     "name": "Micro-Distillery Belt",
     "dropLevel": 68,
-    "chaos": 809.0,
-    "listings": 48
+    "chaos": 816.4,
+    "listings": 51
    },
    {
     "name": "Cloth Belt",
     "dropLevel": 20,
     "chaos": 5.0,
-    "listings": 1014
+    "listings": 1017
    }
   ],
   "Gloves_str": [
    {
     "name": "Leviathan Gauntlets",
     "dropLevel": 84,
-    "chaos": 40.0,
-    "listings": 869
+    "chaos": 39.3,
+    "listings": 868
    },
    {
     "name": "Precursor Gauntlets",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 920
+    "listings": 918
    },
    {
     "name": "Spiked Gloves",
     "dropLevel": 70,
     "chaos": 20.0,
-    "listings": 171
+    "listings": 174
    },
    {
     "name": "Thwarting Gauntlets",
@@ -936,24 +936,24 @@ window.MARKET = {
     "name": "Titan Gauntlets",
     "dropLevel": 69,
     "chaos": 10.0,
-    "listings": 628
+    "listings": 637
    },
    {
     "name": "Vaal Gauntlets",
     "dropLevel": 63,
     "chaos": 11.5,
-    "listings": 236
+    "listings": 235
    },
    {
     "name": "Goliath Gauntlets",
     "dropLevel": 53,
-    "chaos": 10.4,
-    "listings": 175
+    "chaos": 12.0,
+    "listings": 174
    },
    {
     "name": "Ancient Gauntlets",
     "dropLevel": 47,
-    "chaos": 71.0,
+    "chaos": 74.0,
     "listings": 76
    }
   ],
@@ -962,19 +962,19 @@ window.MARKET = {
     "name": "Velour Gloves",
     "dropLevel": 84,
     "chaos": 40.0,
-    "listings": 1117
+    "listings": 1121
    },
    {
     "name": "Harpyskin Gloves",
     "dropLevel": 78,
-    "chaos": 5.4,
-    "listings": 1083
+    "chaos": 6.4,
+    "listings": 1089
    },
    {
     "name": "Gripped Gloves",
     "dropLevel": 70,
-    "chaos": 20.0,
-    "listings": 152
+    "chaos": 24.0,
+    "listings": 155
    },
    {
     "name": "Slink Gloves",
@@ -985,14 +985,14 @@ window.MARKET = {
    {
     "name": "Stealth Gloves",
     "dropLevel": 62,
-    "chaos": 12.0,
+    "chaos": 9.4,
     "listings": 296
    },
    {
     "name": "Shagreen Gloves",
     "dropLevel": 54,
     "chaos": 10.0,
-    "listings": 325
+    "listings": 327
    },
    {
     "name": "Sharkskin Gloves",
@@ -1003,7 +1003,7 @@ window.MARKET = {
    {
     "name": "Eelskin Gloves",
     "dropLevel": 38,
-    "chaos": 267.2,
+    "chaos": 269.4,
     "listings": 37
    }
   ],
@@ -1012,18 +1012,18 @@ window.MARKET = {
     "name": "Warlock Gloves",
     "dropLevel": 84,
     "chaos": 50.0,
-    "listings": 1745
+    "listings": 1746
    },
    {
     "name": "Sage Gloves",
     "dropLevel": 78,
-    "chaos": 9.4,
-    "listings": 1288
+    "chaos": 8.7,
+    "listings": 1289
    },
    {
     "name": "Fingerless Silk Gloves",
     "dropLevel": 70,
-    "chaos": 27.0,
+    "chaos": 25.0,
     "listings": 161
    },
    {
@@ -1036,25 +1036,25 @@ window.MARKET = {
     "name": "Sorcerer Gloves",
     "dropLevel": 69,
     "chaos": 10.0,
-    "listings": 1114
+    "listings": 1122
    },
    {
     "name": "Arcanist Gloves",
     "dropLevel": 60,
     "chaos": 5.0,
-    "listings": 172
+    "listings": 173
    },
    {
     "name": "Conjurer Gloves",
     "dropLevel": 55,
-    "chaos": 30.0,
-    "listings": 157
+    "chaos": 31.0,
+    "listings": 156
    },
    {
     "name": "Samite Gloves",
     "dropLevel": 47,
-    "chaos": 34.7,
-    "listings": 54
+    "chaos": 33.0,
+    "listings": 53
    }
   ],
   "Gloves_str_dex": [
@@ -1062,13 +1062,13 @@ window.MARKET = {
     "name": "Wyvernscale Gauntlets",
     "dropLevel": 84,
     "chaos": 20.0,
-    "listings": 989
+    "listings": 996
    },
    {
     "name": "Chimerascale Gauntlets",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 803
+    "listings": 804
    },
    {
     "name": "Dragonscale Gauntlets",
@@ -1079,14 +1079,14 @@ window.MARKET = {
    {
     "name": "Hydrascale Gauntlets",
     "dropLevel": 59,
-    "chaos": 13.2,
-    "listings": 290
+    "chaos": 14.0,
+    "listings": 293
    },
    {
     "name": "Wyrmscale Gauntlets",
     "dropLevel": 49,
-    "chaos": 27.5,
-    "listings": 114
+    "chaos": 25.5,
+    "listings": 113
    },
    {
     "name": "Serpentscale Gauntlets",
@@ -1097,13 +1097,13 @@ window.MARKET = {
    {
     "name": "Steelscale Gauntlets",
     "dropLevel": 36,
-    "chaos": 1699,
+    "chaos": 1714,
     "listings": 17
    },
    {
     "name": "Bronzescale Gauntlets",
     "dropLevel": 27,
-    "chaos": 181.8,
+    "chaos": 183.3,
     "listings": 10
    }
   ],
@@ -1111,44 +1111,44 @@ window.MARKET = {
    {
     "name": "Paladin Gloves",
     "dropLevel": 84,
-    "chaos": 37.2,
-    "listings": 670
+    "chaos": 48.5,
+    "listings": 667
    },
    {
     "name": "Martyr Gloves",
     "dropLevel": 78,
-    "chaos": 5.0,
-    "listings": 584
+    "chaos": 5.2,
+    "listings": 586
    },
    {
     "name": "Apothecary's Gloves",
     "dropLevel": 70,
     "chaos": 10.0,
-    "listings": 95
+    "listings": 96
    },
    {
     "name": "Crusader Gloves",
     "dropLevel": 66,
     "chaos": 10.0,
-    "listings": 266
+    "listings": 267
    },
    {
     "name": "Legion Gloves",
     "dropLevel": 57,
     "chaos": 10.0,
-    "listings": 141
+    "listings": 142
    },
    {
     "name": "Soldier Gloves",
     "dropLevel": 51,
     "chaos": 18.5,
-    "listings": 63
+    "listings": 62
    },
    {
     "name": "Zealot Gloves",
     "dropLevel": 43,
     "chaos": 35.9,
-    "listings": 32
+    "listings": 31
    },
    {
     "name": "Riveted Gloves",
@@ -1161,26 +1161,26 @@ window.MARKET = {
    {
     "name": "Phantom Mitts",
     "dropLevel": 84,
-    "chaos": 30.0,
-    "listings": 928
+    "chaos": 35.0,
+    "listings": 919
    },
    {
     "name": "Infiltrator Mitts",
     "dropLevel": 78,
-    "chaos": 8.6,
-    "listings": 892
+    "chaos": 7.4,
+    "listings": 896
    },
    {
     "name": "Murder Mitts",
     "dropLevel": 67,
     "chaos": 10.0,
-    "listings": 388
+    "listings": 390
    },
    {
     "name": "Assassin's Mitts",
     "dropLevel": 58,
     "chaos": 20.0,
-    "listings": 171
+    "listings": 173
    },
    {
     "name": "Carnal Mitts",
@@ -1191,19 +1191,19 @@ window.MARKET = {
    {
     "name": "Ambush Mitts",
     "dropLevel": 45,
-    "chaos": 685.4,
+    "chaos": 689.8,
     "listings": 60
    },
    {
     "name": "Trapper Mitts",
     "dropLevel": 36,
-    "chaos": 1780,
-    "listings": 16
+    "chaos": 1061,
+    "listings": 17
    },
    {
     "name": "Clasped Mitts",
     "dropLevel": 31,
-    "chaos": 193.8,
+    "chaos": 195.3,
     "listings": 15
    }
   ],
@@ -1212,31 +1212,31 @@ window.MARKET = {
     "name": "Leviathan Greaves",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 2002
+    "listings": 2019
    },
    {
     "name": "Precursor Greaves",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 1295
+    "listings": 1299
    },
    {
     "name": "Titan Greaves",
     "dropLevel": 68,
     "chaos": 10.0,
-    "listings": 728
+    "listings": 730
    },
    {
     "name": "Vaal Greaves",
     "dropLevel": 62,
     "chaos": 10.0,
-    "listings": 310
+    "listings": 313
    },
    {
     "name": "Goliath Greaves",
     "dropLevel": 54,
     "chaos": 9.8,
-    "listings": 216
+    "listings": 217
    },
    {
     "name": "Ancient Greaves",
@@ -1247,8 +1247,8 @@ window.MARKET = {
    {
     "name": "Antique Greaves",
     "dropLevel": 37,
-    "chaos": 246.2,
-    "listings": 17
+    "chaos": 329.6,
+    "listings": 18
    },
    {
     "name": "Steel Greaves",
@@ -1262,43 +1262,43 @@ window.MARKET = {
     "name": "Velour Boots",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 2366
+    "listings": 2374
    },
    {
     "name": "Stormrider Boots",
     "dropLevel": 80,
-    "chaos": 3074,
+    "chaos": 3102,
     "listings": 130
    },
    {
     "name": "Harpyskin Boots",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 1540
+    "listings": 1542
    },
    {
     "name": "Slink Boots",
     "dropLevel": 69,
-    "chaos": 6.6,
-    "listings": 1019
+    "chaos": 6.4,
+    "listings": 1029
    },
    {
     "name": "Stealth Boots",
     "dropLevel": 62,
-    "chaos": 5.0,
-    "listings": 398
+    "chaos": 6.8,
+    "listings": 400
    },
    {
     "name": "Shagreen Boots",
     "dropLevel": 55,
-    "chaos": 13.4,
+    "chaos": 13.0,
     "listings": 405
    },
    {
     "name": "Sharkskin Boots",
     "dropLevel": 44,
-    "chaos": 7.0,
-    "listings": 104
+    "chaos": 8.0,
+    "listings": 105
    },
    {
     "name": "Eelskin Boots",
@@ -1311,26 +1311,26 @@ window.MARKET = {
    {
     "name": "Warlock Boots",
     "dropLevel": 84,
-    "chaos": 17.4,
-    "listings": 2954
+    "chaos": 19.2,
+    "listings": 2969
    },
    {
     "name": "Dreamquest Slippers",
     "dropLevel": 80,
-    "chaos": 80900,
+    "chaos": 81640,
     "listings": 22
    },
    {
     "name": "Sage Slippers",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 1749
+    "listings": 1752
    },
    {
     "name": "Sorcerer Boots",
     "dropLevel": 67,
     "chaos": 5.0,
-    "listings": 812
+    "listings": 815
    },
    {
     "name": "Arcanist Slippers",
@@ -1341,8 +1341,8 @@ window.MARKET = {
    {
     "name": "Conjurer Boots",
     "dropLevel": 53,
-    "chaos": 33.0,
-    "listings": 125
+    "chaos": 19.8,
+    "listings": 126
    },
    {
     "name": "Samite Slippers",
@@ -1362,25 +1362,25 @@ window.MARKET = {
     "name": "Wyvernscale Boots",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 1973
+    "listings": 1982
    },
    {
     "name": "Chimerascale Boots",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 1189
+    "listings": 1191
    },
    {
     "name": "Two-Toned Boots",
     "dropLevel": 70,
-    "chaos": 19.0,
-    "listings": 464
+    "chaos": 23.0,
+    "listings": 468
    },
    {
     "name": "Dragonscale Boots",
     "dropLevel": 65,
-    "chaos": 9.8,
-    "listings": 588
+    "chaos": 10.0,
+    "listings": 593
    },
    {
     "name": "Hydrascale Boots",
@@ -1403,8 +1403,8 @@ window.MARKET = {
    {
     "name": "Steelscale Boots",
     "dropLevel": 36,
-    "chaos": 281.8,
-    "listings": 23
+    "chaos": 349.9,
+    "listings": 24
    }
   ],
   "Boots_str_int": [
@@ -1412,37 +1412,37 @@ window.MARKET = {
     "name": "Paladin Boots",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 1300
+    "listings": 1307
    },
    {
     "name": "Martyr Boots",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 883
+    "listings": 884
    },
    {
     "name": "Two-Toned Boots",
     "dropLevel": 70,
-    "chaos": 19.0,
-    "listings": 464
+    "chaos": 23.0,
+    "listings": 468
    },
    {
     "name": "Crusader Boots",
     "dropLevel": 64,
-    "chaos": 8.3,
-    "listings": 293
+    "chaos": 8.5,
+    "listings": 295
    },
    {
     "name": "Legion Boots",
     "dropLevel": 58,
-    "chaos": 5.0,
-    "listings": 138
+    "chaos": 7.4,
+    "listings": 137
    },
    {
     "name": "Soldier Boots",
     "dropLevel": 49,
     "chaos": 5.0,
-    "listings": 63
+    "listings": 64
    },
    {
     "name": "Zealot Boots",
@@ -1453,7 +1453,7 @@ window.MARKET = {
    {
     "name": "Riveted Boots",
     "dropLevel": 36,
-    "chaos": 417.7,
+    "chaos": 419.9,
     "listings": 11
    }
   ],
@@ -1462,48 +1462,48 @@ window.MARKET = {
     "name": "Phantom Boots",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 1773
+    "listings": 1785
    },
    {
     "name": "Infiltrator Boots",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 1295
+    "listings": 1301
    },
    {
     "name": "Fugitive Boots",
     "dropLevel": 70,
     "chaos": 50.0,
-    "listings": 175
+    "listings": 176
    },
    {
     "name": "Two-Toned Boots",
     "dropLevel": 70,
-    "chaos": 19.0,
-    "listings": 464
+    "chaos": 23.0,
+    "listings": 468
    },
    {
     "name": "Murder Boots",
     "dropLevel": 69,
     "chaos": 10.0,
-    "listings": 900
+    "listings": 906
    },
    {
     "name": "Assassin's Boots",
     "dropLevel": 63,
-    "chaos": 7.5,
-    "listings": 355
+    "chaos": 7.7,
+    "listings": 357
    },
    {
     "name": "Carnal Boots",
     "dropLevel": 55,
-    "chaos": 10.5,
-    "listings": 163
+    "chaos": 11.0,
+    "listings": 167
    },
    {
     "name": "Ambush Boots",
     "dropLevel": 47,
-    "chaos": 452.7,
+    "chaos": 454.9,
     "listings": 64
    }
   ],
@@ -1512,19 +1512,19 @@ window.MARKET = {
     "name": "Royal Plate",
     "dropLevel": 84,
     "chaos": 15.0,
-    "listings": 378
+    "listings": 377
    },
    {
     "name": "Legion Plate",
     "dropLevel": 78,
     "chaos": 2.0,
-    "listings": 182
+    "listings": 183
    },
    {
     "name": "Titan Plate",
     "dropLevel": 73,
-    "chaos": 1.1,
-    "listings": 174
+    "chaos": 1.3,
+    "listings": 176
    },
    {
     "name": "Glorious Plate",
@@ -1535,14 +1535,14 @@ window.MARKET = {
    {
     "name": "Gladiator Plate",
     "dropLevel": 65,
-    "chaos": 5.0,
+    "chaos": 7.1,
     "listings": 73
    },
    {
     "name": "Astral Plate",
     "dropLevel": 62,
-    "chaos": 9.4,
-    "listings": 86
+    "chaos": 7.7,
+    "listings": 88
    },
    {
     "name": "Crusader Plate",
@@ -1561,8 +1561,8 @@ window.MARKET = {
    {
     "name": "Syndicate's Garb",
     "dropLevel": 84,
-    "chaos": 7.8,
-    "listings": 526
+    "chaos": 5.7,
+    "listings": 528
    },
    {
     "name": "Astral Leather",
@@ -1574,13 +1574,13 @@ window.MARKET = {
     "name": "Supreme Leather",
     "dropLevel": 73,
     "chaos": 5.0,
-    "listings": 164
+    "listings": 166
    },
    {
     "name": "Assassin's Garb",
     "dropLevel": 68,
     "chaos": 5.0,
-    "listings": 137
+    "listings": 139
    },
    {
     "name": "Zodiac Leather",
@@ -1591,28 +1591,28 @@ window.MARKET = {
    {
     "name": "Exquisite Leather",
     "dropLevel": 62,
-    "chaos": 10.1,
-    "listings": 91
+    "chaos": 10.2,
+    "listings": 92
    },
    {
     "name": "Destiny Leather",
     "dropLevel": 59,
-    "chaos": 8.0,
+    "chaos": 7.5,
     "listings": 79
    },
    {
     "name": "Sharkskin Tunic",
     "dropLevel": 56,
     "chaos": 7.4,
-    "listings": 101
+    "listings": 100
    }
   ],
   "Body_Armours_int": [
    {
     "name": "Twilight Regalia",
     "dropLevel": 84,
-    "chaos": 42.5,
-    "listings": 488
+    "chaos": 45.0,
+    "listings": 490
    },
    {
     "name": "Nightweave Robe",
@@ -1629,14 +1629,14 @@ window.MARKET = {
    {
     "name": "Vaal Regalia",
     "dropLevel": 68,
-    "chaos": 14.5,
-    "listings": 117
+    "chaos": 15.0,
+    "listings": 116
    },
    {
     "name": "Widowsilk Robe",
     "dropLevel": 65,
-    "chaos": 3.0,
-    "listings": 49
+    "chaos": 3.2,
+    "listings": 50
    },
    {
     "name": "Occultist's Vestment",
@@ -1662,31 +1662,31 @@ window.MARKET = {
     "name": "Conquest Lamellar",
     "dropLevel": 84,
     "chaos": 20.0,
-    "listings": 411
+    "listings": 410
    },
    {
     "name": "Marshall's Brigandine",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 185
+    "listings": 184
    },
    {
     "name": "Full Wyvernscale",
     "dropLevel": 73,
-    "chaos": 4.4,
-    "listings": 155
+    "chaos": 4.5,
+    "listings": 156
    },
    {
     "name": "Triumphant Lamellar",
     "dropLevel": 69,
-    "chaos": 4.1,
+    "chaos": 4.0,
     "listings": 124
    },
    {
     "name": "General's Brigandine",
     "dropLevel": 66,
     "chaos": 4.4,
-    "listings": 96
+    "listings": 95
    },
    {
     "name": "Full Dragonscale",
@@ -1697,14 +1697,14 @@ window.MARKET = {
    {
     "name": "Desert Brigandine",
     "dropLevel": 60,
-    "chaos": 11.3,
+    "chaos": 10.4,
     "listings": 91
    },
    {
     "name": "Dragonscale Doublet",
     "dropLevel": 57,
-    "chaos": 17.5,
-    "listings": 84
+    "chaos": 8.0,
+    "listings": 85
    }
   ],
   "Body_Armours_str_int": [
@@ -1712,7 +1712,7 @@ window.MARKET = {
     "name": "Sacred Chainmail",
     "dropLevel": 84,
     "chaos": 20.0,
-    "listings": 288
+    "listings": 289
    },
    {
     "name": "Paladin's Hauberk",
@@ -1724,13 +1724,13 @@ window.MARKET = {
     "name": "Grand Ringmail",
     "dropLevel": 73,
     "chaos": 2.8,
-    "listings": 128
+    "listings": 129
    },
    {
     "name": "Saintly Chainmail",
     "dropLevel": 70,
     "chaos": 5.0,
-    "listings": 90
+    "listings": 89
    },
    {
     "name": "Saint's Hauberk",
@@ -1742,13 +1742,13 @@ window.MARKET = {
     "name": "Elegant Ringmail",
     "dropLevel": 64,
     "chaos": 10.0,
-    "listings": 66
+    "listings": 65
    },
    {
     "name": "Conquest Chainmail",
     "dropLevel": 61,
     "chaos": 5.0,
-    "listings": 61
+    "listings": 62
    },
    {
     "name": "Loricated Ringmail",
@@ -1762,13 +1762,13 @@ window.MARKET = {
     "name": "Necrotic Armour",
     "dropLevel": 84,
     "chaos": 20.0,
-    "listings": 711
+    "listings": 715
    },
    {
     "name": "Torturer Garb",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 197
+    "listings": 199
    },
    {
     "name": "Sanguine Raiment",
@@ -1779,8 +1779,8 @@ window.MARKET = {
    {
     "name": "Carnal Armour",
     "dropLevel": 71,
-    "chaos": 1.2,
-    "listings": 97
+    "chaos": 1.4,
+    "listings": 99
    },
    {
     "name": "Sadist Garb",
@@ -1798,13 +1798,13 @@ window.MARKET = {
     "name": "Varnished Coat",
     "dropLevel": 62,
     "chaos": 10.0,
-    "listings": 83
+    "listings": 84
    },
    {
     "name": "Sentinel Jacket",
     "dropLevel": 59,
-    "chaos": 12.0,
-    "listings": 79
+    "chaos": 10.0,
+    "listings": 80
    }
   ],
   "Body_Armours_str_dex_int": [
@@ -1817,8 +1817,8 @@ window.MARKET = {
    {
     "name": "Grasping Mail",
     "dropLevel": 70,
-    "chaos": 2103,
-    "listings": 68
+    "chaos": 1959,
+    "listings": 67
    }
   ],
   "Helmets_str": [
@@ -1826,25 +1826,25 @@ window.MARKET = {
     "name": "Giantslayer Helmet",
     "dropLevel": 84,
     "chaos": 20.0,
-    "listings": 844
+    "listings": 850
    },
    {
     "name": "Conqueror's Helmet",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 832
+    "listings": 833
    },
    {
     "name": "General's Helmet",
     "dropLevel": 73,
     "chaos": 5.0,
-    "listings": 522
+    "listings": 526
    },
    {
     "name": "Eternal Burgonet",
     "dropLevel": 69,
     "chaos": 4.3,
-    "listings": 526
+    "listings": 528
    },
    {
     "name": "Royal Burgonet",
@@ -1856,13 +1856,13 @@ window.MARKET = {
     "name": "Ezomyte Burgonet",
     "dropLevel": 60,
     "chaos": 10.0,
-    "listings": 108
+    "listings": 107
    },
    {
     "name": "Samnite Helmet",
     "dropLevel": 55,
-    "chaos": 6.5,
-    "listings": 122
+    "chaos": 10.0,
+    "listings": 123
    },
    {
     "name": "Siege Helmet",
@@ -1876,13 +1876,13 @@ window.MARKET = {
     "name": "Majestic Pelt",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 981
+    "listings": 987
    },
    {
     "name": "Grizzly Pelt",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 737
+    "listings": 739
    },
    {
     "name": "Dire Pelt",
@@ -1893,19 +1893,19 @@ window.MARKET = {
    {
     "name": "Lion Pelt",
     "dropLevel": 70,
-    "chaos": 5.0,
-    "listings": 537
+    "chaos": 5.5,
+    "listings": 540
    },
    {
     "name": "Sinner Tricorne",
     "dropLevel": 64,
-    "chaos": 5.8,
-    "listings": 161
+    "chaos": 5.9,
+    "listings": 162
    },
    {
     "name": "Silken Hood",
     "dropLevel": 60,
-    "chaos": 1.9,
+    "chaos": 2.0,
     "listings": 146
    },
    {
@@ -1925,44 +1925,44 @@ window.MARKET = {
    {
     "name": "Lich's Circlet",
     "dropLevel": 84,
-    "chaos": 25.8,
-    "listings": 2149
+    "chaos": 21.3,
+    "listings": 2161
    },
    {
     "name": "Sunfire Circlet",
     "dropLevel": 78,
     "chaos": 5.0,
-    "listings": 1140
+    "listings": 1143
    },
    {
     "name": "Moonlit Circlet",
     "dropLevel": 73,
     "chaos": 5.0,
-    "listings": 729
+    "listings": 734
    },
    {
     "name": "Hubris Circlet",
     "dropLevel": 69,
     "chaos": 10.0,
-    "listings": 726
+    "listings": 727
    },
    {
     "name": "Mind Cage",
     "dropLevel": 65,
-    "chaos": 7.5,
-    "listings": 175
+    "chaos": 8.0,
+    "listings": 177
    },
    {
     "name": "Solaris Circlet",
     "dropLevel": 59,
-    "chaos": 16.4,
-    "listings": 80
+    "chaos": 9.3,
+    "listings": 81
    },
    {
     "name": "Necromancer Circlet",
     "dropLevel": 54,
-    "chaos": 5.5,
-    "listings": 92
+    "chaos": 4.6,
+    "listings": 93
    },
    {
     "name": "Steel Circlet",
@@ -1975,32 +1975,32 @@ window.MARKET = {
    {
     "name": "Haunted Bascinet",
     "dropLevel": 84,
-    "chaos": 10.0,
-    "listings": 819
+    "chaos": 11.0,
+    "listings": 824
    },
    {
     "name": "Conquest Helmet",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 673
+    "listings": 678
    },
    {
     "name": "Knight Helm",
     "dropLevel": 73,
     "chaos": 5.0,
-    "listings": 420
+    "listings": 425
    },
    {
     "name": "Nightmare Bascinet",
     "dropLevel": 67,
     "chaos": 5.0,
-    "listings": 313
+    "listings": 314
    },
    {
     "name": "Pig-Faced Bascinet",
     "dropLevel": 63,
-    "chaos": 7.0,
-    "listings": 159
+    "chaos": 4.5,
+    "listings": 160
    },
    {
     "name": "Fluted Bascinet",
@@ -2017,7 +2017,7 @@ window.MARKET = {
    {
     "name": "Atonement Mask",
     "dropLevel": 45,
-    "chaos": 60675,
+    "chaos": 61230,
     "listings": 10
    }
   ],
@@ -2026,48 +2026,48 @@ window.MARKET = {
     "name": "Divine Crown",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 891
+    "listings": 897
    },
    {
     "name": "Paladin Crown",
     "dropLevel": 78,
     "chaos": 10.0,
-    "listings": 574
+    "listings": 579
    },
    {
     "name": "Archdemon Crown",
     "dropLevel": 75,
-    "chaos": 7119,
-    "listings": 56
+    "chaos": 5307,
+    "listings": 57
    },
    {
     "name": "Bone Helmet",
     "dropLevel": 73,
     "chaos": 13.0,
-    "listings": 165
+    "listings": 164
    },
    {
     "name": "Faithful Helmet",
     "dropLevel": 73,
-    "chaos": 3.4,
-    "listings": 422
+    "chaos": 3.5,
+    "listings": 424
    },
    {
     "name": "Praetor Crown",
     "dropLevel": 68,
     "chaos": 5.0,
-    "listings": 262
+    "listings": 264
    },
    {
     "name": "Prophet Crown",
     "dropLevel": 63,
     "chaos": 5.0,
-    "listings": 115
+    "listings": 116
    },
    {
     "name": "Magistrate Crown",
     "dropLevel": 58,
-    "chaos": 7.1,
+    "chaos": 8.0,
     "listings": 60
    }
   ],
@@ -2076,93 +2076,93 @@ window.MARKET = {
     "name": "Torturer's Mask",
     "dropLevel": 84,
     "chaos": 10.0,
-    "listings": 989
+    "listings": 1001
    },
    {
     "name": "Ancient Mask",
     "dropLevel": 78,
-    "chaos": 8.5,
-    "listings": 761
+    "chaos": 5.0,
+    "listings": 766
    },
    {
     "name": "Blizzard Crown",
     "dropLevel": 75,
-    "chaos": 1214,
+    "chaos": 1225,
     "listings": 189
    },
    {
     "name": "Jester Mask",
     "dropLevel": 73,
-    "chaos": 7.6,
-    "listings": 557
+    "chaos": 8.0,
+    "listings": 558
    },
    {
     "name": "Deicide Mask",
     "dropLevel": 67,
     "chaos": 10.0,
-    "listings": 278
+    "listings": 281
    },
    {
     "name": "Vaal Mask",
     "dropLevel": 62,
-    "chaos": 5.0,
-    "listings": 145
+    "chaos": 5.6,
+    "listings": 146
    },
    {
     "name": "Harlequin Mask",
     "dropLevel": 57,
     "chaos": 5.0,
-    "listings": 89
+    "listings": 88
    },
    {
     "name": "Regicide Mask",
     "dropLevel": 52,
-    "chaos": 6.6,
-    "listings": 88
+    "chaos": 7.0,
+    "listings": 89
    }
   ],
   "Quivers": [
    {
     "name": "Artillery Quiver",
     "dropLevel": 74,
-    "chaos": 78958,
-    "listings": 4
+    "chaos": 8999,
+    "listings": 7
    },
    {
     "name": "Primal Arrow Quiver",
     "dropLevel": 66,
-    "chaos": 10.7,
-    "listings": 409
+    "chaos": 10.9,
+    "listings": 411
    },
    {
     "name": "Heavy Arrow Quiver",
     "dropLevel": 61,
-    "chaos": 23.0,
-    "listings": 236
+    "chaos": 23.5,
+    "listings": 237
    },
    {
     "name": "Vile Arrow Quiver",
     "dropLevel": 55,
-    "chaos": 23.1,
-    "listings": 122
+    "chaos": 20.8,
+    "listings": 123
    },
    {
     "name": "Broadhead Arrow Quiver",
     "dropLevel": 49,
-    "chaos": 102.0,
-    "listings": 225
+    "chaos": 103.0,
+    "listings": 227
    },
    {
     "name": "Blazing Arrow Quiver",
     "dropLevel": 45,
-    "chaos": 5.9,
-    "listings": 178
+    "chaos": 6.2,
+    "listings": 182
    },
    {
     "name": "Spike-Point Arrow Quiver",
     "dropLevel": 45,
-    "chaos": 35.0,
-    "listings": 170
+    "chaos": 24.5,
+    "listings": 171
    },
    {
     "name": "Penetrating Arrow Quiver",
@@ -2175,26 +2175,26 @@ window.MARKET = {
    {
     "name": "Heat-attuned Tower Shield",
     "dropLevel": 70,
-    "chaos": 809.0,
+    "chaos": 816.4,
     "listings": 56
    },
    {
     "name": "Pinnacle Tower Shield",
     "dropLevel": 70,
     "chaos": 50.0,
-    "listings": 527
+    "listings": 528
    },
    {
     "name": "Colossal Tower Shield",
     "dropLevel": 67,
-    "chaos": 10.8,
-    "listings": 571
+    "chaos": 11.6,
+    "listings": 574
    },
    {
     "name": "Ezomyte Tower Shield",
     "dropLevel": 64,
     "chaos": 50.0,
-    "listings": 299
+    "listings": 301
    },
    {
     "name": "Ebony Tower Shield",
@@ -2211,13 +2211,13 @@ window.MARKET = {
    {
     "name": "Crested Tower Shield",
     "dropLevel": 55,
-    "chaos": 45.5,
-    "listings": 54
+    "chaos": 55.0,
+    "listings": 56
    },
    {
     "name": "Girded Tower Shield",
     "dropLevel": 51,
-    "chaos": 129.3,
+    "chaos": 119.2,
     "listings": 31
    }
   ],
@@ -2225,43 +2225,43 @@ window.MARKET = {
    {
     "name": "Cold-attuned Buckler",
     "dropLevel": 70,
-    "chaos": 34.7,
+    "chaos": 33.0,
     "listings": 80
    },
    {
     "name": "Imperial Buckler",
     "dropLevel": 69,
     "chaos": 20.0,
-    "listings": 525
+    "listings": 528
    },
    {
     "name": "Crusader Buckler",
     "dropLevel": 66,
     "chaos": 10.0,
-    "listings": 433
+    "listings": 438
    },
    {
     "name": "Vaal Buckler",
     "dropLevel": 63,
-    "chaos": 10.0,
-    "listings": 187
+    "chaos": 10.3,
+    "listings": 189
    },
    {
     "name": "Lacquered Buckler",
     "dropLevel": 60,
-    "chaos": 16.5,
-    "listings": 352
+    "chaos": 30.0,
+    "listings": 354
    },
    {
     "name": "Ironwood Buckler",
     "dropLevel": 57,
-    "chaos": 572.3,
-    "listings": 89
+    "chaos": 18.0,
+    "listings": 90
    },
    {
     "name": "Golden Buckler",
     "dropLevel": 54,
-    "chaos": 8.0,
+    "chaos": 7.9,
     "listings": 103
    },
    {
@@ -2275,32 +2275,32 @@ window.MARKET = {
    {
     "name": "Transfer-attuned Spirit Shield",
     "dropLevel": 70,
-    "chaos": 809.0,
-    "listings": 85
+    "chaos": 816.4,
+    "listings": 84
    },
    {
     "name": "Titanium Spirit Shield",
     "dropLevel": 68,
     "chaos": 30.0,
-    "listings": 2884
+    "listings": 2903
    },
    {
     "name": "Harmonic Spirit Shield",
     "dropLevel": 65,
     "chaos": 20.0,
-    "listings": 1532
+    "listings": 1538
    },
    {
     "name": "Vaal Spirit Shield",
     "dropLevel": 62,
     "chaos": 10.0,
-    "listings": 636
+    "listings": 638
    },
    {
     "name": "Fossilised Spirit Shield",
     "dropLevel": 59,
-    "chaos": 15.0,
-    "listings": 951
+    "chaos": 17.0,
+    "listings": 957
    },
    {
     "name": "Lacewood Spirit Shield",
@@ -2317,8 +2317,8 @@ window.MARKET = {
    {
     "name": "Subsuming Spirit Shield",
     "dropLevel": 50,
-    "chaos": 140.0,
-    "listings": 33
+    "chaos": 131.0,
+    "listings": 32
    }
   ],
   "Shields_str_dex": [
@@ -2326,19 +2326,19 @@ window.MARKET = {
     "name": "Elegant Round Shield",
     "dropLevel": 70,
     "chaos": 15.0,
-    "listings": 632
+    "listings": 641
    },
    {
     "name": "Cardinal Round Shield",
     "dropLevel": 66,
-    "chaos": 19.5,
-    "listings": 386
+    "chaos": 20.0,
+    "listings": 389
    },
    {
     "name": "Spiny Round Shield",
     "dropLevel": 62,
-    "chaos": 24.8,
-    "listings": 93
+    "chaos": 18.0,
+    "listings": 95
    },
    {
     "name": "Teak Round Shield",
@@ -2349,7 +2349,7 @@ window.MARKET = {
    {
     "name": "Baroque Round Shield",
     "dropLevel": 54,
-    "chaos": 23.0,
+    "chaos": 21.0,
     "listings": 56
    },
    {
@@ -2361,7 +2361,7 @@ window.MARKET = {
    {
     "name": "Spiked Round Shield",
     "dropLevel": 45,
-    "chaos": 162.7,
+    "chaos": 164.2,
     "listings": 17
    },
    {
@@ -2376,25 +2376,25 @@ window.MARKET = {
     "name": "Archon Kite Shield",
     "dropLevel": 68,
     "chaos": 10.0,
-    "listings": 1165
+    "listings": 1172
    },
    {
     "name": "Mosaic Kite Shield",
     "dropLevel": 65,
-    "chaos": 5.3,
-    "listings": 396
+    "chaos": 5.6,
+    "listings": 400
    },
    {
     "name": "Champion Kite Shield",
     "dropLevel": 62,
-    "chaos": 14.0,
-    "listings": 55
+    "chaos": 16.0,
+    "listings": 58
    },
    {
     "name": "Branded Kite Shield",
     "dropLevel": 59,
     "chaos": 5.0,
-    "listings": 92
+    "listings": 91
    },
    {
     "name": "Angelic Kite Shield",
@@ -2417,7 +2417,7 @@ window.MARKET = {
    {
     "name": "Etched Kite Shield",
     "dropLevel": 40,
-    "chaos": 1052,
+    "chaos": 1061,
     "listings": 10
    }
   ],
@@ -2426,25 +2426,25 @@ window.MARKET = {
     "name": "Supreme Spiked Shield",
     "dropLevel": 70,
     "chaos": 10.0,
-    "listings": 1375
+    "listings": 1380
    },
    {
     "name": "Mirrored Spiked Shield",
     "dropLevel": 66,
-    "chaos": 8.8,
-    "listings": 742
+    "chaos": 10.0,
+    "listings": 752
    },
    {
     "name": "Ezomyte Spiked Shield",
     "dropLevel": 62,
-    "chaos": 6.3,
-    "listings": 226
+    "chaos": 6.4,
+    "listings": 228
    },
    {
     "name": "Alder Spiked Shield",
     "dropLevel": 58,
-    "chaos": 16.0,
-    "listings": 81
+    "chaos": 16.5,
+    "listings": 82
    },
    {
     "name": "Sovereign Spiked Shield",
