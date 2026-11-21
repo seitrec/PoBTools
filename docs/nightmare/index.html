@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nightmare Map Flips</title>
+  <script src="data/nightmare.js"></script>
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --panel: #17171c;
+      --panel-2: #1e1e25;
+      --line: #2b2b34;
+      --text: #d8d4cc;
+      --muted: #8a867f;
+      --accent: #c8a45a;
+      --good: #6fbf73;
+      --bad: #e0605a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    button, input, select { font: inherit; color: inherit; }
+    main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 64px; }
+    h1 { margin: 0; color: var(--accent); font-size: 22px; }
+    h2 { margin: 32px 0 10px; font-size: 16px; }
+    .sub { color: var(--muted); margin: 4px 0 18px; }
+    .sub a { color: var(--accent); }
+    p.note { color: var(--muted); font-size: 13px; max-width: 820px; }
+
+    .controls {
+      display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: end;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px;
+    }
+    .controls label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+    .controls input[type=number] {
+      width: 90px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 5px 8px;
+    }
+    .controls .group { display: flex; gap: 8px; }
+    .stat { font-size: 12px; color: var(--muted); }
+    .stat b { display: block; font-size: 18px; color: var(--text); font-weight: 600; }
+
+    .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+    th, td { padding: 7px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+    th:first-child, td:first-child, th.l, td.l { text-align: left; }
+    thead th { background: var(--panel); color: var(--muted); font-weight: 600; font-size: 12px; }
+    tbody tr:hover { background: var(--panel-2); }
+    tbody tr:last-child td { border-bottom: 0; }
+    tr.avg td { background: var(--panel); font-style: italic; }
+    .pos { color: var(--good); }
+    .neg { color: var(--bad); }
+    .dim { color: var(--muted); }
+    .tag { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--panel-2); color: var(--muted); margin-left: 6px; }
+    .tag.warn { color: var(--bad); }
+    .bar { display: inline-block; width: 60px; height: 6px; background: var(--panel-2); border-radius: 3px; vertical-align: middle; margin-right: 8px; overflow: hidden; }
+    .bar i { display: block; height: 100%; background: var(--good); }
+    td.wrap { white-space: normal; min-width: 240px; }
+    .frag { display: inline-block; margin-right: 12px; }
+
+    @media (max-width: 640px) {
+      main { padding-top: 18px; }
+      .controls input[type=number] { width: 70px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Nightmare Map flips</h1>
+  <div class="sub" id="meta"></div>
+
+  <div class="controls">
+    <label>Nightmare Map cost (chaos)<input type="number" id="mapCost" step="1" min="0"></label>
+    <label>Chance of 1 / 2 / 3 / 4 fragments (%)
+      <span class="group">
+        <input type="number" id="w1" step="5" min="0" value="25">
+        <input type="number" id="w2" step="5" min="0" value="25">
+        <input type="number" id="w3" step="5" min="0" value="25">
+        <input type="number" id="w4" step="5" min="0" value="25">
+      </span>
+    </label>
+    <div class="stat"><b id="avgCount"></b>fragments per map</div>
+  </div>
+
+  <h2>Per map area</h2>
+  <div class="scroll"><table id="table"></table></div>
+  <p class="note">
+    The boss drops 1 to 4 uber fragments, each one picked at random from its area's pool.
+    <b>×1 … ×4</b> is the average value of that many fragments; <b>Expected</b> weighs them by the chances above
+    (even odds by default, as the real ones aren't known). <b>Profit</b> takes off the Nightmare Map's cost, and
+    <b>P(profit)</b> is the chance the fragments alone are worth more than the map.
+    The uniques and exceptional gems the area also drops aren't counted, so real returns are a bit higher.
+    The last row is the average over the five areas, for when you can't pick the area.
+    Prices are poe.ninja mid values; <span class="tag warn">thin</span> marks fragments trading under 20k chaos a day.
+  </p>
+</main>
+
+<script>
+const D = window.NIGHTMARE;
+const THIN = 20000;  // chaos/day of volume below which a fragment price is flagged
+const $ = id => document.getElementById(id);
+
+$("mapCost").value = D.mapChaos ?? 0;
+$("meta").innerHTML =
+  `${D.league} · prices from <a href="https://poe.ninja/poe1/economy/${D.slug}/fragments">poe.ninja</a>, ${D.fetched}` +
+  (D.divineChaos ? ` · 1 div = ${D.divineChaos.toFixed(0)}c` : "") +
+  ` · Nightmare Map ${D.mapChaos ?? "–"}c (${D.mapListings} listed)`;
+
+const fmt = (x, d = 1) => x == null ? "–" : x.toFixed(d);
+const signed = (x, d = 1) => `<span class="${x > 0 ? "pos" : x < 0 ? "neg" : "dim"}">${x > 0 ? "+" : ""}${x.toFixed(d)}</span>`;
+
+// Chance that k fragments drawn from pool (with replacement) are worth more than cost
+function pBeat(values, k, cost) {
+  let sums = [0];
+  for (let i = 0; i < k; i++) sums = sums.flatMap(s => values.map(v => s + v));
+  return sums.filter(s => s > cost).length / sums.length;
+}
+
+function render() {
+  const cost = +$("mapCost").value || 0;
+  const raw = [1, 2, 3, 4].map(k => Math.max(0, +$("w" + k).value || 0));
+  const total = raw.reduce((a, b) => a + b, 0) || 1;
+  const w = raw.map(x => x / total);
+  const avgCount = w.reduce((s, x, i) => s + x * (i + 1), 0);
+  $("avgCount").textContent = avgCount.toFixed(2);
+
+  const rows = D.areas.map(a => {
+    const values = a.fragments.map(f => f.chaos ?? 0);
+    const avg = values.reduce((s, v) => s + v, 0) / values.length;
+    const per = [1, 2, 3, 4].map(k => k * avg);
+    const expected = avg * avgCount;
+    const p = w.reduce((s, x, i) => s + (x ? x * pBeat(values, i + 1, cost) : 0), 0);
+    return { ...a, avg, per, expected, profit: expected - cost, p };
+  });
+  const mean = key => rows.reduce((s, r) => s + r[key], 0) / rows.length;
+
+  const cells = r => `
+    <td>${fmt(r.avg)}</td>
+    ${r.per.map(x => `<td>${fmt(x, 0)}</td>`).join("")}
+    <td><b>${fmt(r.expected, 0)}</b></td>
+    <td>${signed(r.profit, 0)}</td>
+    <td><span class="bar"><i style="width:${(r.p * 100).toFixed(0)}%"></i></span>${(r.p * 100).toFixed(0)}%</td>`;
+  const body = rows.sort((a, b) => b.expected - a.expected).map(r => `<tr>
+    <td>${r.area}<div class="dim" style="font-size:12px">${r.drops.join(", ")}</div></td>
+    <td class="l wrap">${r.fragments.map(f => `<span class="frag">${f.name.replace(/ Fragment$/, "")}
+      <span class="dim">${f.boss} · ${fmt(f.chaos)}c</span>${f.volume < THIN ? '<span class="tag warn">thin</span>' : ""}</span>`).join("")}</td>
+    ${cells(r)}
+  </tr>`).join("");
+  const avgRow = {
+    avg: mean("avg"), per: [0, 1, 2, 3].map(i => rows.reduce((s, r) => s + r.per[i], 0) / rows.length),
+    expected: mean("expected"), profit: mean("profit"), p: mean("p"),
+  };
+  $("table").innerHTML = `<thead><tr>
+    <th>Map area</th><th class="l">Fragment pool</th><th>Avg fragment</th>
+    <th>×1</th><th>×2</th><th>×3</th><th>×4</th><th>Expected</th><th>Profit</th><th>P(profit)</th>
+  </tr></thead><tbody>${body}
+  <tr class="avg"><td>Any area</td><td class="l dim">average of the five</td>${cells(avgRow)}</tr></tbody>`;
+}
+
+["mapCost", "w1", "w2", "w3", "w4"].forEach(id => $(id).addEventListener("input", render));
+render();
+</script>
+</body>
+</html>
