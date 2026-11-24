@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stash Regexes</title>
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --panel: #17171c;
+      --panel-2: #1e1e25;
+      --line: #2b2b34;
+      --text: #d8d4cc;
+      --muted: #8a867f;
+      --accent: #c8a45a;
+      --good: #6fbf73;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    button { font: inherit; color: inherit; }
+    main { max-width: 900px; margin: 0 auto; padding: 28px 16px 64px; }
+    h1 { margin: 0; color: var(--accent); font-size: 22px; }
+    h2 { margin: 32px 0 10px; font-size: 16px; }
+    .sub { color: var(--muted); margin: 4px 0 18px; }
+    p.note { color: var(--muted); font-size: 13px; }
+
+    .regex {
+      display: flex; gap: 10px; align-items: center;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px;
+    }
+    .regex code {
+      flex: 1; min-width: 0; overflow-wrap: anywhere;
+      font: 15px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text);
+    }
+    .regex button {
+      flex: none; background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px;
+      padding: 5px 12px; cursor: pointer;
+    }
+    .regex button:hover { border-color: var(--accent); }
+    .regex button.done { color: var(--good); border-color: var(--good); }
+    .len { color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+    .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+    thead th { background: var(--panel); color: var(--muted); font-weight: 600; font-size: 12px; }
+    tbody tr:last-child td { border-bottom: 0; }
+    td code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--accent); }
+    td.kind { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .dim { color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Stash regexes</h1>
+  <div class="sub">Paste into the stash search box, quotes included.</div>
+
+  <h2>Utility flasks: good mods</h2>
+  <div class="regex">
+    <code id="flaskRegex">"abe|dab|mis|xp|tua|eo|lag|ah|rma|pal|nci|nb|bog|usn"</code>
+    <button type="button" data-copy="flaskRegex">Copy</button>
+  </div>
+  <div class="len" id="flaskLen"></div>
+
+  <div class="scroll" style="margin-top:14px"><table>
+    <thead><tr><th>Fragment</th><th>Mod name</th><th></th><th>Mod (top tier)</th></tr></thead>
+    <tbody>
+      <tr><td><code>abe</code> <code>dab</code> <code>mis</code></td><td>Abecedarian's, Dabbler's, Alchemist's</td><td class="kind">prefix, any tier</td><td>25% increased effect, reduced Duration</td></tr>
+      <tr><td><code>xp</code></td><td>Experimenter's</td><td class="kind">prefix T1</td><td>(36–40)% increased Duration</td></tr>
+      <tr><td><code>tua</code></td><td>Perpetual</td><td class="kind">prefix T1</td><td>(46–50)% increased Charge Recovery</td></tr>
+      <tr><td><code>mis</code></td><td>Chemist's</td><td class="kind">prefix T1</td><td>(26–28)% reduced Charges per use</td></tr>
+      <tr><td><code>eo</code></td><td>Surgeon's</td><td class="kind">prefix T1</td><td>(31–35)% chance to gain a Flask Charge when you deal a Critical Strike</td></tr>
+      <tr><td><code>lag</code></td><td>Flagellant's</td><td class="kind">prefix T1</td><td>Gain 3 Charges when you are Hit by an Enemy</td></tr>
+      <tr><td><code>ah</code></td><td>of the Cheetah</td><td class="kind">suffix T1</td><td>(12–14)% increased Movement Speed during Effect</td></tr>
+      <tr><td><code>rma</code></td><td>of the Armadillo</td><td class="kind">suffix T1</td><td>(56–60)% increased Armour during Effect</td></tr>
+      <tr><td><code>pal</code></td><td>of the Impala</td><td class="kind">suffix T1</td><td>(56–60)% increased Evasion Rating during Effect</td></tr>
+      <tr><td><code>nci</code></td><td>of Incision</td><td class="kind">suffix T1</td><td>(50–55)% increased Critical Strike Chance during Effect</td></tr>
+      <tr><td><code>nb</code></td><td>of the Rainbow</td><td class="kind">suffix T1</td><td>(18–20)% additional Elemental Resistances during Effect</td></tr>
+      <tr><td><code>bog</code></td><td>of Bog Moss</td><td class="kind">suffix T1</td><td>(51–55)% chance to Avoid being Shocked during Effect</td></tr>
+      <tr><td><code>usn</code></td><td>of Tenaciousness</td><td class="kind">suffix T1</td><td>(51–55)% Chance to Avoid being Stunned during Effect</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="note">
+    Matches mod names, so it works on identified magic flasks; the name tells the tier apart.
+    Checked against every flask mod name, flask mod text and flask base name from
+    <a href="https://poedb.tw/us/Utility_Flasks#ModifiersCalc" style="color:var(--accent)">poedb</a>:
+    it hits the mods above and nothing else. Life and mana flasks with the same prefixes
+    (Perpetual, Surgeon's…) match too, and the short fragments will light up other kinds of items,
+    so use it on a flask tab. Left out on purpose: reduced effect, maximum charges, immunities,
+    block and stun recovery, leech, freeze/shock/ignite chance, reduced effect of X on you,
+    and avoid chill/freeze/ignite.
+  </p>
+</main>
+
+<script>
+for (const el of document.querySelectorAll(".regex code")) {
+  const len = document.getElementById(el.id.replace("Regex", "Len"));
+  if (len) len.textContent = `${el.textContent.length} characters (stash search takes up to 250)`;
+}
+for (const btn of document.querySelectorAll("button[data-copy]")) {
+  btn.addEventListener("click", async () => {
+    const text = document.getElementById(btn.dataset.copy).textContent;
+    try { await navigator.clipboard.writeText(text); } catch { return; }
+    btn.textContent = "Copied"; btn.classList.add("done");
+    setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("done"); }, 1500);
+  });
+}
+</script>
+</body>
+</html>
