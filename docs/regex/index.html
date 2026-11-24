@@ -44,6 +44,7 @@
     .regex button:hover { border-color: var(--accent); }
     .regex button.done { color: var(--good); border-color: var(--good); }
     .len { color: var(--muted); font-size: 12px; margin-top: 6px; }
+    h3.label { margin: 16px 0 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
 
     .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
     table { width: 100%; border-collapse: collapse; }
@@ -61,11 +62,26 @@
   <div class="sub">Paste into the stash search box, quotes included.</div>
 
   <h2>Utility flasks: good mods</h2>
+  <h3 class="label">Everything</h3>
   <div class="regex">
     <code id="flaskRegex">"abe|dab|mis|xp|tua|eo|lag|ah|rma|pal|nci|nb|bog|usn"</code>
     <button type="button" data-copy="flaskRegex">Copy</button>
   </div>
   <div class="len" id="flaskLen"></div>
+
+  <h3 class="label">Prefixes only</h3>
+  <div class="regex">
+    <code id="prefixRegex">"abe|dab|mis|xp|tua|eo|lag"</code>
+    <button type="button" data-copy="prefixRegex">Copy</button>
+  </div>
+  <div class="len" id="prefixLen"></div>
+
+  <h3 class="label">Suffixes only</h3>
+  <div class="regex">
+    <code id="suffixRegex">"ah|rma|pal|nci|nb|bog|usn"</code>
+    <button type="button" data-copy="suffixRegex">Copy</button>
+  </div>
+  <div class="len" id="suffixLen"></div>
 
   <div class="scroll" style="margin-top:14px"><table>
     <thead><tr><th>Fragment</th><th>Mod name</th><th></th><th>Mod (top tier)</th></tr></thead>
